@@ -30,9 +30,12 @@
   function savedScenario(screen) { try { return localStorage.getItem(STORE_PREFIX + screen + ':scenario'); } catch (e) { return null; } }
 
   // ---------- cross-screen navigation from in-screen messages ----------
+  const CASE_PAGES = { 2418: ['casedetail', 'Eleanor Whitfield'], 2395: ['outcome', 'Bernard Szymanski'] };
   const NAVMAP = [
+    [/termination response/i, ['familyaor', null, 'The termination-response checklist is the next build round \u2014 opening the piece that is built: the family page for Vera\u2019s representative']],
     [/Vera\u2019s page/i, ['familyaor', 'vera']],
-    [/case #24\d\d|Case detail artboard|3 \u00b7 Case detail/i, ['casedetail']],
+    [/Sent to Dr Okafor/i, ['physicianlink', null, 'Sent to Dr Okafor by text \u2014 this is the page he receives']],
+    [/Resident portal link|Resident portal artboard/i, ['residentportal', null, 'Portal link sent by text \u2014 this is the page Eleanor receives']],
     [/1 \u00b7 Case queue|case queue/i, ['queue']],
     [/2 \u00b7 Intake|Opens intake|Intake artboard/i, ['intake']],
     [/meeting brief/i, ['stayboard', 'meeting']],
@@ -41,18 +44,32 @@
     [/5 \u00b7 Facilities/i, ['dashboard']],
     [/payer intelligence|6 \u00b7 Payer/i, ['payers']],
     [/8 \u00b7 Outcome/i, ['outcome']],
-    [/resident portal|Resident portal artboard/i, ['residentportal']],
+    [/resident portal/i, ['residentportal']],
     [/Resident filing packet|filing packet artboard/i, ['residentpacket']],
     [/family page/i, ['familyaor']],
+    [/case #24\d\d|Case detail artboard|3 \u00b7 Case detail/i, ['casedetail']],
   ];
   function navFromMessage(msg) {
+    // a case number routes to that person's own page \u2014 or says honestly that only some cases are built out
+    const caseRef = msg.match(/[Cc]ase #(\d{4})|#(\d{4}) /);
+    if (caseRef && /case detail|opens in place|in place\.|Case detail artboard/i.test(msg)) {
+      const id = +(caseRef[1] || caseRef[2]);
+      const pg = CASE_PAGES[id];
+      if (pg) {
+        shellToast('Case #' + id + ' \u00b7 ' + pg[1]);
+        setTimeout(() => go(pg[0]), 600);
+      } else {
+        shellToast('Case #' + id + ' follows the same flow \u2014 the demo builds #2418 \u00b7 Eleanor Whitfield end to end. Open her case to walk it.');
+      }
+      return true;
+    }
     for (const [re, dest] of NAVMAP) {
       if (re.test(msg)) {
         if (/queue filtered to/.test(msg)) {
           const q = (msg.match(/\u201c([^\u201d]+)\u201d/) || [])[1];
           if (q) try { sessionStorage.setItem('ae:pendingQuery', q); } catch (e) {}
         }
-        shellToast(msg);
+        shellToast(dest[2] || msg);
         setTimeout(() => go(dest[0], dest[1]), 700);
         return true;
       }
@@ -72,6 +89,17 @@
     const dest = NAV_LABELS[label];
     if (dest) { go(dest[0], dest[1]); return true; }
     return false;
+  }
+
+  // ---------- flow hooks: actions that complete a stage move to its next screen ----------
+  const ACTION_HOOKS = {
+    draftreview: { key: 'confirmSign', after: (c) => { if (c.state.signed) { shellToast('Signed \u2014 packet PK-2418-01 is prepared. Opening it.'); setTimeout(() => go('packet'), 900); } } },
+  };
+  function applyActionHooks(screenKey, comp, vals) {
+    const h = ACTION_HOOKS[screenKey];
+    if (!h || typeof vals[h.key] !== 'function') return;
+    const orig = vals[h.key];
+    vals[h.key] = function () { orig.apply(null, arguments); setTimeout(() => h.after(comp), 30); };
   }
 
   // ---------- real file choose/drop, dummy-processed ----------
@@ -164,6 +192,8 @@
             let ev = EVENT_MAP[lname];
             if (ev === '_change') ev = (tag === 'select' || (tag === 'input' && /checkbox|radio/.test(node.attrs.type || ''))) ? 'change' : 'input';
             el.addEventListener(ev, fn);
+          } else if (lname === 'onclick') {
+            el.addEventListener('click', () => shellToast('Nothing happens here in this demo state'));
           }
         }
         continue;
@@ -181,6 +211,101 @@
     if (deferredValue !== undefined) el.value = deferredValue;
     if (tag === 'input' || tag === 'textarea' || tag === 'select') el.setAttribute('data-fk', fkPath);
     out.appendChild(el);
+  }
+
+  // ---------- responsive layout ----------
+  const BAR_H = 46;
+  let lastMobile = null;
+  function isMobile() { return window.innerWidth < 1024; }
+  function hscrolls(el) { return !!el && el.nodeType === 1 && /(auto|scroll)/.test(getComputedStyle(el).overflowX); }
+  function responsify() {
+    const container = $('#screen-root');
+    const root = container.firstElementChild;
+    if (!root || !root.style) return;
+    root.classList.add('ae-root');
+    root.style.width = '100%';
+    if (!isMobile()) {
+      root.style.height = 'calc(100vh - ' + BAR_H + 'px)';
+      root.style.minHeight = '620px';
+      root.style.minWidth = '1240px';
+      document.body.style.overflowX = window.innerWidth < 1240 ? 'auto' : '';
+      return;
+    }
+    // mobile: stack panes and unroll internal scrolling so the page itself scrolls
+    document.body.style.overflowX = '';
+    root.classList.add('ae-stack');
+    root.style.minWidth = '0';
+    root.style.minHeight = 'calc(100vh - ' + BAR_H + 'px)';
+    const vw = window.innerWidth;
+    const all = () => container.querySelectorAll('*');
+    all().forEach((el) => {
+      const st = el.style;
+      if (!st || el === root) return;
+      if (st.position === 'absolute' || st.position === 'fixed') return;
+      if (/(auto|scroll|hidden)/.test(st.overflow)) { st.overflow = 'visible'; st.overflowX = 'auto'; }
+      if (/(auto|scroll)/.test(st.overflowY)) st.overflowY = 'visible';
+      if (st.height === '100%') st.height = 'auto';
+      else if (st.height && st.height.endsWith('px') && parseFloat(st.height) > 420) st.height = 'auto';
+    });
+    // stack column-like flex rows: two or more tall children side by side never fit a phone
+    all().forEach((el) => {
+      const cs = getComputedStyle(el);
+      if (hscrolls(el)) return;
+      const isRowFlex = cs.display === 'flex' && cs.flexDirection.indexOf('column') < 0;
+      const isMultiColGrid = cs.display === 'grid' && cs.gridTemplateColumns.trim().split(/\s+/).length > 1;
+      if (!isRowFlex && !isMultiColGrid) return;
+      const kids = Array.from(el.children).filter((ch) => ch.nodeType === 1 && getComputedStyle(ch).position !== 'absolute' && ch.getBoundingClientRect().height > 0);
+      const tall = kids.filter((ch) => ch.getBoundingClientRect().height > 160);
+      if (tall.length >= 2) {
+        if (isMultiColGrid) el.style.gridTemplateColumns = '1fr';
+        else { el.style.flexDirection = 'column'; el.style.height = 'auto'; }
+        kids.forEach((ch) => { ch.style.maxWidth = '100%'; ch.style.minWidth = '0'; ch.style.boxSizing = 'border-box'; if (isRowFlex) { ch.style.width = '100%'; ch.style.flex = 'none'; } if (ch.style.height === '100%') ch.style.height = 'auto'; });
+      }
+    });
+    // measured passes: anything wider than the viewport is reined in
+    for (let pass = 0; pass < 2; pass++) {
+      all().forEach((el) => {
+        if (el === root || !(el.getBoundingClientRect)) return;
+        const cs = getComputedStyle(el);
+        if (cs.position === 'absolute' || cs.position === 'fixed') return;
+        const w = el.getBoundingClientRect().width;
+        const over = w > vw + 6 || (el.scrollWidth > el.clientWidth + 6 && el.clientWidth >= vw - 40);
+        if (!over) return;
+        if (hscrolls(el) || hscrolls(el.parentElement)) return;
+        const tag = el.tagName;
+        if (/^(TABLE|THEAD|TBODY|TFOOT|TR|TD|TH|COLGROUP|COL)$/.test(tag)) return; // tables get a scroller below
+        if (cs.display === 'grid') {
+          const cols = cs.gridTemplateColumns.split(' ').length;
+          if (cols > 1) el.style.gridTemplateColumns = '1fr';
+        } else if (cs.display === 'flex' && cs.flexDirection.indexOf('column') < 0) {
+          el.style.flexWrap = 'wrap';
+          Array.from(el.children).forEach((ch) => {
+            if (!ch.style || getComputedStyle(ch).position === 'absolute') return;
+            if (ch.getBoundingClientRect().width > vw * 0.55) { ch.style.width = '100%'; ch.style.maxWidth = '100%'; ch.style.flex = 'none'; ch.style.boxSizing = 'border-box'; }
+          });
+        }
+        el.style.maxWidth = '100%';
+        el.style.boxSizing = 'border-box';
+        if (cs.minWidth !== '0px' && cs.minWidth.indexOf('px') > 0 && parseFloat(cs.minWidth) > vw - 32) el.style.minWidth = '0';
+        if (el.style.width && el.style.width.endsWith('px') && parseFloat(el.style.width) > vw - 32) el.style.width = 'auto';
+      });
+    }
+    // final catch-all: anything still crossing the right edge is capped
+    all().forEach((el) => {
+      if (el.tagName && /^(TABLE|THEAD|TBODY|TFOOT|TR|TD|TH|COLGROUP|COL)$/.test(el.tagName)) return;
+      const r = el.getBoundingClientRect();
+      if (r.right > vw + 6 && !hscrolls(el) && !hscrolls(el.parentElement) && getComputedStyle(el).position !== 'fixed') {
+        el.style.maxWidth = '100%'; el.style.boxSizing = 'border-box'; el.style.minWidth = '0';
+        if (el.style.width && el.style.width.endsWith('px')) el.style.width = 'auto';
+      }
+    });
+    // any table wider than the phone gets its own horizontal scroller
+    container.querySelectorAll('table').forEach((t) => {
+      if (t.getBoundingClientRect().width > vw + 2 || t.scrollWidth > vw + 2) {
+        const p = t.parentElement;
+        if (p && p !== root) { p.style.overflowX = 'auto'; p.style.maxWidth = '100%'; }
+      }
+    });
   }
 
   // ---------- component host ----------
@@ -202,7 +327,7 @@
     const c = current;
     c.renderScheduled = false;
     let vals;
-    try { vals = c.comp.renderVals(); applyFileHooks(c.screenKey, c.comp, vals); } catch (e) { console.error(e); shellToast('Render error: ' + e.message); return; }
+    try { vals = c.comp.renderVals(); applyFileHooks(c.screenKey, c.comp, vals); applyActionHooks(c.screenKey, c.comp, vals); } catch (e) { console.error(e); shellToast('Render error: ' + e.message); return; }
     // focus bookkeeping
     const ae = document.activeElement;
     const fk = ae && ae.getAttribute && ae.getAttribute('data-fk');
@@ -215,6 +340,7 @@
       const nel = c.container.querySelector('[data-fk="' + fk + '"]');
       if (nel) { nel.focus(); if (selStart != null && nel.setSelectionRange) try { nel.setSelectionRange(selStart, selStart); } catch (e) {} }
     }
+    responsify();
   }
   function scheduleRender() {
     if (!current || current.renderScheduled) return;
@@ -229,10 +355,6 @@
     try { localStorage.setItem(STORE_PREFIX + screen + ':scenario', scenario); } catch (e) {}
     if (current) { current.dead = true; persist(); }
 
-    // shell controls
-    const scrSel = $('#screen-sel'); if (scrSel.value !== screen) scrSel.value = screen;
-    const stSel = $('#state-sel');
-    stSel.innerHTML = def.variants.map(v => '<option value="' + v[1] + '"' + (v[1] === scenario ? ' selected' : '') + '>' + v[0] + '</option>').join('');
     document.title = 'Appeal Engine · ' + def.title;
 
     // style
@@ -287,8 +409,13 @@
 
   // sidebar navigation by delegation (runs before component handlers)
   document.addEventListener('click', (e) => {
+    const fac = e.target.closest && e.target.closest('.fac');
+    if (fac && $('#screen-root').contains(fac)) {
+      shellToast('Every screen in the demo shows Lakeview Care Center \u2014 switching facilities comes with onboarding, a later build round');
+    }
     const nav = e.target.closest && e.target.closest('.nav, .navsub');
     if (nav && $('#screen-root').contains(nav)) {
+      document.body.classList.remove('nav-open');
       if (navFromSidebar(nav, route().screen)) { e.stopPropagation(); e.preventDefault(); }
     }
   }, true);
@@ -298,27 +425,18 @@
 
   // ---------- shell init ----------
   window.addEventListener('DOMContentLoaded', () => {
-    const scrSel = $('#screen-sel');
-    scrSel.innerHTML = Object.keys(SCREENS).map(k => '<option value="' + k + '">' + SCREENS[k].title + '</option>').join('');
-    scrSel.addEventListener('change', () => go(scrSel.value));
-    $('#state-sel').addEventListener('change', (e) => go(route().screen, e.target.value));
-    $('#reset-one').addEventListener('click', () => {
-      const { screen } = route();
-      try { for (const k of Object.keys(localStorage)) if (k.startsWith(STORE_PREFIX + screen + ':')) localStorage.removeItem(k); } catch (e) {}
-      mount(); shellToast('This screen was reset to its starting state');
-    });
     $('#reset-all').addEventListener('click', () => {
       try { for (const k of Object.keys(localStorage)) if (k.startsWith(STORE_PREFIX)) localStorage.removeItem(k); } catch (e) {}
       location.hash = '#/stayboard/default'; mount(); shellToast('Demo reset — all saved state cleared');
     });
-    // scale the fixed 1440x900 screen to the viewport
-    const fit = () => {
-      const wrap = $('#screen-scale');
-      const scale = Math.min(1, (window.innerWidth - 24) / 1440);
-      wrap.style.transform = 'scale(' + scale + ')';
-      wrap.style.height = (900 * scale) + 'px';
-    };
-    window.addEventListener('resize', fit); fit();
+    // responsive: remount when crossing the mobile breakpoint, otherwise re-fit
+    lastMobile = isMobile();
+    window.addEventListener('resize', () => {
+      const m = isMobile();
+      if (m !== lastMobile) { lastMobile = m; mount(); } else responsify();
+    });
+    $('#menu-btn').addEventListener('click', (e) => { e.stopPropagation(); document.body.classList.toggle('nav-open'); });
+    document.addEventListener('click', (e) => { if (e.target === document.body) document.body.classList.remove('nav-open'); });
     mount();
   });
 })();
