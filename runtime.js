@@ -31,27 +31,30 @@
 
   // ---------- cross-screen navigation from in-screen messages ----------
   const NAVMAP = [
-    [/case #2418|3 · Case detail/i, ['casedetail']],
-    [/1 · Case queue|case queue/i, ['queue']],
-    [/2 · Intake|Opens intake/i, ['intake']],
-    [/Stay board/i, ['stayboard']],
+    [/Vera\u2019s page/i, ['familyaor', 'vera']],
+    [/case #24\d\d|Case detail artboard|3 \u00b7 Case detail/i, ['casedetail']],
+    [/1 \u00b7 Case queue|case queue/i, ['queue']],
+    [/2 \u00b7 Intake|Opens intake|Intake artboard/i, ['intake']],
     [/meeting brief/i, ['stayboard', 'meeting']],
+    [/Stay board/i, ['stayboard']],
     [/draft review/i, ['draftreview']],
-    [/5 · Facilities/i, ['dashboard']],
-    [/6 · Payer|Payer intelligence/i, ['payers']],
-    [/8 · Outcome/i, ['outcome']],
-    [/resident portal/i, ['residentportal']],
-    [/filing packet artboard|Resident filing packet/i, ['residentpacket']],
+    [/5 \u00b7 Facilities/i, ['dashboard']],
+    [/payer intelligence|6 \u00b7 Payer/i, ['payers']],
+    [/8 \u00b7 Outcome/i, ['outcome']],
+    [/resident portal|Resident portal artboard/i, ['residentportal']],
+    [/Resident filing packet|filing packet artboard/i, ['residentpacket']],
     [/family page/i, ['familyaor']],
   ];
   function navFromMessage(msg) {
     for (const [re, dest] of NAVMAP) {
       if (re.test(msg)) {
         if (/queue filtered to/.test(msg)) {
-          const q = (msg.match(/“([^”]+)”/) || [])[1];
+          const q = (msg.match(/\u201c([^\u201d]+)\u201d/) || [])[1];
           if (q) try { sessionStorage.setItem('ae:pendingQuery', q); } catch (e) {}
         }
-        go(dest[0], dest[1]); return true;
+        shellToast(msg);
+        setTimeout(() => go(dest[0], dest[1]), 700);
+        return true;
       }
     }
     return false;
@@ -70,6 +73,41 @@
     if (dest) { go(dest[0], dest[1]); return true; }
     return false;
   }
+
+  // ---------- real file choose/drop, dummy-processed ----------
+  function openFilePicker(cb) {
+    const inp = document.createElement('input');
+    inp.type = 'file'; inp.accept = '.pdf,.png,.jpg,.jpeg,.txt,.tif,.tiff';
+    inp.style.display = 'none'; document.body.appendChild(inp);
+    inp.addEventListener('change', () => { const f = inp.files && inp.files[0]; document.body.removeChild(inp); if (f) cb(f); });
+    inp.click();
+  }
+  const FILE_HOOKS = {
+    intake: { key: 'fakeDrop', ready: (c) => c.state.step === 1,
+      run: (c, vals, f) => { shellToast('Reading \u201c' + f.name + '\u201d \u2014 the demo processes every upload as the Meridian sample letter'); c.start('whit'); } },
+    draftreview: { key: 'uploadDemo', ready: (c) => !!c.state.uploadOpen,
+      run: (c, vals, f) => { shellToast('\u201c' + f.name + '\u201d attached \u2014 the demo files it as the matching record document'); vals.uploadDemo(); } },
+    outcome: { key: 'dropLetter', ready: (c) => !c.state.letter,
+      run: (c, vals, f) => { shellToast('Reading \u201c' + f.name + '\u201d \u2014 the demo loads the sample decision letter'); vals.dropLetter(); } },
+  };
+  function applyFileHooks(screenKey, comp, vals) {
+    const h = FILE_HOOKS[screenKey];
+    if (!h || typeof vals[h.key] !== 'function') return;
+    const orig = vals[h.key];
+    vals[h.key] = () => openFilePicker((f) => h.run(comp, { [h.key]: orig }, f));
+  }
+  document.addEventListener('dragover', (e) => { e.preventDefault(); });
+  document.addEventListener('drop', (e) => {
+    e.preventDefault();
+    const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+    if (!f || !current || current.dead) return;
+    const h = FILE_HOOKS[current.screenKey];
+    if (h && h.ready(current.comp)) {
+      const vals = current.comp.renderVals();
+      if (typeof vals[h.key] === 'function') h.run(current.comp, vals, f);
+      else shellToast('\u201c' + f.name + '\u201d \u2014 nothing on this step accepts a file');
+    } else shellToast('\u201c' + f.name + '\u201d \u2014 nothing on this screen accepts a file right now');
+  });
 
   // ---------- template engine ----------
   const BOOL_PROPS = { checked: 1, disabled: 1, readonly: 1 };
@@ -164,7 +202,7 @@
     const c = current;
     c.renderScheduled = false;
     let vals;
-    try { vals = c.comp.renderVals(); } catch (e) { console.error(e); shellToast('Render error: ' + e.message); return; }
+    try { vals = c.comp.renderVals(); applyFileHooks(c.screenKey, c.comp, vals); } catch (e) { console.error(e); shellToast('Render error: ' + e.message); return; }
     // focus bookkeeping
     const ae = document.activeElement;
     const fk = ae && ae.getAttribute && ae.getAttribute('data-fk');
