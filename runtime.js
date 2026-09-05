@@ -30,47 +30,142 @@
   function savedScenario(screen) { try { return localStorage.getItem(STORE_PREFIX + screen + ':scenario'); } catch (e) { return null; } }
 
   // ---------- cross-screen navigation from in-screen messages ----------
-  const CASE_PAGES = { 2418: ['casedetail', 'Eleanor Whitfield'], 2395: ['outcome', 'Bernard Szymanski'] };
+  // Shared demo data (from src/shared.mjs via screens.js)
+  function money(n) { return '$' + n.toLocaleString('en-US'); }
+  function pillText(h) { if (h < 0) { const a = -h; return a < 48 ? 'Overdue by ' + a + 'h' : 'Overdue by ' + Math.floor(a / 24) + ' days'; } if (h < 48) return h + 'h left'; return Math.round(h / 24) + 'd left'; }
+  function tierOf(h) { return h < 0 ? 'overdue' : h < 24 ? 'critical' : h < 168 ? 'urgent' : 'routine'; }
+  function findCase(id) { const D = window.AE_DATA; return D && D.CASES.find(function (x) { return x.id === id; }); }
+  function overrideId() { try { return +sessionStorage.getItem('ae:case') || 0; } catch (e) { return 0; } }
+  function setOverride(id) { try { sessionStorage.setItem('ae:case', String(id)); } catch (e) {} }
+
+  // Screens built around one sample person; other cases render the same page with their own data.
+  const BASES = {
+    casedetail: { id: 2418, name: 'Eleanor Whitfield', hon: 'Ms', amt: 11400, room: 214, ins: 0, fac: 0, hours: 9 },
+    draftreview: { id: 2418, name: 'Eleanor Whitfield', hon: 'Ms', amt: 11400, room: 214, ins: 0, fac: 0, hours: 9 },
+    packet: { id: 2418, name: 'Eleanor Whitfield', hon: 'Ms', amt: 11400, room: 214, ins: 0, fac: 0, hours: 9 },
+    outcome: { id: 2395, name: 'Bernard Szymanski', hon: 'Mr', amt: 7200, room: 209, ins: 0, fac: 0, hours: 620 },
+  };
+  const FEM = ['Ines', 'Dorothy', 'Eleanor', 'Margaret', 'Beatrice', 'Ruth', 'Agnes', 'Clara', 'Mabel', 'Constance', 'Josephine', 'Lorraine', 'Priscilla', 'Wilhelmina', 'Florence', 'Hazel', 'Vera', 'Doris', 'Nina', 'Pearl', 'Harriet', 'Rosalind'];
+  const TYPE_TEXT = { mn: 'medical necessity denial', be: 'benefit exclusion', un: 'unclassified denial' };
+  const TRACK_TEXT = { ms: 'mid-stay termination', pa: 'prior authorisation' };
+
+  function buildPairs(base, c) {
+    const D = window.AE_DATA;
+    const parts = c.name.split(' '), first = parts[0], last = parts.slice(1).join(' ');
+    const hon = FEM.indexOf(first) >= 0 ? 'Ms' : 'Mr';
+    const bparts = base.name.split(' '), bfirst = bparts[0], blast = bparts.slice(1).join(' ');
+    const pairs = [
+      [base.name, c.name],
+      [bfirst[0] + '. ' + blast, first[0] + '. ' + last],
+      [base.hon + ' ' + blast, hon + ' ' + last],
+      [blast, last],
+      [bfirst, first],
+      ['#' + base.id, '#' + c.id],
+      [String(base.id), String(c.id)],
+      ['$' + base.amt.toLocaleString('en-US'), money(c.amt)],
+      [base.amt.toLocaleString('en-US'), c.amt.toLocaleString('en-US')],
+      ['Room ' + base.room, 'Room ' + c.room],
+      ['medical necessity denial · mid-stay termination', TYPE_TEXT[c.type] + ' · ' + TRACK_TEXT[c.track]],
+      [pillText(base.hours), pillText(c.hours)],
+      ['Nearest: ' + pillText(base.hours).replace(' left', ''), 'Nearest: ' + pillText(c.hours).replace(' left', '')],
+    ];
+    if (c.ins !== base.ins) {
+      pairs.push([D.INSURERS[base.ins], D.INSURERS[c.ins]]);
+      pairs.push([D.INSURERS[base.ins].split(' ')[0], D.INSURERS[c.ins].split(' ')[0]]);
+    }
+    if (c.fac !== base.fac) pairs.push([D.FACILITIES[base.fac], D.FACILITIES[c.fac]]);
+    if (c.track === 'pa') {
+      pairs.push(['Notice of coverage termination', 'Notice of prior authorisation denial']);
+      pairs.push(['Mid-stay termination', 'Prior authorisation']);
+    }
+    if (c.type === 'be') pairs.push(['Medical necessity', 'Benefit exclusion']);
+    if (c.type === 'un') pairs.push(['Medical necessity', 'Unclassified — confirm the type']);
+    return pairs;
+  }
+  function subText(t, pairs) { for (let i = 0; i < pairs.length; i++) { if (t.indexOf(pairs[i][0]) >= 0) t = t.split(pairs[i][0]).join(pairs[i][1]); } return t; }
+  function inChrome(el, container) {
+    for (let p = el; p && p !== container; p = p.parentElement) {
+      if (p.tagName === 'OPTION' || p.tagName === 'SELECT') return true;
+      if (p.classList && (p.classList.contains('rail') || p.classList.contains('railmin') || p.classList.contains('sidebar'))) return true;
+    }
+    return false;
+  }
+  function retarget(container, screenKey) {
+    const base = BASES[screenKey]; if (!base) return;
+    const id = overrideId(); if (!id || id === base.id) return;
+    const c = findCase(id); if (!c) return;
+    const pairs = buildPairs(base, c);
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null);
+    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      if (!n.nodeValue || inChrome(n.parentElement, container)) return;
+      const t = subText(n.nodeValue, pairs);
+      if (t !== n.nodeValue) n.nodeValue = t;
+    });
+    container.querySelectorAll('[data-tip],[title],[placeholder]').forEach(function (el) {
+      if (inChrome(el, container)) return;
+      ['data-tip', 'title', 'placeholder'].forEach(function (at) {
+        const v = el.getAttribute(at); if (!v) return;
+        const t = subText(v, pairs); if (t !== v) el.setAttribute(at, t);
+      });
+    });
+    container.querySelectorAll('textarea,input').forEach(function (el) {
+      if (inChrome(el, container) || !el.value) return;
+      const t = subText(el.value, pairs); if (t !== el.value) el.value = t;
+    });
+    // deadline pills recoloured to this case's real urgency
+    const pt = pillText(c.hours), tr = tierOf(c.hours);
+    container.querySelectorAll('.pill').forEach(function (pl) {
+      const txt = pl.textContent.trim();
+      if (txt === pt || txt === 'Nearest: ' + pt.replace(' left', '')) {
+        pl.classList.remove('overdue', 'critical', 'urgent', 'routine'); pl.classList.add(tr);
+      }
+    });
+    // the open-cases rail highlights the case actually open
+    const rows = container.querySelectorAll('.rc');
+    let hit = null; rows.forEach(function (r) { if (r.textContent.indexOf(c.name) >= 0) hit = r; });
+    if (hit) { rows.forEach(function (r) { r.classList.remove('cur'); }); hit.classList.add('cur'); }
+  }
+
   const NAVMAP = [
-    [/termination response/i, ['familyaor', null, 'The termination-response checklist is the next build round \u2014 opening the piece that is built: the family page for Vera\u2019s representative']],
-    [/Vera\u2019s page/i, ['familyaor', 'vera']],
-    [/Sent to Dr Okafor/i, ['physicianlink', null, 'Sent to Dr Okafor by text \u2014 this is the page he receives']],
-    [/Resident portal link|Resident portal artboard/i, ['residentportal', null, 'Portal link sent by text \u2014 this is the page Eleanor receives']],
-    [/1 \u00b7 Case queue|case queue/i, ['queue']],
-    [/2 \u00b7 Intake|Opens intake|Intake artboard/i, ['intake']],
+    [/termination response/i, ['familyaor', null, 'The termination checklist screen is not in this demo yet — opening the family page, the piece that is']],
+    [/Vera’s page/i, ['familyaor', 'vera']],
+    [/Sent to Dr Okafor via/i, ['physicianlink', null, 'This is the page Dr Okafor receives by text']],
+    [/Resident portal link|Resident portal artboard/i, ['residentportal', null, 'This is the page the resident receives by text']],
+    [/new stay form/i, ['newstay']],
+    [/review queue/i, ['queue', 'review']],
+    [/Opens Settings/i, ['settings']],
+    [/1 · Case queue|case queue/i, ['queue']],
+    [/2 · Intake|Opens intake|Intake artboard/i, ['intake']],
     [/meeting brief/i, ['stayboard', 'meeting']],
     [/Stay board/i, ['stayboard']],
     [/draft review/i, ['draftreview']],
-    [/5 \u00b7 Facilities/i, ['dashboard']],
-    [/payer intelligence|6 \u00b7 Payer/i, ['payers']],
-    [/8 \u00b7 Outcome/i, ['outcome']],
+    [/5 · Facilities/i, ['dashboard']],
+    [/payer intelligence|6 · Payer/i, ['payers']],
+    [/8 · Outcome/i, ['outcome']],
     [/resident portal/i, ['residentportal']],
     [/Resident filing packet|filing packet artboard/i, ['residentpacket']],
     [/family page/i, ['familyaor']],
-    [/case #24\d\d|Case detail artboard|3 \u00b7 Case detail/i, ['casedetail']],
+    [/Case detail artboard|3 · Case detail/i, ['casedetail']],
   ];
   function navFromMessage(msg) {
-    // a case number routes to that person's own page \u2014 or says honestly that only some cases are built out
-    const caseRef = msg.match(/[Cc]ase #(\d{4})|#(\d{4}) /);
-    if (caseRef && /case detail|opens in place|in place\.|Case detail artboard/i.test(msg)) {
-      const id = +(caseRef[1] || caseRef[2]);
-      const pg = CASE_PAGES[id];
-      if (pg) {
-        shellToast('Case #' + id + ' \u00b7 ' + pg[1]);
-        setTimeout(() => go(pg[0]), 600);
-      } else {
-        shellToast('Case #' + id + ' follows the same flow \u2014 the demo builds #2418 \u00b7 Eleanor Whitfield end to end. Open her case to walk it.');
-      }
+    // any case number routes to that person's own page, with their data on it
+    const caseRef = msg.match(/[Cc]ase #(\d{4})/);
+    if (caseRef && /case detail|in place|Cases page/i.test(msg)) {
+      const id = +caseRef[1];
+      const c = findCase(id);
+      setOverride(id);
+      go(c && (c.stage === 'Filed' || c.stage === 'Decided') ? 'outcome' : 'casedetail');
       return true;
     }
     for (const [re, dest] of NAVMAP) {
       if (re.test(msg)) {
         if (/queue filtered to/.test(msg)) {
-          const q = (msg.match(/\u201c([^\u201d]+)\u201d/) || [])[1];
+          const q = (msg.match(/“([^”]+)”/) || [])[1];
           if (q) try { sessionStorage.setItem('ae:pendingQuery', q); } catch (e) {}
         }
-        shellToast(dest[2] || msg);
-        setTimeout(() => go(dest[0], dest[1]), 700);
+        if (dest[2]) shellToast(dest[2]);
+        go(dest[0], dest[1]);
         return true;
       }
     }
@@ -80,8 +175,8 @@
   // sidebar items navigate for real
   const NAV_LABELS = {
     'Stay board': ['stayboard'], 'Cases': ['queue'], 'Facilities': ['dashboard'], 'Payers': ['payers'],
-    'Board': ['stayboard'], 'New denial': ['intake'], 'Review · #2418 Whitfield': ['casedetail'],
-    'Meeting brief': ['stayboard', 'meeting'],
+    'Settings': ['settings'], 'Board': ['stayboard'], 'New stay': ['newstay'], 'New denial': ['intake'],
+    'Review': ['queue', 'review'], 'Add facility': ['settings'], 'Meeting brief': ['stayboard', 'meeting'],
   };
   function navFromSidebar(el, screenKey) {
     const label = (el.textContent || '').replace(/\d+$/, '').trim();
@@ -93,7 +188,7 @@
 
   // ---------- flow hooks: actions that complete a stage move to its next screen ----------
   const ACTION_HOOKS = {
-    draftreview: { key: 'confirmSign', after: (c) => { if (c.state.signed) { shellToast('Signed \u2014 packet PK-2418-01 is prepared. Opening it.'); setTimeout(() => go('packet'), 900); } } },
+    draftreview: { key: 'confirmSign', after: (c) => { if (c.state.signed) { shellToast('Signed \u2014 the filing packet is prepared. Opening it.'); setTimeout(() => go('packet'), 900); } } },
   };
   function applyActionHooks(screenKey, comp, vals) {
     const h = ACTION_HOOKS[screenKey];
@@ -112,11 +207,13 @@
   }
   const FILE_HOOKS = {
     intake: { key: 'fakeDrop', ready: (c) => c.state.step === 1,
-      run: (c, vals, f) => { shellToast('Reading \u201c' + f.name + '\u201d \u2014 the demo processes every upload as the Meridian sample letter'); c.start('whit'); } },
+      run: (c, vals, f) => { shellToast('Reading \u201c' + f.name + '\u201d\u2026'); c.start('whit'); } },
     draftreview: { key: 'uploadDemo', ready: (c) => !!c.state.uploadOpen,
-      run: (c, vals, f) => { shellToast('\u201c' + f.name + '\u201d attached \u2014 the demo files it as the matching record document'); vals.uploadDemo(); } },
+      run: (c, vals, f) => { shellToast('\u201c' + f.name + '\u201d attached'); vals.uploadDemo(); } },
     outcome: { key: 'dropLetter', ready: (c) => !c.state.letter,
-      run: (c, vals, f) => { shellToast('Reading \u201c' + f.name + '\u201d \u2014 the demo loads the sample decision letter'); vals.dropLetter(); } },
+      run: (c, vals, f) => { shellToast('Reading \u201c' + f.name + '\u201d\u2026'); vals.dropLetter(); } },
+    newstay: { key: 'attachAuth', ready: (c) => !c.state.authFile && !c.state.created,
+      run: (c, vals, f) => { c.setState({ authFile: f.name }); shellToast('\u201c' + f.name + '\u201d attached as the authorisation letter'); } },
   };
   function applyFileHooks(screenKey, comp, vals) {
     const h = FILE_HOOKS[screenKey];
@@ -316,10 +413,14 @@
       return JSON.stringify(state, (k, v) => (typeof v === 'function' || (k && k.charAt(0) === '_')) ? undefined : v);
     } catch (e) { return null; }
   }
+  function stateKey(screenKey, scenario) {
+    const id = overrideId();
+    return STORE_PREFIX + screenKey + ':' + scenario + (BASES[screenKey] && id && id !== BASES[screenKey].id ? '@' + id : '');
+  }
   function persist() {
     if (!current) return;
     const s = jsonSafe(current.comp.state);
-    if (s) try { localStorage.setItem(STORE_PREFIX + current.screenKey + ':' + current.scenario, s); } catch (e) {}
+    if (s) try { localStorage.setItem(stateKey(current.screenKey, current.scenario), s); } catch (e) {}
   }
 
   function renderCurrent() {
@@ -332,6 +433,11 @@
     const ae = document.activeElement;
     const fk = ae && ae.getAttribute && ae.getAttribute('data-fk');
     const selStart = fk && ae.selectionStart != null ? ae.selectionStart : null;
+    // scroll bookkeeping: a state change must not throw away where the reader was
+    const pathOf = (el) => { const path = []; for (let e = el; e && e !== c.container && e.parentElement; e = e.parentElement) path.unshift(Array.prototype.indexOf.call(e.parentElement.children, e)); return path.join('.'); };
+    const scrolls = [];
+    c.container.querySelectorAll('*').forEach((el) => { if (el.scrollTop || el.scrollLeft) scrolls.push([pathOf(el), el.scrollTop, el.scrollLeft]); });
+    const winY = window.scrollY;
     const frag = document.createDocumentFragment();
     for (const n of c.tpl) renderNode(n, vals, frag, 'r', false);
     c.container.textContent = '';
@@ -341,6 +447,21 @@
       if (nel) { nel.focus(); if (selStart != null && nel.setSelectionRange) try { nel.setSelectionRange(selStart, selStart); } catch (e) {} }
     }
     responsify();
+    retarget(c.container, c.screenKey);
+    // queue: the Review sub-item is current when the review view is open
+    if (c.screenKey === 'queue') {
+      const inReview = c.comp.state.view === 'review';
+      c.container.querySelectorAll('.navsub').forEach((el) => {
+        const t = el.textContent.trim();
+        if (t === 'View all' || t === 'Review') el.classList.toggle('on', inReview === (t === 'Review'));
+      });
+    }
+    scrolls.forEach(([path, st, sl]) => {
+      let el = c.container;
+      for (const i of path.split('.')) { el = el && el.children[i]; if (!el) return; }
+      if (el) { el.scrollTop = st; el.scrollLeft = sl; }
+    });
+    if (winY) window.scrollTo(0, winY);
   }
   function scheduleRender() {
     if (!current || current.renderScheduled) return;
@@ -392,9 +513,20 @@
     // first render applies the scenario; then overlay any saved state; render
     try { comp.renderVals(); } catch (e) { console.error(e); }
     try {
-      const saved = localStorage.getItem(STORE_PREFIX + screen + ':' + scenario);
+      const saved = localStorage.getItem(stateKey(screen, scenario));
       if (saved) Object.assign(comp.state, JSON.parse(saved));
     } catch (e) {}
+    // phones: the open-cases rail starts collapsed so the case itself leads
+    if (isMobile() && (screen === 'casedetail' || screen === 'packet' || screen === 'outcome') && comp.state.railOpen === undefined) comp.state.railOpen = false;
+    // another person's case: their stage and assignee, not the sample's
+    const ovr = overrideId();
+    if (screen === 'casedetail' && ovr && ovr !== 2418) {
+      const oc = findCase(ovr);
+      if (oc && !('stage' in (JSON.parse(localStorage.getItem(stateKey(screen, scenario)) || '{}')))) {
+        comp.state.stage = oc.stage === 'Filed' || oc.stage === 'Decided' ? 'In review' : oc.stage;
+        comp.state.who = oc.who || '';
+      }
+    }
     // pending queue search from another screen's header
     try {
       const pq = sessionStorage.getItem('ae:pendingQuery');
@@ -407,11 +539,47 @@
     renderCurrent();
   }
 
+  // facility chip: a small menu that narrows the dashboard to that facility
+  let facMenu = null;
+  function closeFacMenu() { if (facMenu) { facMenu.remove(); facMenu = null; } }
+  function openFacMenu(chip) {
+    closeFacMenu();
+    const items = [
+      ['All facilities', 'dashboard', 'default'],
+      ['Lakeview Care Center', 'dashboard', 'lakeview'],
+      ['Prairie Meadows Rehabilitation', 'dashboard', 'prairie'],
+      ['Northgate Skilled Nursing', 'dashboard', 'northgate'],
+    ];
+    const m = document.createElement('div');
+    m.style.cssText = 'position:fixed; z-index:120; background:#fff; border:0.5px solid #D3D3CE; border-radius:8px; box-shadow:0 8px 24px rgba(28,28,26,.14); padding:4px; min-width:230px; font-size:13px;';
+    items.forEach(([label, scr, st]) => {
+      const it = document.createElement('div');
+      it.textContent = label;
+      it.style.cssText = 'padding:7px 10px; border-radius:6px; cursor:pointer; color:#33332F;';
+      it.addEventListener('mouseenter', () => { it.style.background = '#F5F5F4'; });
+      it.addEventListener('mouseleave', () => { it.style.background = ''; });
+      it.addEventListener('click', (ev) => { ev.stopPropagation(); closeFacMenu(); go(scr, st); });
+      m.appendChild(it);
+    });
+    const note = document.createElement('div');
+    note.textContent = 'Dashboards narrow to the facility. The demo’s live cases all run at Lakeview.';
+    note.style.cssText = 'padding:6px 10px 5px; color:#8A8A84; font-size:12px; border-top:0.5px solid #E7E7E4; margin-top:3px;';
+    m.appendChild(note);
+    document.body.appendChild(m);
+    const r = chip.getBoundingClientRect();
+    m.style.left = Math.max(8, r.left) + 'px';
+    m.style.top = (r.bottom + 4) + 'px';
+    facMenu = m;
+  }
+  document.addEventListener('click', () => closeFacMenu());
+
   // sidebar navigation by delegation (runs before component handlers)
   document.addEventListener('click', (e) => {
     const fac = e.target.closest && e.target.closest('.fac');
     if (fac && $('#screen-root').contains(fac)) {
-      shellToast('Every screen in the demo shows Lakeview Care Center \u2014 switching facilities comes with onboarding, a later build round');
+      e.stopPropagation(); e.preventDefault();
+      if (facMenu) closeFacMenu(); else openFacMenu(fac);
+      return;
     }
     const nav = e.target.closest && e.target.closest('.nav, .navsub');
     if (nav && $('#screen-root').contains(nav)) {
@@ -427,6 +595,7 @@
   window.addEventListener('DOMContentLoaded', () => {
     $('#reset-all').addEventListener('click', () => {
       try { for (const k of Object.keys(localStorage)) if (k.startsWith(STORE_PREFIX)) localStorage.removeItem(k); } catch (e) {}
+      try { sessionStorage.removeItem('ae:case'); sessionStorage.removeItem('ae:pendingQuery'); } catch (e) {}
       location.hash = '#/stayboard/default'; mount(); shellToast('Demo reset — all saved state cleared');
     });
     // responsive: remount when crossing the mobile breakpoint, otherwise re-fit
