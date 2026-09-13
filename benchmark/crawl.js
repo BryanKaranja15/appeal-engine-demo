@@ -97,7 +97,12 @@ async function download(url, dir, log) {
   fs.mkdirSync(path.join(outDir, 'video'), { recursive: true });
   fs.mkdirSync(path.join(outDir, 'screens'), { recursive: true });
   fs.mkdirSync(path.join(outDir, 'assets'), { recursive: true });
-  const browser = await chromium.launch();
+  // Launch options from env: CRAWL_CHANNEL=chrome (installed Chrome), CRAWL_HEADED=1 (headed), HTTPS_PROXY (explicit proxy)
+  const launchOpts = {};
+  if (process.env.CRAWL_CHANNEL) launchOpts.channel = process.env.CRAWL_CHANNEL;
+  if (process.env.CRAWL_HEADED === '1') launchOpts.headless = false;
+  if (process.env.HTTPS_PROXY) launchOpts.proxy = { server: process.env.HTTPS_PROXY };
+  const browser = await chromium.launch(launchOpts);
   const queue = [start], seen = new Set([start]), report = { start, crawledAt: new Date().toISOString(), pages: [] };
 
   while (queue.length && report.pages.length < MAX_PAGES) {
