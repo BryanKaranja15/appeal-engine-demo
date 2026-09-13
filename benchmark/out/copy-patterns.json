@@ -1,0 +1,5798 @@
+{
+ "_meta": {
+  "source": "https://www.exacare.com",
+  "captured": "2026-09-13T14:35:16.331Z",
+  "pages_analysed": {
+   "core_marketing": [
+    "index",
+    "platform",
+    "admissions",
+    "reimbursement",
+    "skilled_nursing_software",
+    "skilled_nursing",
+    "home_health",
+    "hospice",
+    "about_us",
+    "summit_2027",
+    "careers",
+    "contact",
+    "resources_customer_stories"
+   ],
+   "customer_stories": [
+    "resources_customer_stories_creative_solutions_in_healthcare",
+    "resources_customer_stories_exceptional_living_centers",
+    "resources_customer_stories_st_croix_county",
+    "resources_customer_stories_ignite_medical_resorts",
+    "resources_customer_stories_pearl_healthcare"
+   ]
+  },
+  "companion_document": "COPY-ANALYSIS.md",
+  "note": "All counts computed from copy.json + decoded RSC payloads in benchmark/out/rsc/. Steps 2-n of ScrollStages/FeatureTimer and all Faq answers were recovered from the RSC payload because only step 1 renders server-side.",
+  "core_word_total": 6580
+ },
+ "tone_metrics": {
+  "length_bounds_words": {
+   "h1_hero": {
+    "n": 12,
+    "mean": 5.2,
+    "median": 5.0,
+    "min": 2,
+    "max": 13
+   },
+   "h2_section": {
+    "n": 64,
+    "mean": 4.6,
+    "median": 4.0,
+    "min": 1,
+    "max": 24
+   },
+   "h3_feature": {
+    "n": 61,
+    "mean": 5.6,
+    "median": 5,
+    "min": 1,
+    "max": 16
+   },
+   "eyebrow": {
+    "n": 15,
+    "mean": 4.2,
+    "median": 5,
+    "min": 2,
+    "max": 6
+   },
+   "hero_subhead": {
+    "n": 15,
+    "mean": 18,
+    "median": 19,
+    "min": 4,
+    "max": 42
+   },
+   "feature_body_one_card": {
+    "n": 97,
+    "mean": 18.1,
+    "median": 16,
+    "min": 8,
+    "max": 37
+   },
+   "feature_label": {
+    "n": 97,
+    "mean": 3.9,
+    "median": 4,
+    "min": 1,
+    "max": 7
+   },
+   "bullet": {
+    "n": 69,
+    "mean": 9.2,
+    "median": 8,
+    "min": 4,
+    "max": 34
+   },
+   "cta_label": {
+    "n": 91,
+    "mean": 2.8,
+    "median": 3,
+    "min": 1,
+    "max": 5
+   },
+   "quote_marketing": {
+    "n": 15,
+    "mean": 29.1,
+    "median": 28,
+    "min": 19,
+    "max": 41
+   },
+   "quote_story": {
+    "n": 59,
+    "mean": 32.1,
+    "median": 32,
+    "min": 10,
+    "max": 57
+   },
+   "story_paragraph": {
+    "n": 189,
+    "mean": 37.7,
+    "median": 37,
+    "min": 1,
+    "max": 106
+   },
+   "h1_story": {
+    "n": 5,
+    "mean": 14,
+    "median": 14,
+    "min": 12,
+    "max": 16
+   }
+  },
+  "sentences_per_feature_body": {
+   "mean": 1.3,
+   "median": 1,
+   "max": 4,
+   "note": "Two-thirds of feature bodies are exactly one sentence."
+  },
+  "hero_subhead_by_variant": {
+   "HeroFramed": [
+    18,
+    19
+   ],
+   "Hero": [
+    19,
+    22
+   ],
+   "HeroColumns": [
+    27
+   ],
+   "HeroFullwidth": [
+    31,
+    42
+   ],
+   "HeroSummit": [
+    4,
+    9
+   ]
+  },
+  "person": {
+   "core_pages": {
+    "we": 46,
+    "our": 28,
+    "us": 8,
+    "you": 27,
+    "your": 36,
+    "they": 12,
+    "their": 3,
+    "I": 5,
+    "my": 1
+   },
+   "hero_and_feature_bodies_only": {
+    "we": 23,
+    "our": 6,
+    "you": 12,
+    "your": 20,
+    "they": 1
+   },
+   "inside_customer_quotes": {
+    "we": 71,
+    "our": 44,
+    "us": 11,
+    "I": 24,
+    "my": 4,
+    "me": 3,
+    "they": 8,
+    "their": 2,
+    "you": 5
+   },
+   "rules": [
+    "Benefit sentences use 'your [teams]' as the subject.",
+    "'We' appears only in mechanism, belief and founder copy, never in a benefit sentence.",
+    "'I' appears only inside quotation marks."
+   ]
+  },
+  "punctuation": {
+   "exclamation_marks_brand_voice": 0,
+   "exclamation_marks_in_quotes": 1,
+   "question_marks": 15,
+   "question_marks_all_in_faq": true,
+   "em_dash": 13,
+   "en_dash": 4,
+   "semicolon": 2,
+   "colon": 6,
+   "ellipsis": 1,
+   "ampersand": 19,
+   "contractions": 61,
+   "emoji": 0
+  },
+  "headline_terminal_periods": {
+   "h1": {
+    "with_period": 0,
+    "total": 12
+   },
+   "h2": {
+    "with_period": 7,
+    "total": 64
+   },
+   "h3": {
+    "with_period": 0,
+    "total": 61
+   },
+   "eyebrow": {
+    "with_period": 0,
+    "total": 15
+   },
+   "cta": {
+    "with_period": 0,
+    "total": 91
+   },
+   "feature_label": {
+    "with_period": 1,
+    "total": 97
+   },
+   "feature_body": {
+    "with_period": 95,
+    "total": 97
+   },
+   "rule": "A headline takes a period ONLY when it is two or three parallel fragments. One clause = no terminal punctuation."
+  },
+  "casing": {
+   "title_case_h1": 0,
+   "title_case_h2": 0,
+   "title_case_h3": 1,
+   "title_case_eyebrow": 0,
+   "title_case_exceptions": [
+    "FeatureTabs tab labels ('For Skilled Nursing')",
+    "Customer-story section headings ('The Challenge: ...')"
+   ],
+   "rule": "Sentence case everywhere else."
+  },
+  "proof_block_ratio": {
+   "skilled_nursing": 0.38,
+   "platform": 0.33,
+   "skilled_nursing_software": 0.3,
+   "admissions": 0.29,
+   "reimbursement": 0.29,
+   "home_health": 0.29,
+   "hospice": 0.29,
+   "index": 0.25,
+   "summit_2027": 0.22,
+   "careers": 0.12,
+   "rule": "Roughly one content block in three is a proof block on any page that sells the product."
+  }
+ },
+ "verbs": {
+  "headline_verbs_with_counts": {
+   "move": 8,
+   "moving": 2,
+   "help": 3,
+   "make": 3,
+   "makes": 3,
+   "support": 3,
+   "secure": 3,
+   "take": 2,
+   "admit": 2,
+   "see": 2,
+   "join": 2,
+   "connects": 1,
+   "applies": 1,
+   "drives": 1,
+   "accelerate": 1,
+   "coordinate": 1,
+   "starts": 1,
+   "standardize": 1,
+   "reduce": 1,
+   "give": 1,
+   "respond": 1,
+   "smooth": 1,
+   "improve": 1,
+   "address": 1,
+   "learn": 1,
+   "stay": 1,
+   "save": 1,
+   "register": 1,
+   "build": 1
+  },
+  "cta_verbs_with_counts": {
+   "book": 15,
+   "learn": 9,
+   "view": 5,
+   "explore": 3,
+   "see": 2,
+   "save": 1
+  },
+  "feature_label_leading_verbs": [
+   "Analyze",
+   "Review",
+   "Connect",
+   "Track",
+   "Say",
+   "Admit",
+   "Identify",
+   "Grow",
+   "Centralize",
+   "Verify",
+   "Push",
+   "Extract",
+   "Estimate",
+   "Maximize",
+   "Stay",
+   "Move",
+   "Standardize",
+   "Reduce",
+   "Give",
+   "Respond",
+   "Smooth",
+   "Improve",
+   "Address",
+   "Accelerate",
+   "Coordinate",
+   "Support",
+   "Raise",
+   "Bring"
+  ],
+  "rule": "~20 concrete operational verbs, all base-form imperatives. No abstract verbs of enablement (empower, enable, unlock, transform, streamline) in the brand's own voice."
+ },
+ "banned_patterns": {
+  "zero_occurrences_anywhere": [
+   "leverage",
+   "synergy",
+   "seamless",
+   "robust",
+   "turnkey",
+   "holistic",
+   "frictionless",
+   "cutting-edge",
+   "revolutionary",
+   "game-changing",
+   "next-generation",
+   "state-of-the-art",
+   "ecosystem",
+   "paradigm",
+   "delight",
+   "supercharge",
+   "10x",
+   "artificial intelligence (spelled out)"
+  ],
+  "present_only_inside_quotes_or_third_party_bios": [
+   "transform",
+   "unlock",
+   "empower",
+   "innovate",
+   "best-in-class",
+   "world-class",
+   "disrupt"
+  ],
+  "solution": {
+   "hits": 44,
+   "note": "every hit is the customer name 'Creative Solutions in Healthcare', an advisor title, or a customer quote - never the product"
+  },
+  "other": [
+   "no exclamation marks in brand voice",
+   "no rhetorical questions outside FAQ",
+   "no Title Case headlines",
+   "no anonymised testimonials",
+   "no urgency language on product pages",
+   "no footnotes or sources on stats"
+  ],
+  "rationed_superlatives": {
+   "most": 4,
+   "best": 8,
+   "leading": 6,
+   "only": 3,
+   "rule": "each superlative is anchored to a checkable axis, e.g. 'more referral platforms, hospital systems, and EHRs than any platform on the market'"
+  }
+ },
+ "numbers": {
+  "style": "numerals only, compact unit, <=2 significant figures, no source, no footnote",
+  "observed_tokens": [
+   "7 min",
+   "8 min",
+   "34 hrs",
+   "15%",
+   "40%",
+   "40%+",
+   "60%",
+   "99%",
+   "10%",
+   "$380K",
+   "$380K+",
+   "$900K",
+   "3.4M",
+   "2.6x",
+   "2,000+",
+   "300+",
+   "150+",
+   "9.8+",
+   "4",
+   "under 60 seconds",
+   "in minutes, not hours",
+   "less than five minutes"
+  ],
+  "conventions": [
+   "'+' suffix means 'at least' and does persuasion work (2,000+, $380K+, 40%+)",
+   "'~' appears only inside customer quotes; the brand never hedges its own number",
+   "a raw duration beats a percentage when the duration is small (7 min, not 83% faster)",
+   "numbers are spelled out only in running prose ('less than five minutes'), never in a stat",
+   "stat template: [numeral][compact unit][+] / [2-9 word lowercase noun phrase]"
+  ],
+  "stat_kinds": {
+   "speed": [
+    "7 min referral response time",
+    "8 min prior authorization submission time"
+   ],
+   "growth": [
+    "15% increase in admissions",
+    "40%+ of managed care days in L2+"
+   ],
+   "money": [
+    "$380K+ per facility reimbursement increase"
+   ],
+   "scale_trust": [
+    "3.4M referrals processed since inception",
+    "2,000+ care teams"
+   ],
+   "time_returned": [
+    "34 hrs saved for care staff each week"
+   ]
+  }
+ },
+ "naming": {
+  "product": {
+   "canonical": "exacare ai",
+   "casing": "always lowercase, 175 occurrences, 0 capitalised variants",
+   "secondary": {
+    "the platform": 18,
+    "our platform": 1,
+    "AI": 52
+   },
+   "capability_names_are_ui_labels": [
+    "Admissions",
+    "Insurance verification",
+    "Prior authorization",
+    "Concurrent reviews",
+    "Bed board",
+    "Data center",
+    "eSign"
+   ],
+   "rule": "The product name is used as a grammatical SUBJECT that acts: '[product] reads / pulls / consolidates / centralizes ...'",
+   "seo_variant": "on /skilled-nursing-software the product name is replaced by the category phrase ('the leading skilled nursing admissions software')"
+  },
+  "customer_nouns_core": {
+   "teams": 68,
+   "team": 20,
+   "facility": 20,
+   "facilities": 13,
+   "staff": 14,
+   "building": 12,
+   "buildings": 8,
+   "patient": 13,
+   "patients": 8,
+   "operators": 11,
+   "leaders": 7,
+   "hospital": 7,
+   "hospitals": 7,
+   "branch": 4,
+   "branches": 5,
+   "communities": 3,
+   "residents": 1
+  },
+  "rules": [
+   "reader noun = 'your teams'",
+   "unit noun changes per segment: skilled nursing = 'buildings', home health/hospice = 'branches'",
+   "buyer archetype = 'operators'",
+   "downstream beneficiary = 'patients' (rarely 'residents')"
+  ]
+ },
+ "italic_serif_word": {
+  "rule": [
+   "exactly one italic per line, never two",
+   "never the first word of the line",
+   "never a product name, never a number, never a proper noun (one conventional exception: a publication title in a bio)",
+   "it always lands on the word the sentence turns on - remove it and the sentence keeps its grammar but loses its point",
+   "scarcity is the mechanism: 15 italics against 130 headings on the core pages (~1 in 9)"
+  ],
+  "categories": {
+   "mechanism_verb": "here is what actually happens",
+   "payoff_or_direction_noun": "here is where you end up",
+   "claim_qualifier": "here is the word we are staking a claim on",
+   "proper_title": "conventional italic for a publication name"
+  },
+  "occurrences": [
+   {
+    "page": "/",
+    "line": "Our platform connects the systems post-acute care teams rely on and applies AI to help them make faster, more confident admissions and reimbursement decisions.",
+    "italic": "connects",
+    "block": "Headline",
+    "category": "mechanism_verb"
+   },
+   {
+    "page": "/platform",
+    "line": "More than intelligence, we help you take action",
+    "italic": "action",
+    "block": "FeatureStages",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/ , /platform, /admissions, /reimbursement",
+    "line": "Across the care journey",
+    "italic": "journey",
+    "block": "FeatureTabs",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/ , /platform",
+    "line": "Move care forward",
+    "italic": "forward",
+    "block": "CtaBackground",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/admissions",
+    "line": "Move admissions forward",
+    "italic": "forward",
+    "block": "CtaBackground",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/reimbursement",
+    "line": "Move reimbursement forward",
+    "italic": "forward",
+    "block": "CtaBackground",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/skilled-nursing",
+    "line": "Move skilled nursing forward",
+    "italic": "forward",
+    "block": "CtaBackground",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/home-health",
+    "line": "Move home health forward",
+    "italic": "forward",
+    "block": "CtaBackground",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/hospice",
+    "line": "Move hospice forward",
+    "italic": "forward",
+    "block": "CtaBackground",
+    "category": "payoff_or_direction_noun"
+   },
+   {
+    "page": "/skilled-nursing-software",
+    "line": "See why we're the leading skilled nursing software",
+    "italic": "leading",
+    "block": "CtaBackground",
+    "category": "claim_qualifier"
+   },
+   {
+    "page": "/summit-2027",
+    "line": "The real agentic standard",
+    "italic": "real",
+    "block": "HeroSummit",
+    "category": "claim_qualifier"
+   },
+   {
+    "page": "/summit-2027",
+    "line": "Now it can do the work: reviewing referrals, flagging what needs attention, and moving tasks forward.",
+    "italic": "do",
+    "block": "FoundersNote",
+    "category": "mechanism_verb"
+   },
+   {
+    "page": "/summit-2027",
+    "line": "That's why we built this Summit around the real agentic standard.",
+    "italic": "real",
+    "block": "FoundersNote",
+    "category": "claim_qualifier"
+   },
+   {
+    "page": "/summit-2027",
+    "line": "And we mean the standard part too.",
+    "italic": "standard",
+    "block": "FoundersNote",
+    "category": "claim_qualifier"
+   },
+   {
+    "page": "/about-us",
+    "line": "...he was named to the Forbes 30 Under 30 list in 2025...",
+    "italic": "Forbes 30 Under 30",
+    "block": "Team",
+    "category": "proper_title"
+   }
+  ],
+  "templates": {
+   "closing_cta_every_page": "Move [your noun] <forward>",
+   "manifesto_once_per_site": "[Product] <[mechanism verb]> [the thing your buyer juggles]",
+   "claim_headline_rare": "The <real> [category standard] | the <leading> [category]"
+  }
+ },
+ "block_formulas": {
+  "Hero": {
+   "variants": [
+    "Hero",
+    "HeroFramed",
+    "HeroFullwidth",
+    "HeroColumns",
+    "HeroSummit",
+    "ContactForm (hero-as-form)"
+   ],
+   "fields": {
+    "eyebrow": {
+     "formula": "Trusted by [N]+ [reader plural]",
+     "bounds": {
+      "n": 1,
+      "mean": 5,
+      "median": 5,
+      "min": 5,
+      "max": 5
+     },
+     "optional": true,
+     "examples": [
+      "Trusted by 2,000+ care teams"
+     ]
+    },
+    "headline": {
+     "formula": "[Adjective] [category] for [market] | From [messy input] to [clean output] in [duration] | Smarter [segment] operations",
+     "bounds": {
+      "n": 12,
+      "mean": 5.2,
+      "median": 5,
+      "min": 2,
+      "max": 13
+     },
+     "case": "sentence",
+     "terminal_period": false,
+     "examples": [
+      "The AI platform for post-acute care operations",
+      "From referral to decision in minutes",
+      "Smarter hospice operations",
+      "Intelligent infrastructure for post-acute care",
+      "Reimbursement clarity starts at admission"
+     ]
+    },
+    "subhead": {
+     "formula": "[Product] [verb]s [X], [verb]s [Y], and [verb]s [Z] so [your teams] can [outcome] and [outcome].",
+     "bounds": {
+      "n": 15,
+      "mean": 18.0,
+      "median": 19,
+      "min": 4,
+      "max": 42
+     },
+     "sentences": 1,
+     "examples": [
+      "exacare ai centralizes referrals, analyzes admissions packets, and handles reimbursement workflows so your teams can move faster with confidence.",
+      "exacare ai reviews every referral against your criteria, verifies insurance, and surfaces clinical and financial risk so your team makes the right call in minutes, not hours.",
+      "Connect intake, admissions, and eligibility in one AI-powered workflow so hospice teams can move faster and more confidently."
+     ]
+    },
+    "cta": {
+     "formula": "[one verb + one object] -> the single conversion page",
+     "bounds": {
+      "min": 3,
+      "max": 3
+     },
+     "count_per_hero": 1,
+     "examples": [
+      "Book a demo"
+     ]
+    }
+   },
+   "template": "H1: [Adjective] [category] for [market]\nSub: [Product] [verb]s [X], [verb]s [Y], and [verb]s [Z] so [your teams] can [outcome].\nCTA: [verb] [object]"
+  },
+  "Stats": {
+   "fields": {
+    "value": {
+     "formula": "[numeral][compact unit][+ if floor]",
+     "examples": [
+      "7 min",
+      "15%",
+      "$380K+",
+      "3.4M",
+      "2.6x",
+      "34 hrs",
+      "9.8+"
+     ]
+    },
+    "label": {
+     "formula": "[2-9 word lowercase noun phrase, no period, no source]",
+     "bounds": {
+      "n": 18,
+      "mean": 4.2,
+      "median": 4.0,
+      "min": 2,
+      "max": 9
+     },
+     "examples": [
+      "referral response time",
+      "increase in admissions",
+      "of managed care days in L2+",
+      "per facility reimbursement increase",
+      "saved for care staff each week",
+      "referrals processed since inception",
+      "referral response time across the top 10% of SNFs"
+     ]
+    }
+   },
+   "count_per_block": "3 or 4",
+   "position": "immediately after the hero or the first benefit grid; never at the bottom",
+   "kinds_to_cover": [
+    "speed",
+    "growth",
+    "money",
+    "scale/trust",
+    "time returned"
+   ],
+   "template": "[numeral][unit][+]  /  [2-9 word lowercase noun phrase]"
+  },
+  "FeatureScroll / FeatureStages / Bento (benefit grid)": {
+   "fields": {
+    "headline": {
+     "formula": "[Comparative adj] [noun]. [Comparative adj] [noun].  (2-3 parallel fragments, WITH periods)",
+     "bounds": {
+      "n": 4,
+      "mean": 4.5,
+      "median": 4.0,
+      "min": 4,
+      "max": 6
+     },
+     "examples": [
+      "Faster decisions. Stronger performance.",
+      "Deeper context. Faster workflows. Better decisions.",
+      "Faster admits. Fewer suprises.",
+      "Support the right acuity. Secure the right reimbursement."
+     ]
+    },
+    "label": {
+     "formula": "[Imperative verb] [object][, adverb]  (reader is the actor)  |  [Noun phrase]  (product is the actor)",
+     "bounds": {
+      "n": 97,
+      "mean": 3.9,
+      "min": 1,
+      "max": 7
+     },
+     "terminal_period": false,
+     "examples": [
+      "Say yes, faster",
+      "Admit right-fit patients",
+      "Identify risk early",
+      "Grow your census",
+      "Context beyond keywords",
+      "Deeper integrations",
+      "Purpose-built for post-acute care"
+     ]
+    },
+    "body": {
+     "formula": "[One sentence, 14-21 words] naming either the mechanism OR the consequence.",
+     "bounds": {
+      "n": 97,
+      "mean": 18.1,
+      "median": 16,
+      "min": 8,
+      "max": 37
+     },
+     "sentences": {
+      "mean": 1.3,
+      "median": 1,
+      "max": 4
+     },
+     "examples": [
+      "Analyze documentation beyond keyword match, applying facility-specific criteria automatically to determine clinical and financial fit.",
+      "Improve admission conversion and protect reimbursement through consistent, defensible decisions.",
+      "exacare ai consolidates referrals from every source into a single intake view - so nothing slips through and no one is toggling between portals to stay current."
+     ]
+    }
+   },
+   "cards_per_block": "3-4",
+   "template": "H2: [Comparative] [noun]. [Comparative] [noun].\nLabel (3-5w): [Imperative verb] [object]\nBody (1 sentence, 14-21w): [mechanism OR consequence]."
+  },
+  "ScrollStages (How it works)": {
+   "fields": {
+    "headline": {
+     "formula": "How it works | How our [keyword] works",
+     "bounds": {
+      "n": 4,
+      "mean": 3.5,
+      "median": 3.0,
+      "min": 3,
+      "max": 5
+     },
+     "examples": [
+      "How it works",
+      "How our admissions software works"
+     ]
+    },
+    "eyebrow": {
+     "formula": "Step [n]",
+     "bounds": {
+      "n": 4,
+      "mean": 2,
+      "median": 2.0,
+      "min": 2,
+      "max": 2
+     },
+     "examples": [
+      "Step 1"
+     ]
+    },
+    "step_label": {
+     "formula": "[Imperative verb] [object]",
+     "bounds": {
+      "min": 2,
+      "max": 6
+     },
+     "examples": [
+      "Connect your systems",
+      "Analyze referrals with AI",
+      "Review insights and respond",
+      "Track performance and manage census",
+      "Centralize referrals",
+      "Verify insurance and safety checks",
+      "Review and decide",
+      "Push data to your EHR",
+      "Extract clinical and insurance details",
+      "Estimate reimbursements early",
+      "Maximize what you're owed",
+      "Stay ahead of every concurrent review"
+     ]
+    },
+    "step_body": {
+     "formula": "[One sentence, 10-30 words] naming what happens and to what.",
+     "bounds": {
+      "n": 34,
+      "mean": 10.1,
+      "median": 9.0,
+      "min": 2,
+      "max": 30
+     },
+     "examples": [
+      "Integrate referral portals, EHRs like PCC or MatrixCare, and eFax into one operational hub.",
+      "Context-aware AI reads full referral packets, flags clinical risks, and estimates reimbursement - all in minutes.",
+      "Monitor census, assign beds, and track performance across facilities with real-time dashboards."
+     ]
+    }
+   },
+   "step_count": "4-5",
+   "order_rule": "ingest -> analyse -> decide -> measure",
+   "recovered_step_sets": {
+    "/platform": [
+     "Connect your systems",
+     "Analyze referrals with AI",
+     "Review insights and respond",
+     "Track performance and manage census"
+    ],
+    "/admissions": [
+     "Centralize referrals",
+     "Analyze referral packets in minutes",
+     "Verify insurance and safety checks",
+     "Review and decide",
+     "Push data to your EHR"
+    ],
+    "/reimbursement": [
+     "Extract clinical and insurance details",
+     "Estimate reimbursements early",
+     "Maximize what you're owed",
+     "Stay ahead of every concurrent review"
+    ],
+    "/skilled-nursing-software": [
+     "Connect your systems",
+     "Analyze referrals with AI",
+     "Review insights and respond",
+     "Track performance and manage census"
+    ]
+   },
+   "template": "H2: How it works\nStep (2-6w): [Imperative verb] [object]\nBody (1 sentence, 10-30w)"
+  },
+  "FeatureTabs (fit block)": {
+   "fields": {
+    "headline": {
+     "formula": "Across the [scope noun]  |  [Category] for your entire [team noun]",
+     "bounds": {
+      "n": 6,
+      "mean": 4.7,
+      "median": 4.0,
+      "min": 4,
+      "max": 8
+     },
+     "examples": [
+      "Across the care journey",
+      "Skilled nursing software for your entire care team",
+      "Life at exacare ai"
+     ]
+    },
+    "tab_label": {
+     "formula": "For [Segment or Role]",
+     "case": "Title Case (the ONLY Title Case on the site)",
+     "bounds": {
+      "n": 26,
+      "mean": 2.6,
+      "median": 2.0,
+      "min": 2,
+      "max": 5
+     },
+     "examples": [
+      "For Skilled Nursing",
+      "For Home Health",
+      "For Hospice",
+      "For Admissions Teams",
+      "For DONs & Clinical Teams",
+      "For Operations Leaders",
+      "For Managed Care Teams"
+     ]
+    },
+    "tab_body": {
+     "formula": "[Their constraint in their words]. [What they get, one sentence.]",
+     "bounds": {
+      "n": 34,
+      "mean": 9.9,
+      "median": 8.0,
+      "min": 2,
+      "max": 31
+     },
+     "examples": [
+      "High referral volume, complex documentation, and tight response windows demand consistent, defensible decision-making across facilities.",
+      "Move at the speed hospitals expect. Admissions teams can review full referral packets in minutes and respond quickly without sacrificing clinical or financial rigor.",
+      "Hospice referrals require fast, compassionate coordination across providers, families, and care teams to ensure timely responses."
+     ]
+    },
+    "tab_cta": {
+     "formula": "Learn more -> /[segment]",
+     "note": "never names the segment; the tab already does"
+    }
+   },
+   "template": "H2: Across the [scope noun]\nTab: For [Segment]\nBody: [their constraint]. [what they get].\nCTA: Learn more"
+  },
+  "FeatureTimer (Core capabilities)": {
+   "fields": {
+    "headline": {
+     "formula": "Core capabilities  |  [AI-powered] [keyword] software",
+     "bounds": {
+      "n": 4,
+      "mean": 2.8,
+      "median": 2.0,
+      "min": 2,
+      "max": 5
+     },
+     "examples": [
+      "Core capabilities",
+      "AI-powered skilled nursing facility software"
+     ]
+    },
+    "tab_label": {
+     "formula": "[Product noun]  - 1-4 words, sentence case, no verb",
+     "bounds": {
+      "n": 24,
+      "mean": 2.2,
+      "median": 2.0,
+      "min": 1,
+      "max": 4
+     },
+     "examples": [
+      "Admissions",
+      "Insurance verification",
+      "Prior authorization",
+      "Concurrent reviews",
+      "Bed board",
+      "Data center",
+      "eSign",
+      "Eligibility check",
+      "Geography & payer fit",
+      "EHR integration",
+      "Hospice eligibility flagging",
+      "Centralized documentation"
+     ]
+    },
+    "body": {
+     "formula": "[Verb] [object], [verb] [object], and [verb] [object] - one sentence, 17-23 words",
+     "bounds": {
+      "n": 4,
+      "mean": 19,
+      "median": 18.0,
+      "min": 17,
+      "max": 23
+     },
+     "examples": [
+      "Review referral packets in under 60 seconds as contextual AI recommends admit or decline decisions with transparent reasoning.",
+      "Verify member status, in-network coverage, SNF benefit days, and financial responsibility (copays, deductibles, OOP max).",
+      "Track every next review date, build clinical justifications for continued skilled care, and get the organized package to the payer, all in the same place the prior authorization was run.",
+      "Send, sign, and track documents all within exacare ai and sync to EHR."
+     ]
+    }
+   },
+   "tab_count": "4-7",
+   "device": "exactly one specialist parenthetical per page to prove depth",
+   "template": "H2: Core capabilities\nTab: [Product noun]\nBody: [Verb] [obj], [verb] [obj], and [verb] [obj]."
+  },
+  "Compare (Before / After)": {
+   "fields": {
+    "headline": {
+     "formula": "The difference [product] makes  |  A better way to manage [category]",
+     "bounds": {
+      "n": 4,
+      "mean": 5.8,
+      "median": 5.0,
+      "min": 5,
+      "max": 8
+     },
+     "examples": [
+      "The difference exacare ai makes",
+      "A better way to manage skilled nursing admissions"
+     ]
+    },
+    "column_heads": {
+     "formula": "Before [product]  |  After [product]",
+     "note": "the product name is the hinge of time"
+    },
+    "bullet": {
+     "formula": "5-16 words, no period, mirrored one-for-one",
+     "bounds": {
+      "n": 48,
+      "mean": 8.9,
+      "median": 8.0,
+      "min": 5,
+      "max": 16
+     },
+     "voice_rule": "Before = passive / system-blaming ('Communication is buried in...'); After = the work as subject ('All referrals are centralized in one place')"
+    },
+    "appended_stats": {
+     "formula": "3 stats inside the same block so the contrast lands on a number"
+    }
+   },
+   "contrast_axes": [
+    {
+     "axis": "where the work lives",
+     "before": "Teams toggle between multiple referral portals with no central source of truth",
+     "after": "All referrals are centralized in one place"
+    },
+    {
+     "axis": "how people talk",
+     "before": "Communication is buried in email, texts, and portals",
+     "after": "Teams communicate easily with tagging, threaded comments, and an integrated hospital chat"
+    },
+    {
+     "axis": "depth vs speed of review",
+     "before": "Referral packets are reviewed under time pressure, key details missed",
+     "after": "Full packets are read and analyzed in under 60 seconds"
+    },
+    {
+     "axis": "when the financial truth arrives",
+     "before": "PDPM considerations happen downstream, after key decisions are made",
+     "after": "Financial risk and reimbursement potential surfaced upfront during admissions review"
+    },
+    {
+     "axis": "manual vs automatic",
+     "before": "Managed care authorizations take hours of staff time",
+     "after": "Managed care authorization workflows are handled automatically"
+    },
+    {
+     "axis": "consistency",
+     "before": "Decisions vary by staff member and building",
+     "after": "Decisions are documented, communicated, and consistent across buildings"
+    },
+    {
+     "axis": "standardisation (After only)",
+     "before": null,
+     "after": "Custom facility-level criteria are applied automatically"
+    },
+    {
+     "axis": "leadership visibility (After only)",
+     "before": null,
+     "after": "Leadership gets insights to act more strategically"
+    }
+   ],
+   "segment_swaps": {
+    "home_health_hospice": [
+     {
+      "before": "Care transition opportunities identified too late or missed entirely",
+      "after": "Hospice eligibility flagged during intake and monitored throughout the episode"
+     },
+     {
+      "before": "Referral pipelines break down silently",
+      "after": "Proactive reporting on how you can get to care quicker"
+     }
+    ]
+   },
+   "asymmetry": "the After column carries 2 more rows than the Before column",
+   "template": "H2: The difference [product] makes\nColumns: Before [product] | After [product]\n6 mirrored pairs + 2 After-only rows + 3 appended stats"
+  },
+  "Testimonials": {
+   "variants": {
+    "Testimonial": {
+     "quote_bounds": {
+      "n": 4,
+      "mean": 30.2,
+      "median": 30.5,
+      "min": 19,
+      "max": 41
+     },
+     "attribution": "[Name], [Title] at [Company]",
+     "extras": "headline 'Moving care forward, together' + CTA 'View customer stories'"
+    },
+    "TestimonialsMediaCards": {
+     "quote_bounds": {
+      "n": 5,
+      "mean": 24,
+      "median": 25,
+      "min": 19,
+      "max": 26
+     },
+     "attribution": "[Name], [Title] at [Company]",
+     "extras": "headline 'Relief your teams can feel'",
+     "cards": 3
+    },
+    "TestimonialsTextCards": {
+     "quote_bounds": {
+      "n": 4,
+      "mean": 37,
+      "median": 37.0,
+      "min": 35,
+      "max": 39
+     },
+     "attribution": "[Name], [Title] at [Company]",
+     "extras": "H3 result headline ABOVE each quote",
+     "cards": 2,
+     "strongest": true
+    },
+    "TestimonialsQuoteCards": {
+     "quote_bounds": {
+      "n": 5,
+      "mean": 30.4,
+      "min": 27,
+      "max": 36
+     },
+     "attribution": "[Name] / [Title] / [Company] on three lines",
+     "extras": "no headline at all",
+     "cards": 5
+    }
+   },
+   "fields": {
+    "result_headline": {
+     "formula": "[numeral][unit] [outcome noun phrase]",
+     "bounds": {
+      "n": 4,
+      "mean": 5.5,
+      "median": 5.5,
+      "min": 5,
+      "max": 6
+     },
+     "examples": [
+      "2.6x increase in referral-to-admit win rate",
+      "$900K in annual savings unlocked"
+     ]
+    },
+    "quote": {
+     "formula": "25-40 words, first person plural, at least one concrete detail (a facility name, a daily volume, a duration)",
+     "examples": [
+      "I'm helping our Hinsdale building, and we'll get 40, maybe 50 referrals a day. Having exacare ai just smooths our referral process out so much and makes it 20 times easier. I truly couldn't be happier with the switch.",
+      "What used to be highly manual, fragmented workflows are now streamlined and data-driven, allowing our teams across over 30 facilities to move faster, make more confident decisions, and capture opportunities we would have otherwise missed.",
+      "When we remove the barriers and give time back to our teams, that time becomes what matters most: better care, stronger connections, and lives changed."
+     ]
+    },
+    "attribution": {
+     "formula": "[Full Name], [Exact Title] at [Company]",
+     "rule": "never anonymise, never abbreviate the title",
+     "examples": [
+      "Jessica Dikun, Regional Director of Admissions at Pearl Healthcare",
+      "Tim Fields, CEO at Ignite Medical Resorts",
+      "Austin Steele, Chief Strategy Officer at Journey",
+      "Gary Blake, President and CEO of Creative Solutions in Healthcare"
+     ]
+    }
+   },
+   "what_quotes_praise": {
+    "time_speed_returned": 5,
+    "money_named_figure": 4,
+    "census_volume": 3,
+    "partnership_and_culture": 3,
+    "ratio_rule": "about 4 outcome quotes to 1 relationship quote"
+   },
+   "template": "H3: [number + outcome]\nQuote: 25-40w with one concrete detail\nAttrib: [Full Name], [Exact Title] at [Company]"
+  },
+  "FoundersNote": {
+   "structure": [
+    {
+     "element": "H2",
+     "formula": "Why we built [the thing]",
+     "example": "Why we built the Summit",
+     "bounds": {
+      "n": 1,
+      "mean": 5,
+      "median": 5,
+      "min": 5,
+      "max": 5
+     }
+    },
+    {
+     "element": "H3 byline",
+     "formula": "A note from the [company] founders",
+     "bounds": {
+      "n": 1,
+      "mean": 7,
+      "median": 7,
+      "min": 7,
+      "max": 7
+     }
+    },
+    {
+     "element": "para 1",
+     "job": "the shared irritation",
+     "words": 27,
+     "example": "Two years ago, every vendor in skilled nursing started making the same promise: AI would transform your operations, workflows would run themselves and everything would be agentic."
+    },
+    {
+     "element": "para 2",
+     "job": "concede what is true, then indict the category's language",
+     "words": 63,
+     "example": "The promise is true. Software used to record your work. Now it can do the work... But when every company uses the same words, they stop meaning anything."
+    },
+    {
+     "element": "para 3",
+     "job": "what we did about it",
+     "words": 54,
+     "example": "That's why we built this Summit around the real agentic standard."
+    },
+    {
+     "element": "para 4",
+     "job": "hold ourselves to the same bar, then invite",
+     "words": 32,
+     "example": "And we mean the standard part too. It's a bar for the whole industry to hold vendors to, including us. We hope you'll come see for yourself."
+    },
+    {
+     "element": "sign-off",
+     "formula": "[Name] / [Name] - names only, no titles, no signature image"
+    }
+   ],
+   "paragraph_bounds": {
+    "n": 4,
+    "mean": 44,
+    "median": 43.0,
+    "min": 27,
+    "max": 63
+   },
+   "rhetorical_engine": "concede the category's claim -> indict the category's language -> take on the cost yourself ('including us')",
+   "template": "H2: Why we built [the thing]\nH3: A note from the [company] founders\n4 paragraphs of 27-63 words on the arc above\nSign: [Name] / [Name]"
+  },
+  "Faq": {
+   "fields": {
+    "headline": {
+     "formula": "FAQs | Frequently asked questions",
+     "bounds": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+     }
+    },
+    "question": {
+     "formula": "6-13 words, in the READER's voice, using our/we/my",
+     "bounds": {
+      "n": 6,
+      "mean": 10.7,
+      "median": 11.5,
+      "min": 6,
+      "max": 13
+     },
+     "examples": [
+      "Can exacare ai work with our skilled nursing facility's EHR and referral sources?",
+      "How long does it take to implement exacare ai?",
+      "How much does exacare ai cost?",
+      "Is exacare ai secure and compliant for skilled nursing data?"
+     ]
+    },
+    "answer": {
+     "formula": "40-95 words. Open with 'Yes.' or a flat declarative, then mechanism, then consequence.",
+     "word_bounds": {
+      "min": 36,
+      "max": 95
+     },
+     "examples": [
+      "Yes. exacare ai handles SNF patient data under HIPAA with audit-ready, timestamped records for your skilled nursing teams...",
+      "Pricing depends on the number of facilities and which capabilities you use (admissions, insurance verification, reimbursement). Single-facility plans and multi-facility agreements are available. Book a demo for a quote scoped to your operation."
+     ]
+    }
+   },
+   "objection_order": [
+    "speed",
+    "does it fit my size",
+    "does it fit my stack",
+    "is it safe",
+    "how long to value",
+    "what does it cost"
+   ],
+   "rule": "never dodge price: name the variables, then point at the one CTA",
+   "template": "H2: FAQs\nQ (6-13w, reader's voice)\nA (40-95w, verdict first)"
+  },
+  "Cta / CtaBackground (closing ask)": {
+   "CtaBackground": {
+    "fields": {
+     "eyebrow": {
+      "formula": "Trusted by [N]+ [narrowed reader noun] teams",
+      "bounds": {
+       "n": 8,
+       "mean": 5.4,
+       "median": 5.0,
+       "min": 5,
+       "max": 6
+      },
+      "examples": [
+       "Trusted by 2,000+ care teams",
+       "Trusted by 2,000+ admissions teams",
+       "Trusted by 2,000+ reimbursement teams",
+       "Trusted by 2,000+ hospice teams"
+      ],
+      "rule": "same number, noun narrowed per page - that narrowing is what makes a generic proof line feel specific"
+     },
+     "headline": {
+      "formula": "[Verb] [page noun] <[direction word]>",
+      "bounds": {
+       "n": 10,
+       "mean": 3.5,
+       "median": 3.0,
+       "min": 2,
+       "max": 8
+      },
+      "examples": [
+       "Move care forward",
+       "Move admissions forward",
+       "Move reimbursement forward",
+       "Move skilled nursing forward",
+       "Move home health forward",
+       "Move hospice forward",
+       "Move your team forward"
+      ],
+      "off_pattern": [
+       "See why we're the leading skilled nursing software",
+       "Join us"
+      ]
+     },
+     "cta": {
+      "formula": "[your one conversion CTA, identical site-wide]",
+      "bounds": {
+       "n": 10,
+       "mean": 3,
+       "median": 3.0,
+       "min": 3,
+       "max": 3
+      },
+      "examples": [
+       "Book a demo",
+       "See open roles"
+      ]
+     }
+    },
+    "instances": 10
+   },
+   "Cta_cards": {
+    "fields": {
+     "headline": {
+      "formula": "[3-4 word category label]",
+      "examples": [
+       "Skilled nursing products",
+       "Products for skilled nursing",
+       "Where we work"
+      ]
+     },
+     "card_link": {
+      "formula": "[Product name], 1-3 words",
+      "examples": [
+       "Admissions",
+       "Reimbursement",
+       "Admissions & Intake"
+      ]
+     },
+     "card_headline": {
+      "formula": "[Imperative benefit, 4-6 words]",
+      "examples": [
+       "Turn referrals into revenue",
+       "Strengthen reimbursement from the start",
+       "Make faster, defensible admission decisions"
+      ]
+     },
+     "card_body": {
+      "formula": "[One sentence, 17-27 words]",
+      "bounds": {
+       "n": 22,
+       "mean": 7.8,
+       "median": 5.0,
+       "min": 1,
+       "max": 27
+      },
+      "examples": [
+       "Apply facility-specific criteria automatically, verify insurance, and guide defensible admission decisions.",
+       "Analyze managed care contracts, justify higher acuity levels, and identify reimbursement opportunities before claims are submitted."
+      ]
+     }
+    }
+   },
+   "template": "eyebrow: Trusted by [N]+ [narrowed reader] teams\nH2: [Verb] [page noun] <[direction word]>\nCTA: [one conversion CTA]"
+  },
+  "Bento / IconCards / CardsGradient / CardsGrid / ItemsGrid": {
+   "shared_shape": "label + paragraph card grid; only the lengths differ",
+   "variants": {
+    "Bento": {
+     "used_on": [
+      "/reimbursement",
+      "/skilled-nursing-software"
+     ],
+     "label": "3-5w noun phrase",
+     "body": {
+      "n": 14,
+      "mean": 10.2,
+      "median": 8.5,
+      "min": 3,
+      "max": 23
+     },
+     "job": "differentiators"
+    },
+    "CardsGradient": {
+     "used_on": [
+      "/summit-2027"
+     ],
+     "label": {
+      "n": 4,
+      "mean": 7.2,
+      "median": 6.5,
+      "min": 5,
+      "max": 11
+     },
+     "body": {
+      "n": 5,
+      "mean": 23.8,
+      "median": 21,
+      "min": 15,
+      "max": 37
+     },
+     "job": "reasons to attend",
+     "device": "a 20-25w thesis sentence sits above the grid and does the persuading",
+     "thesis_example": "Every conference in skilled nursing has added an AI session. This is the only one where AI is the agenda."
+    },
+    "IconCards": {
+     "used_on": [
+      "/summit-2027"
+     ],
+     "label": {
+      "n": 3,
+      "mean": 3.7,
+      "median": 4,
+      "min": 2,
+      "max": 5
+     },
+     "body": {
+      "n": 4,
+      "mean": 20.2,
+      "median": 19.0,
+      "min": 13,
+      "max": 30
+     },
+     "job": "qualification - who this is for",
+     "label_examples": [
+      "C-suite executives",
+      "VPs of admissions and reimbursement",
+      "Regional and Director-level leaders"
+     ]
+    },
+    "CardsGrid": {
+     "used_on": [
+      "/careers"
+     ],
+     "label": "4-10w declarative sentence",
+     "body": {
+      "n": 14,
+      "mean": 15.4,
+      "median": 15.5,
+      "min": 4,
+      "max": 32
+     },
+     "job": "values",
+     "label_examples": [
+      "Only the best belong here",
+      "The world is moving fast. We move faster.",
+      "Radical candor, zero politics",
+      "We keep the patient downstream of every decision"
+     ]
+    },
+    "ItemsGrid": {
+     "used_on": [
+      "/careers"
+     ],
+     "label": "4-6w offer",
+     "body": {
+      "n": 8,
+      "mean": 16.2,
+      "median": 16.0,
+      "min": 4,
+      "max": 29
+     },
+     "job": "what you get",
+     "label_examples": [
+      "The best team you've ever worked with",
+      "Work that's visible and consequential",
+      "Ownership from day one",
+      "A place worth showing up to"
+     ]
+    }
+   },
+   "template": "Product-page card: [3-5w noun phrase] + [1 sentence, 10-23w]\nValues card: [4-10w declarative] + [1-2 sentences, 15-32w]\nAudience card: [2-5w role name] + [their stake, 13-30w]\nAbove a grid: one 20-25w thesis sentence the cards then evidence."
+  },
+  "SideBySide / List (about page)": {
+   "SideBySide": {
+    "headline": {
+     "n": 1,
+     "mean": 8,
+     "median": 8,
+     "min": 8,
+     "max": 8
+    },
+    "paragraph": {
+     "n": 3,
+     "mean": 25,
+     "median": 27,
+     "min": 16,
+     "max": 32
+    },
+    "arc": [
+     "the category was never built as a system",
+     "what that costs the people in it",
+     "we built [product] to fix that"
+    ],
+    "examples": [
+     "Built for a problem we saw up close",
+     "Post-acute care was never built to work as a system. It was built for isolated tasks, stitched together with tools that don't share context or coordinate action.",
+     "The issue was never commitment; it was coordination."
+    ]
+   },
+   "List": {
+    "headline": {
+     "n": 1,
+     "mean": 3,
+     "median": 3,
+     "min": 3,
+     "max": 3
+    },
+    "bullet": {
+     "n": 4,
+     "mean": 27,
+     "median": 26.0,
+     "min": 22,
+     "max": 34
+    },
+    "formula": "[Belief stated as a rule, 6-8 words] + [1-2 sentences of what it means, 15-28 words]",
+    "examples": [
+     "Operations should never be the bottleneck for care",
+     "Post-acute care deserves world-class technology",
+     "The best systems are built with the people using them",
+     "AI should be explainable, not a black box"
+    ]
+   }
+  },
+  "Long-form customer story": {
+   "h1": {
+    "formula": "How [Customer] [past-tense verb] [specific number/outcome] with [product]",
+    "bounds": {
+     "n": 5,
+     "mean": 14,
+     "min": 12,
+     "max": 16
+    },
+    "examples": [
+     "How Pearl Healthcare increased census by 43% in their second quarter with exacare ai",
+     "How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume"
+    ]
+   },
+   "dek": {
+    "formula": "By [changing X] with [product], [Customer] [result 1], [result 2], and [result 3].",
+    "words": "30-45"
+   },
+   "section_order": [
+    "Introduction",
+    "Key Results",
+    "The Customer",
+    "Customer Snapshot",
+    "The Stakeholders",
+    "The Challenge: [subtitle]",
+    "The Solution: [subtitle]",
+    "The Implementation: [subtitle]",
+    "The Impact",
+    "What's Next"
+   ],
+   "section_case": "Title Case (the only long-form Title Case on the site)",
+   "body_rhythm": "one paragraph of narration -> one pulled quote -> repeat",
+   "paragraph_bounds": {
+    "n": 189,
+    "mean": 37.7,
+    "median": 37,
+    "min": 1,
+    "max": 106
+   },
+   "quote_bounds": {
+    "n": 59,
+    "mean": 32.1,
+    "median": 32,
+    "min": 10,
+    "max": 57
+   },
+   "impact_heading_rule": "every impact heading names BOTH endpoints, not just the delta",
+   "impact_heading_examples": [
+    "Referral response time decreased by 80%, from 30 minutes to 6 minutes",
+    "Managed care processing time dropped 52%, from 22 minutes to 10 minutes",
+    "Acceptance rate grew from 52% to 60%",
+    "Hospital response times are down 90%+"
+   ],
+   "customer_snapshot_fields": [
+    "Customer Since",
+    "Size at implementation",
+    "Region",
+    "Industry",
+    "Products"
+   ],
+   "close": [
+    "What's Next",
+    "Share on LinkedIn",
+    "3 related stories",
+    "Move your team forward + Book a demo"
+   ]
+  }
+ },
+ "block_length_bounds_raw": {
+  "AgendaCards": {
+   "bullet": {
+    "n": 12,
+    "mean": 5,
+    "median": 5.0,
+    "min": 4,
+    "max": 7
+   },
+   "h2": {
+    "n": 1,
+    "mean": 4,
+    "median": 4,
+    "min": 4,
+    "max": 4
+   },
+   "h3": {
+    "n": 4,
+    "mean": 2,
+    "median": 2.0,
+    "min": 2,
+    "max": 2
+   },
+   "text": {
+    "n": 4,
+    "mean": 2,
+    "median": 2.0,
+    "min": 2,
+    "max": 2
+   }
+  },
+  "Bento": {
+   "h2": {
+    "n": 2,
+    "mean": 8,
+    "median": 8.0,
+    "min": 8,
+    "max": 8
+   },
+   "text": {
+    "n": 14,
+    "mean": 10.2,
+    "median": 8.5,
+    "min": 3,
+    "max": 23
+   }
+  },
+  "CardsGradient": {
+   "h2": {
+    "n": 1,
+    "mean": 5,
+    "median": 5,
+    "min": 5,
+    "max": 5
+   },
+   "h3": {
+    "n": 4,
+    "mean": 7.2,
+    "median": 6.5,
+    "min": 5,
+    "max": 11
+   },
+   "paragraph": {
+    "n": 5,
+    "mean": 23.8,
+    "median": 21,
+    "min": 15,
+    "max": 37
+   }
+  },
+  "CardsGrid": {
+   "h2": {
+    "n": 1,
+    "mean": 4,
+    "median": 4,
+    "min": 4,
+    "max": 4
+   },
+   "text": {
+    "n": 14,
+    "mean": 15.4,
+    "median": 15.5,
+    "min": 4,
+    "max": 32
+   }
+  },
+  "Compare": {
+   "bullet": {
+    "n": 48,
+    "mean": 8.9,
+    "median": 8.0,
+    "min": 5,
+    "max": 16
+   },
+   "h2": {
+    "n": 4,
+    "mean": 5.8,
+    "median": 5.0,
+    "min": 5,
+    "max": 8
+   },
+   "stat": {
+    "n": 9,
+    "mean": 4,
+    "median": 3,
+    "min": 3,
+    "max": 6
+   },
+   "text": {
+    "n": 56,
+    "mean": 8.1,
+    "median": 8.0,
+    "min": 3,
+    "max": 16
+   }
+  },
+  "ContactForm": {
+   "bullet": {
+    "n": 5,
+    "mean": 7.6,
+    "median": 5,
+    "min": 4,
+    "max": 17
+   },
+   "h1": {
+    "n": 2,
+    "mean": 5.5,
+    "median": 5.5,
+    "min": 5,
+    "max": 6
+   },
+   "quote": {
+    "n": 2,
+    "mean": 23.5,
+    "median": 23.5,
+    "min": 19,
+    "max": 28
+   },
+   "text": {
+    "n": 4,
+    "mean": 10,
+    "median": 7.0,
+    "min": 5,
+    "max": 21
+   }
+  },
+  "Cta": {
+   "cardLink": {
+    "n": 6,
+    "mean": 1.3,
+    "median": 1.0,
+    "min": 1,
+    "max": 3
+   },
+   "h2": {
+    "n": 3,
+    "mean": 3.3,
+    "median": 3,
+    "min": 3,
+    "max": 4
+   },
+   "text": {
+    "n": 22,
+    "mean": 7.8,
+    "median": 5.0,
+    "min": 1,
+    "max": 27
+   }
+  },
+  "CtaBackground": {
+   "cta": {
+    "n": 10,
+    "mean": 3,
+    "median": 3.0,
+    "min": 3,
+    "max": 3
+   },
+   "eyebrow": {
+    "n": 8,
+    "mean": 5.4,
+    "median": 5.0,
+    "min": 5,
+    "max": 6
+   },
+   "h2": {
+    "n": 10,
+    "mean": 3.5,
+    "median": 3.0,
+    "min": 2,
+    "max": 8
+   },
+   "text": {
+    "n": 2,
+    "mean": 23,
+    "median": 23.0,
+    "min": 23,
+    "max": 23
+   }
+  },
+  "Faq": {
+   "h2": {
+    "n": 1,
+    "mean": 1,
+    "median": 1,
+    "min": 1,
+    "max": 1
+   },
+   "h3": {
+    "n": 6,
+    "mean": 10.7,
+    "median": 11.5,
+    "min": 6,
+    "max": 13
+   }
+  },
+  "FeatureScroll": {
+   "h2": {
+    "n": 4,
+    "mean": 4.5,
+    "median": 4.0,
+    "min": 4,
+    "max": 6
+   },
+   "h3": {
+    "n": 15,
+    "mean": 4.2,
+    "median": 4,
+    "min": 2,
+    "max": 7
+   },
+   "text": {
+    "n": 15,
+    "mean": 16.9,
+    "median": 15,
+    "min": 7,
+    "max": 27
+   }
+  },
+  "FeatureStages": {
+   "h2": {
+    "n": 2,
+    "mean": 6,
+    "median": 6.0,
+    "min": 4,
+    "max": 8
+   },
+   "text": {
+    "n": 16,
+    "mean": 9.6,
+    "median": 8.0,
+    "min": 3,
+    "max": 20
+   }
+  },
+  "FeatureTabs": {
+   "cta": {
+    "n": 26,
+    "mean": 2.6,
+    "median": 2.0,
+    "min": 2,
+    "max": 5
+   },
+   "h2": {
+    "n": 6,
+    "mean": 4.7,
+    "median": 4.0,
+    "min": 4,
+    "max": 8
+   },
+   "h3": {
+    "n": 3,
+    "mean": 5,
+    "median": 5,
+    "min": 4,
+    "max": 6
+   },
+   "text": {
+    "n": 34,
+    "mean": 9.9,
+    "median": 8.0,
+    "min": 2,
+    "max": 31
+   }
+  },
+  "FeatureTimer": {
+   "cta": {
+    "n": 24,
+    "mean": 2.2,
+    "median": 2.0,
+    "min": 1,
+    "max": 4
+   },
+   "h2": {
+    "n": 4,
+    "mean": 2.8,
+    "median": 2.0,
+    "min": 2,
+    "max": 5
+   },
+   "text": {
+    "n": 4,
+    "mean": 19,
+    "median": 18.0,
+    "min": 17,
+    "max": 23
+   }
+  },
+  "FoundersNote": {
+   "h2": {
+    "n": 1,
+    "mean": 5,
+    "median": 5,
+    "min": 5,
+    "max": 5
+   },
+   "h3": {
+    "n": 1,
+    "mean": 7,
+    "median": 7,
+    "min": 7,
+    "max": 7
+   },
+   "paragraph": {
+    "n": 4,
+    "mean": 44,
+    "median": 43.0,
+    "min": 27,
+    "max": 63
+   },
+   "text": {
+    "n": 2,
+    "mean": 2,
+    "median": 2.0,
+    "min": 2,
+    "max": 2
+   }
+  },
+  "Headline": {
+   "cta": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "h2": {
+    "n": 1,
+    "mean": 24,
+    "median": 24,
+    "min": 24,
+    "max": 24
+   }
+  },
+  "Hero": {
+   "cta": {
+    "n": 2,
+    "mean": 3,
+    "median": 3.0,
+    "min": 3,
+    "max": 3
+   },
+   "eyebrow": {
+    "n": 1,
+    "mean": 5,
+    "median": 5,
+    "min": 5,
+    "max": 5
+   },
+   "h1": {
+    "n": 3,
+    "mean": 8.3,
+    "median": 7,
+    "min": 5,
+    "max": 13
+   },
+   "paragraph": {
+    "n": 3,
+    "mean": 20.3,
+    "median": 20,
+    "min": 19,
+    "max": 22
+   }
+  },
+  "HeroColumns": {
+   "cta": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "h1": {
+    "n": 1,
+    "mean": 6,
+    "median": 6,
+    "min": 6,
+    "max": 6
+   },
+   "paragraph": {
+    "n": 1,
+    "mean": 27,
+    "median": 27,
+    "min": 27,
+    "max": 27
+   }
+  },
+  "HeroFramed": {
+   "cta": {
+    "n": 3,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "h1": {
+    "n": 3,
+    "mean": 3.7,
+    "median": 4,
+    "min": 3,
+    "max": 4
+   },
+   "paragraph": {
+    "n": 3,
+    "mean": 18.7,
+    "median": 19,
+    "min": 18,
+    "max": 19
+   }
+  },
+  "HeroFullwidth": {
+   "cta": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "h1": {
+    "n": 2,
+    "mean": 4,
+    "median": 4.0,
+    "min": 3,
+    "max": 5
+   },
+   "paragraph": {
+    "n": 2,
+    "mean": 36.5,
+    "median": 36.5,
+    "min": 31,
+    "max": 42
+   }
+  },
+  "HeroSummit": {
+   "cta": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "paragraph": {
+    "n": 2,
+    "mean": 6.5,
+    "median": 6.5,
+    "min": 4,
+    "max": 9
+   }
+  },
+  "IconBlocks": {
+   "paragraph": {
+    "n": 3,
+    "mean": 4.7,
+    "median": 2,
+    "min": 1,
+    "max": 11
+   }
+  },
+  "IconCards": {
+   "h2": {
+    "n": 1,
+    "mean": 2,
+    "median": 2,
+    "min": 2,
+    "max": 2
+   },
+   "h3": {
+    "n": 3,
+    "mean": 3.7,
+    "median": 4,
+    "min": 2,
+    "max": 5
+   },
+   "paragraph": {
+    "n": 4,
+    "mean": 20.2,
+    "median": 19.0,
+    "min": 13,
+    "max": 30
+   }
+  },
+  "ItemsGrid": {
+   "h2": {
+    "n": 1,
+    "mean": 4,
+    "median": 4,
+    "min": 4,
+    "max": 4
+   },
+   "text": {
+    "n": 8,
+    "mean": 16.2,
+    "median": 16.0,
+    "min": 4,
+    "max": 29
+   }
+  },
+  "List": {
+   "bullet": {
+    "n": 4,
+    "mean": 27,
+    "median": 26.0,
+    "min": 22,
+    "max": 34
+   },
+   "h2": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   }
+  },
+  "LogosGrid": {
+   "h2": {
+    "n": 1,
+    "mean": 4,
+    "median": 4,
+    "min": 4,
+    "max": 4
+   },
+   "text": {
+    "n": 7,
+    "mean": 2.4,
+    "median": 2,
+    "min": 1,
+    "max": 5
+   }
+  },
+  "LogosTicker": {
+   "h2": {
+    "n": 2,
+    "mean": 5.5,
+    "median": 5.5,
+    "min": 5,
+    "max": 6
+   }
+  },
+  "Page": {
+   "cardLink": {
+    "n": 4,
+    "mean": 11.8,
+    "median": 11.5,
+    "min": 11,
+    "max": 13
+   },
+   "cta": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "h1": {
+    "n": 1,
+    "mean": 2,
+    "median": 2,
+    "min": 2,
+    "max": 2
+   },
+   "h2": {
+    "n": 2,
+    "mean": 3,
+    "median": 3.0,
+    "min": 2,
+    "max": 4
+   },
+   "h3": {
+    "n": 4,
+    "mean": 14.2,
+    "median": 14.5,
+    "min": 12,
+    "max": 16
+   },
+   "text": {
+    "n": 2,
+    "mean": 3.5,
+    "median": 3.5,
+    "min": 2,
+    "max": 5
+   }
+  },
+  "ScrollStages": {
+   "eyebrow": {
+    "n": 4,
+    "mean": 2,
+    "median": 2.0,
+    "min": 2,
+    "max": 2
+   },
+   "h2": {
+    "n": 4,
+    "mean": 3.5,
+    "median": 3.0,
+    "min": 3,
+    "max": 5
+   },
+   "text": {
+    "n": 34,
+    "mean": 10.1,
+    "median": 9.0,
+    "min": 2,
+    "max": 30
+   }
+  },
+  "SideBySide": {
+   "h2": {
+    "n": 1,
+    "mean": 8,
+    "median": 8,
+    "min": 8,
+    "max": 8
+   },
+   "paragraph": {
+    "n": 3,
+    "mean": 25,
+    "median": 27,
+    "min": 16,
+    "max": 32
+   }
+  },
+  "Stats": {
+   "stat": {
+    "n": 18,
+    "mean": 4.2,
+    "median": 4.0,
+    "min": 2,
+    "max": 9
+   }
+  },
+  "SummitDetails": {
+   "h2": {
+    "n": 1,
+    "mean": 2,
+    "median": 2,
+    "min": 2,
+    "max": 2
+   },
+   "h3": {
+    "n": 4,
+    "mean": 1.8,
+    "median": 1.5,
+    "min": 1,
+    "max": 3
+   },
+   "paragraph": {
+    "n": 4,
+    "mean": 16.8,
+    "median": 20.5,
+    "min": 3,
+    "max": 23
+   }
+  },
+  "SummitPricing": {
+   "cta": {
+    "n": 3,
+    "mean": 1,
+    "median": 1,
+    "min": 1,
+    "max": 1
+   },
+   "h2": {
+    "n": 1,
+    "mean": 8,
+    "median": 8,
+    "min": 8,
+    "max": 8
+   },
+   "h3": {
+    "n": 13,
+    "mean": 4.5,
+    "median": 4,
+    "min": 1,
+    "max": 8
+   },
+   "paragraph": {
+    "n": 7,
+    "mean": 2.9,
+    "median": 3,
+    "min": 1,
+    "max": 6
+   },
+   "text": {
+    "n": 1,
+    "mean": 2,
+    "median": 2,
+    "min": 2,
+    "max": 2
+   }
+  },
+  "Team": {
+   "cta": {
+    "n": 11,
+    "mean": 5,
+    "median": 5,
+    "min": 5,
+    "max": 5
+   },
+   "h2": {
+    "n": 2,
+    "mean": 2,
+    "median": 2.0,
+    "min": 2,
+    "max": 2
+   },
+   "paragraph": {
+    "n": 12,
+    "mean": 62,
+    "median": 51.0,
+    "min": 1,
+    "max": 149
+   },
+   "text": {
+    "n": 22,
+    "mean": 3.5,
+    "median": 2.5,
+    "min": 2,
+    "max": 9
+   }
+  },
+  "Testimonial": {
+   "cta": {
+    "n": 2,
+    "mean": 3,
+    "median": 3.0,
+    "min": 3,
+    "max": 3
+   },
+   "h2": {
+    "n": 2,
+    "mean": 4,
+    "median": 4.0,
+    "min": 4,
+    "max": 4
+   },
+   "quote": {
+    "n": 4,
+    "mean": 30.2,
+    "median": 30.5,
+    "min": 19,
+    "max": 41
+   },
+   "text": {
+    "n": 4,
+    "mean": 6,
+    "median": 6.0,
+    "min": 5,
+    "max": 7
+   }
+  },
+  "TestimonialsMediaCards": {
+   "cta": {
+    "n": 1,
+    "mean": 3,
+    "median": 3,
+    "min": 3,
+    "max": 3
+   },
+   "h2": {
+    "n": 1,
+    "mean": 5,
+    "median": 5,
+    "min": 5,
+    "max": 5
+   },
+   "quote": {
+    "n": 5,
+    "mean": 24,
+    "median": 25,
+    "min": 19,
+    "max": 26
+   },
+   "text": {
+    "n": 5,
+    "mean": 8,
+    "median": 7,
+    "min": 7,
+    "max": 10
+   }
+  },
+  "TestimonialsQuoteCards": {
+   "paragraph": {
+    "n": 5,
+    "mean": 30.4,
+    "median": 28,
+    "min": 27,
+    "max": 36
+   },
+   "text": {
+    "n": 5,
+    "mean": 6.2,
+    "median": 6,
+    "min": 3,
+    "max": 10
+   }
+  },
+  "TestimonialsTextCards": {
+   "cta": {
+    "n": 2,
+    "mean": 3,
+    "median": 3.0,
+    "min": 3,
+    "max": 3
+   },
+   "h2": {
+    "n": 1,
+    "mean": 8,
+    "median": 8,
+    "min": 8,
+    "max": 8
+   },
+   "h3": {
+    "n": 4,
+    "mean": 5.5,
+    "median": 5.5,
+    "min": 5,
+    "max": 6
+   },
+   "quote": {
+    "n": 4,
+    "mean": 37,
+    "median": 37.0,
+    "min": 35,
+    "max": 39
+   },
+   "text": {
+    "n": 4,
+    "mean": 8,
+    "median": 8.0,
+    "min": 7,
+    "max": 9
+   }
+  },
+  "TextImage": {
+   "cta": {
+    "n": 2,
+    "mean": 2,
+    "median": 2.0,
+    "min": 2,
+    "max": 2
+   },
+   "eyebrow": {
+    "n": 2,
+    "mean": 3.5,
+    "median": 3.5,
+    "min": 3,
+    "max": 4
+   },
+   "h2": {
+    "n": 2,
+    "mean": 5,
+    "median": 5.0,
+    "min": 5,
+    "max": 5
+   },
+   "paragraph": {
+    "n": 2,
+    "mean": 20.5,
+    "median": 20.5,
+    "min": 20,
+    "max": 21
+   }
+  }
+ },
+ "page_architecture": {
+  "macro_spine": [
+   "ATTENTION: Hero (+ eyebrow proof)",
+   "PROOF: LogosTicker or Stats (within one scroll, before the argument)",
+   "BENEFIT: FeatureScroll / FeatureStages / Bento (3-4 chunks)",
+   "MECHANISM: ScrollStages 'How it works' or FeatureTimer 'Core capabilities'",
+   "PROBLEM: Compare Before -> After",
+   "PROOF: Testimonial(s) with named operators",
+   "OBJECTION: FeatureTabs (fit) / LogosGrid (security) / Faq (price, time, size)",
+   "CTA: CtaBackground 'Move [noun] forward'"
+  ],
+  "pages": {
+   "index": [
+    {
+     "block": "Hero",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "Headline",
+     "theme": "light",
+     "job": "mechanism thesis in one sentence"
+    },
+    {
+     "block": "Cta",
+     "theme": "light",
+     "job": "route to the product that matches the reader's pain"
+    },
+    {
+     "block": "Stats",
+     "theme": "light",
+     "job": "proof (numeric)"
+    },
+    {
+     "block": "TestimonialsMediaCards",
+     "theme": "light",
+     "job": "proof (human, breadth)"
+    },
+    {
+     "block": "FeatureScroll",
+     "theme": "light",
+     "job": "benefit / objection (why not an incumbent)"
+    },
+    {
+     "block": "FeatureTabs",
+     "theme": "dark",
+     "job": "route + fit objection"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "platform": [
+    {
+     "block": "Hero",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "Cta",
+     "theme": "light",
+     "job": "route to the product that matches the reader's pain"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "FeatureStages",
+     "theme": "light",
+     "job": "mechanism as capability claims"
+    },
+    {
+     "block": "LogosTicker",
+     "theme": "light",
+     "job": "proof (named customers / integrations / investors)"
+    },
+    {
+     "block": "ScrollStages",
+     "theme": "dark",
+     "job": "mechanism (how it works, step by step)"
+    },
+    {
+     "block": "Testimonial",
+     "theme": "light",
+     "job": "proof (human, single anchor)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "FeatureTabs",
+     "theme": "light",
+     "job": "route + fit objection"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "LogosGrid",
+     "theme": "light",
+     "job": "objection: is it safe"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "admissions": [
+    {
+     "block": "HeroColumns",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "FeatureStages",
+     "theme": "light",
+     "job": "mechanism as capability claims"
+    },
+    {
+     "block": "Stats",
+     "theme": "light",
+     "job": "proof (numeric)"
+    },
+    {
+     "block": "ScrollStages",
+     "theme": "dark",
+     "job": "mechanism (how it works, step by step)"
+    },
+    {
+     "block": "TestimonialsTextCards",
+     "theme": "light",
+     "job": "proof (human, result-led)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "FeatureTabs",
+     "theme": "light",
+     "job": "route + fit objection"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "reimbursement": [
+    {
+     "block": "HeroFullwidth",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "Bento",
+     "theme": "light",
+     "job": "differentiators"
+    },
+    {
+     "block": "Stats",
+     "theme": "light",
+     "job": "proof (numeric)"
+    },
+    {
+     "block": "ScrollStages",
+     "theme": "dark",
+     "job": "mechanism (how it works, step by step)"
+    },
+    {
+     "block": "TestimonialsMediaCards",
+     "theme": "light",
+     "job": "proof (human, breadth)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "FeatureTabs",
+     "theme": "light",
+     "job": "route + fit objection"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "skilled_nursing_software": [
+    {
+     "block": "ContactForm",
+     "theme": "light",
+     "job": "attention + conversion (hero is the form)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "Stats",
+     "theme": "light",
+     "job": "proof (numeric)"
+    },
+    {
+     "block": "ScrollStages",
+     "theme": "dark",
+     "job": "mechanism (how it works, step by step)"
+    },
+    {
+     "block": "FeatureTimer",
+     "theme": "light",
+     "job": "feature depth (capability surface)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "Bento",
+     "theme": "light",
+     "job": "differentiators"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "TestimonialsTextCards",
+     "theme": "light",
+     "job": "proof (human, result-led)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "Compare",
+     "theme": "light",
+     "job": "problem + proof in one block"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "FeatureTabs",
+     "theme": "dark",
+     "job": "route + fit objection"
+    },
+    {
+     "block": "Faq",
+     "theme": "light",
+     "job": "objections named out loud"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "skilled_nursing": [
+    {
+     "block": "HeroFramed",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "LogosTicker",
+     "theme": "light",
+     "job": "proof (named customers / integrations / investors)"
+    },
+    {
+     "block": "FeatureScroll",
+     "theme": "light",
+     "job": "benefit / objection (why not an incumbent)"
+    },
+    {
+     "block": "FeatureTimer",
+     "theme": "dark",
+     "job": "feature depth (capability surface)"
+    },
+    {
+     "block": "Compare",
+     "theme": "light",
+     "job": "problem + proof in one block"
+    },
+    {
+     "block": "Testimonial",
+     "theme": "light",
+     "job": "proof (human, single anchor)"
+    },
+    {
+     "block": "Cta",
+     "theme": "light",
+     "job": "route to the product that matches the reader's pain"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "home_health": [
+    {
+     "block": "HeroFramed",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "LogosTicker",
+     "theme": "light",
+     "job": "proof (named customers / integrations / investors)"
+    },
+    {
+     "block": "FeatureScroll",
+     "theme": "light",
+     "job": "benefit / objection (why not an incumbent)"
+    },
+    {
+     "block": "FeatureTimer",
+     "theme": "dark",
+     "job": "feature depth (capability surface)"
+    },
+    {
+     "block": "Compare",
+     "theme": "light",
+     "job": "problem + proof in one block"
+    },
+    {
+     "block": "TextImage",
+     "theme": "dark",
+     "job": "cross-sell"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "hospice": [
+    {
+     "block": "HeroFramed",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "LogosTicker",
+     "theme": "light",
+     "job": "proof (named customers / integrations / investors)"
+    },
+    {
+     "block": "FeatureScroll",
+     "theme": "light",
+     "job": "benefit / objection (why not an incumbent)"
+    },
+    {
+     "block": "FeatureTimer",
+     "theme": "dark",
+     "job": "feature depth (capability surface)"
+    },
+    {
+     "block": "Compare",
+     "theme": "light",
+     "job": "problem + proof in one block"
+    },
+    {
+     "block": "TextImage",
+     "theme": "dark",
+     "job": "cross-sell"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "about_us": [
+    {
+     "block": "Hero",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "SideBySide",
+     "theme": "light",
+     "job": "origin story / credibility"
+    },
+    {
+     "block": "LogosTicker",
+     "theme": "light",
+     "job": "proof (named customers / integrations / investors)"
+    },
+    {
+     "block": "Testimonial",
+     "theme": "light",
+     "job": "proof (human, single anchor)"
+    },
+    {
+     "block": "List",
+     "theme": "light",
+     "job": "beliefs"
+    },
+    {
+     "block": "Team",
+     "theme": "dark",
+     "job": "credibility of the people"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    }
+   ],
+   "summit_2027": [
+    {
+     "block": "HeroSummit",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "TestimonialsQuoteCards",
+     "theme": "light",
+     "job": "proof (human, before any argument)"
+    },
+    {
+     "block": "FoundersNote",
+     "theme": "light",
+     "job": ""
+    },
+    {
+     "block": "Stats",
+     "theme": "light",
+     "job": "proof (numeric)"
+    },
+    {
+     "block": "CardsGradient",
+     "theme": "light",
+     "job": "reasons to attend"
+    },
+    {
+     "block": "IconCards",
+     "theme": "light",
+     "job": "qualification: who this is for"
+    },
+    {
+     "block": "SummitDetails",
+     "theme": "light",
+     "job": "logistics"
+    },
+    {
+     "block": "AgendaCards",
+     "theme": "light",
+     "job": "logistics"
+    },
+    {
+     "block": "SummitPricing",
+     "theme": "light",
+     "job": "price + FAQ"
+    }
+   ],
+   "careers": [
+    {
+     "block": "HeroFullwidth",
+     "theme": "light",
+     "job": "attention"
+    },
+    {
+     "block": "CardsGrid",
+     "theme": "dark",
+     "job": "values"
+    },
+    {
+     "block": "FeatureTabs",
+     "theme": "light",
+     "job": "route + fit objection"
+    },
+    {
+     "block": "Testimonial",
+     "theme": "light",
+     "job": "proof (human, single anchor)"
+    },
+    {
+     "block": "ItemsGrid",
+     "theme": "light",
+     "job": "what you get"
+    },
+    {
+     "block": "Cta",
+     "theme": "light",
+     "job": "route to the product that matches the reader's pain"
+    },
+    {
+     "block": "CtaBackground",
+     "theme": "light",
+     "job": "CTA"
+    },
+    {
+     "block": "Jobs",
+     "theme": "dark",
+     "job": "open roles"
+    },
+    {
+     "block": "Divider",
+     "theme": "dark",
+     "job": "media-only, no copy"
+    }
+   ],
+   "contact": [
+    {
+     "block": "ContactForm",
+     "theme": "light",
+     "job": "attention + conversion (hero is the form)"
+    },
+    {
+     "block": "Divider",
+     "theme": "light",
+     "job": "media-only, no copy"
+    },
+    {
+     "block": "IconBlocks",
+     "theme": "light",
+     "job": "contact details"
+    }
+   ],
+   "resources_customer_stories": [
+    {
+     "block": "Page",
+     "theme": "",
+     "job": "long-form article"
+    }
+   ]
+  },
+  "skeletons": {
+   "product_page": {
+    "source_pages": [
+     "/admissions",
+     "/reimbursement",
+     "/platform"
+    ],
+    "ordered": [
+     {
+      "block": "Hero",
+      "job": "attention",
+      "copy": "eyebrow (optional) + H1 3-6w + subhead 18-27w + ONE cta"
+     },
+     {
+      "block": "FeatureStages | Bento | FeatureScroll",
+      "job": "problem -> benefit reframe",
+      "copy": "H2 as 2 parallel fragments + 3-4 x (label 3-5w + 1 sentence 14-21w)"
+     },
+     {
+      "block": "Stats",
+      "job": "proof (numeric)",
+      "copy": "3-4 x value + 2-9w label"
+     },
+     {
+      "block": "ScrollStages",
+      "job": "mechanism",
+      "copy": "'How it works' + 4-5 x (imperative step + 1 sentence)"
+     },
+     {
+      "block": "TestimonialsTextCards | TestimonialsMediaCards",
+      "job": "proof (human)",
+      "copy": "result headline + 25-40w quote + full attribution"
+     },
+     {
+      "block": "FeatureTabs",
+      "job": "route + fit objection",
+      "copy": "'Across the [scope noun]' + 3 tabs + Learn more"
+     },
+     {
+      "block": "CtaBackground",
+      "job": "CTA",
+      "copy": "eyebrow + 'Move [page noun] forward' + one conversion CTA"
+     }
+    ],
+    "optional": [
+     {
+      "block": "LogosGrid",
+      "position": "second to last",
+      "job": "security objection"
+     },
+     {
+      "block": "Faq",
+      "position": "before the closing CTA",
+      "job": "name the six objections out loud"
+     }
+    ]
+   },
+   "segment_page": {
+    "source_pages": [
+     "/skilled-nursing",
+     "/home-health",
+     "/hospice"
+    ],
+    "ordered": [
+     {
+      "block": "HeroFramed",
+      "job": "attention",
+      "copy": "H1 'Smarter [segment] operations' (3-4w) + subhead 18-19w + ONE cta"
+     },
+     {
+      "block": "LogosTicker",
+      "job": "proof before argument",
+      "copy": "12-16 named customers, NO headline, NO caption"
+     },
+     {
+      "block": "FeatureScroll",
+      "job": "benefit",
+      "copy": "H2 2 fragments + 3-4 x (headline 3-7w + 1 sentence 14-27w)"
+     },
+     {
+      "block": "FeatureTimer",
+      "job": "mechanism / capability surface",
+      "copy": "'Core capabilities' + 4-7 tabs x (product noun + 1 sentence 17-23w)"
+     },
+     {
+      "block": "Compare",
+      "job": "problem + proof",
+      "copy": "'The difference [product] makes' + 6 mirrored pairs + 2 After-only rows + 3 appended stats"
+     },
+     {
+      "block": "Testimonial | TextImage",
+      "job": "proof / cross-sell",
+      "copy": "quote, or eyebrow 'Products for [segment]' + H2 5w + 20w body + 'Explore [Product]'"
+     },
+     {
+      "block": "Cta (cards)",
+      "job": "route",
+      "copy": "optional; 'Products for [segment]' + 2 product cards",
+      "optional": true
+     },
+     {
+      "block": "CtaBackground",
+      "job": "CTA",
+      "copy": "eyebrow 'Trusted by [N]+ [segment] teams' + 'Move [segment] forward' + one conversion CTA"
+     }
+    ]
+   },
+   "home_page": [
+    "Hero",
+    "Headline (manifesto)",
+    "Cta (product cards)",
+    "Stats",
+    "TestimonialsMediaCards",
+    "FeatureScroll",
+    "FeatureTabs",
+    "CtaBackground"
+   ],
+   "seo_demand_capture_page": [
+    "ContactForm (hero IS the form)",
+    "Stats",
+    "ScrollStages",
+    "FeatureTimer",
+    "Bento",
+    "TestimonialsTextCards",
+    "Compare",
+    "FeatureTabs (by ROLE not segment)",
+    "Faq",
+    "CtaBackground"
+   ],
+   "about_page": [
+    "Hero",
+    "SideBySide (origin, 3 paragraphs)",
+    "LogosTicker (investors)",
+    "Testimonial (CEO)",
+    "List (beliefs)",
+    "Team",
+    "CtaBackground (recruiting)"
+   ],
+   "event_page": [
+    "HeroSummit",
+    "TestimonialsQuoteCards (proof FIRST)",
+    "FoundersNote",
+    "Stats",
+    "CardsGradient",
+    "IconCards",
+    "SummitDetails",
+    "AgendaCards",
+    "SummitPricing + FAQ"
+   ],
+   "customer_story": [
+    "Hero + breadcrumb + H1 + 3 stats + sticky ToC",
+    "Dek",
+    "Introduction",
+    "Key Results",
+    "The Customer",
+    "Customer Snapshot",
+    "The Stakeholders",
+    "The Challenge",
+    "The Solution",
+    "The Implementation",
+    "The Impact (one heading per result)",
+    "What's Next",
+    "Share",
+    "Related stories",
+    "Move your team forward"
+   ]
+  }
+ },
+ "proof_mechanics": {
+  "placement": {
+   "trust_eyebrow": "above the H1 on home, and above the H2 in every closing CTA - proof arrives before the first claim",
+   "customer_logos": "block 2 on every segment page, before any argument, with NO headline",
+   "integration_logos": "mid-page on /platform under a capability claim ('The most connected platform in admissions')",
+   "investor_logos": "/about-us, after the origin story",
+   "stats": "block 3-4, right after the hero or first benefit grid",
+   "quotes": "mid-page, after the mechanism",
+   "compliance": "SECOND TO LAST block on /platform - treated as an objection, not a feature",
+   "advisory_board": "/about-us only - 9 named operators with real titles",
+   "awards": "almost absent; exactly one ('Forbes 30 Under 30') inside a founder bio"
+  },
+  "named_customers": [
+   "Ignite Medical Resorts",
+   "Pearl Healthcare",
+   "Creative Solutions in Healthcare",
+   "Journey",
+   "Exceptional Living Centers",
+   "St. Croix County",
+   "Majestic Care",
+   "Sweetwater Care",
+   "August Healthcare",
+   "NHCA",
+   "Alden",
+   "Green Tree Healthcare",
+   "Avante",
+   "Benedictine",
+   "ClearView Healthcare Management",
+   "Dialyze Direct",
+   "Eden Senior Care",
+   "Evergreen Healthcare Group",
+   "Monarch Healthcare Management",
+   "PACS",
+   "Prestige Healthcare Administrative Services"
+  ],
+  "named_integrations": [
+   "Aidin",
+   "eFax",
+   "Epic",
+   "Inovalon",
+   "MatrixCare",
+   "PointClickCare",
+   "Episodic",
+   "WellSky",
+   "Aida"
+  ],
+  "investors": [
+   "Foundation Capital",
+   "Insight Partners",
+   "Bienville Capital"
+  ],
+  "compliance_badges": [
+   "HIPAA-compliant",
+   "Annual assessments, training, and BAAs",
+   "Encryption",
+   "Tenant isolation",
+   "Per-client data segregation",
+   "SOC 2 Type II",
+   "Insurance"
+  ],
+  "specificity_budget": {
+   "spent_on": [
+    "named people with exact titles",
+    "named facilities and daily volumes inside quotes",
+    "named third-party systems",
+    "named units of pain (200-300 page packets, 20 systems, 24-48 hours, 60-90 minutes)"
+   ],
+   "never_spent_on": [
+    "model names",
+    "architecture",
+    "benchmark tables",
+    "product internals"
+   ],
+   "rule": "For every claim, attach a name, a number, a named system, or a duration - or cut the claim rather than hedging it."
+  }
+ },
+ "persuasion_arc": {
+  "five_moves": [
+   {
+    "move": "problem",
+    "claim": "the industry was never built as a system",
+    "evidence": "Post-acute care was never built to work as a system. It was built for isolated tasks, stitched together with tools that don't share context or coordinate action."
+   },
+   {
+    "move": "cost",
+    "claim": "fragmentation shows up as time, and time shows up as lost admissions",
+    "evidence": "Referral packets are reviewed under time pressure, key details missed",
+    "unspoken_middle_term": "hospitals place patients with whoever answers first - stated only once, in the FAQ"
+   },
+   {
+    "move": "mechanism",
+    "claim": "read the whole packet in context, in minutes, and act on it",
+    "evidence": "exacare ai reads full referral packets in context, identifying clinical signals and risks that keyword-based tools miss."
+   },
+   {
+    "move": "outcome",
+    "claim": "speed becomes census becomes money, and staff get time back",
+    "evidence": [
+     "7 min",
+     "15% increase in admissions",
+     "$380K+ per facility",
+     "34 hrs saved for care staff each week"
+    ]
+   },
+   {
+    "move": "meaning",
+    "claim": "the point of all of it is care, not software",
+    "evidence": "We help with the heavy lifting, so your teams can focus on care"
+   }
+  ],
+  "closing_rule": "every page ends one level above the product - the last emotional beat is the mission, not ROI",
+  "objections_preempted": [
+   {
+    "objection": "AI just keyword-matches",
+    "answered_by": "FeatureScroll / Bento",
+    "copy": "Context beyond keywords / not just scanning for keywords / 99% accuracy"
+   },
+   {
+    "objection": "it won't connect to my stack",
+    "answered_by": "LogosTicker + Bento + FAQ",
+    "copy": "No rip-and-replace and no engineering lift on your side"
+   },
+   {
+    "objection": "is it safe with PHI",
+    "answered_by": "LogosGrid (second to last) + FAQ",
+    "copy": "HIPAA, SOC 2 Type II, tenant isolation, audit-ready timestamped records"
+   },
+   {
+    "objection": "AI is a black box / I can't defend the decision",
+    "answered_by": "beliefs + feature copy",
+    "copy": "AI should be explainable, not a black box. We show our work... so teams can act with confidence and defend every decision.",
+    "signature_word": "defensible (used 5x)"
+   },
+   {
+    "objection": "too small / too big for us",
+    "answered_by": "FAQ",
+    "copy": "single-facility operators through enterprise organizations running 150+ buildings"
+   },
+   {
+    "objection": "implementation will eat my year",
+    "answered_by": "FAQ + story headings",
+    "copy": "160 skilled nursing facilities and 3,000+ users live within 48 hours"
+   },
+   {
+    "objection": "what does it cost",
+    "answered_by": "FAQ",
+    "copy": "Pricing depends on the number of facilities and which capabilities you use... Book a demo for a quote scoped to your operation."
+   },
+   {
+    "objection": "will my staff actually use it",
+    "answered_by": "support claim",
+    "copy": "Reach an in-house, on-shore, live member of our support team in less than five minutes"
+   }
+  ],
+  "cta_escalation": {
+   "pattern": [
+    "Hero: Book a demo (high intent, offered once, immediately)",
+    "Mid-page: Explore the platform / Learn more / View customer stories (low-cost reads)",
+    "Closing: Book a demo again, now with proof behind it"
+   ],
+   "urgency": "none on product pages; the only scarcity is on the event page and is framed as quality control ('Attendance is capped and registration is approved, not automatic')",
+   "destination_counts": {
+    "/contact": 16,
+    "/resources/customer-stories": 5,
+    "/skilled-nursing": 3,
+    "/home-health": 3,
+    "/hospice": 2,
+    "/admissions": 2,
+    "/careers#open-roles": 2,
+    "/platform": 1,
+    "#pricing": 1
+   }
+  },
+  "home_vs_product_page": {
+   "h1_posture": {
+    "home": "category claim",
+    "product": "outcome promise"
+   },
+   "proof_timing": {
+    "home": "eyebrow ABOVE the H1",
+    "product": "deferred to block 3; hero carries no eyebrow"
+   },
+   "manifesto": {
+    "home": "yes - a 24-word Headline block, the only one on the site",
+    "product": "none"
+   },
+   "mechanism": {
+    "home": "one 4-item differentiator grid",
+    "product": "full 4-5 step ScrollStages walkthrough"
+   },
+   "quotes": {
+    "home": "3 short (24w avg), breadth of names",
+    "product": "2 long (37w avg), each headed by a number"
+   },
+   "jargon_density": {
+    "home": "low (PDPM appears 0x)",
+    "product": "high (PDPM, SNF days, acuity, denials)"
+   },
+   "rule": "the home page sells the category and the feeling; the product page sells the workflow and the number"
+  }
+ },
+ "headline_library": {
+  "types": {
+   "category_claim": "state what kind of thing you are",
+   "outcome_promise": "state the transformation",
+   "comparative_state": "the same line re-pointed per segment",
+   "contrast_parallel_fragments": "2-3 comparative fragments, the only headlines that take periods",
+   "mechanism": "how the work actually gets done",
+   "mechanism_manifesto": "the single thesis sentence of the whole site",
+   "empathy_problem": "name the reader's felt state",
+   "identity": "who we are / what we believe",
+   "proof": "a claim the block below evidences",
+   "routing_scope": "send the reader somewhere",
+   "closing": "the repeated CTA headline",
+   "imperative_benefit": "reader is the actor",
+   "differentiator_noun_phrase": "product is the actor",
+   "workflow_step_imperative": "one step of the loop",
+   "result_headline_number_first": "the outcome, as a heading, with the quote as evidence",
+   "value_statement": "a belief stated as a rule",
+   "audience_label": "who this is for",
+   "reason_to_attend": "event-specific benefit",
+   "story_result_headline": "How [Customer] [verb-ed] [number] with [product]"
+  },
+  "h1": [
+   {
+    "text": "The AI platform for post-acute care operations",
+    "page": "index",
+    "block": "Hero",
+    "level": "h1",
+    "words": 7,
+    "type": "category_claim",
+    "italic": null
+   },
+   {
+    "text": "Intelligent infrastructure for post-acute care",
+    "page": "platform",
+    "block": "Hero",
+    "level": "h1",
+    "words": 5,
+    "type": "category_claim",
+    "italic": null
+   },
+   {
+    "text": "From referral to decision in minutes",
+    "page": "admissions",
+    "block": "HeroColumns",
+    "level": "h1",
+    "words": 6,
+    "type": "outcome_promise",
+    "italic": null
+   },
+   {
+    "text": "Reimbursement clarity starts at admission",
+    "page": "reimbursement",
+    "block": "HeroFullwidth",
+    "level": "h1",
+    "words": 5,
+    "type": "outcome_promise",
+    "italic": null
+   },
+   {
+    "text": "The leading skilled nursing admissions software",
+    "page": "skilled_nursing_software",
+    "block": "ContactForm",
+    "level": "h1",
+    "words": 6,
+    "type": "category_claim",
+    "italic": null
+   },
+   {
+    "text": "Smarter skilled nursing operations",
+    "page": "skilled_nursing",
+    "block": "HeroFramed",
+    "level": "h1",
+    "words": 4,
+    "type": "comparative_state",
+    "italic": null
+   },
+   {
+    "text": "Smarter home health operations",
+    "page": "home_health",
+    "block": "HeroFramed",
+    "level": "h1",
+    "words": 4,
+    "type": "comparative_state",
+    "italic": null
+   },
+   {
+    "text": "Smarter hospice operations",
+    "page": "hospice",
+    "block": "HeroFramed",
+    "level": "h1",
+    "words": 3,
+    "type": "comparative_state",
+    "italic": null
+   },
+   {
+    "text": "We help with the heavy lifting, so your teams can focus on care",
+    "page": "about_us",
+    "block": "Hero",
+    "level": "h1",
+    "words": 13,
+    "type": "empathy_identity",
+    "italic": null
+   },
+   {
+    "text": "Build with us",
+    "page": "careers",
+    "block": "HeroFullwidth",
+    "level": "h1",
+    "words": 3,
+    "type": "empathy_identity",
+    "italic": null
+   },
+   {
+    "text": "See exacare ai in action",
+    "page": "contact",
+    "block": "ContactForm",
+    "level": "h1",
+    "words": 5,
+    "type": "conversion",
+    "italic": null
+   },
+   {
+    "text": "Customer Stories",
+    "page": "resources_customer_stories",
+    "block": "Page",
+    "level": "h1",
+    "words": 2,
+    "type": "index_label",
+    "italic": null
+   },
+   {
+    "text": "How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume",
+    "page": "resources_customer_stories_creative_solutions_in_healthcare",
+    "block": "Page",
+    "level": "h1",
+    "words": 15,
+    "type": "story_result_headline",
+    "italic": null
+   },
+   {
+    "text": "How Exceptional Living Centers turned faster referral review into 32% more admissions",
+    "page": "resources_customer_stories_exceptional_living_centers",
+    "block": "Page",
+    "level": "h1",
+    "words": 12,
+    "type": "story_result_headline",
+    "italic": null
+   },
+   {
+    "text": "How St. Croix County scaled a careful admissions process with AI-supported referral review",
+    "page": "resources_customer_stories_st_croix_county",
+    "block": "Page",
+    "level": "h1",
+    "words": 13,
+    "type": "story_result_headline",
+    "italic": null
+   },
+   {
+    "text": "How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai",
+    "page": "resources_customer_stories_ignite_medical_resorts",
+    "block": "Page",
+    "level": "h1",
+    "words": 16,
+    "type": "story_result_headline",
+    "italic": null
+   },
+   {
+    "text": "How Pearl Healthcare increased census by 43% in their second quarter with exacare ai",
+    "page": "resources_customer_stories_pearl_healthcare",
+    "block": "Page",
+    "level": "h1",
+    "words": 14,
+    "type": "story_result_headline",
+    "italic": null
+   }
+  ],
+  "h2": [
+   {
+    "text": "Our platform connects the systems post-acute care teams rely on and applies AI to help them make faster, more confident admissions and reimbursement decisions.",
+    "page": "index",
+    "block": "Headline",
+    "level": "h2",
+    "words": 24,
+    "type": "mechanism_manifesto",
+    "italic": "connects"
+   },
+   {
+    "text": "Relief your teams can feel",
+    "page": "index",
+    "block": "TestimonialsMediaCards",
+    "level": "h2",
+    "words": 5,
+    "type": "empathy_problem",
+    "italic": null
+   },
+   {
+    "text": "Deeper context. Faster workflows. Better decisions.",
+    "page": "index",
+    "block": "FeatureScroll",
+    "level": "h2",
+    "words": 6,
+    "type": "contrast_parallel_fragments",
+    "italic": null
+   },
+   {
+    "text": "Across the care journey",
+    "page": "index",
+    "block": "FeatureTabs",
+    "level": "h2",
+    "words": 4,
+    "type": "routing_scope",
+    "italic": "journey"
+   },
+   {
+    "text": "Move care forward",
+    "page": "index",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 3,
+    "type": "closing",
+    "italic": "forward"
+   },
+   {
+    "text": "Skilled nursing products",
+    "page": "platform",
+    "block": "Cta",
+    "level": "h2",
+    "words": 3,
+    "type": "routing_scope",
+    "italic": null
+   },
+   {
+    "text": "More than intelligence, we help you take action",
+    "page": "platform",
+    "block": "FeatureStages",
+    "level": "h2",
+    "words": 8,
+    "type": "mechanism",
+    "italic": "action"
+   },
+   {
+    "text": "The most connected platform in admissions",
+    "page": "platform",
+    "block": "LogosTicker",
+    "level": "h2",
+    "words": 6,
+    "type": "proof",
+    "italic": null
+   },
+   {
+    "text": "How it works",
+    "page": "platform",
+    "block": "ScrollStages",
+    "level": "h2",
+    "words": 3,
+    "type": "mechanism",
+    "italic": null
+   },
+   {
+    "text": "Moving care forward, together",
+    "page": "platform",
+    "block": "Testimonial",
+    "level": "h2",
+    "words": 4,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Fully compliant, fully secure",
+    "page": "platform",
+    "block": "LogosGrid",
+    "level": "h2",
+    "words": 4,
+    "type": "proof",
+    "italic": null
+   },
+   {
+    "text": "Faster admits. Fewer suprises.",
+    "page": "admissions",
+    "block": "FeatureStages",
+    "level": "h2",
+    "words": 4,
+    "type": "contrast_parallel_fragments",
+    "italic": null
+   },
+   {
+    "text": "Move admissions forward",
+    "page": "admissions",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 3,
+    "type": "closing",
+    "italic": "forward"
+   },
+   {
+    "text": "Support the right acuity. Secure the right reimbursement.",
+    "page": "reimbursement",
+    "block": "Bento",
+    "level": "h2",
+    "words": 8,
+    "type": "contrast_parallel_fragments",
+    "italic": null
+   },
+   {
+    "text": "Move reimbursement forward",
+    "page": "reimbursement",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 3,
+    "type": "closing",
+    "italic": "forward"
+   },
+   {
+    "text": "How our admissions software works",
+    "page": "skilled_nursing_software",
+    "block": "ScrollStages",
+    "level": "h2",
+    "words": 5,
+    "type": "mechanism",
+    "italic": null
+   },
+   {
+    "text": "AI-powered skilled nursing facility software",
+    "page": "skilled_nursing_software",
+    "block": "FeatureTimer",
+    "level": "h2",
+    "words": 5,
+    "type": "mechanism",
+    "italic": null
+   },
+   {
+    "text": "How we're different from other skilled nursing software",
+    "page": "skilled_nursing_software",
+    "block": "Bento",
+    "level": "h2",
+    "words": 8,
+    "type": "section_label",
+    "italic": null
+   },
+   {
+    "text": "Proven skilled nursing software, with real admissions growth",
+    "page": "skilled_nursing_software",
+    "block": "TestimonialsTextCards",
+    "level": "h2",
+    "words": 8,
+    "type": "proof",
+    "italic": null
+   },
+   {
+    "text": "A better way to manage skilled nursing admissions",
+    "page": "skilled_nursing_software",
+    "block": "Compare",
+    "level": "h2",
+    "words": 8,
+    "type": "outcome_promise",
+    "italic": null
+   },
+   {
+    "text": "Skilled nursing software for your entire care team",
+    "page": "skilled_nursing_software",
+    "block": "FeatureTabs",
+    "level": "h2",
+    "words": 8,
+    "type": "routing_scope",
+    "italic": null
+   },
+   {
+    "text": "FAQs",
+    "page": "skilled_nursing_software",
+    "block": "Faq",
+    "level": "h2",
+    "words": 1,
+    "type": "utility",
+    "italic": null
+   },
+   {
+    "text": "See why we're the leading skilled nursing software",
+    "page": "skilled_nursing_software",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 8,
+    "type": "closing",
+    "italic": "leading"
+   },
+   {
+    "text": "Faster decisions. Stronger performance.",
+    "page": "skilled_nursing",
+    "block": "FeatureScroll",
+    "level": "h2",
+    "words": 4,
+    "type": "contrast_parallel_fragments",
+    "italic": null
+   },
+   {
+    "text": "Core capabilities",
+    "page": "skilled_nursing",
+    "block": "FeatureTimer",
+    "level": "h2",
+    "words": 2,
+    "type": "mechanism",
+    "italic": null
+   },
+   {
+    "text": "The difference exacare ai makes",
+    "page": "skilled_nursing",
+    "block": "Compare",
+    "level": "h2",
+    "words": 5,
+    "type": "empathy_problem",
+    "italic": null
+   },
+   {
+    "text": "Products for skilled nursing",
+    "page": "skilled_nursing",
+    "block": "Cta",
+    "level": "h2",
+    "words": 4,
+    "type": "routing_scope",
+    "italic": null
+   },
+   {
+    "text": "Move skilled nursing forward",
+    "page": "skilled_nursing",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 4,
+    "type": "closing",
+    "italic": "forward"
+   },
+   {
+    "text": "Make fast, defensible admission decisions",
+    "page": "home_health",
+    "block": "TextImage",
+    "level": "h2",
+    "words": 5,
+    "type": "outcome_promise",
+    "italic": null
+   },
+   {
+    "text": "Move home health forward",
+    "page": "home_health",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 4,
+    "type": "closing",
+    "italic": "forward"
+   },
+   {
+    "text": "Move hospice forward",
+    "page": "hospice",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 3,
+    "type": "closing",
+    "italic": "forward"
+   },
+   {
+    "text": "Built for a problem we saw up close",
+    "page": "about_us",
+    "block": "SideBySide",
+    "level": "h2",
+    "words": 8,
+    "type": "empathy_problem",
+    "italic": null
+   },
+   {
+    "text": "Backed by world class investors",
+    "page": "about_us",
+    "block": "LogosTicker",
+    "level": "h2",
+    "words": 5,
+    "type": "proof",
+    "italic": null
+   },
+   {
+    "text": "Things we believe",
+    "page": "about_us",
+    "block": "List",
+    "level": "h2",
+    "words": 3,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Our Team",
+    "page": "about_us",
+    "block": "Team",
+    "level": "h2",
+    "words": 2,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Advisory Board",
+    "page": "about_us",
+    "block": "Team",
+    "level": "h2",
+    "words": 2,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Join us",
+    "page": "about_us",
+    "block": "CtaBackground",
+    "level": "h2",
+    "words": 2,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Why we built the Summit",
+    "page": "summit_2027",
+    "block": "FoundersNote",
+    "level": "h2",
+    "words": 5,
+    "type": "event",
+    "italic": null
+   },
+   {
+    "text": "Why you should be there",
+    "page": "summit_2027",
+    "block": "CardsGradient",
+    "level": "h2",
+    "words": 5,
+    "type": "event",
+    "italic": null
+   },
+   {
+    "text": "Who attends",
+    "page": "summit_2027",
+    "block": "IconCards",
+    "level": "h2",
+    "words": 2,
+    "type": "event",
+    "italic": null
+   },
+   {
+    "text": "The details",
+    "page": "summit_2027",
+    "block": "SummitDetails",
+    "level": "h2",
+    "words": 2,
+    "type": "event",
+    "italic": null
+   },
+   {
+    "text": "Agenda at a glance",
+    "page": "summit_2027",
+    "block": "AgendaCards",
+    "level": "h2",
+    "words": 4,
+    "type": "event",
+    "italic": null
+   },
+   {
+    "text": "Save your spot for the exacare ai Summit",
+    "page": "summit_2027",
+    "block": "SummitPricing",
+    "level": "h2",
+    "words": 8,
+    "type": "event",
+    "italic": null
+   },
+   {
+    "text": "What we stand for",
+    "page": "careers",
+    "block": "CardsGrid",
+    "level": "h2",
+    "words": 4,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Life at exacare ai",
+    "page": "careers",
+    "block": "FeatureTabs",
+    "level": "h2",
+    "words": 4,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "What you'll get here",
+    "page": "careers",
+    "block": "ItemsGrid",
+    "level": "h2",
+    "words": 4,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "Where we work",
+    "page": "careers",
+    "block": "Cta",
+    "level": "h2",
+    "words": 3,
+    "type": "identity",
+    "italic": null
+   },
+   {
+    "text": "All posts",
+    "page": "resources_customer_stories",
+    "block": "Page",
+    "level": "h2",
+    "words": 2,
+    "type": "utility",
+    "italic": null
+   },
+   {
+    "text": "Move your team forward",
+    "page": "resources_customer_stories",
+    "block": "Page",
+    "level": "h2",
+    "words": 4,
+    "type": "closing",
+    "italic": "forward"
+   }
+  ],
+  "h3_feature_headlines": [
+   {
+    "text": "Say yes, faster",
+    "level": "h3",
+    "words": 3,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Admit right-fit patients",
+    "level": "h3",
+    "words": 3,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Identify risk early",
+    "level": "h3",
+    "words": 3,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Grow your census",
+    "level": "h3",
+    "words": 3,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Move at the speed hospitals expect",
+    "level": "h3",
+    "words": 6,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Standardize performance across buildings",
+    "level": "h3",
+    "words": 4,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Reduce preventable denials",
+    "level": "h3",
+    "words": 3,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Give teams time back for care",
+    "level": "h3",
+    "words": 6,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Respond quickly with full context",
+    "level": "h3",
+    "words": 5,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Address eligibility upfront",
+    "level": "h3",
+    "words": 3,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Improve consistency across branches",
+    "level": "h3",
+    "words": 4,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Smooth care transitions before they become problems",
+    "level": "h3",
+    "words": 7,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Accelerate admissions with confidence",
+    "level": "h3",
+    "words": 4,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Coordinate with clarity and speed",
+    "level": "h3",
+    "words": 5,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Support better hospice admissions and transitions",
+    "level": "h3",
+    "words": 6,
+    "type": "imperative_benefit"
+   },
+   {
+    "text": "Context beyond keywords",
+    "level": "h3",
+    "words": 3,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Deeper integrations",
+    "level": "h3",
+    "words": 2,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Deeper skilled nursing integrations",
+    "level": "h3",
+    "words": 4,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Intelligence that drives action",
+    "level": "h3",
+    "words": 4,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Real-time dedicated support",
+    "level": "h3",
+    "words": 3,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Trained on your organization",
+    "level": "h3",
+    "words": 4,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Purpose-built for post-acute care",
+    "level": "h3",
+    "words": 4,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Continuously learning & improving",
+    "level": "h3",
+    "words": 4,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "AI that does work for you",
+    "level": "h3",
+    "words": 6,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Prior authorization for SNFs",
+    "level": "h3",
+    "words": 4,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Streamlined authorization workflows",
+    "level": "h3",
+    "words": 3,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Clinically accurate classification",
+    "level": "h3",
+    "words": 3,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Enhanced care for better outcomes",
+    "level": "h3",
+    "words": 5,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "One place for every referral",
+    "level": "h3",
+    "words": 5,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Referral conversion insights",
+    "level": "h3",
+    "words": 3,
+    "type": "differentiator_noun_phrase"
+   },
+   {
+    "text": "Connect your systems",
+    "level": "h3",
+    "words": 3,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Analyze referrals with AI",
+    "level": "h3",
+    "words": 4,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Review insights and respond",
+    "level": "h3",
+    "words": 4,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Track performance and manage census",
+    "level": "h3",
+    "words": 5,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Centralize referrals",
+    "level": "h3",
+    "words": 2,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Analyze referral packets in minutes",
+    "level": "h3",
+    "words": 5,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Verify insurance and safety checks",
+    "level": "h3",
+    "words": 5,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Review and decide",
+    "level": "h3",
+    "words": 3,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Push data to your EHR",
+    "level": "h3",
+    "words": 5,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Extract clinical and insurance details",
+    "level": "h3",
+    "words": 5,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Estimate reimbursements early",
+    "level": "h3",
+    "words": 3,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Maximize what you're owed",
+    "level": "h3",
+    "words": 4,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "Stay ahead of every concurrent review",
+    "level": "h3",
+    "words": 6,
+    "type": "workflow_step_imperative"
+   },
+   {
+    "text": "2.6x increase in referral-to-admit win rate",
+    "level": "h3",
+    "words": 6,
+    "type": "result_headline_number_first"
+   },
+   {
+    "text": "$900K in annual savings unlocked",
+    "level": "h3",
+    "words": 5,
+    "type": "result_headline_number_first"
+   },
+   {
+    "text": "Only the best belong here",
+    "level": "h3",
+    "words": 5,
+    "type": "value_statement"
+   },
+   {
+    "text": "Raise the bar on ownership",
+    "level": "h3",
+    "words": 5,
+    "type": "value_statement"
+   },
+   {
+    "text": "The world is moving fast. We move faster.",
+    "level": "h3",
+    "words": 8,
+    "type": "value_statement"
+   },
+   {
+    "text": "Radical candor, zero politics",
+    "level": "h3",
+    "words": 4,
+    "type": "value_statement"
+   },
+   {
+    "text": "We work even harder to keep our partners than we did to earn them initially",
+    "level": "h3",
+    "words": 15,
+    "type": "value_statement"
+   },
+   {
+    "text": "We keep the patient downstream of every decision",
+    "level": "h3",
+    "words": 8,
+    "type": "value_statement"
+   },
+   {
+    "text": "Bring good vibes and win together",
+    "level": "h3",
+    "words": 6,
+    "type": "value_statement"
+   },
+   {
+    "text": "The best team you've ever worked with",
+    "level": "h3",
+    "words": 7,
+    "type": "value_statement"
+   },
+   {
+    "text": "Work that's visible and consequential",
+    "level": "h3",
+    "words": 5,
+    "type": "value_statement"
+   },
+   {
+    "text": "Ownership from day one",
+    "level": "h3",
+    "words": 4,
+    "type": "value_statement"
+   },
+   {
+    "text": "A place worth showing up to",
+    "level": "h3",
+    "words": 6,
+    "type": "value_statement"
+   },
+   {
+    "text": "C-suite executives",
+    "level": "h3",
+    "words": 2,
+    "type": "audience_label"
+   },
+   {
+    "text": "VPs of admissions and reimbursement",
+    "level": "h3",
+    "words": 5,
+    "type": "audience_label"
+   },
+   {
+    "text": "Regional and Director-level leaders",
+    "level": "h3",
+    "words": 4,
+    "type": "audience_label"
+   },
+   {
+    "text": "Product you haven't seen yet",
+    "level": "h3",
+    "words": 5,
+    "type": "reason_to_attend"
+   },
+   {
+    "text": "Conversations you can't have anywhere else",
+    "level": "h3",
+    "words": 6,
+    "type": "reason_to_attend"
+   },
+   {
+    "text": "Learn from the people building AI, and the people running it",
+    "level": "h3",
+    "words": 11,
+    "type": "reason_to_attend"
+   },
+   {
+    "text": "A room of your peers, by design",
+    "level": "h3",
+    "words": 7,
+    "type": "reason_to_attend"
+   }
+  ],
+  "counts_by_type": {
+   "category_claim": 3,
+   "outcome_promise": 4,
+   "comparative_state": 3,
+   "empathy_identity": 2,
+   "conversion": 1,
+   "index_label": 1,
+   "story_result_headline": 5,
+   "mechanism_manifesto": 1,
+   "empathy_problem": 3,
+   "contrast_parallel_fragments": 4,
+   "routing_scope": 4,
+   "closing": 8,
+   "mechanism": 5,
+   "proof": 4,
+   "identity": 9,
+   "section_label": 1,
+   "utility": 2,
+   "event": 6,
+   "imperative_benefit": 15,
+   "differentiator_noun_phrase": 15,
+   "workflow_step_imperative": 13,
+   "result_headline_number_first": 2,
+   "value_statement": 11,
+   "audience_label": 3,
+   "reason_to_attend": 4
+  }
+ },
+ "cta_library": {
+  "verbs_with_counts": {
+   "book": 15,
+   "learn": 9,
+   "view": 5,
+   "explore": 3,
+   "see": 2,
+   "save": 1
+  },
+  "rule": "six CTA verbs site-wide; the conversion CTA wording never changes (21 identical 'Book a demo')",
+  "labels": [
+   {
+    "label": "Book a demo",
+    "count": 21,
+    "hrefs": {
+     "/contact": 21
+    },
+    "class": "conversion"
+   },
+   {
+    "label": "Learn more",
+    "count": 9,
+    "hrefs": {
+     "/skilled-nursing": 3,
+     "/home-health": 3,
+     "/hospice": 2,
+     "/contact": 1
+    },
+    "class": "learn_more"
+   },
+   {
+    "label": "View customer stories",
+    "count": 5,
+    "hrefs": {
+     "/resources/customer-stories": 5
+    },
+    "class": "learn_more"
+   },
+   {
+    "label": "Share on LinkedIn",
+    "count": 5,
+    "hrefs": {
+     "—": 5
+    },
+    "class": "recruiting_or_social"
+   },
+   {
+    "label": "View all",
+    "count": 5,
+    "hrefs": {
+     "/resources/customer-stories": 5
+    },
+    "class": "learn_more"
+   },
+   {
+    "label": "For Skilled Nursing",
+    "count": 4,
+    "hrefs": {
+     "—": 4
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Pause automatic rotation",
+    "count": 4,
+    "hrefs": {
+     "—": 4
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Introduction",
+    "count": 4,
+    "hrefs": {
+     "#introduction": 4
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Customer",
+    "count": 4,
+    "hrefs": {
+     "#the-customer": 4
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Impact",
+    "count": 4,
+    "hrefs": {
+     "#the-impact": 4
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "For Home Health",
+    "count": 3,
+    "hrefs": {
+     "—": 3
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "For Hospice",
+    "count": 3,
+    "hrefs": {
+     "—": 3
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Admissions",
+    "count": 3,
+    "hrefs": {
+     "—": 3
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Insurance verification",
+    "count": 2,
+    "hrefs": {
+     "—": 2
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Prior authorization",
+    "count": 2,
+    "hrefs": {
+     "—": 2
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Bed board",
+    "count": 2,
+    "hrefs": {
+     "—": 2
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Data center",
+    "count": 2,
+    "hrefs": {
+     "—": 2
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Geography & payer fit",
+    "count": 2,
+    "hrefs": {
+     "—": 2
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "EHR integration",
+    "count": 2,
+    "hrefs": {
+     "—": 2
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Explore Admissions",
+    "count": 2,
+    "hrefs": {
+     "/admissions": 2
+    },
+    "class": "learn_more"
+   },
+   {
+    "label": "See open roles",
+    "count": 2,
+    "hrefs": {
+     "/careers#open-roles": 2
+    },
+    "class": "recruiting_or_social"
+   },
+   {
+    "label": "What's Next",
+    "count": 2,
+    "hrefs": {
+     "#what-s-next": 2
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "Key Results",
+    "count": 2,
+    "hrefs": {
+     "#key-results": 2
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "What’s Next",
+    "count": 2,
+    "hrefs": {
+     "#what-s-next": 2
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "Explore the platform",
+    "count": 1,
+    "hrefs": {
+     "/platform": 1
+    },
+    "class": "learn_more"
+   },
+   {
+    "label": "For Admissions Teams",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "For DONs & Clinical Teams",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "For Operations Leaders",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "For Managed Care Teams",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Concurrent reviews",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "eSign",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Hospice eligibility flagging",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Centralized documentation",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Eligibility check",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Show bio for Laird Russell",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Ben Willox",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Tim Fields",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Bernie McGuinness",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Chelsey Gheyara",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Ephram Ostreicher",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Auston Clanton",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Austin Steele",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Rick Hoffman",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Leila Jones",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Show bio for Tina Futrell",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "accessibility_label"
+   },
+   {
+    "label": "Save your spot",
+    "count": 1,
+    "hrefs": {
+     "#pricing": 1
+    },
+    "class": "conversion"
+   },
+   {
+    "label": "Standard",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Non-profit",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Register",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "conversion"
+   },
+   {
+    "label": "Company-wide offsites",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Town halls & events",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "Office life",
+    "count": 1,
+    "hrefs": {
+     "—": 1
+    },
+    "class": "tab_or_control_label"
+   },
+   {
+    "label": "The Challenge: A Fast-Growing Operator on a Fragmented Process",
+    "count": 1,
+    "hrefs": {
+     "#the-challenge-a-fast-growing-operator-on-a-fragmented-process": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Solution: One Platform for the Entire Admissions Process",
+    "count": 1,
+    "hrefs": {
+     "#the-solution-one-platform-for-the-entire-admissions-process": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Implementation: Full Portfolio in Just Two Days",
+    "count": 1,
+    "hrefs": {
+     "#the-implementation-full-portfolio-in-just-two-days": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Challenge: A Strong Intake Process With Too Much Manual Work",
+    "count": 1,
+    "hrefs": {
+     "#the-challenge-a-strong-intake-process-with-too-much-manual-work": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Solution: A Faster, More Centralized Referral Review Process",
+    "count": 1,
+    "hrefs": {
+     "#the-solution-a-faster-more-centralized-referral-review-process": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Implementation: Early Buy-In and Practical Team Adoption",
+    "count": 1,
+    "hrefs": {
+     "#the-implementation-early-buy-in-and-practical-team-adoption": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Challenge: Scaling a Careful Admissions Process Built Around Manual Review",
+    "count": 1,
+    "hrefs": {
+     "#the-challenge-scaling-a-careful-admissions-process-built-around-manual-review": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Solution: A Faster, Shared Admissions Workflow with exacare ai",
+    "count": 1,
+    "hrefs": {
+     "#the-solution-a-faster-shared-admissions-workflow-with-exacare-ai": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Implementation: A Practical Rollout Built Around the Existing Workflow",
+    "count": 1,
+    "hrefs": {
+     "#the-implementation-a-practical-rollout-built-around-the-existing-workflow": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Challenge: Scaling a High-Volume Model Across Markets",
+    "count": 1,
+    "hrefs": {
+     "#the-challenge-scaling-a-high-volume-model-across-markets": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Implementation: Five Buildings to Full Rollout in Two Weeks",
+    "count": 1,
+    "hrefs": {
+     "#the-implementation-five-buildings-to-full-rollout-in-two-weeks": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Customer: Pearl Healthcare",
+    "count": 1,
+    "hrefs": {
+     "#the-customer-pearl-healthcare": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Stakeholders",
+    "count": 1,
+    "hrefs": {
+     "#the-stakeholders": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Challenge: System Unreliability and Lack of Visibility",
+    "count": 1,
+    "hrefs": {
+     "#the-challenge-system-unreliability-and-lack-of-visibility": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Solution: A Centralized and Reliable Operating System",
+    "count": 1,
+    "hrefs": {
+     "#the-solution-a-centralized-and-reliable-operating-system": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Implementation",
+    "count": 1,
+    "hrefs": {
+     "#the-implementation": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "The Impact: Operational Consistency and Census Growth",
+    "count": 1,
+    "hrefs": {
+     "#the-impact-operational-consistency-and-census-growth": 1
+    },
+    "class": "in_page_toc"
+   },
+   {
+    "label": "What’s Next: Continued Growth and Reporting Improvements",
+    "count": 1,
+    "hrefs": {
+     "#what-s-next-continued-growth-and-reporting-improvements": 1
+    },
+    "class": "in_page_toc"
+   }
+  ],
+  "destination_counts_core_pages": {
+   "/contact": 16,
+   "/resources/customer-stories": 5,
+   "/skilled-nursing": 3,
+   "/home-health": 3,
+   "/hospice": 2,
+   "/admissions": 2,
+   "/careers#open-roles": 2,
+   "/platform": 1,
+   "#pricing": 1
+  },
+  "notes": [
+   "nearly half of all linked CTAs on the core pages point at the single conversion page",
+   "segment CTAs never name the segment ('Learn more', not 'Learn about hospice') because the tab already does",
+   "every tab/accordion control carries a real accessible label ('Pause automatic rotation', 'Show bio for [Name]')"
+  ]
+ },
+ "rewrite_worksheet": {
+  "step_0_vocabulary": {
+   "product_name_exact_casing": "",
+   "reader_noun_plural": "",
+   "unit_noun_per_segment": {
+    "segment_a": "",
+    "segment_b": "",
+    "segment_c": ""
+   },
+   "buyer_archetype_noun": "",
+   "downstream_beneficiary_noun": "",
+   "single_conversion_cta_2_3_words": "",
+   "direction_word_for_every_closing_headline": "",
+   "verb_kit_about_20": [],
+   "kill_list": [],
+   "four_proof_numbers": {
+    "speed": "",
+    "growth": "",
+    "money": "",
+    "scale": ""
+   }
+  },
+  "product_page": [
+   {
+    "block": "Hero",
+    "job": "attention",
+    "fields": {
+     "eyebrow": {
+      "formula": "Trusted by [N]+ [reader] teams",
+      "bounds": "5-6 words, no period",
+      "value": ""
+     },
+     "h1": {
+      "formula": "[Adjective] [category] for [market] | From [messy input] to [clean output] in [duration]",
+      "bounds": "3-6 words, sentence case, no period",
+      "value": ""
+     },
+     "subhead": {
+      "formula": "[Product] [verb]s [X], [verb]s [Y], and [verb]s [Z] so [your teams] can [outcome].",
+      "bounds": "ONE sentence, 18-27 words",
+      "value": ""
+     },
+     "cta": {
+      "formula": "[verb] [object]",
+      "bounds": "2-3 words, ONE button",
+      "value": ""
+     }
+    }
+   },
+   {
+    "block": "Benefit grid",
+    "job": "problem -> benefit",
+    "fields": {
+     "h2": {
+      "formula": "[Comparative] [noun]. [Comparative] [noun].",
+      "bounds": "4-8 words, periods ONLY here",
+      "value": ""
+     },
+     "cards": [
+      {
+       "label": {
+        "bounds": "3-5 words, imperative, no period",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-21 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "3-5 words, imperative, no period",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-21 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "3-5 words, imperative, no period",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-21 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "3-5 words, imperative, no period",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-21 words",
+        "value": ""
+       }
+      }
+     ]
+    }
+   },
+   {
+    "block": "Stats",
+    "job": "proof (numeric)",
+    "fields": {
+     "stats": [
+      {
+       "kind": "speed",
+       "value": "",
+       "label": {
+        "bounds": "2-9 word lowercase noun phrase",
+        "value": ""
+       }
+      },
+      {
+       "kind": "growth",
+       "value": "",
+       "label": {
+        "bounds": "2-9 word lowercase noun phrase",
+        "value": ""
+       }
+      },
+      {
+       "kind": "money",
+       "value": "",
+       "label": {
+        "bounds": "2-9 word lowercase noun phrase",
+        "value": ""
+       }
+      },
+      {
+       "kind": "scale or time returned",
+       "value": "",
+       "label": {
+        "bounds": "2-9 word lowercase noun phrase",
+        "value": ""
+       }
+      }
+     ]
+    }
+   },
+   {
+    "block": "How it works",
+    "job": "mechanism",
+    "fields": {
+     "h2": {
+      "formula": "How it works | How our [keyword] works",
+      "value": ""
+     },
+     "order_rule": "ingest -> analyse -> decide -> measure",
+     "steps": [
+      {
+       "label": {
+        "bounds": "2-6 words, imperative",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 10-30 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "2-6 words, imperative",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 10-30 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "2-6 words, imperative",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 10-30 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "2-6 words, imperative",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 10-30 words",
+        "value": ""
+       }
+      }
+     ]
+    }
+   },
+   {
+    "block": "Testimonials",
+    "job": "proof (human)",
+    "fields": {
+     "cards": [
+      {
+       "result_headline": {
+        "bounds": "5-6 words, number first",
+        "value": ""
+       },
+       "quote": {
+        "bounds": "25-40 words, one concrete detail",
+        "value": ""
+       },
+       "attribution": {
+        "formula": "[Full Name], [Exact Title] at [Company]",
+        "value": ""
+       }
+      },
+      {
+       "result_headline": {
+        "bounds": "5-6 words, number first",
+        "value": ""
+       },
+       "quote": {
+        "bounds": "25-40 words, one concrete detail",
+        "value": ""
+       },
+       "attribution": {
+        "formula": "[Full Name], [Exact Title] at [Company]",
+        "value": ""
+       }
+      }
+     ],
+     "cta": {
+      "value": "View customer stories"
+     }
+    }
+   },
+   {
+    "block": "Fit / segment tabs",
+    "job": "route + objection",
+    "fields": {
+     "h2": {
+      "formula": "Across the [scope noun]",
+      "bounds": "4-6 words",
+      "value": ""
+     },
+     "tabs": [
+      {
+       "label": {
+        "formula": "For [Segment]",
+        "case": "Title Case",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1-2 sentences, 10-31 words: [their constraint]. [what they get].",
+        "value": ""
+       },
+       "cta": "Learn more"
+      },
+      {
+       "label": {
+        "formula": "For [Segment]",
+        "case": "Title Case",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1-2 sentences, 10-31 words: [their constraint]. [what they get].",
+        "value": ""
+       },
+       "cta": "Learn more"
+      },
+      {
+       "label": {
+        "formula": "For [Segment]",
+        "case": "Title Case",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1-2 sentences, 10-31 words: [their constraint]. [what they get].",
+        "value": ""
+       },
+       "cta": "Learn more"
+      }
+     ]
+    }
+   },
+   {
+    "block": "Closing CTA",
+    "job": "CTA",
+    "fields": {
+     "eyebrow": {
+      "formula": "Trusted by [N]+ [narrowed reader] teams",
+      "value": ""
+     },
+     "h2": {
+      "formula": "[Verb] [page noun] <[direction word]>",
+      "bounds": "2-3 words, ONE italic",
+      "value": ""
+     },
+     "cta": {
+      "formula": "[your one conversion CTA]",
+      "value": ""
+     }
+    }
+   },
+   {
+    "block": "OPTIONAL: Security",
+    "position": "second to last",
+    "fields": {
+     "h2": {
+      "formula": "Fully [x], fully [y]",
+      "value": ""
+     },
+     "badges": []
+    }
+   },
+   {
+    "block": "OPTIONAL: FAQ",
+    "position": "before the closing CTA",
+    "fields": {
+     "questions": [
+      {
+       "objection": "speed",
+       "q": {
+        "bounds": "6-13 words, reader's voice",
+        "value": ""
+       },
+       "a": {
+        "bounds": "40-95 words, verdict first",
+        "value": ""
+       }
+      },
+      {
+       "objection": "size fit",
+       "q": {
+        "bounds": "6-13 words, reader's voice",
+        "value": ""
+       },
+       "a": {
+        "bounds": "40-95 words, verdict first",
+        "value": ""
+       }
+      },
+      {
+       "objection": "integrations",
+       "q": {
+        "bounds": "6-13 words, reader's voice",
+        "value": ""
+       },
+       "a": {
+        "bounds": "40-95 words, verdict first",
+        "value": ""
+       }
+      },
+      {
+       "objection": "security",
+       "q": {
+        "bounds": "6-13 words, reader's voice",
+        "value": ""
+       },
+       "a": {
+        "bounds": "40-95 words, verdict first",
+        "value": ""
+       }
+      },
+      {
+       "objection": "time to value",
+       "q": {
+        "bounds": "6-13 words, reader's voice",
+        "value": ""
+       },
+       "a": {
+        "bounds": "40-95 words, verdict first",
+        "value": ""
+       }
+      },
+      {
+       "objection": "price",
+       "q": {
+        "bounds": "6-13 words, reader's voice",
+        "value": ""
+       },
+       "a": {
+        "bounds": "40-95 words, verdict first",
+        "value": ""
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "segment_page": [
+   {
+    "block": "Hero (framed)",
+    "fields": {
+     "h1": {
+      "formula": "Smarter [segment] operations",
+      "bounds": "3-4 words",
+      "value": ""
+     },
+     "subhead": {
+      "formula": "Connect [A], [B], and [C] in one [adjective] workflow so [segment] teams can [outcome] and [outcome].",
+      "bounds": "ONE sentence, 18-19 words",
+      "value": ""
+     },
+     "cta": {
+      "value": ""
+     }
+    }
+   },
+   {
+    "block": "Logos",
+    "job": "proof before argument",
+    "fields": {
+     "customers": "12-16 named",
+     "headline": "NONE",
+     "caption": "NONE"
+    }
+   },
+   {
+    "block": "Benefits",
+    "fields": {
+     "h2": {
+      "formula": "[Comparative] [noun]. [Comparative] [noun].",
+      "value": ""
+     },
+     "cards": [
+      {
+       "label": {
+        "bounds": "3-7 words",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-27 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "3-7 words",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-27 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "3-7 words",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-27 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "3-7 words",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 14-27 words",
+        "value": ""
+       }
+      }
+     ]
+    }
+   },
+   {
+    "block": "Core capabilities",
+    "fields": {
+     "h2": {
+      "value": "Core capabilities"
+     },
+     "tabs": [
+      {
+       "label": {
+        "bounds": "1-4 words, product noun, no verb",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 17-23 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "1-4 words, product noun, no verb",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 17-23 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "1-4 words, product noun, no verb",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 17-23 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "1-4 words, product noun, no verb",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 17-23 words",
+        "value": ""
+       }
+      },
+      {
+       "label": {
+        "bounds": "1-4 words, product noun, no verb",
+        "value": ""
+       },
+       "body": {
+        "bounds": "1 sentence, 17-23 words",
+        "value": ""
+       }
+      }
+     ],
+     "device": "allow ONE specialist parenthetical to prove depth"
+    }
+   },
+   {
+    "block": "Before / After",
+    "fields": {
+     "h2": {
+      "formula": "The difference [product] makes",
+      "value": ""
+     },
+     "voice_rule": "Before = passive / system-blaming. After = the work as subject.",
+     "rows": [
+      {
+       "axis": "where the work lives",
+       "before": "",
+       "after": ""
+      },
+      {
+       "axis": "how people talk",
+       "before": "",
+       "after": ""
+      },
+      {
+       "axis": "depth vs speed of review",
+       "before": "",
+       "after": ""
+      },
+      {
+       "axis": "when the financial truth arrives",
+       "before": "",
+       "after": ""
+      },
+      {
+       "axis": "manual vs automatic",
+       "before": "",
+       "after": ""
+      },
+      {
+       "axis": "consistency",
+       "before": "",
+       "after": ""
+      },
+      {
+       "axis": "standardisation (After only)",
+       "before": null,
+       "after": ""
+      },
+      {
+       "axis": "leadership visibility (After only)",
+       "before": null,
+       "after": ""
+      }
+     ],
+     "appended_stats": [
+      "",
+      "",
+      ""
+     ]
+    }
+   },
+   {
+    "block": "Cross-sell",
+    "fields": {
+     "eyebrow": {
+      "formula": "Products for [segment]",
+      "bounds": "3-4 words",
+      "value": ""
+     },
+     "h2": {
+      "bounds": "5 words",
+      "value": ""
+     },
+     "body": {
+      "bounds": "1 sentence, 20-21 words",
+      "value": ""
+     },
+     "cta": {
+      "formula": "Explore [Product]",
+      "bounds": "2 words",
+      "value": ""
+     }
+    }
+   },
+   {
+    "block": "Closing CTA",
+    "fields": {
+     "eyebrow": {
+      "formula": "Trusted by [N]+ [segment] teams",
+      "value": ""
+     },
+     "h2": {
+      "formula": "[Verb] [segment] <[direction word]>",
+      "value": ""
+     },
+     "cta": {
+      "value": ""
+     }
+    }
+   }
+  ],
+  "voice_checklist": {
+   "length": [
+    "Every H1 <= 6 words; every section H2 <= 8 words",
+    "Every hero subhead is ONE sentence, 18-27 words",
+    "Every feature body is ONE sentence, 14-21 words",
+    "Every CTA is 2-3 words",
+    "Every quote is 25-40 words"
+   ],
+   "punctuation_and_case": [
+    "Zero exclamation marks in your own voice",
+    "Zero question marks outside the FAQ block",
+    "Headlines carry a period ONLY when they are 2-3 parallel fragments",
+    "Sentence case everywhere except tab labels and story section heads",
+    "Product name casing identical in 100% of instances"
+   ],
+   "voice": [
+    "Benefit sentences say 'your [teams]', never 'users' or 'customers'",
+    "'We' only in mechanism, belief and founder copy",
+    "'I' only inside quotation marks",
+    "The product name is the grammatical subject of at least one verb per page",
+    "Each segment page swaps the unit noun"
+   ],
+   "kill_list": [
+    "solution",
+    "leverage",
+    "seamless",
+    "robust",
+    "empower",
+    "unlock",
+    "transform",
+    "innovative",
+    "cutting-edge",
+    "revolutionary",
+    "game-changing",
+    "next-generation",
+    "turnkey",
+    "holistic",
+    "frictionless",
+    "best-in-class",
+    "world-class",
+    "supercharge",
+    "10x",
+    "artificial intelligence (spelled out)"
+   ],
+   "numbers": [
+    "All numerals, compact units, <=2 significant figures",
+    "'+' where the number is a floor; never '~' in your own voice",
+    "3-4 stats per page covering speed / growth / money / scale",
+    "No footnotes, no 'up to', no sources"
+   ],
+   "proof": [
+    "About 1 content block in 3 is a proof block",
+    "The reader meets proof before the second argument",
+    "Every quote has a full name, exact title and company",
+    "Every claim carries a name, a number, a named system or a duration - or it is cut",
+    "Security is second to last, framed as an objection"
+   ],
+   "structure": [
+    "The page ends one level above the product",
+    "One conversion CTA wording, site-wide, unchanged",
+    "No urgency language except a genuinely capped event",
+    "Exactly ONE italic word per page, on the word the sentence turns on",
+    "Closing headline is 2-3 words: [Verb] [page noun] <[direction word]>"
+   ]
+  },
+  "six_most_reusable_formulas": [
+   {
+    "name": "Hero subhead",
+    "template": "[Product] [verb]s [X], [verb]s [Y], and [verb]s [Z] so [your teams] can [outcome].",
+    "bounds": "1 sentence, 18-27 words"
+   },
+   {
+    "name": "Section headline",
+    "template": "[Comparative adj] [noun]. [Comparative adj] [noun].",
+    "bounds": "4-8 words, the only headlines that take periods"
+   },
+   {
+    "name": "Feature chunk",
+    "template": "[3-5 word imperative label] + [one sentence, 14-21 words: mechanism OR consequence]"
+   },
+   {
+    "name": "Stat",
+    "template": "[numeral][compact unit][+]  /  [2-9 word lowercase noun phrase]"
+   },
+   {
+    "name": "Result-led testimonial",
+    "template": "[number + outcome as H3] + \"[25-40 word quote with one concrete detail]\" + [Full Name], [Exact Title] at [Company]"
+   },
+   {
+    "name": "Closing CTA",
+    "template": "Trusted by [N]+ [narrowed reader] teams / [Verb] [page noun] <[direction word]> / [your one conversion CTA]"
+   }
+  ]
+ }
+}
