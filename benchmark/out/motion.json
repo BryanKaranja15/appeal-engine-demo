@@ -1,0 +1,675 @@
+{
+  "$meta": {
+    "source": "https://www.exacare.com",
+    "extractedAt": "2026-09-13",
+    "method": "static extraction from the shipped JS chunks and CSS; no headed browser run, so runtime-only values (actual scroll ranges measured in px, lazily-loaded block components) are marked `unresolved`.",
+    "chunksAnalysed": [
+      "/_next/static/chunks/9082-6d7c159d0d3f5fae.js  (216 KB — all marketing block components; 76 webpack modules)",
+      "/_next/static/chunks/5690-05ce009a5e33ad83.js  (407 KB — motion / framer-motion React renderer, projection, AnimatePresence)",
+      "/_next/static/chunks/302-c137a45cefe45c07.js   (363 KB — motion hooks + Radix + embla + react-fast-marquee + number-flow + motion-plus Cursor)",
+      "/_next/static/chunks/92d23bba-1f4db8d190cb53fb.js (654 KB — @lottiefiles/dotlottie-web wasm wrapper)",
+      "/_next/static/chunks/2579, /f7449459 (react-dom 19.2.0-canary), /4228 (sonner + gtag), /1279, /webpack, /app/(web)/layout"
+    ],
+    "unresolvedChunks": "The webpack manifest lists 53 additional lazy chunks (ids 346…9896) but every one returns 404 at /_next/static/chunks/<id>-<hash>.js, so a handful of block components (notably Bento) could not be read."
+  },
+
+  "libraries": [
+    {
+      "name": "motion (framer-motion)",
+      "confidence": "certain",
+      "version": "12.x — exact patch not emitted in the bundle. Internals present: `AcceleratedValue` / `accelerate` fast-path in useTransform, `visualElement`, `projection`, `framerAppearId`, `layoutId`, `MotionConfig`, `LayoutGroup`, `reducedMotion`, `restSpeed`/`restDelta`, easing names backOut/circInOut/anticipate. The `accelerate` transform path lands in motion ≥12.23, which is the tightest lower bound the bundle gives.",
+      "evidence": "chunk 5690 module 775 exports `P` (the `motion` proxy: `m.P.div`, `s.P.span`); chunk 5690 module 90095 exports `N` = AnimatePresence.",
+      "apisUsed": [
+        "motion.div / motion.span (module 775, imported as `.P`)",
+        "AnimatePresence (module 90095, imported as `.N`) — modes `wait` and `popLayout`",
+        "useScroll (module 54091, `.L`)",
+        "useTransform (module 84739, `.G`) — both the (value, input[], output[]) and the ([values], fn) forms",
+        "useMotionValue (module 50580, `.d`)",
+        "useSpring (module 41284, `.z`)",
+        "useMotionValueEvent (module 66543, `.L`)",
+        "useInView (module 21612, `.W`) — framer's own, amount 'some'=0 / 'all'=1",
+        "useReducedMotion (module 5501, `.I`)",
+        "animate() (module 97701, `.i`)",
+        "layout / layoutId shared-element animation",
+        "MotionConfig (module 54286, `.x`)"
+      ]
+    },
+    {
+      "name": "motion-plus (Motion+) — Cursor",
+      "confidence": "certain",
+      "version": "not emitted",
+      "evidence": "chunk 302 module 58050 exports `bs`; injects `[data-motion-cursor=\"pointer\"]` CSS and `* { cursor: none !important }`; sets `data-framer-portal-id:\"motion-cursor\"`.",
+      "usedBy": "the carousel 'Drag' cursor and the LogosTicker per-logo tooltip"
+    },
+    {
+      "name": "react-intersection-observer",
+      "confidence": "certain",
+      "version": "not emitted",
+      "evidence": "chunk 302 module 26304 exports `Wx` = useInView with the exact option set {threshold, delay, trackVisibility, rootMargin, root, triggerOnce, skip, initialInView, fallbackInView, onChange} and the shared-observer WeakMap pooling.",
+      "usedBy": "Stats, footer wordmark, Lottie player, video/image autoplay gating"
+    },
+    {
+      "name": "react-fast-marquee",
+      "confidence": "certain",
+      "version": "not emitted (class prefix `rfm-`, injects its own <style> at import time)",
+      "evidence": "chunk 302 module 3045; `.rfm-marquee-container`, `.rfm-overlay`, `.rfm-marquee`, `@keyframes scroll`.",
+      "usedBy": "LogosTicker"
+    },
+    {
+      "name": "embla-carousel-react",
+      "confidence": "certain",
+      "version": "not emitted",
+      "evidence": "chunk 302 module 81722 exports `A` = useEmblaCarousel; options object {loop, align, containScroll, startIndex, slidesToScroll, active}, events scroll/select/reInit/resize, `scrollProgress()`.",
+      "usedBy": "the shared Carousel component (TestimonialsQuoteCards and others)"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-web + @lottiefiles/dotlottie-react",
+      "confidence": "certain",
+      "version": "0.63.0",
+      "evidence": "chunk 92d23bba: `_=\"0.63.0\", f=\"@lottiefiles/dotlottie-web\"`, wasm fallback URL `https://unpkg.com/@lottiefiles/dotlottie-web@0.63.0/dist/dotlottie-player.wasm`, primary `https://cdn.jsdelivr.net/npm/...`. React wrapper component `a.GL` (DotLottieReact) used in chunk 9082 module 87800.",
+      "usedBy": "the `lottie` media type available to any block"
+    },
+    {
+      "name": "number-flow",
+      "confidence": "certain",
+      "version": "not emitted",
+      "evidence": "chunk 302 module 52093 — custom element with CSS.registerProperty of `--_number-flow-d-opacity/-dx/-d-width/-d`, `defaultProps.transformTiming/opacityTiming/spinTiming`, `linear()` easing string.",
+      "usedBy": "Stats counters"
+    },
+    {
+      "name": "Radix UI",
+      "confidence": "certain",
+      "version": "not emitted",
+      "evidence": "chunk 302: `@radix-ui` string, Popper/FocusScope/Toolbar/ToggleGroup/Menubar/Accordion primitives; `--radix-accordion-content-height` used by the FAQ keyframes.",
+      "usedBy": "FAQ accordion, SummitPricing toggle group, menubar/popper"
+    },
+    { "name": "sonner", "confidence": "certain", "version": "not emitted", "evidence": "chunk 4228 (119 hits)", "usedBy": "toasts" },
+    { "name": "zustand", "confidence": "high", "evidence": "chunk 9082 module 90492 uses `(0,l(30232).v)(set => ({...}))` store factory shape", "usedBy": "layout store (view breakpoint, navOpen, hubspotScript)" }
+  ],
+
+  "librariesNotPresent": {
+    "gsap": "absent — no `gsap`/`ScrollTrigger`/`TweenLite` strings in any chunk",
+    "lenis / locomotive / studio-freight": "absent — smooth scrolling is native CSS `html{scroll-behavior:smooth}` plus `window.scrollTo({behavior:'smooth'})`",
+    "swiper / splide / keen-slider": "absent (embla only)",
+    "react-spring": "absent",
+    "view transitions": "absent — no `startViewTransition`",
+    "scroll-timeline / animation-timeline CSS": "absent — all scroll linkage is JS (useScroll or rAF-throttled getBoundingClientRect)"
+  },
+
+  "easingConstants": {
+    "$note": "Five cubic-bezier arrays account for essentially every JS-driven motion on the site. Three of them are defined once per module and reused.",
+    "expoOut": {
+      "value": [0.16, 1, 0.3, 1],
+      "cssEquivalent": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "alias": "easeOutExpo",
+      "definedAs": "`let d=[.16,1,.3,1]` (FoundersNote, module 39361) and inline in FeatureStages `let R={duration:.95,delay:.2,ease:[.16,1,.3,1]}`",
+      "usedFor": "entrance reveals — the big, slow, decisive ones"
+    },
+    "quintOut": {
+      "value": [0.22, 1, 0.36, 1],
+      "cssEquivalent": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "alias": "easeOutQuint",
+      "definedAs": "`let u=[.22,1,.36,1]` (Highlight, module 52198) and inline in FeatureStages media + footer wordmark",
+      "usedFor": "crossfades and long clip/size reveals"
+    },
+    "standard": {
+      "value": [0.4, 0, 0.2, 1],
+      "cssEquivalent": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "alias": "Material 'standard'; identical to Tailwind's `--default-transition-timing-function`",
+      "definedAs": "`let h={duration:.3,ease:[.4,0,.2,1]}` (Team, module 45183); inline in ScrollStages pill and FeatureTimer tab swap",
+      "usedFor": "short UI state changes (0.22–0.3s)"
+    },
+    "emphasizedDecel": {
+      "value": [0.2, 0, 0, 1],
+      "cssEquivalent": "cubic-bezier(0.2, 0, 0, 1)",
+      "usedFor": "the mega-menu open (opacity 0.1s + scale 0.28s)"
+    },
+    "cursorDefault": {
+      "value": [0.38, 0.12, 0.29, 1],
+      "cssEquivalent": "cubic-bezier(0.38, 0.12, 0.29, 1)",
+      "definedAs": "`let K={duration:.15,ease:[.38,.12,.29,1]}` — motion-plus Cursor library default",
+      "usedFor": "custom cursor morph"
+    },
+    "cssDefaults": {
+      "tailwindDefault": "cubic-bezier(.4,0,.2,1) at 0.15s — `--default-transition-*`",
+      "authoredCssEase": "`ease-in-out` for almost every hand-written `transition:` (0.2s / 0.3s / 0.5s) and `ease-out` for the two long ones (1.2s stat rule, 0.3s timer tab)",
+      "pulseKeyframe": "cubic-bezier(.4,0,.6,1)"
+    }
+  },
+
+  "springConstants": [
+    { "name": "heroFramedLift", "config": { "stiffness": 220, "damping": 32, "mass": 0.35 }, "usedBy": "HeroFramed rotateX + y", "character": "damping ratio ≈ 1.15 — slightly overdamped, no visible bounce, ~0.45s settle" },
+    { "name": "heroFramedOpacity", "config": { "stiffness": 200, "damping": 28, "mass": 0.35 }, "usedBy": "HeroFramed opacity; also FeatureTabs per-item opacity", "character": "ratio ≈ 1.06, critically damped" },
+    { "name": "featureTabsItemScale", "config": { "stiffness": 220, "damping": 32, "mass": 0.35 }, "usedBy": "FeatureTabs media-frame scale" },
+    { "name": "featureTabsRailMarker", "config": { "stiffness": 320, "damping": 34, "mass": 0.45 }, "usedBy": "FeatureTabs left-rail 10×10 marker y", "character": "ratio ≈ 0.90 — the one spring allowed a hint of overshoot" },
+    { "name": "summitPricingPill", "config": { "type": "spring", "stiffness": 420, "damping": 34 }, "usedBy": "SummitPricing toggle `layoutId:\"summit-pricing-toggle-pill\"`", "reducedMotion": "replaced with `{duration:0}`" },
+    { "name": "cursorFollow", "config": { "stiffness": 1000, "damping": 100 }, "usedBy": "motion-plus Cursor default followSpring" },
+    { "name": "cursorMagneticSnap", "config": { "stiffness": 600, "damping": 50 }, "usedBy": "motion-plus Cursor magnetic snap (snap 0.8, padding 5, morph true)" },
+    { "name": "motionLibraryDefaults", "config": [{ "type": "spring", "stiffness": 500, "damping": 25, "restSpeed": 10 }, { "type": "spring", "stiffness": 550, "damping": 30, "restSpeed": 10 }], "usedBy": "framer-motion's own internal defaults for px-valued keyframes; not authored by the site" }
+  ],
+
+  "cssKeyframes": [
+    {
+      "name": "faqAccordionDown",
+      "body": "0% { height: 0 } to { height: var(--radix-accordion-content-height) }",
+      "usage": ".faq-content[data-state=open] { animation: faqAccordionDown .3s ease-in-out }"
+    },
+    {
+      "name": "faqAccordionUp",
+      "body": "0% { height: var(--radix-accordion-content-height) } to { height: 0 }",
+      "usage": ".faq-content[data-state=closed] { animation: faqAccordionUp .3s ease-in-out }"
+    },
+    {
+      "name": "spin",
+      "body": "to { transform: rotate(1turn) }",
+      "usage": "--animate-spin: spin 1s linear infinite (Tailwind default, loading states)"
+    },
+    {
+      "name": "pulse",
+      "body": "50% { opacity: .5 }",
+      "usage": "--animate-pulse: pulse 2s cubic-bezier(.4,0,.6,1) infinite (Tailwind default, skeletons)"
+    },
+    {
+      "name": "scroll",
+      "origin": "injected at runtime by react-fast-marquee, not in the stylesheet",
+      "body": "0% { transform: translateX(0%) } 100% { transform: translateX(-100%) }",
+      "usage": ".rfm-marquee { animation: scroll var(--duration) linear var(--delay) var(--iteration-count); animation-play-state: var(--play); animation-direction: var(--direction) }"
+    }
+  ],
+
+  "cssTransitions": {
+    "$note": "Grouped by component. All authored durations in the hand-written CSS/class strings are 100/200/300/500/1000/1200 ms.",
+    "global": {
+      "preHydrationGuard": "html:not(.--loaded) * { transition: none !important } — the class `--loaded` is added to documentElement in a useEffect, so nothing can transition during hydration.",
+      "tailwindDefault": "0.15s cubic-bezier(.4,0,.2,1)"
+    },
+    "byComponent": [
+      { "component": "Button (all filled variants)", "declaration": "transition-all duration-300 ease-in-out", "properties": "background-color, border-color, transform", "hover": "transform-gpu hover:scale-[1.0375] (primary/secondary/white only; tertiary and icon buttons do not scale)" },
+      { "component": "Button icon slide track", "declaration": "transition-transform duration-500 ease-in-out", "hover": "group-hover:-translate-x-1/2", "reducedMotion": "motion-reduce:transform-none + motion-reduce:group-hover:translate-x-0" },
+      { "component": "Tertiary button icon chip", "declaration": "transition-colors duration-300 ease-in-out", "hover": "group-hover:bg-lemon-button-active" },
+      { "component": "Header nav CTA pills", "declaration": "transition-colors transition-background duration-300" },
+      { "component": "Header nav links", "declaration": "transition-opacity duration-300 ease-in-out", "hover": "unhovered siblings → opacity-30" },
+      { "component": "Header chevron", "declaration": "transition-transform duration-200", "state": "rotate-180 when open" },
+      { "component": "Header mobile burger bars", "declaration": "transition-transform duration-200", "detail": "two 1.5px × 24px bars at -translate-y-[3px] / translate-y-[3px] that rotate ±45deg and collapse to -translate-y-1/2 when `group-data-active`" },
+      { "component": "Mega-menu panel height morph", "declaration": "height 0.2s ease-in-out (applied imperatively via element.style, removed on transitionend)", "reducedMotion": "skipped entirely" },
+      { "component": "Mega-menu CTA image", "declaration": "transition-transform duration-500 ease-in-out will-change-transform", "hover": "group-hover/cta:scale-[1.06]" },
+      { "component": "Card / media hover zoom", "declaration": "transition-transform duration-500 will-change-transform", "hover": "group-hover:scale-[1.03] (also 1.02 and 1.06 variants elsewhere)" },
+      { "component": "expand-button (plus↔minus)", "declaration": "transition: transform .3s ease-in-out on ::after", "state": "rotate(90deg) → rotate(180deg) at [aria-expanded=true]", "reducedMotion": "@media (prefers-reduced-motion:reduce){ .expand-button:after{ transition:none } }" },
+      { "component": "FAQ toggle chevron", "declaration": "transition-transform duration-300 ease-in-out", "state": "group-data-[state=open]:-rotate-180" },
+      { "component": "FAQ toggle circle", "declaration": "transition-colors duration-300", "hover": "bg-oatmeal-60 → bg-oatmeal-80" },
+      { "component": "Stats item left rule", "declaration": "before:transition-[height] before:duration-1200 before:ease-out", "trigger": "in-view", "from": "before:h-0", "to": "before:h-full" },
+      { "component": "LogosTicker logo", "declaration": "transition-opacity duration-300", "from": "opacity-[0.65]", "to": "hover:opacity-100" },
+      { "component": "FeatureTimer tab", "declaration": "transition-colors duration-300 ease-out", "state": "bg-transparent → bg-feature-timer-tab-surface when active" },
+      { "component": "FeatureTabs rail tab label", "declaration": "transition-opacity duration-500", "state": "opacity-[0.45] → opacity-100 when active; hover:opacity-100" },
+      { "component": "Video play-button plate", "declaration": "transition-opacity duration-300 ease-in-out", "reducedMotion": "motion-reduce:transition-none" },
+      { "component": "Rich-text link", "declaration": "transition: text-decoration-color .2s", "hover": "text-decoration-color → transparent (underline fades away on hover)" },
+      { "component": "Footer / dark links", "declaration": "transition-opacity (Tailwind default 0.15s)", "hover": "hover:opacity-70" },
+      { "component": "HubSpot submit button", "declaration": "transition: all .3s ease-in-out", "hover": "transform: scale(1) → scale(1.0375)" },
+      { "component": "Generic disclosure rows", "declaration": "transition-[grid-template-rows] (duration per element)", "note": "the 0fr→1fr grid-row height trick" }
+    ],
+    "durationsInUse": ["0.1s", "0.15s (Tailwind default)", "0.2s", "0.3s", "0.5s", "1s", "1.2s"]
+  },
+
+  "reducedMotion": {
+    "cssBlocks": [
+      "@media (prefers-reduced-motion:reduce){ html { scroll-behavior: auto } }",
+      "@media (prefers-reduced-motion:reduce){ .faq-content[data-state=open], .faq-content[data-state=closed] { animation: none } }",
+      "@media (prefers-reduced-motion:reduce){ .expand-button:after { transition: none } }",
+      "Tailwind `motion-reduce:` variants on the button icon slide and the video play plate"
+    ],
+    "jsHandling": [
+      "framer-motion `useReducedMotion()` (module 5501) is read by FoundersNote and the HeroSummit typewriter. In FoundersNote the trick is `duration: .9 * !c` — when reduced motion is on, `!c` is 0 so duration becomes 0 and delay is forced to 0, and `initial` flips from 'hidden' to 'visible'. The animation still runs but instantly.",
+      "HeroSummit typewriter: `p = animate && !prefersReducedMotion` — when reduced, all characters render immediately, italics are applied at once, and no caret is shown.",
+      "SummitPricing pill: transition becomes `{duration:0}`.",
+      "Header mega-menu: a bespoke `matchMedia('(prefers-reduced-motion: reduce)')` listener; when reduced, the panel animates opacity only (`{opacity:{duration:.1}}`) with no scale, and the height morph is skipped.",
+      "motion-plus Cursor: `useReducedMotion()` forces `transition:{duration:0}` and skips the `cursor:none` injection.",
+      "number-flow: `respectMotionPreference: true` in defaultProps."
+    ],
+    "gaps": "Scroll-linked animations (Hero scale, HeroFramed 3D lift, FeatureScroll parallax, FeatureStages, ScrollStages, FeatureTabs) have NO reduced-motion branch — they track scroll regardless. If replicating, add one."
+  },
+
+  "patterns": [
+    {
+      "id": "heroMediaScaleOnScroll",
+      "block": "Hero",
+      "module": "9082 #2879",
+      "trigger": "scroll progress",
+      "driver": "useScroll({ target: blockRef, offset: ['start start', 'end 25%'] })",
+      "mapping": [
+        { "name": "scale", "fn": "p => 1 - 0.1 * clamp(p, 0, 1)", "from": 1, "to": 0.9, "appliedTo": "outer frame `.pointer-events-none.col-span-full.row-span-full.origin-center.overflow-hidden.rounded-b-large.will-change-transform`" },
+        { "name": "inverseScale", "fn": "s => 1 / max(s, 0.001)", "from": 1, "to": 1.111, "appliedTo": "inner media `.absolute.inset-0.z-0.h-(--vp-height).will-change-transform`" }
+      ],
+      "effect": "the rounded frame shrinks to 90% as you leave the hero while the image inside counter-scales, so the photo appears to stay locked at its true size while its window closes.",
+      "easing": "none — raw scroll linkage, no spring",
+      "snippet": "let{scrollYProgress:t}=(0,u.L)({target:e,offset:[\"start start\",\"end 25%\"]}),l=(0,m.G)(t,e=>1-.1*Math.min(1,Math.max(0,e))),r=(0,m.G)(l,e=>1/Math.max(e,.001))"
+    },
+    {
+      "id": "heroFramed3DLift",
+      "block": "HeroFramed",
+      "module": "9082 #67172",
+      "trigger": "scroll (rAF-throttled `scroll`+`resize` listeners reading getBoundingClientRect, NOT useScroll)",
+      "container": "`perspective-[132rem]` wrapper; the animated plate is `origin-bottom transform-3d will-change-transform`",
+      "progressFn": "let vh = window.innerHeight; let r = 0.25*vh; a = clamp((vh - rect.top)/ (vh - 0.25*vh)); n = clamp((vh - (vh - 0.5*h)) / (vh - 0.25*vh)); p = n>=1 ? 1 : clamp((a-n)/(1-n)) — plus early-outs: if rect is less than 50% visible → 0; if rect.bottom<0 or rect.top<=0.25*vh → 1",
+      "mappings": [
+        { "property": "rotateX", "motionValue": "useMotionValue(17.6)", "set": "17.6 * (1 - p)", "from": "17.6deg", "to": "0deg", "spring": { "stiffness": 220, "damping": 32, "mass": 0.35 } },
+        { "property": "y", "motionValue": "useMotionValue(22)", "set": "22 * (1 - p)", "from": "22px", "to": "0px", "spring": { "stiffness": 220, "damping": 32, "mass": 0.35 } },
+        { "property": "opacity", "motionValue": "useMotionValue(0.92)", "set": "0.92 + 0.08 * p", "from": 0.92, "to": 1.0, "spring": { "stiffness": 200, "damping": 28, "mass": 0.35 } }
+      ],
+      "effect": "the product screenshot starts tipped back 17.6° on a 1320px perspective and rises to flat as it enters the viewport — the single most 'premium' move on the site.",
+      "snippet": "b=(0,s.d)(17.6),y=(0,o.z)(b,{stiffness:220,damping:32,mass:.35}) … b.set(17.6*(1-l)),L.set(22*(1-l)),w.set(.92+.07999999999999996*l)"
+    },
+    {
+      "id": "featureScrollParallax",
+      "block": "FeatureScroll",
+      "module": "9082 #9196",
+      "trigger": "scroll progress, desktop only",
+      "gate": "matchMedia('(min-width: 768px)') — parallax prop is false below md, in which case no `style` is applied at all",
+      "driver": "useScroll({ target: itemRef, offset: ['start end', 'end start'] })",
+      "mappings": [
+        { "target": "media column (`md:col-span-5`)", "property": "y", "fn": "p => 130 * p", "from": "0px", "to": "130px" },
+        { "target": "copy column (`md:col-span-7`)", "property": "y", "fn": "p => 20 - 130 * p", "from": "20px", "to": "-110px" }
+      ],
+      "effect": "media drifts DOWN 130px while copy drifts UP 130px across the item's full viewport traversal — a 260px counter-shear that makes the vertical rule between them feel like a hinge.",
+      "easing": "none — raw scroll linkage",
+      "snippet": "let{scrollYProgress:x}=(0,s.L)({target:f,offset:[\"start end\",\"end start\"]}),p=(0,o.G)(x,e=>c?130*e:0),v=(0,o.G)(x,e=>c?20-130*e:0)"
+    },
+    {
+      "id": "featureStagesStickyCrossfade",
+      "block": "FeatureStages",
+      "module": "9082 #21872",
+      "trigger": "two independent scroll ranges, lg (1024px) only",
+      "structure": "an aria-hidden spacer of `h-(--layout-height)` followed by n × `h-[150vh]` rows; a 3-column overlay pinned `sticky top-0` over both",
+      "drivers": [
+        { "name": "enterProgress", "hook": "useScroll({ target: spacerRef, offset: ['start end', 'start start'] })" },
+        { "name": "stageProgress", "hook": "useScroll({ target: scrollRowsRef, offset: ['start start', 'end end'] })" }
+      ],
+      "indexLogic": "on enterProgress change: if <0.999 → index 0; else index = floor(clamp(stageProgress, 0, 0.9999) * n). On stageProgress change: ignored until enterProgress ≥ 0.999.",
+      "yTransform": {
+        "fn": "useTransform([enterProgress, centerOffsetMV], ([t, l]) => -l * (1 - clamp(t,0,1)))",
+        "centerOffset": "(spacer.offsetHeight - mediaEl.offsetHeight) / 2, recomputed on ResizeObserver + resize; forced to 0 below 1024px",
+        "effect": "the whole pinned overlay slides from `-centerOffset` to 0 as the block enters, so the media column lands optically centred"
+      },
+      "copyCrossfade": { "target": "left/right copy columns", "property": "opacity", "values": "1 when index matches else 0", "transition": { "duration": 0.95, "delay": 0.2, "ease": [0.16, 1, 0.3, 1] }, "staticOffset": "each stage also carries `transform: translateY(X)` where X comes from the fixed ladder ['-20%','0%','10%','25%'][i]" },
+      "mediaCrossfade": { "target": "media stack (`[grid-area:1/1]`)", "property": "opacity", "transition": { "duration": 0.55, "ease": [0.22, 1, 0.36, 1] } },
+      "note": "`initial:!1` on every motion.div — no mount animation, only state-driven crossfades.",
+      "snippet": "let R={duration:.95,delay:.2,ease:[.16,1,.3,1]} … transition:{duration:.55,ease:[.22,1,.36,1]}"
+    },
+    {
+      "id": "scrollStagesMidlineReveal",
+      "block": "ScrollStages",
+      "module": "9082 #32994",
+      "trigger": "useMotionValueEvent(scrollY, 'change') → recompute on every scroll frame, plus resize + ResizeObserver",
+      "opacityPerStep": {
+        "fn": "for each step element: d = |rect.top + rect.height/2 - innerHeight/2| ; radius = max(0.85 * innerHeight, 1) ; opacity = clamp(1 - d/radius, 0, 1)",
+        "appliedVia": "inline style.opacity (lg only) + pointerEvents 'none' below 0.05",
+        "hysteresis": "state only updates when any step's value moves more than 0.002",
+        "effect": "copy blooms to full opacity as its centre reaches the viewport midline and fades over an 85vh radius — a continuous focus gradient rather than a discrete active state"
+      },
+      "activeIndex": "nearest step centre to innerHeight/2, with -1 above the first and n below the last",
+      "labelIndex": "same nearest-centre search but with a tail allowance of `min(420, max(120, round(0.26 * innerHeight)))` px past the last step's bottom",
+      "markerTravel": {
+        "driver": "useScroll({ target: sectionRef, offset: ['start end','end start'] })",
+        "mapping": "useTransform(scrollYProgress, [0, 1], [0, max(0, railHeight - 10)])",
+        "target": "a 10×10px `bg-text-primary` square on the centre rule, `will-change-transform`"
+      },
+      "stepPill": {
+        "presence": "AnimatePresence mode='wait' initial={false}",
+        "outer": { "initial": { "opacity": 0 }, "animate": { "opacity": 1 }, "exit": { "opacity": 0 }, "transition": { "duration": 0.22, "ease": [0.4, 0, 0.2, 1] } },
+        "innerText": { "initial": { "opacity": 0.78 }, "animate": { "opacity": 1 }, "exit": { "opacity": 0.78 }, "transition": { "duration": 0.09, "ease": "easeOut" }, "keyedBy": "labelIndex" },
+        "style": "label class, rounded-full bg-text-primary/20 px-[1rem] py-4 backdrop-blur-[6px], positioned -translate-x-[calc(100%+1.5rem+5px)] -translate-y-1/2",
+        "note": "a nested AnimatePresence — the pill container fades, and the text inside re-fades on every step change, so consecutive steps read as a text swap rather than a pill re-entry"
+      }
+    },
+    {
+      "id": "featureTabsScrollSpy",
+      "block": "FeatureTabs",
+      "module": "9082 #6106",
+      "trigger": "scroll (passive listeners, per-item rAF-throttled rect reads)",
+      "perItem": [
+        {
+          "property": "scale",
+          "target": "media frame (`origin-bottom rounded-medium overflow-hidden will-change-transform`)",
+          "fn": "0.8 + 0.2 * clamp(1 - |rect.top + rect.height/2 - vh/2| / (0.42*vh), 0, 1)",
+          "range": [0.8, 1.0],
+          "spring": { "stiffness": 220, "damping": 32, "mass": 0.35 }
+        },
+        {
+          "property": "opacity",
+          "target": "copy block (`will-change-[opacity]`)",
+          "fn": "let c = rect.top + rect.height/2, a = 0.25*vh, r = vh/2 ; c < a ? clamp(c/a) : c > r ? clamp(1 - (c - r)/(0.45*vh)) : 1",
+          "range": [0, 1],
+          "spring": { "stiffness": 200, "damping": 28, "mass": 0.35 }
+        }
+      ],
+      "railMarker": {
+        "target": "10×10 `bg-current` square, `x:'-50%'`",
+        "value": "useSpring(useMotionValue(0), { stiffness: 320, damping: 34, mass: 0.45 })",
+        "set": "-1 → 0 ; n → railHeight-10 ; otherwise (tabButton.top + tabButton.height/2 - rail.top) - 5, clamped to [0, railHeight-10]"
+      },
+      "activeDetection": "nearest image-frame centre to vh/2; -1 while the section top is below 0.5*vh; n once the section bottom is above 0.75*vh",
+      "clickToScroll": "window.scrollTo({ top: itemCenter - vh/2, behavior: 'smooth' }); sets a `programmatic` flag for 8000 ms (or until `scrollend`), during which scroll-spy updates are debounced 180 ms so the rail does not fight the smooth scroll",
+      "tabLabel": "transition-opacity duration-500 between opacity-[0.45] and opacity-100"
+    },
+    {
+      "id": "featureTimerAutoRotate",
+      "block": "FeatureTimer",
+      "module": "9082 #36476",
+      "trigger": "load + in-view, with manual tab click and a play/pause control",
+      "timer": {
+        "motionValue": "useMotionValue(0) mapped `v => v + '%'` and used as the fill bar's `width`",
+        "driver": "animate(progressMV, 100, { duration: (100 - current)/100 * 6000 / 1000, ease: 'linear', onComplete })",
+        "totalPerTab": "6000 ms",
+        "resume": "on unpause it continues from the current value rather than restarting",
+        "onComplete": "index = (index + 1) % count"
+      },
+      "visibilityGate": "IntersectionObserver({ threshold: 0.2 }) on the section — the timer is suspended (and the bar frozen) while the block is less than 20% visible",
+      "fillBar": "absolute inset-y-0 left-0 z-0 bg-feature-timer-tab-fill, width driven by the motion value; only rendered on the active tab and only when count > 1",
+      "panelSwap": {
+        "presence": "AnimatePresence mode='wait' initial={false}, keyed by active index",
+        "config": { "initial": { "opacity": 0 }, "animate": { "opacity": 1 }, "exit": { "opacity": 0 }, "transition": { "duration": 0.22, "ease": [0.4, 0, 0.2, 1] } }
+      },
+      "tabColor": "transition-colors duration-300 ease-out between bg-transparent and bg-feature-timer-tab-surface",
+      "a11y": "role=tablist/tab/tabpanel, aria-selected, roving tabIndex, aria-pressed + aria-label on the play/pause button"
+    },
+    {
+      "id": "foundersNotePhotoReveal",
+      "block": "FoundersNote",
+      "module": "9082 #39361",
+      "trigger": "whileInView",
+      "viewport": { "once": true, "amount": 0.25 },
+      "orchestration": "parent motion.div has `initial: reduced ? 'visible' : 'hidden'` and `whileInView:'visible'`; children use `variants` + `custom` — no `staggerChildren`, the stagger is baked into each child's delay",
+      "stagger": "delay = 0.12 * index (photos) and 0.45 + 0.12 * index (labels)",
+      "variants": {
+        "photo": {
+          "hidden": "custom => ({ opacity: 0, x: custom.drift, y: 48, rotate: 0, scale: 0.96 })",
+          "visible": "custom => ({ opacity: 1, x: 0, y: 0, rotate: custom.rotate, scale: 1, transition: { duration: 0.9, delay: custom.delay, ease: [0.16,1,0.3,1] } })"
+        },
+        "label": {
+          "hidden": { "opacity": 0, "y": 8 },
+          "visible": "custom => ({ opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.45 + custom.delay, ease: [0.16,1,0.3,1] } })"
+        }
+      },
+      "perPhotoCustom": [
+        { "index": 0, "rotate": -3, "drift": -20, "frame": "left-0 top-[12%] w-[42%] aspect-228/300 lg:top-[17%] lg:w-[38%]", "chip": "left-[-1.5%] top-[87%] lg:top-[88%]", "sizes": { "small": "38vw", "medium": "38vw", "large": "22rem" } },
+        { "index": 1, "rotate": 6, "drift": 20, "frame": "left-[54%] top-0 w-[42%] aspect-228/300 lg:left-[50%] lg:w-[38%]", "chip": "left-[52%] top-[75%] lg:left-[48.5%] lg:top-[71%]", "sizes": { "small": "38vw", "medium": "32vw", "large": "18rem" } }
+      ],
+      "effect": "two photos fly in from opposite sides, rise 48px, scale 0.96→1 and rotate INTO their final tilt — they settle into a scattered-on-a-desk arrangement rather than a grid.",
+      "reducedMotion": "duration is literally `0.9 * !prefersReduced` → 0, delay forced to 0, initial forced to 'visible'"
+    },
+    {
+      "id": "highlightMarkSweep",
+      "component": "Highlight (inline rich-text mark)",
+      "module": "9082 #52198",
+      "trigger": "framer-motion useInView(ref, { once: true, amount: 'some' })",
+      "mark": {
+        "element": "<motion.span role='mark'> with `[box-decoration-break:clone]`",
+        "staticStyle": { "backgroundImage": "linear-gradient(var(--color-accent), var(--color-accent))", "backgroundRepeat": "no-repeat", "backgroundPosition": "left center" },
+        "initial": { "backgroundSize": "0% 100%" },
+        "animate": { "backgroundSize": "100% 100%" },
+        "transition": { "duration": 1.25, "delay": 0.5, "ease": [0.22, 1, 0.36, 1] }
+      },
+      "floatingCard": {
+        "purpose": "an optional media chip that appears above the highlighted phrase, portalled to document.body so it can escape any overflow",
+        "positioning": "fixed, left = rect.left + rect.width/2, top = calc(rect.top + 0.45ex); recomputed on resize and on capture-phase scroll of window AND document",
+        "transformOrigin": "center bottom",
+        "static": { "scale": "1.25 at ≥640px else 1.5625", "x": "'50%' at ≥640px else '10%'", "y": "5%" },
+        "animated": { "opacity": "0 → 1" },
+        "transition": { "opacity": { "duration": 0.35, "delay": 1.75, "ease": [0.22, 1, 0.36, 1] } },
+        "style": "w-[14.04rem] md:w-[18rem] lg:w-[26rem], rounded-[calc(0.7rem*14.04/26)] md:[calc(0.7rem*18/26)] lg:[0.7rem], shadow-[0_4px_4px_0_rgba(0,0,0,0.12)]",
+        "media": "if video → autoplay, loop, autoPlayThreshold 0"
+      },
+      "effect": "half a second after the sentence enters view a lemon highlighter sweeps across the phrase over 1.25s; 1.75s in, a little product screenshot pops above it. This is the site's signature 'premium' beat.",
+      "sequenceTimeline": [
+        { "t": "0.00s", "event": "enters view (amount 'some')" },
+        { "t": "0.50s", "event": "highlighter starts" },
+        { "t": "1.75s", "event": "highlighter finishes AND floating card starts fading in" },
+        { "t": "2.10s", "event": "card fully visible" }
+      ]
+    },
+    {
+      "id": "heroSummitTypewriter",
+      "component": "AnimatedTagline (HeroSummit)",
+      "module": "9082 #68708",
+      "trigger": "mount (gated by `animate` prop && !useReducedMotion())",
+      "mechanism": "setInterval at 70 ms increments a visible-character count; each character is its own <span> with `relative transition-opacity duration-100 ease-out` and `opacity-0`/`opacity-100`",
+      "perCharacter": { "interval": "70 ms", "fadeIn": "opacity 0 → 1 over 100 ms, ease-out" },
+      "italicFlip": { "delay": "450 ms after the last character", "effect": "characters marked `em` swap from `not-italic` to `italic` in one step — the sentence 'turns serif-italic' as a single gesture" },
+      "caret": {
+        "element": "motion.span, absolutely positioned at `top-[0.254em] left-full ml-[0.06em] h-[0.721em] w-[0.05em] bg-current`",
+        "animate": { "opacity": [1, 1, 0, 0] },
+        "transition": { "duration": 1.06, "times": [0, 0.5, 0.5, 1], "repeat": "Infinity", "ease": "linear" },
+        "note": "a hard on/off square-wave blink at ~0.94 Hz (the duplicated 0.5 stop makes the transition instantaneous)"
+      },
+      "structure": "words are grouped so they never break mid-word (`inline-block whitespace-pre` per word); an sr-only copy carries the full text for screen readers",
+      "reducedMotion": "all characters shown immediately, italics applied immediately, no caret"
+    },
+    {
+      "id": "footerWordmarkWipe",
+      "component": "FooterLogo",
+      "module": "9082 #22970",
+      "trigger": "react-intersection-observer useInView({ triggerOnce: true, threshold: 0.5 })",
+      "config": {
+        "initial": { "clipPath": "inset(0% 0 100% 0)" },
+        "animate": { "clipPath": "inset(0% 0 0 0)" },
+        "transition": { "duration": 2, "delay": 0.25, "ease": [0.22, 1, 0.36, 1] }
+      },
+      "effect": "the giant footer wordmark (aspect 2689/11 desktop, 355/326 mobile) wipes upward over 2 full seconds — the slowest animation on the site, and deliberately so",
+      "remount": "the component is keyed by `usePathname()` so it replays on every route change"
+    },
+    {
+      "id": "teamCardBioReveal",
+      "block": "Team",
+      "module": "9082 #45183",
+      "trigger": "click on the expand-button",
+      "sharedTransition": { "duration": 0.3, "ease": [0.4, 0, 0.2, 1] },
+      "layers": [
+        { "target": "scrim `pointer-events-none absolute inset-0 rounded-small`", "initial": false, "animate": "{ backgroundColor: open ? 'rgba(0,0,0,0.8)' : 'rgba(0,0,0,0)' }" },
+        { "target": "bio `scrollbar-hidden min-h-0 flex-1 overflow-y-auto`", "initial": false, "animate": "{ opacity: open ? 1 : 0 }", "extra": "pointer-events disabled while closed" }
+      ],
+      "toggle": "the .expand-button plus rotates to a minus via CSS (transform .3s ease-in-out)",
+      "a11y": "aria-expanded + aria-controls on the button, useId for the panel"
+    },
+    {
+      "id": "megaMenuOpen",
+      "component": "Header submenu",
+      "module": "9082 #77116",
+      "trigger": "mouseenter on a submenu trigger (AnimatePresence on the open state)",
+      "config": {
+        "transformOrigin": "50% 0",
+        "initial": { "scale": 0.97, "opacity": 0 },
+        "animate": { "scale": 1, "opacity": 1 },
+        "exit": { "scale": 0.97, "opacity": 0 },
+        "transition": { "opacity": { "duration": 0.1, "ease": [0.2, 0, 0, 1] }, "scale": { "duration": 0.28, "ease": [0.2, 0, 0, 1] } }
+      },
+      "reducedMotion": { "initial": { "opacity": 0 }, "animate": { "opacity": 1 }, "exit": { "opacity": 0 }, "transition": { "opacity": { "duration": 0.1 } } },
+      "heightMorph": "switching directly from one submenu to another pins the old height inline, forces a reflow (`el.offsetHeight`), then sets `transition:height 0.2s ease-in-out` and the new height; cleaned up on transitionend. Only runs when |newHeight - oldHeight| > 0.5px and reduced motion is off.",
+      "siblingDim": "while any submenu is open the other nav items drop to opacity-30 over 300 ms",
+      "chevron": "rotate-180, 200 ms"
+    },
+    {
+      "id": "summitPricingTogglePill",
+      "block": "SummitPricing",
+      "module": "9082 #84421",
+      "trigger": "tab change (Radix ToggleGroup)",
+      "technique": "shared-layout animation — `<motion.span layoutId=\"summit-pricing-toggle-pill\" className=\"absolute inset-0 rounded-[10rem] bg-background\" />` rendered only inside the active item",
+      "transition": { "type": "spring", "stiffness": 420, "damping": 34 },
+      "reducedMotion": { "duration": 0 },
+      "item": "b2 h-[5.6rem] rounded-[10rem] px-24 md:px-[4.2rem] transition-colors duration-300; text-text-primary when active, text-cloud when not"
+    },
+    {
+      "id": "logosTickerMarquee",
+      "block": "LogosTicker",
+      "module": "9082 #12543 (+ library in 302 #3045)",
+      "library": "react-fast-marquee",
+      "props": { "autoFill": true, "gradient": "from CMS (show/width/color)", "pauseOnHover": true, "speed": 35 },
+      "speedSemantics": "`speed` is px/second. duration = (marqueeWidth * repeatCount) / speed seconds when autoFill, else max(containerWidth, marqueeWidth)/speed.",
+      "keyframe": "@keyframes scroll { 0% { transform: translateX(0%) } 100% { transform: translateX(-100%) } }, `linear`, `infinite`",
+      "pause": ".rfm-marquee-container:hover div { animation-play-state: var(--pause-on-hover) } → 'paused'",
+      "staticFallback": "a hidden measuring row is rendered; if its scrollWidth ≤ container width + 1 the marquee is replaced by a centred static flex row (no animation at all)",
+      "perLogo": "opacity-[0.65] → hover:opacity-100 over 300 ms; hovering a linked logo also feeds its title to the motion-plus cursor tooltip",
+      "resize": "ResizeObserver on both container and measuring row"
+    },
+    {
+      "id": "quoteCardsCarouselFocus",
+      "block": "TestimonialsQuoteCards",
+      "module": "9082 #60618 (+ carousel #2480)",
+      "trigger": "embla `scroll` event (also reInit/resize)",
+      "mechanism": "pure CSS custom properties written from JS, no framer-motion — for each card: t = |(cardCenterX - viewportCenterX) / cardWidth| clamped to 1, written as `--card-t` (4dp); `--card-origin` = '100%' when the card is left of centre, '0%' when right",
+      "css": ".TestimonialsQuoteCards_card { --card-t:1; --card-min-scale:1; scale: calc(1 - (1 - var(--card-min-scale)) * var(--card-t)); transform-origin: var(--card-origin,50%) center } @media(min-width:768px){ --card-min-scale: 0.7399 }",
+      "featureLayerCss": ".TestimonialsQuoteCards_featureLayer { opacity: calc(1 - var(--card-t)) }",
+      "effect": "at md+ off-centre cards shrink to 73.99% anchored on their inner edge (so they hinge toward the centre card) and their pastel aurora background fades out — only the centred card is 'lit'. No transition is declared: the value tracks the drag frame-for-frame.",
+      "emblaOptions": { "align": "center", "containScroll": false, "startIndex": "floor((n-1)/2)", "slidesToScroll": 1, "perView": { "mobile": 1.15, "tablet": 1.15, "desktop": 1.6784 }, "gap": { "mobile": 20, "tablet": 20, "desktop": 60 } },
+      "progressBar": "value = clamp(embla.scrollProgress()*100, 33, 100) on a 2px <progress>",
+      "cursor": "motion-plus Cursor with text 'Drag' while the viewport is hovered"
+    },
+    {
+      "id": "statsCountUp",
+      "block": "Stats",
+      "module": "9082 #38325 / #74781 (+ number-flow in 302 #52093)",
+      "trigger": "react-intersection-observer useInView({ threshold: 0.2, triggerOnce: true })",
+      "value": "renders `<NumberFlow value={inView ? item.number : 0} prefix suffix />` — the count-up is simply the 0 → n value change",
+      "timing": { "transformTiming": { "duration": 900, "easing": "linear(0,.005,.019,…,.9989,1)" }, "opacityTiming": { "duration": 450, "easing": "ease-out" }, "spinTiming": null },
+      "accompanyingRule": {
+        "target": "the item's `::before` left hairline",
+        "css": "before:absolute before:bottom-0 before:left-0 before:w-0 before:[border-left:var(--border)] before:transition-[height] before:duration-1200 before:ease-out",
+        "from": "before:h-0",
+        "to": "before:h-full",
+        "note": "1200 ms — the rule draws itself upward while the number counts, and finishes ~300 ms after it"
+      },
+      "typeSize": "`display` (48/80px) for the number by default, `h2` in the small variant"
+    },
+    {
+      "id": "faqAccordion",
+      "component": "FAQ (Radix Accordion)",
+      "module": "9082 #93514",
+      "open": { "animation": "faqAccordionDown", "duration": "0.3s", "easing": "ease-in-out", "keyframes": "height 0 → var(--radix-accordion-content-height)" },
+      "close": { "animation": "faqAccordionUp", "duration": "0.3s", "easing": "ease-in-out", "keyframes": "height var(--radix-accordion-content-height) → 0" },
+      "chevron": "transition-transform duration-300 ease-in-out, group-data-[state=open]:-rotate-180",
+      "circle": "transition-colors duration-300, bg-oatmeal-60 → group-hover:bg-oatmeal-80",
+      "reducedMotion": "animation:none"
+    },
+    {
+      "id": "buttonIconSlide",
+      "component": "Button icon (all tertiary + icon variants)",
+      "module": "9082 #23803",
+      "trigger": "hover on the button (`group`) or on an ancestor CTA card (`group/cta`)",
+      "markup": "a 200%-wide flex track containing two copies of the same arrow, each in a `w-1/2` cell; the whole thing is double-mirrored with `scale-x-[-1]` on the outer wrapper and each cell",
+      "transition": "transition-transform duration-500 ease-in-out",
+      "from": "translateX(0)",
+      "to": "translateX(-50%)",
+      "chip": "size-[2.6rem] rounded-full bg-lemon-button, inner svg `scale-[1.2]`, `transition-colors duration-300 ease-in-out` → bg-lemon-button-active on group hover",
+      "reducedMotion": "motion-reduce:transform-none motion-reduce:group-hover:translate-x-0"
+    },
+    {
+      "id": "buttonHoverScale",
+      "component": "Button (primary / secondary / white)",
+      "trigger": "hover",
+      "transition": "transition-all duration-300 ease-in-out",
+      "transform": "transform-gpu scale(1) → scale(1.0375)",
+      "colorChange": "fill steps to its `-active` token in the same 300 ms",
+      "note": "3.75% is an unusually small scale — it reads as a press-in of the surface rather than a pop"
+    },
+    {
+      "id": "cardHoverZoom",
+      "component": "image cards / mega-menu CTA / blog cards",
+      "trigger": "hover on `group`",
+      "transition": "transition-transform duration-500 (ease-in-out where declared) + will-change-transform",
+      "variants": ["group-hover:scale-[1.02]", "group-hover:scale-[1.03]", "group-hover/cta:scale-[1.06]"],
+      "containment": "always inside `overflow-hidden rounded-small|medium`"
+    },
+    {
+      "id": "lottiePlaybackModes",
+      "component": "Lottie media (available to every block)",
+      "module": "9082 #87800",
+      "library": "@lottiefiles/dotlottie-react 0.63.0",
+      "observer": "useInView({ threshold: playInView ? playThreshold : 0 })",
+      "defaults": { "loop": true, "autoplay": "true only when none of playInView/playScrollMidline/playScrollScrub is set", "playThreshold": 0.25, "playReverse": false },
+      "modes": [
+        { "name": "playInView", "behavior": "on first intersection while scrolling DOWN, setMode('forward') and play(); if playReverse and the user then scrolls UP back into view, setMode('reverse') and play(). Scroll direction is tracked by a shared rAF-batched scroll listener." },
+        { "name": "playScrollMidline", "behavior": "compares the viewport midline to the element: `r = (innerHeight/2 - rect.top) / rect.height`. r ≥ 0.5 → play forward to the end; r < 0.5 → play reverse to frame 0. Re-evaluated on every scroll frame and after each 'complete' event." },
+        { "name": "playScrollScrub", "behavior": "frame is scrubbed directly from scroll position: `start = innerHeight - 0.5*height`, `end = -height`, raw = clamp((start - rect.top)/(start-end)); the first observed raw is stored as a baseline c and the played range is remapped to (raw - c)/(1 - c); frame = t * (totalFrames - 1) via setFrame(). renderConfig gets `freezeOnOffscreen:false`." }
+      ],
+      "pauseOffscreen": "whenever inView goes false the animation is paused",
+      "scrollBatching": "one shared `scroll` (passive) and one shared `resize` listener with a single requestAnimationFrame per frame, fanned out to all subscribed players"
+    },
+    {
+      "id": "videoInViewAutoplay",
+      "component": "Media / Video",
+      "module": "9082 #88134",
+      "observer": "useInView({ threshold: clamp(autoPlayThreshold ?? 0.1, 0, 1), skip: !autoplay })",
+      "defaultThreshold": 0.1,
+      "initialCheck": "a synchronous getBoundingClientRect ratio test on mount so an already-visible video starts without waiting for the observer callback",
+      "behavior": "play() when in view, pause() when out",
+      "playPlate": "pointer-events-none absolute top-1/2 left-1/2 grid h-[6.48rem] w-[10.125rem] md:h-[8.8rem] md:w-[13.75rem] lg:h-[9.68rem] lg:w-[15.125rem] rounded-small bg-earth-60 shadow-[0_0_2rem_0.4rem_rgba(255,255,255,0.05),0_0_3.2rem_0.6rem_rgba(255,255,255,0.05)] transition-opacity duration-300 ease-in-out motion-reduce:transition-none",
+      "provider": "Wistia (`wistia-player`) for hosted video, plus plain <video> for files"
+    },
+    {
+      "id": "customCursor",
+      "component": "Cursor (motion-plus)",
+      "module": "302 #58050",
+      "trigger": "pointermove / pointerover / pointerdown / pointerup on window; body mouseenter/mouseleave for show/hide",
+      "defaultTransition": { "duration": 0.15, "ease": [0.38, 0.12, 0.29, 1] },
+      "followSpring": { "stiffness": 1000, "damping": 100 },
+      "magnetic": { "morph": true, "padding": 5, "snap": 0.8, "snapSpring": { "stiffness": 600, "damping": 50 } },
+      "variants": { "default": { "opacity": 1, "scale": 1 }, "pressed": { "scale": 0.9 }, "exit": { "opacity": 0, "scale": 0 } },
+      "layout": "the root is `<motion.div layout>` inside a LayoutGroup, so size changes between cursor types are layout-animated",
+      "sizeByType": { "default": "17×17", "pointer": "31×31 or targetRect + 2×5px when magnetic", "text": "4 × computed font-size (fallback 4×20)" },
+      "transformTemplate": "translate(-{center.x*100}%, -{center.y*100}%) then the generated transform",
+      "usedFor": ["carousel 'Drag' label", "LogosTicker per-logo link title"],
+      "reducedMotion": "transition {duration:0}; `cursor:none` is not injected"
+    },
+    {
+      "id": "bannerScrollOffset",
+      "component": "Announcement banner + Header",
+      "module": "9082 (banner module) + #77116",
+      "mechanism": "a rAF-free scroll handler writes `--banner-offset = max(0, bannerHeight - window.scrollY)px` (or the full height when pinned) and `--banner-height` onto documentElement; the fixed header is positioned `top:var(--banner-offset,0px)`",
+      "effect": "the header sits below the banner at rest and slides up to the top of the viewport exactly as fast as the banner scrolls away — no snapping",
+      "dismissal": "localStorage key `exa_banner_dismissed`"
+    },
+    {
+      "id": "preHydrationTransitionGuard",
+      "scope": "global",
+      "css": "html:not(.--loaded) * { transition: none !important }",
+      "js": "document.documentElement.classList.add('--loaded') inside a useEffect in the layout store initialiser",
+      "effect": "no element can transition before the app has hydrated, which kills the usual flash of animating theme/layout values on first paint"
+    },
+    {
+      "id": "viewportHeightSync",
+      "scope": "global",
+      "js": "document.documentElement.style.setProperty('--vp-height', (window.visualViewport?.height ?? window.innerHeight) + 'px') on resize + orientationchange",
+      "effect": "every `h-(--vp-height)` sticky stage tracks the real visual viewport, so mobile browser chrome appearing/disappearing does not break the pinned sections"
+    }
+  ],
+
+  "statistics": {
+    "distinctAnimationPatterns": 21,
+    "distinctEasingConstants": 5,
+    "distinctSpringConfigs": 7,
+    "cssKeyframeSets": 5,
+    "scrollLinkedPatterns": 7,
+    "inViewTriggeredPatterns": 6,
+    "hoverPatterns": 6,
+    "timerOrLoopPatterns": 3,
+    "distinctCssTransitionGroups": 22
+  },
+
+  "howToReplicate": {
+    "theFiveRules": [
+      "Pick TWO easing curves and use them for 90% of everything: cubic-bezier(0.16,1,0.3,1) for entrances, cubic-bezier(0.4,0,0.2,1) for UI state. Add cubic-bezier(0.22,1,0.36,1) only for long crossfades and reveals.",
+      "Entrances are SLOW (0.9–2s) and state changes are FAST (0.09–0.3s). There is nothing in the 0.4–0.8s band except hover transforms. That gap is what makes it feel considered rather than busy.",
+      "Scroll-linked motion is always a small, bounded range fed through a slightly-overdamped spring (stiffness 200–320, damping 28–34, mass 0.35–0.45). Never raw scroll for anything the eye tracks; raw scroll only for parallax and pin offsets.",
+      "Hover scale is 1.02–1.06, never more. Buttons use 1.0375. The motion is in colour and in the icon slide, not in size.",
+      "Every big reveal gets ONE companion beat on a delay: the highlight sweep then the card at 1.75s; the stat number then the 1.2s rule; the typewriter then the italic flip at 450ms. One follow-through, never two."
+    ],
+    "minimalStack": "framer-motion (motion) + react-intersection-observer covers everything except the marquee (react-fast-marquee), the carousel (embla) and the counters (number-flow). No GSAP, no smooth-scroll library."
+  },
+
+  "unresolvedWithoutHeadedRun": [
+    "Actual pixel scroll ranges — useScroll `offset` strings resolve against measured element heights at runtime.",
+    "The Bento block's component code (its chunk 404s), so whatever motion it has is unknown; only its two webp assets and its padding tokens are recoverable.",
+    "Whether any block sets `MotionConfig` / global `reducedMotion` at the app root (the import exists in the library chunk but no call site was found in the served chunks).",
+    "Exact library versions for motion, embla, react-fast-marquee, react-intersection-observer, number-flow, motion-plus and Radix — none emit a version string into the production bundle.",
+    "Runtime-only values such as the marquee's computed `--duration` (depends on measured logo-row width) and the ScrollStages rail height.",
+    "Whether Wistia's own player injects further animation; only the wrapper options are visible."
+  ]
+}

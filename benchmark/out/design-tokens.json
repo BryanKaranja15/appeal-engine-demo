@@ -1,0 +1,654 @@
+{
+  "$meta": {
+    "source": "https://www.exacare.com",
+    "extractedAt": "2026-09-13",
+    "method": "static extraction from shipped CSS + JS bundles (no headed browser)",
+    "deploymentId": "dpl_6uTBiNGgWV3eayXr7GvWot8Rtpk2",
+    "stack": {
+      "framework": "Next.js App Router (route group `(web)`), React 19.2.0-canary-0bdb9206-20250818",
+      "css": "Tailwind CSS v4.2.4 (banner comment in 31497ea371de0bbc.css) + CSS Modules",
+      "cms": "Sanity (GROQ queries + data-sanity presentation attributes inline in bundle)",
+      "cssFiles": [
+        "/_next/static/css/31497ea371de0bbc.css  (98,596 B — Tailwind theme/base/components/utilities + global typography)",
+        "/_next/static/css/3878138f0d8eeb6c.css  (13,625 B — CSS-module block rules)",
+        "/_next/static/css/505e5108b920fded.css  (1,233 B — next/font @font-face)"
+      ]
+    },
+    "rootSizingConvention": {
+      "htmlFontSize": "var(--rem-size) = 10px",
+      "consequence": "1rem === 10px. Every size in the system is authored in rem where the numeral is the px value / 10 (e.g. 1.8rem = 18px, 6.4rem = 64px). Tailwind spacing tokens are named by their px value (--spacing-48 = 4.8rem = 48px).",
+      "caveat": "Tailwind v4's own built-in scales (--container-*, --blur-*) are still authored against the default 16px assumption, so e.g. --container-5xl:64rem renders as 640px here, not 1024px. Same for the `container` utility breakpoints (40rem/48rem/64rem/80rem/96rem = 400/480/640/800/960px) — they are effectively unused by the design."
+    }
+  },
+
+  "color": {
+    "$note": "All colors are plain hex (no oklch anywhere in the stylesheet). 8-digit hex values are alpha variants of the two core neutrals. Declared inside `@layer theme { :host,:root { … } }`.",
+    "palette": {
+      "raw": {
+        "--color-cloud": { "value": "#fef9ed", "role": "primary page background (warm off-white / bone)" },
+        "--color-earth-dark": { "value": "#5d5146", "role": "primary ink; dark surface in dark theme" },
+        "--color-earth-light": { "value": "#8a7867", "role": "secondary ink" },
+        "--color-earth-button-active": { "value": "#84715f", "role": "dark button hover fill" },
+        "--color-lemon": { "value": "#fffd86", "role": "brand accent (highlighter yellow)" },
+        "--color-lemon-button": { "value": "#f9f665", "role": "primary button fill" },
+        "--color-lemon-button-active": { "value": "#f3f05a", "role": "primary button hover fill" },
+        "--color-taupe": { "value": "#f8edda", "role": "secondary surface / foreground / header fill" },
+        "--color-tan": { "value": "#a9978a", "role": "hairline + muted surface base" },
+        "--color-white": { "value": "#ffffff", "role": "white button variant" },
+        "--color-avatar-ring": { "value": "#d5cfc1", "role": "avatar ring / stacked-avatar borders" },
+        "--color-sea": { "value": "#b7cded", "role": "decorative pastel — blue (label chips, quote-card glow)" },
+        "--color-mist": { "value": "#e0eaf8", "role": "decorative pastel — pale blue (icon tile bg)" },
+        "--color-lake": { "value": "#7a93b4", "role": "decorative — mid blue (icon tile bg)" },
+        "--color-orchid": { "value": "#f4ccf9", "role": "decorative pastel — lilac" },
+        "--color-blossom": { "value": "#fedfef", "role": "decorative pastel — pink (quote-card glow)" },
+        "--color-plum": { "value": "#8c748a", "role": "decorative — mid plum" },
+        "--color-forest": { "value": "#a6bd6a", "role": "decorative — green" },
+        "--color-sprout": { "value": "#ddf0ae", "role": "decorative pastel — pale green" },
+        "--color-meadow": { "value": "#838f61", "role": "semantic positive (comparison-table tick)" },
+        "--color-coral": { "value": "#ff936f", "role": "semantic negative (comparison-table cross)" },
+        "--color-apricot": { "value": "#ffd6a2", "role": "decorative pastel — orange" },
+        "--color-clay": { "value": "#b4854b", "role": "decorative — ochre" }
+      },
+      "alphaRamps": {
+        "$note": "Two alpha ramps over the two core neutrals. `oatmeal-*` is taupe #f8edda over dark; `earth-*` is earth-dark #5d5146 over light.",
+        "oatmeal": {
+          "base": "#f8edda",
+          "--color-oatmeal-10": { "value": "#f8edda1a", "alpha": 0.1 },
+          "--color-oatmeal-15": { "value": "#f8edda26", "alpha": 0.15 },
+          "--color-oatmeal-20": { "value": "#f8edda33", "alpha": 0.2 },
+          "--color-oatmeal-30": { "value": "#f8edda4d", "alpha": 0.3 },
+          "--color-oatmeal-40": { "value": "#f8edda66", "alpha": 0.4 },
+          "--color-oatmeal-50": { "value": "#f8edda80", "alpha": 0.5 },
+          "--color-oatmeal-60": { "value": "#f8edda99", "alpha": 0.6 },
+          "--color-oatmeal-80": { "value": "#f8eddacc", "alpha": 0.8 }
+        },
+        "earth": {
+          "base": "#5d5146",
+          "--color-earth-5": { "value": "#5d51460d", "alpha": 0.05 },
+          "--color-earth-10": { "value": "#5d51461a", "alpha": 0.1 },
+          "--color-earth-15": { "value": "#5d514626", "alpha": 0.15 },
+          "--color-earth-20": { "value": "#5d514633", "alpha": 0.2 },
+          "--color-earth-30": { "value": "#5d51464d", "alpha": 0.3 },
+          "--color-earth-40": { "value": "#5d514666", "alpha": 0.4 },
+          "--color-earth-50": { "value": "#5d514680", "alpha": 0.5 },
+          "--color-earth-60": { "value": "#5d5146cc", "alpha": 0.8, "note": "NAMED 60 BUT IS ACTUALLY 0.8 ALPHA (cc) — inconsistency in the source" }
+        },
+        "tan": {
+          "base": "#a9978a",
+          "--color-tan-25": { "value": "#a9978a40", "alpha": 0.25 }
+        }
+      }
+    },
+    "semantic": {
+      "$default": {
+        "--color-text-primary": "var(--color-earth-dark)",
+        "--color-text-secondary": "var(--color-earth-light)",
+        "--color-foreground": "var(--color-taupe)",
+        "--color-background": "var(--color-cloud)",
+        "--color-border": "var(--color-earth-20)",
+        "--color-accent": "var(--color-lemon)",
+        "--color-feature-timer-tab-surface": "var(--color-earth-10)",
+        "--color-feature-timer-tab-fill": "var(--color-earth-20)",
+        "--color-header": "var(--color-taupe)",
+        "--border": ".1rem solid var(--color-border)"
+      },
+      "[data-theme=light]": {
+        "--color-text-primary": "var(--color-earth-dark)",
+        "--color-text-secondary": "var(--color-earth-light)",
+        "--color-foreground": "var(--color-taupe)",
+        "--color-background": "var(--color-cloud)",
+        "--color-border": "var(--color-earth-10)",
+        "--color-accent": "var(--color-lemon)",
+        "--color-feature-timer-tab-surface": "var(--color-earth-10)",
+        "--color-feature-timer-tab-fill": "var(--color-earth-20)",
+        "--border": ".1rem solid var(--color-border)",
+        "note": "identical to :root EXCEPT --color-border drops from earth-20 (0.2) to earth-10 (0.1)"
+      },
+      "[data-theme=dark]": {
+        "--color-text-primary": "var(--color-cloud)",
+        "--color-text-secondary": "var(--color-cloud)",
+        "--color-foreground": "var(--color-earth-light)",
+        "--color-background": "var(--color-earth-dark)",
+        "--color-border": "var(--color-oatmeal-15)",
+        "--color-accent": "var(--color-lemon)",
+        "--color-feature-timer-tab-surface": "var(--color-oatmeal-30)",
+        "--color-feature-timer-tab-fill": "var(--color-oatmeal-60)",
+        "--border": ".1rem solid var(--color-border)",
+        "note": "no --color-header override; the nav keeps taupe in both themes. Dark theme is applied per-block via `data-theme=\"dark\"` on the <section>, not globally — there is NO prefers-color-scheme query anywhere."
+      }
+    },
+    "topSixByUsage": {
+      "$method": "count of `var(--color-X)` references in the shipped CSS + count of Tailwind color-utility hits (bg-/text-/border-/from-/via-/to-/fill-/ring-/shadow-) across the 4 rendered HTML documents (home, platform, skilled-nursing, about-us).",
+      "ranking": [
+        { "rank": 1, "hex": "#5d5146", "tokens": ["--color-earth-dark", "--color-text-primary"], "hits": 298, "usage": "all body + heading ink, dark-theme page background, dark button fill" },
+        { "rank": 2, "hex": "#fef9ed", "tokens": ["--color-cloud", "--color-background"], "hits": 300, "usage": "page canvas, text on dark, `white` button variant surface" },
+        { "rank": 3, "hex": "#5d514633", "tokens": ["--color-earth-20", "--color-border"], "hits": 104, "usage": "every hairline: nav pill border, block dividers, table rules, button outlines" },
+        { "rank": 4, "hex": "#a9978a", "tokens": ["--color-tan", "--color-tan-25"], "hits": 44, "usage": "secondary button fill (tan/25 → tan/50 on hover), quote-card rule" },
+        { "rank": 5, "hex": "#f9f665 / #f3f05a", "tokens": ["--color-lemon-button", "--color-lemon-button-active"], "hits": 69, "usage": "primary CTA fill and hover; the single brand-signal color" },
+        { "rank": 6, "hex": "#f8edda", "tokens": ["--color-taupe", "--color-header", "--color-foreground", "oatmeal-* ramp"], "hits": 89, "usage": "nav pill fill, alternating section surface, all translucent light overlays on dark" }
+      ],
+      "longTail": "The 12 pastels (sea/mist/lake/orchid/blossom/plum/forest/sprout/meadow/coral/apricot/clay) are each referenced 1–2× in CSS: they exist as a CMS-selectable swatch set for icon tiles and label chips, plus meadow/coral as tick/cross semantics in the comparison table. They are deliberately rare — the page reads as a two-neutral system with one yellow accent."
+    }
+  },
+
+  "typography": {
+    "fonts": {
+      "body": {
+        "cssVar": "--font-family",
+        "stack": "var(--font-diatype, \"ABC Diatype\"), ui-sans-serif, system-ui, sans-serif",
+        "nextFontFamily": "fontDiatype",
+        "realFamilyName": "ABC Diatype",
+        "foundry": "Dinamo (ABC Dinamo)",
+        "weights": [
+          { "weight": 400, "style": "normal", "postScriptName": "ABCDiatype-Regular", "file": "/_next/static/media/1afd83053e31c6ac-s.p.woff2", "bytes": 50836 },
+          { "weight": 700, "style": "normal", "postScriptName": "ABCDiatype-Bold", "file": "/_next/static/media/0e1ceedec06c0d69-s.p.woff2", "bytes": 56560 }
+        ],
+        "fallbackFace": { "family": "fontDiatype Fallback", "src": "local(\"Arial\")", "ascent-override": "97.41%", "descent-override": "26.97%", "line-gap-override": "0.00%", "size-adjust": "99.38%" },
+        "fontDisplay": "optional",
+        "role": "body copy, UI, labels, buttons, nav, stat captions. Bold 700 is used ONLY inside rich text (.txt b, .txt strong) and comparison-table headers — never for headings."
+      },
+      "display": {
+        "cssVar": "--font-heading",
+        "stack": "var(--font-season, \"Season Mix\"), ui-sans-serif, system-ui, sans-serif",
+        "nextFontFamily": "fontSeason",
+        "realFamilyName": "Season Mix",
+        "foundry": "Blaze Type (marketed as the \"Season\" family; the shipped cut is Season Mix)",
+        "weights": [
+          { "weight": 400, "style": "normal", "postScriptName": "SeasonMix-Regular", "file": "/_next/static/media/108520c60ed9220f-s.p.woff2", "bytes": 61920 },
+          { "weight": 400, "style": "italic", "postScriptName": "SeasonMix-RegularItalic", "file": "/_next/static/media/b0c605d6c452465c-s.p.woff2", "bytes": 65312 }
+        ],
+        "fallbackFace": { "family": "fontSeason Fallback", "src": "local(\"Times New Roman\")", "ascent-override": "91.55%", "descent-override": "23.85%", "line-gap-override": "0.00%", "size-adjust": "106.49%" },
+        "fontDisplay": "optional",
+        "role": "every heading level (.display,.h1–.h6 and h1–h6 inside .txt), the AgendaCards watermark, the testimonial quote body, and HubSpot form headings. Only ONE weight ships (400) — the display face never goes bold; scale and the italic cut carry all the emphasis.",
+        "italicUsage": "The italic is the 'premium' accent. It is applied through rich-text `em`/`<i>` inside headings (base rule: `h1 em,h1 i,…{font-style:inherit}` is overridden by `.txt em{font-style:italic}`), and is animated character-by-character in the HeroSummit typewriter (italic flips on 450ms AFTER the type-on finishes). Editors mark a phrase italic in Sanity and it renders in Season Mix Italic mid-sentence."
+      },
+      "fallbackStrategy": "next/font local faces with metric-override fallbacks (ascent/descent/line-gap/size-adjust) so the Arial and Times fallbacks occupy identical boxes — zero layout shift. `font-display:optional` means on a slow connection the fallback is kept for the whole page view rather than swapping."
+    },
+    "globalTextRendering": {
+      "selector": "*",
+      "declarations": {
+        "font-feature-settings": "\"kern\" 1 (plus -moz/-ms/-o/-webkit prefixes)",
+        "font-kerning": "normal",
+        "text-rendering": "optimizelegibility",
+        "-webkit-font-smoothing": "antialiased",
+        "-moz-osx-font-smoothing": "grayscale",
+        "-webkit-tap-highlight-color": "#0000"
+      }
+    },
+    "body": {
+      "base": { "font-family": "var(--font-family)", "letter-spacing": "-.02em", "font-size": "1.8rem", "line-height": "140%" },
+      "md": { "breakpoint": "min-width:768px", "font-family": "var(--font-family)", "letter-spacing": "-.02em", "font-size": "2rem", "line-height": "130%" }
+    },
+    "scale": {
+      "$note": "Classes are applied directly (.h1, .b2, .label) and ALSO auto-applied to bare tags inside a `.txt` container that is not `.txt-post` — e.g. `:where(.txt:not(.txt-post)) h2`. Responsive variants exist as `.md:h1` etc. Only ONE breakpoint (768px) changes the scale, plus one lg:b3 exception at 1024px.",
+      "display": {
+        "base": { "font": "display", "font-size": "4.8rem", "px": 48, "line-height": "110%", "letter-spacing": "-.02em" },
+        "md": { "font-size": "8rem", "px": 80, "line-height": "120%", "letter-spacing": "-.04em" },
+        "usedBy": ".display, Stats big numbers (default size)"
+      },
+      "h1": {
+        "base": { "font": "display", "font-size": "3.6rem", "px": 36, "line-height": "110%", "letter-spacing": "-.01em" },
+        "md": { "font-size": "6.4rem", "px": 64, "line-height": "110%", "letter-spacing": "-.02em" }
+      },
+      "h2": {
+        "base": { "font": "display", "font-size": "3rem", "px": 30, "line-height": "120%", "letter-spacing": "-.01em", "note": "base rule groups h2,h3,h4 together at 3rem/120%" },
+        "md": { "font-size": "5.5rem", "px": 55, "line-height": "120%", "letter-spacing": "-.02em" }
+      },
+      "h3": {
+        "base": { "font": "display", "font-size": "3rem", "px": 30, "line-height": "120%", "letter-spacing": "-.01em" },
+        "md": { "font-size": "4rem", "px": 40, "line-height": "120%", "letter-spacing": "-.01em" }
+      },
+      "h4": {
+        "base": { "font": "display", "font-size": "3rem", "px": 30, "line-height": "120%", "letter-spacing": "-.01em" },
+        "md": { "font-size": "3.2rem", "px": 32, "line-height": "130%", "letter-spacing": "0" }
+      },
+      "h5": {
+        "base": { "font": "display", "font-size": "2.4rem", "px": 24, "line-height": "140%", "letter-spacing": "-.01em", "note": "base rule groups h5,h6" },
+        "md": { "font-size": "2.6rem", "px": 26, "line-height": "140%", "letter-spacing": "-.01em" }
+      },
+      "h6": {
+        "base": { "font": "display", "font-size": "2.4rem", "px": 24, "line-height": "140%", "letter-spacing": "-.01em" },
+        "md": { "font-size": "2rem", "px": 20, "line-height": "140%", "letter-spacing": "-.01em" }
+      },
+      "b1": {
+        "base": { "font": "body", "font-size": "2rem", "px": 20, "line-height": "130%", "letter-spacing": "-.02em" },
+        "md": { "font-size": "2.6rem", "px": 26, "line-height": "130%", "letter-spacing": "-.02em" },
+        "usedBy": "lead paragraph / large intro text"
+      },
+      "b2": {
+        "base": { "font": "body", "font-size": "1.8rem", "px": 18, "line-height": "140%", "letter-spacing": "-.005em" },
+        "md": { "font-size": "2rem", "px": 20, "line-height": "130%", "letter-spacing": "-.005em" },
+        "usedBy": "feature titles, accordion questions, stage titles"
+      },
+      "b3": {
+        "base": { "font": "body", "font-size": "1.6rem", "px": 16, "line-height": "145%", "letter-spacing": "-.01em" },
+        "md": { "font-size": "1.8rem", "px": 18, "line-height": "145%", "letter-spacing": "-.01em" },
+        "lg": { "breakpoint": "min-width:1024px", "class": ".lg:b3", "font-size": "1.8rem", "line-height": "140%", "letter-spacing": "-.01em" },
+        "usedBy": "default body copy inside blocks; `.txt-post` (blog prose) shares this rule exactly"
+      },
+      "b4": {
+        "base": { "font": "body", "font-size": "1.4rem", "px": 14, "line-height": "150%", "letter-spacing": "0" },
+        "md": { "font-size": "1.6rem", "px": 16, "line-height": "150%", "letter-spacing": "0" },
+        "usedBy": "nav links, secondary/caption text, button label (regular size)"
+      },
+      "b5": {
+        "base": { "font": "body", "font-size": "1.4rem", "px": 14, "line-height": "150%", "letter-spacing": "0" },
+        "md": { "font-size": "1.4rem", "px": 14, "line-height": "150%", "letter-spacing": "0" },
+        "usedBy": "small button label, footer links"
+      },
+      "b6": {
+        "base": { "font": "body", "font-size": "1.2rem", "px": 12, "line-height": "150%", "letter-spacing": "0" },
+        "md": { "font-size": "1.2rem", "px": 12, "line-height": "150%", "letter-spacing": "0" }
+      },
+      "label": {
+        "base": { "font": "body", "font-size": "1.2rem", "px": 12, "line-height": "150%", "letter-spacing": ".02em" },
+        "md": { "font-size": "1.4rem", "px": 14, "line-height": "150%", "letter-spacing": ".02em" },
+        "usedBy": "the ONLY positive-tracking style in the system — step pills, cursor tooltips, tertiary button text. No uppercase transform is applied anywhere.",
+        "note": "`.b4.md:b3` is a special composite rule: 1.8rem/145%/-.01em at md."
+      }
+    },
+    "letterSpacingLadder": {
+      "$note": "Tracking tightens as size grows — the classic optical-sizing move that makes the display face feel engineered.",
+      "ladder": [
+        { "size": "12–16px (label)", "tracking": "+0.02em" },
+        { "size": "12–16px (b4/b5/b6)", "tracking": "0" },
+        { "size": "16–18px (b3)", "tracking": "-0.01em" },
+        { "size": "18–20px (b2)", "tracking": "-0.005em" },
+        { "size": "20–26px (b1) / body", "tracking": "-0.02em" },
+        { "size": "24–40px (h3–h6)", "tracking": "-0.01em → 0" },
+        { "size": "30–64px (h1/h2 @md)", "tracking": "-0.02em" },
+        { "size": "80px (display @md)", "tracking": "-0.04em" }
+      ]
+    },
+    "richText": {
+      "containers": [".txt", ".txt.txt-post"],
+      "rules": {
+        ".txt b,.txt strong": "font-weight:700",
+        ".txt em": "font-style:italic",
+        ".txt a": "color:inherit; text-decoration:underline; text-underline-offset:.2em; text-decoration-thickness:.1rem; transition:text-decoration-color .2s",
+        ".txt a:hover (hover:hover)": "text-decoration-color:#0000  — the underline fades out rather than appearing on hover",
+        "block flow": ".txt p,h1–h6,blockquote,hr,ol,table,ul { margin-top:1em } with :first-child reset to 0",
+        "lists": ".txt ul/ol { padding-left:2em; list-style-position:outside } ; ul=disc, ol=decimal ; .txt li+li { margin-top:var(--spacing-8) }",
+        "tables": ".txt table { border:var(--border); border-collapse:collapse; width:100% } ; td/th padding .7rem 1rem ; thead th font-weight:700",
+        ".txt-content-table": "borderless variant — td/th padding var(--spacing-20), vertical rules via border-left on :not(:first-child), thead th font-weight:400",
+        ".txt-post flow": "> * + * { margin-top:var(--spacing-24) } ; headings not:first-child get var(--spacing-48) ; media/quote/embed/stats/table blocks and their next sibling get var(--spacing-48)",
+        ".txt sub,.txt sup": "font-size:.75em; line-height:0",
+        ".jobs-meta-row > span + span::before": "content:'•'; padding-inline:.3em"
+      }
+    }
+  },
+
+  "spacing": {
+    "scale": {
+      "$note": "Tailwind v4 `--spacing-N` tokens, N = px value. Available as gap-N, p-N, m-N, etc.",
+      "--spacing-0": "0rem",
+      "--spacing-4": "0.4rem",
+      "--spacing-8": "0.8rem",
+      "--spacing-12": "1.2rem",
+      "--spacing-16": "1.6rem",
+      "--spacing-20": "2rem",
+      "--spacing-24": "2.4rem",
+      "--spacing-32": "3.2rem",
+      "--spacing-48": "4.8rem",
+      "--spacing-64": "6.4rem",
+      "--spacing-72": "7.2rem",
+      "--spacing-96": "9.6rem",
+      "--spacing-128": "12.8rem",
+      "--spacing-148": "14.8rem",
+      "$gaps": "No 40, 56, 80, 112 steps — the ladder is 0,4,8,12,16,20,24,32,48,64,72,96,128,148."
+    },
+    "responsiveRhythmTokens": {
+      "--spacing-section-padding-s": { "base": "3.2rem", "md(768)": "4.8rem", "lg(1024)": "4.8rem" },
+      "--spacing-section-padding-m": { "base": "4.8rem", "md(768)": "8rem", "lg(1024)": "8rem" },
+      "--spacing-section-padding-l": { "base": "6.4rem", "md(768)": "11.2rem", "lg(1024)": "11.2rem" },
+      "--spacing-margins": { "base": "2rem", "md(768)": "2rem", "lg(1024)": "4.8rem", "role": "page side gutter; also used as a vertical rhythm value in several blocks" },
+      "--spacing-gutter": { "base": "2rem", "md(768)": "1.2rem", "lg(1024)": "1.2rem", "role": "grid column gap — note it SHRINKS at md, opposite of margins" }
+    },
+    "layout": {
+      "--rem-size": "10px",
+      "--max-width": "160rem  (1600px)",
+      "--vp-width": "100vw",
+      "--vp-height": "100vh → 100dvh under @supports (height:100dvh); ALSO overwritten at runtime to window.visualViewport.height in px",
+      "--layout-height": "calc(var(--vp-height) - var(--header-height))",
+      "--nav-height": { "base": "5.4rem", "md(768)": "6.2rem", "role": "height of the floating nav pill itself" },
+      "--header-height": { "base": "7.2rem", "md(768)": "9.2rem", "role": "nav pill + its top offset; used to pad the first block" },
+      "--header-submenu-top": "calc(1rem + var(--nav-height))",
+      "--banner-offset": { "runtime": true, "value": "0px when no banner; otherwise max(0, bannerHeight - window.scrollY)px", "note": "set on documentElement by JS; header is `top:var(--banner-offset,0px)` so it rides up as the banner scrolls away" },
+      "--banner-height": { "runtime": true, "value": "measured banner height in px" }
+    },
+    "zIndex": {
+      "--z-main": 1,
+      "--z-footer": 2,
+      "--z-modal": 3,
+      "--z-header": 4,
+      "--z-banner": 5,
+      "--z-dialog": 6,
+      "note": "blocks additionally get an inline `style=\"z-index:N\"` incrementing 1,2,3… in document order so later sections stack over earlier ones (needed for the sticky/scale hero effects)."
+    },
+    "container": {
+      "class": ".wrap",
+      "rules": "width:100%; max-width:var(--max-width) /*160rem*/; padding-inline:var(--spacing-margins); margin-inline:auto",
+      "note": "`.wrap` is the only page container. Inner content then uses one of ~40 hard max-widths (see contentMaxWidths)."
+    },
+    "contentMaxWidths": {
+      "$note": "recurring measure caps, in rem (÷10 = px ×10)",
+      "heroCopy": "76.8rem (768px) — the dominant headline measure",
+      "navPill": "96rem (960px)",
+      "megaMenuPanel": "96rem",
+      "featureCopy": ["52.8rem", "55rem", "58rem", "60rem", "64.7rem", "77rem"],
+      "media": ["40rem", "50rem", "65rem", "75rem", "100rem", "130rem"],
+      "grids": ["103rem", "112rem", "124rem", "128rem", "134.4rem"],
+      "page": "160rem"
+    },
+    "breakpoints": {
+      "$note": "The CSS only ever branches at 3 widths. Tailwind's rem-based `container` variants (40/48/64/80/96rem) are generated but unused by the design.",
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "jsMediaQueries": {
+        "layoutStore": "mobile 0–639, tablet 640–1023, desktop ≥1024",
+        "carousel": "matchMedia(min-width:640px) → tablet, matchMedia(min-width:1024px) → desktop",
+        "FeatureStages sticky": "matchMedia(min-width:1024px) — below that the block degrades to a plain stacked list",
+        "FeatureScroll parallax": "matchMedia(min-width:768px) — parallax is OFF on mobile"
+      },
+      "containerQueries": {
+        "@container (min-width:1344px)": "ScrollStages side rules",
+        "@container not (min-width:1343px)": "ScrollStages padding reset",
+        "@container not (min-width:1439px)": "FeatureTimer border-x reset",
+        "container-type:inline-size on": [".AgendaCards_card", "ScrollStages/FeatureTimer wrappers via @container class"]
+      },
+      "heightQueries": {
+        "@media (min-height:600px)": "FeatureTimer drops its min-h-(--vp-height)",
+        "@media (min-width:768px) and (min-height:1001px)": "another min-h-0 escape hatch"
+      }
+    }
+  },
+
+  "shape": {
+    "radius": {
+      "--radius-small": "1.2rem (12px)",
+      "--radius-medium": "2rem (20px)",
+      "--radius-large": "3rem (30px)",
+      "pill": "rounded-[10rem] (100px) — every button; `rounded-full` for icon buttons, nav pill, step pills and avatars",
+      "fieldRadius": "0.4rem (HubSpot inputs/textarea)",
+      "quoteCard": "calc(3rem * var(--quote-scale))  — 3rem mobile, 4.05rem at md (--quote-scale:1.3516)",
+      "floatingHighlightCard": "0.7rem at lg, scaled down proportionally: calc(0.7rem*14.04/26) at base, calc(0.7rem*18/26) at md",
+      "iconTile": ".2rem base / .5rem at sm"
+    },
+    "border": {
+      "--border": ".1rem solid var(--color-border)  (1px hairline)",
+      "usage": "applied via `[border:var(--border)]` / `[border-left:var(--border)]` arbitrary properties rather than Tailwind border utilities, so the whole hairline (width+style+color) swaps with the theme in one token.",
+      "themedWidth": "always 1px; only the color alpha changes (0.2 default / 0.1 light / oatmeal 0.15 dark)"
+    },
+    "shadow": {
+      "$note": "Shadows are RARE and always soft, warm and offset-down — never a generic black drop shadow. All are defined inline as Tailwind arbitrary values.",
+      "photoCard": "0 1.2rem 3.2rem -0.8rem var(--color-earth-30)   — FoundersNote photos",
+      "chipLabel": "0 0.4rem 1.2rem -0.2rem var(--color-earth-20)   — FoundersNote label chips",
+      "lgPanel": "0 2rem 4.8rem -1.2rem var(--color-earth-20)       — lg:shadow on a large panel",
+      "videoPlayGlow": "0 0 2rem 0.4rem rgba(255,255,255,0.05), 0 0 3.2rem 0.6rem rgba(255,255,255,0.05)  — the frosted play-button plate over video",
+      "floatingHighlightCard": "0 4px 4px 0 rgba(0,0,0,0.12)",
+      "generic": ["0 4px 24px rgba(0,0,0,0.12)", "shadow-lg", "shadow-xl (Tailwind defaults, barely used)"]
+    },
+    "blur": {
+      "--blur-sm": "8px",
+      "--blur-md": "12px",
+      "backdropFilter": [
+        { "target": "mobile nav pill", "class": "backdrop-blur-md", "value": "blur(12px)", "over": "bg-header (taupe) + border-earth-5" },
+        { "target": "ScrollStages step pill + progress label", "class": "backdrop-blur-[6px]", "value": "blur(6px)", "over": "bg-text-primary/20" }
+      ],
+      "filterBlur": [
+        { "target": "background texture video, desktop", "class": "lg:blur-[1px]", "note": "when a texture VIDEO is playing" },
+        { "target": "background texture image, desktop", "class": "lg:blur-[3px]", "note": "when only the still webp is used; wrapper is -inset-[6px] so the blur does not reveal edges" },
+        { "target": "misc", "class": "blur-[2.5px] / blur (8px)" }
+      ]
+    },
+    "gradients": {
+      "$note": "There are NO decorative brand gradients in the stylesheet. Every gradient is one of three jobs: (a) fade media into the page, (b) legibility scrim over a photo, (c) the yellow text-highlight sweep.",
+      "definitions": [
+        {
+          "name": "hero media fade-out",
+          "selector": "pointer-events-none absolute inset-x-0 bottom-0 h-[150%] md:h-[200%] bg-gradient-to-t from-background via-background/50 to-background/0",
+          "resolved": "linear-gradient(to top in oklab, #fef9ed 0%, color-mix(in oklab,#fef9ed 50%,transparent) 50%, transparent 100%)",
+          "purpose": "dissolves a full-bleed image into the page canvas over 1.5–2× its own height"
+        },
+        {
+          "name": "photo legibility scrim (team card)",
+          "selector": ".absolute.inset-0.bg-linear-to-t.from-black/75.via-black/35.to-transparent",
+          "resolved": "linear-gradient(to top in oklab, rgba(0,0,0,.75), rgba(0,0,0,.35) 50%, transparent)"
+        },
+        {
+          "name": "photo bottom crush",
+          "selector": "bg-linear-to-t from-[rgba(0,0,0)] to-transparent (h-1/2 or h-[50%] or h-full)",
+          "resolved": "linear-gradient(to top in oklab, #000, transparent)",
+          "purpose": "used under captions on FeatureTabs media (mobile only) and under team-card names"
+        },
+        {
+          "name": "text highlight sweep",
+          "selector": "inline <span role=\"mark\"> in the Highlight rich-text component",
+          "css": "background-image:linear-gradient(var(--color-accent), var(--color-accent)); background-repeat:no-repeat; background-position:left center; box-decoration-break:clone",
+          "animation": "backgroundSize 0% 100% → 100% 100% (see motion.json: highlightMarkSweep)",
+          "purpose": "a lemon marker-pen sweep behind a phrase; clones across line breaks"
+        },
+        {
+          "name": "quote-card ambient glow",
+          "selector": ".TestimonialsQuoteCards featureLayer > div (inline style)",
+          "css": "radial-gradient(ellipse 50% 41.5% at 50% 41.5%, #b7cded, #b7cded00), radial-gradient(ellipse 50% 41.5% at 50% 41.5%, #b7cded, #b7cded00), radial-gradient(ellipse 44.12% 42.15% at 48.88% 57.85%, #fedfef 50%, #fedfef00 100%)",
+          "geometry": "aspect-[1886/1803] w-[246.53%] left-[101.41%] -translate-x-1/2 -translate-y-[41.6%] rotate-[34.65deg]",
+          "purpose": "an out-of-frame blue+pink aurora that reveals only on the centred card (opacity = 1 - var(--card-t))"
+        },
+        {
+          "name": "underline-gap rule",
+          "selector": ".bg-[linear-gradient(90deg,transparent_15%,currentColor_15%,currentColor_85%,transparent_85%)]",
+          "purpose": "a rule that fades at both ends, 15%/85% stops"
+        },
+        {
+          "name": "marquee edge overlay (react-fast-marquee)",
+          "css": ".rfm-overlay::before/::after { background: linear-gradient(to right, var(--gradient-color), rgba(255,255,255,0)); width: var(--gradient-width) }",
+          "note": "::after is rotateZ(180deg) to mirror it on the right edge"
+        }
+      ]
+    },
+    "imageTreatment": {
+      "frames": "media is almost always wrapped in `overflow-hidden rounded-medium` (20px) or `rounded-large` (30px); hero video frames use `rounded-b-large` only (square top, rounded bottom) so they meet the nav flush",
+      "aspectRatios": ["228/300 (founder photos)", "333/400 (team cards)", "350/220 → 588/354 (founders-note collage frame)", "555/580", "1034/560", "1050/1182", "201/232", "5/7", "2689/11 (footer wordmark)", "355/326 (footer wordmark, mobile)", "113/18 (logo)"],
+      "sizesStrategy": "every <Image> gets an explicit responsive `sizes` map {small,medium,large} compiled to `(max-width:639px) X, (min-width:640px) and (max-width:1023px) Y, (min-width:1024px) Z`; quality=100",
+      "texture": "an always-present background system (Texture component): three moods `dark` / `mid` / `light` (+ `resources`, `comparisonTable`), each with a still .webp (desktop, mobile, background) and an optional looping .mp4 at /assets/textures/{dark,mid,light}.mp4, layered at 90–100% opacity behind sections, blurred 1–3px at lg",
+      "masks": "no mask-image or clip-path except `.sr-only` (clip-path:inset(50%)) and the footer wordmark reveal (clipPath inset animation)"
+    }
+  },
+
+  "blocks": {
+    "$note": "Block padding is expressed via two custom properties set on the <section> by the `Blocks_<Type>__hash` class in 3878138f0d8eeb6c.css. The section markup then declares `[--block-pad-top:var(--block-pt)]` (or, for the first Hero, `[--block-pad-top:calc(var(--header-height)+var(--block-pt))]`) and children consume `pt-[var(--block-pad-top)] pb-[var(--block-pad-bottom)]`.",
+    "$mechanism": {
+      "base": ".Blocks_block { --block-pt:0px; --block-pad-bottom:0px }",
+      "default": ".Blocks_blockDefault { --block-pt:var(--spacing-48); --block-pad-bottom:var(--spacing-48) }",
+      "wrapperClasses": "relative isolate [+ bg-background when the block paints its own canvas] + data-block-type + data-theme + inline z-index"
+    },
+    "types": [
+      { "type": "Hero", "class": "Blocks_Hero__RytjH", "pt": { "base": "var(--spacing-section-padding-m)" }, "pb": { "base": "0px" }, "padTopOverride": "calc(var(--header-height) + var(--block-pt)) when first", "layout": "full-viewport grid h-(--vp-height) min-h-[50rem] grid-cols-1 grid-rows-1 overflow-hidden; media layer and copy layer occupy the same cell; copy layer carries data-theme=dark", "notable": "scroll-linked scale-down of the media frame (see motion)" },
+      { "type": "HeroColumns", "class": "Blocks_HeroColumns__4THKz", "pt": { "base": "var(--spacing-32)" }, "pb": { "base": "var(--spacing-margins)" } },
+      { "type": "HeroFramed", "class": "Blocks_HeroFramed__wFfbc", "pt": { "base": "var(--spacing-8)", "sm(640)": "var(--spacing-20)" }, "pb": { "base": "var(--spacing-margins)", "sm(640)": "var(--spacing-margins)" }, "layout": "centered copy stack (eyebrow b4/md:h6 → h1 → b4/md:b3 → button), then a `perspective-[132rem]` wrapper around a `transform-3d origin-bottom` media plate", "notable": "3D rotateX lift on scroll" },
+      { "type": "HeroFullwidth", "class": "Blocks_HeroFullwidth__3Hvoh", "pt": { "base": "0px" }, "pb": { "base": "0px" } },
+      { "type": "HeroSummit", "class": "Blocks_HeroSummit__3qAAx", "pt": { "base": "var(--spacing-section-padding-l)" }, "pb": { "base": "0px" }, "notable": "per-character typewriter tagline with blinking caret" },
+      { "type": "FoundersNote", "class": "Blocks_FoundersNote__Np24N", "pt": { "base": "var(--spacing-section-padding-l)" }, "pb": { "base": "var(--spacing-section-padding-l)" }, "layout": "absolutely-positioned 2-photo collage inside aspect-350/220 (lg aspect-588/354, w-[110%]); photo 1 left-0 top-[12%] w-[42%] (lg top-[17%] w-[38%]) rotate -3deg; photo 2 left-[54%] top-0 w-[42%] (lg left-[50%] w-[38%]) rotate +6deg; each has a `bg-sea` label chip" },
+      { "type": "Headline", "class": "Blocks_Headline__vFAaJ", "pt": { "base": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-72)" } },
+      { "type": "LogosGrid", "class": "Blocks_LogosGrid__h1R7U", "pt": { "base": "var(--spacing-32)", "sm(640)": "var(--spacing-48)" }, "pb": { "base": "var(--spacing-32)", "sm(640)": "var(--spacing-48)" } },
+      { "type": "LogosTicker", "class": "Blocks_LogosTicker__l3wXc", "pt": { "base": "var(--spacing-32)", "sm(640)": "var(--spacing-48)" }, "pb": { "base": "var(--spacing-32)", "sm(640)": "var(--spacing-48)" }, "layout": "react-fast-marquee; logo height h-[6rem] md:h-[7.2rem] (small variant h-[6rem] md:h-[4.8rem]); slide margin mx-[.5rem] md:mx-[3rem] (small: md:mx-[2rem]); each logo is `opacity-[0.65] hover:opacity-100`; falls back to a static centred flex row when the content already fits" },
+      { "type": "IconBlocks", "class": "Blocks_IconBlocks__fTdjN", "pt": { "base": "var(--spacing-margins)" }, "pb": { "base": "var(--spacing-margins)" } },
+      { "type": "Stats", "class": "Blocks_Stats__cxDul", "pt": { "base": "var(--spacing-margins)", "lg(1024)": "var(--spacing-margins)" }, "pb": { "base": "var(--spacing-48)", "lg(1024)": "var(--spacing-72)" }, "layout": "ul flex-col gap-32 → lg:flex-row gap-x-gutter; each item has a `before:` pseudo left rule that grows 0 → 100% height on reveal; number uses the `display` type style (or h2 in the small variant)" },
+      { "type": "Testimonial", "class": "Blocks_Testimonial__y1z1y", "pt": { "base": "0px" }, "pb": { "base": "0px" } },
+      { "type": "TestimonialsMediaCards", "class": "Blocks_TestimonialsMediaCards__6U_LR", "pt": { "base": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-72)" } },
+      { "type": "TestimonialsQuoteCards", "class": "Blocks_TestimonialsQuoteCards__iFAiR", "pt": { "base": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-72)" }, "layout": "Embla carousel, align:center, containScroll:false, startIndex = floor((n-1)/2); perView 1.15/1.15/1.6784 with gaps 20/20/60px; progress bar sized to one slide", "cardCss": ".TestimonialsQuoteCards_card{--card-t:1;--card-min-scale:1;scale:calc(1 - (1 - var(--card-min-scale)) * var(--card-t));transform-origin:var(--card-origin,50%) center} @md{--card-min-scale:0.7399} ; .featureLayer{opacity:calc(1 - var(--card-t))}", "scaleSystem": "--quote-scale is 1 on mobile and 1.3516 at md; every internal size is `calc(Xrem * var(--quote-scale))` so the whole card scales as one unit" },
+      { "type": "TestimonialsTextCards", "class": "Blocks_TestimonialsTextCards__3NXkJ", "pt": { "base": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-72)" } },
+      { "type": "CardsGrid", "class": "Blocks_CardsGrid__FpE7u", "pt": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-72)" } },
+      { "type": "CardsGradient", "class": "Blocks_CardsGradient__xOx__", "pt": { "base": "var(--spacing-section-padding-l)", "md(768)": "var(--spacing-128)" }, "pb": { "base": "var(--spacing-section-padding-m)" } },
+      { "type": "AgendaCards", "class": "Blocks_AgendaCards__EMnMF", "pt": { "base": "var(--spacing-section-padding-l)" }, "pb": { "base": "var(--spacing-section-padding-l)" }, "cardCss": ".AgendaCards_card{container-type:inline-size} .AgendaCards_watermark{font-family:var(--font-heading);font-size:clamp(4rem,26cqw,9rem);letter-spacing:-.04em;color:transparent;-webkit-text-stroke:.1rem var(--color-earth-50)}", "notable": "the only container-query-driven type in the system, and the only outlined (stroke-only) text" },
+      { "type": "IconCards", "class": "Blocks_IconCards__5LGG5", "pt": { "base": "var(--spacing-section-padding-l)" }, "pb": { "base": "var(--spacing-section-padding-l)" } },
+      { "type": "ItemsGrid", "class": "Blocks_ItemsGrid__y55mE", "pt": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-48)" }, "pb": { "base": "var(--spacing-32)", "sm(640)": "var(--spacing-48)" } },
+      { "type": "List", "class": "Blocks_List__IcEJh", "pt": { "base": "var(--spacing-64)", "lg(1024)": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-64)", "lg(1024)": "var(--spacing-96)" } },
+      { "type": "Team", "class": "Blocks_Team__m7Mhx", "pt": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-96)" }, "layout": "ul grid-cols-6 gap-margins → sm:grid-cols-12 gap-gutter; normal member = col-span-6 sm:col-span-6 lg:col-span-4; featured = col-span-6; card is aspect-333/400 rounded-small overflow-hidden with two stacked scrims and an expand-button" },
+      { "type": "Compare", "class": "Blocks_Compare__jjGk6", "pt": { "base": "var(--spacing-48)", "md(768)": "var(--spacing-72)", "lg(1024)": "var(--spacing-section-padding-l)" }, "pb": { "base": "var(--spacing-48)", "md(768)": "var(--spacing-96)", "lg(1024)": "var(--spacing-section-padding-l)" } },
+      { "type": "Bento", "class": "Blocks_Bento__hp3dE", "pt": { "base": "var(--spacing-72)", "md(768)": "var(--spacing-section-padding-l)" }, "pb": { "base": "var(--spacing-margins)", "md(768)": "var(--spacing-margins)", "lg(1024)": "var(--spacing-margins)" }, "assets": "/_next/static/media/bento.4e75c094.webp (2880×1576) and bento-mobile.73f9efce.webp (1000×1024)", "unresolved": "the Bento React component lives in a lazily-loaded chunk that is not served at the paths advertised in the webpack manifest; its internals could not be read statically" },
+      { "type": "SideBySide", "class": "Blocks_SideBySide__s5Y8f", "pt": { "base": "var(--spacing-48)" }, "pb": { "base": "var(--spacing-48)" } },
+      { "type": "SummitPricing", "class": "Blocks_SummitPricing__T1Z4e", "pt": { "base": "var(--spacing-section-padding-l)", "md(768)": "var(--spacing-128)" }, "pb": { "base": "var(--spacing-section-padding-l)", "md(768)": "var(--spacing-96)" }, "notable": "Radix ToggleGroup with a shared-layout `layoutId` pill" },
+      { "type": "SummitDetails", "class": "Blocks_SummitDetails___ZQeQ", "pt": { "base": "var(--spacing-section-padding-l)", "md(768)": "var(--spacing-128)" }, "pb": { "base": "var(--spacing-section-padding-l)", "md(768)": "var(--spacing-128)" }, "bodyCss": ".SummitDetails_body.txt.txt-default :is(h1..h6){margin-top:0;font-family:var(--font-family);font-size:2rem;font-weight:400;line-height:130%;letter-spacing:-.02em} @md{font-size:2.6rem}", "notable": "the ONE place headings drop to the body face" },
+      { "type": "TextImage", "class": "Blocks_TextImage__6X0Vy", "pt": { "base": "var(--spacing-48)", "md(768)": "var(--spacing-48)" }, "pb": { "base": "var(--spacing-0)" } },
+      { "type": "Cta", "class": "Blocks_Cta__ByJDJ", "pt": { "base": "var(--spacing-0)" }, "pb": { "base": "var(--spacing-0)" } },
+      { "type": "CtaBackground", "class": "Blocks_CtaBackground__USJph", "pt": { "base": "var(--spacing-margins)" }, "pb": { "base": "var(--spacing-margins)" } },
+      { "type": "ContactForm", "class": "Blocks_ContactForm__2ZH_I", "pt": { "base": "var(--spacing-margins)" }, "pb": { "base": "var(--spacing-margins)" } },
+      { "type": "BlogSummary", "class": "Blocks_BlogSummary__oqRuq", "pt": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-72)" } },
+      { "type": "Jobs", "class": "Blocks_Jobs__XyLH7", "pt": { "base": "var(--spacing-48)", "sm(640)": "var(--spacing-48)" }, "pb": { "base": "var(--spacing-72)", "sm(640)": "var(--spacing-96)" } },
+      { "type": "FeatureScroll", "class": "Blocks_FeatureScroll___phPz", "pt": { "base": "var(--spacing-72)", "md(768)": "var(--spacing-0)" }, "pb": { "base": "var(--spacing-72)", "md(768)": "var(--spacing-0)" }, "layout": "section has `border-t border-border`; each item is `md:grid md:grid-cols-12 md:gap-gutter` with copy on cols 1–7 (`md:[border-right:var(--border)] md:pr-gutter`) and media on cols 8–12 (`md:pb-72`, last item `md:pb-128`); media capped at md:max-w-[50rem] md:ml-auto md:py-32", "notable": "counter-scrolling parallax on copy vs media, md+ only" },
+      { "type": "FeatureStages", "class": "Blocks_FeatureStages__D1HNx", "pt": { "base": "var(--spacing-section-padding-s)", "lg(1024)": "var(--spacing-section-padding-m)" }, "pb": { "base": "var(--spacing-section-padding-s)", "lg(1024)": "var(--spacing-margins)" }, "layout": "lg only: a spacer div of h-(--layout-height) + n × h-[150vh] scroll rows, with an absolutely-positioned 3-col overlay `md:grid-cols-[minmax(0,1fr)_minmax(35rem,1fr)_minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_minmax(48rem,1fr)_minmax(0,1fr)]`. Each column is `sticky top-0 flex min-h-(--layout-height) items-center pt-[calc(var(--header-height)+var(--spacing-20))]`. Even-index copy renders left, odd-index right, each nudged vertically by a fixed ladder [-20%,0,10%,25%]. Below lg it degrades to a plain `flex-col gap-y-72` list.", "notable": "two independent useScroll ranges drive stage index + a y-offset centering transform" },
+      { "type": "FeatureTabs", "class": "Blocks_FeatureTabs__PBy4q", "pt": { "base": "var(--spacing-48)", "lg(1024)": "var(--spacing-72)" }, "pb": { "base": "var(--spacing-48)", "lg(1024)": "var(--spacing-72)" }, "layout": "grid-cols-12 gap-gutter; lg:col-start-1/end-3 sticky rail (`h-(--vp-height) border-l border-border`) with a 10×10px marker square and a tab list `gap-16 pl-[3rem]`; content col-start-3/end-11", "notable": "spring-driven rail marker + scroll-proximity scale/opacity per item" },
+      { "type": "FeatureTimer", "class": "Blocks_FeatureTimer__6dgfJ", "pt": { "base": "var(--spacing-0)" }, "pb": { "base": "var(--spacing-0)" }, "layout": "min-h-(--vp-height) (dropped at min-height:600px); horizontally scrollable tab row `gap-8 lg:gap-x-16 scrollbar-hidden` that becomes `md:flex-wrap md:justify-center`; tabs are `rounded-full px-[1.5rem] py-[0.6rem] b4`; a 1px full-bleed border line under the tab row; images `max-w-[41.7rem] md:max-w-[58rem]` for copy, `max-w-[100rem]` for the screenshot; play/pause button size-[4.4rem] md:size-[3rem]", "notable": "auto-rotating tabs with a 6s fill-bar per tab" },
+      { "type": "ScrollStages", "class": "Blocks_ScrollStages__JZxgU", "pt": { "base": "var(--spacing-0)" }, "pb": { "base": "var(--spacing-0)" }, "layout": "grid-cols-1 with a sticky full-viewport texture layer in row 1 and content in row 1 as well. Desktop: left rail of steps `pt-[calc(var(--vp-height)/2)]`, items `py-128` (first `pb-128`, last `pt-128 pb-[calc(var(--spacing-128)*2)]`), copy max-w-[44rem] pr-[9rem]; right column is a sticky h-(--vp-height) media well. A centred 1px vertical rule spans the block with a 10×10px travelling marker and a step-name pill. Vertical border rules at left/right --spacing-margins appear at @container (min-width:1344px).", "notable": "midline-proximity opacity per step; scroll-progress-driven marker" },
+      { "type": "Divider", "class": "Blocks_Divider__l89bC", "pt": { "base": "0px" }, "pb": { "base": "0px" } }
+    ]
+  },
+
+  "components": {
+    "button": {
+      "$base": "inline-flex items-center justify-center rounded-[10rem] transition-all duration-300 ease-in-out cursor-pointer",
+      "sizes": {
+        "regular": { "textBtn": "min-h-[40px] px-[2rem] py-[0.8rem] sm:min-h-[4.8rem] sm:max-h-[4.8rem] sm:px-[2.4rem] sm:py-[1.2rem]", "iconBtn": "size-[40px] p-0 rounded-full sm:size-[4.8rem]", "tertiary": "min-h-[5.5rem] px-24 py-12", "label": "b4" },
+        "small": { "textBtn": "min-h-[40px] px-[2rem] py-[0.8rem] sm:min-h-[3.7rem] sm:max-h-[3.7rem] sm:px-20 sm:py-8", "iconBtn": "size-[40px] p-0 rounded-full sm:size-[4rem]", "tertiary": "min-h-[4.1rem] px-20 py-8", "label": "b5" }
+      },
+      "variants": {
+        "primary/light": { "fill": "bg-lemon-button (#f9f665)", "border": "1px solid var(--color-earth-20)", "hoverFill": "bg-lemon-button-active (#f3f05a)", "textColor": "var(--color-earth-dark)", "hoverTransform": "transform-gpu hover:scale-[1.0375]" },
+        "primary/dark": { "fill": "bg-earth-dark (#5d5146)", "hoverFill": "bg-earth-button-active (#84715f)", "textColor": "var(--color-cloud)", "hoverTransform": "scale(1.0375)" },
+        "secondary/light": { "fill": "bg-tan/25 (#a9978a40)", "hoverFill": "bg-tan/50", "textColor": "var(--color-earth-dark)", "hoverTransform": "scale(1.0375)" },
+        "secondary/dark": { "fill": "bg-oatmeal-80 (#f8eddacc)", "hoverFill": "bg-taupe (#f8edda)", "textColor": "var(--color-earth-dark)", "hoverTransform": "scale(1.0375)" },
+        "white": { "fill": "bg-white", "border": "1px solid var(--color-earth-20)", "hoverFill": "bg-cloud", "hoverTransform": "scale(1.0375)" },
+        "tertiary": { "fill": "transparent", "padding": "px-0 py-0 gap-[0.8rem]", "label": "b4 on mobile / `label` class at sm+", "icon": "always arrowRight in a size-[2.6rem] rounded-full bg-lemon-button chip whose svg is scale-[1.2]; chip → bg-lemon-button-active on group hover", "hoverTransform": "none (no scale)" },
+        "iconPrimary/light": { "fill": "bg-lemon-button", "border": "1px solid var(--color-earth-30)", "hoverFill": "bg-lemon-button-active" },
+        "iconPrimary/dark": { "fill": "bg-earth-dark", "hoverFill": "bg-earth-button-active", "iconColor": "text-cloud" },
+        "iconSecondary/light": { "fill": "bg-tan/25", "hoverFill": "bg-tan/50" },
+        "iconSecondary/dark": { "fill": "bg-oatmeal-80", "hoverFill": "bg-taupe" }
+      },
+      "iconSlide": {
+        "markup": "outer .h-full.w-full.scale-x-[-1] > track .flex.h-full.w-[200%].transform-gpu > two .w-1/2.scale-x-[-1] cells each holding the same icon",
+        "transition": "transition-transform duration-500 ease-in-out",
+        "hover": "group-hover:-translate-x-1/2 (and group-hover/cta:-translate-x-1/2)",
+        "reducedMotion": "motion-reduce:transform-none motion-reduce:group-hover:translate-x-0",
+        "effect": "the arrow exits right and a duplicate enters from the left — an infinite-looking slide with no JS"
+      },
+      "expandButton": {
+        "class": ".expand-button",
+        "css": "::before and ::after are 1.5rem × .1rem bars in currentColor, both centred; ::before rotate(0), ::after rotate(90deg) with `transition:transform .3s ease-in-out`; [aria-expanded=true]::after rotates to 180deg — a plus that becomes a minus",
+        "sizes": "size-[40px] sm:size-[4rem] (small) or sm:size-[4.8rem] (regular)",
+        "themes": "light → bg-oatmeal-40 hover:bg-oatmeal-50 ; dark → bg-earth-40 hover:bg-earth-50 ; always color:var(--color-cloud)",
+        "reducedMotion": "@media (prefers-reduced-motion:reduce){.expand-button:after{transition:none}}"
+      },
+      "links": {
+        "richTextLink": "underline, thickness .1rem, offset .2em, `transition:text-decoration-color .2s`; on hover the underline colour goes transparent (underline recedes)",
+        "footerLink": "b5 text-cloud transition-opacity hover:opacity-70",
+        "navLink": "b4 text-primary transition-opacity duration-300 ease-in-out; siblings drop to opacity-30 while another item is hovered"
+      }
+    },
+    "header": {
+      "element": "<header class=\"fixed lg:pointer-events-none inset-x-0 top-(--banner-offset,0px) z-(--z-header) h-(--nav-height) pt-20\">",
+      "desktop": {
+        "pill": "mx-auto max-w-[96rem] h-(--nav-height) rounded-full bg-header py-8 px-16 [border:var(--border)] overflow-hidden pointer-events-auto!",
+        "logo": "h-[2.2rem] w-[12rem] ml-8 (inline SVG, viewBox 0 0 113 18)",
+        "nav": "ul flex gap-[2rem]; when ≤4 items the nav is absolutely centred with `transform:translateX(calc(-50% - 1.6rem))`",
+        "chevron": "10×6 SVG, stroke-width 1.25, `inline-block transition-transform duration-200`, rotate-180 when its submenu is open",
+        "ctas": "two pill buttons — bg-cloud hover:bg-transparent and bg-lemon-button hover:bg-lemon-button-active, both `border border-earth-20 b5 transition-colors transition-background duration-300 sm:min-h-[3.7rem] sm:max-h-[3.7rem] sm:px-20 sm:py-8`"
+      },
+      "mobile": {
+        "pill": "mx-auto max-w-[96rem] h-(--nav-height) rounded-full border border-earth-5 bg-header px-20 backdrop-blur-md gap-16",
+        "note": "this is the only place `backdrop-blur-md` (12px) is used"
+      },
+      "megaMenu": {
+        "position": "absolute inset-x-0 top-(--nav-height) z-(--z-header) pt-[1rem] transform-gpu, transformOrigin '50% 0'",
+        "panel": "overflow-hidden rounded-medium bg-header pt-16 pl-16 pr-16 pb-32 [border:var(--border)]",
+        "grid": "grid min-h-[20rem] grid-cols-2 gap-20",
+        "heightMorph": "when switching directly between two submenus the panel's height is transitioned imperatively: `transition:height 0.2s ease-in-out` from the previous measured height to the new one, then the inline height/transition are removed on transitionend. Skipped entirely under prefers-reduced-motion.",
+        "ctaCard": "group/cta; image wrapper `relative overflow-hidden rounded-small`, inner `transform-gpu transition-transform duration-500 ease-in-out will-change-transform group-hover/cta:scale-[1.06]`, image ratio 9/16 objectFit cover"
+      },
+      "colors": "the nav pill is always `--color-header` = taupe #f8edda, in both light and dark blocks — it never inverts"
+    },
+    "accordion": {
+      "library": "Radix UI Accordion (type=\"single\" collapsible)",
+      "item": "border-b border-border",
+      "trigger": "group flex w-full items-center justify-between gap-20 py-24 text-left",
+      "question": "b2 text-balance",
+      "toggle": "size-[4rem] rounded-full bg-oatmeal-60 group-hover:bg-oatmeal-80 transition-colors duration-300; inner chevron `transition-transform duration-300 ease-in-out group-data-[state=open]:-rotate-180`",
+      "answer": "b4 pb-24 leading-relaxed lg:pr-[6rem]",
+      "heightAnimation": "see motion.json faqAccordionDown/Up"
+    },
+    "carousel": {
+      "library": "embla-carousel-react",
+      "defaults": "{ loop, align:'start'|'center', containScroll:'trimSnaps'|false, startIndex, slidesToScroll:1, active }",
+      "perBreakpointConfig": "{ mobile, tablet, desktop } each { perView, gap(px), disabled }; slide flex-basis computed as `calc((100% - (gap * ceil(perView-1))) / perView)` with `marginRight:gap`",
+      "progressBar": "<progress> 2px tall, rounded-full, track bg-border/35 + bg-border, value bg-text-primary, `mt-48`; value = clamp(scrollProgress*100, 33, 100); optionally width-limited to one slide (`--carousel-progress-width`)",
+      "cursor": "shows the motion+ Cursor with text 'Drag' while the viewport is hovered"
+    },
+    "customCursor": {
+      "library": "motion-plus (Motion+) `Cursor`",
+      "hidesNativeCursor": "injects `* { cursor: none !important }` when NOT in follow mode and motion is not reduced",
+      "zones": "reads `[data-cursor]`, then `a, button, input[type=button]` → 'pointer', then `p, textarea, input[type=text], h1..h6` → 'text', else 'default'",
+      "sizes": { "default": "17×17", "pointer": "31×31 (or the target's bounding box + 5px padding when magnetic+morph)", "text": "4 × computed font-size (fallback 4×20)" },
+      "style": "borderRadius 20px (0 in follow mode), zIndex 99999 (99998 in follow mode), position fixed, pointer-events none, will-change transform, contain layout",
+      "tooltipStyle": "flex min-h-[3.3rem] items-center rounded-large bg-earth-dark px-16, inner `label text-cloud whitespace-nowrap`; in follow mode offset {x:-8, y:-42}"
+    },
+    "numberFlow": {
+      "library": "number-flow (used by Stats)",
+      "defaultProps": {
+        "transformTiming": "{ duration: 900, easing: 'linear(0,.005,.019,.039,.066,.096,.129,.165,.202,.24,.278,.316,.354,.39,.426,.461,.494,.526,.557,.586,.614,.64,.665,.689,.711,.731,.751,.769,.786,.802,.817,.831,.844,.856,.867,.877,.887,.896,.904,.912,.919,.925,.931,.937,.942,.947,.951,.955,.959,.962,.965,.968,.971,.973,.976,.978,.98,.981,.983,.984,.986,.987,.988,.989,.99,.991,.992,.992,.993,.994,.994,.995,.995,.996,.996,.9963,.9967,.9969,.9972,.9975,.9977,.9979,.9981,.9982,.9984,.9985,.9987,.9988,.9989,1)' }",
+        "spinTiming": "undefined (falls back to transformTiming)",
+        "opacityTiming": "{ duration: 450, easing: 'ease-out' }",
+        "respectMotionPreference": true
+      },
+      "registeredProperties": ["--_number-flow-d-opacity <number>", "--_number-flow-dx <length>", "--_number-flow-d-width <number>", "--_number-flow-d <number>"]
+    },
+    "forms": {
+      "provider": "HubSpot embedded forms, restyled entirely through `--hsf-*` custom properties on `.HubspotForm_shell`",
+      "shell": "width:100%; border-radius:var(--radius-small,1.2rem); padding:2rem (md: 3.2rem 2rem); background:var(--color-earth-10); dark → var(--color-oatmeal-10); a `shellTextured` variant makes the background transparent and inserts an absolutely-positioned texture layer at z-index:-1 with border-radius:inherit",
+      "keyTokens": {
+        "--hsf-global__font-size": "1.6rem",
+        "--hsf-row__horizontal-spacing": "2rem",
+        "--hsf-row__vertical-spacing": "2rem",
+        "--hsf-module__vertical-spacing": "0.4rem",
+        "--hsf-field-label__font-size": "1.4rem",
+        "--hsf-field-input__border-radius": "0.4rem",
+        "--hsf-field-input__padding": "0 1rem",
+        "--hsf-button__border-radius": "9999px",
+        "--hsf-button__padding": "1.2rem 2rem",
+        "--hsf-button__background-color": "var(--color-accent)",
+        "--hsf-button__hover-background-color": "var(--color-lemon-button-active)",
+        "errorColor": "#ff3b3b (the only red in the system, hard-coded, not a token)"
+      },
+      "inputOverrides": ".hsfc-TextInput { font-size:1.8rem; line-height:145%; letter-spacing:-.01em; height:4.5rem } ; .hsfc-Button { transition:all .3s ease-in-out; transform:scale(1) → scale(1.0375) on hover; background lemon-button → lemon-button-active } ; radio/checkbox inputs 2.5rem square",
+      "submittedState": ".HubspotForm_shellSubmitted { min-height:0; overflow:hidden; padding-block:1.6rem } and `.hs-form-html{display:none!important}`"
+    }
+  },
+
+  "tailwindTheme": {
+    "$note": "Tailwind v4 built-in theme values that survive in the shipped @layer theme (most are unused by the design but constrain what utilities exist).",
+    "--font-sans": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--font-serif": "ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif",
+    "--font-mono": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--container-xs": "20rem", "--container-sm": "24rem", "--container-md": "28rem", "--container-lg": "32rem",
+    "--container-2xl": "42rem", "--container-3xl": "48rem", "--container-4xl": "56rem", "--container-5xl": "64rem",
+    "--font-weight-normal": 400, "--font-weight-medium": 500, "--font-weight-semibold": 600,
+    "--leading-normal": 1.5, "--leading-relaxed": 1.625,
+    "--animate-spin": "spin 1s linear infinite",
+    "--animate-pulse": "pulse 2s cubic-bezier(.4,0,.6,1) infinite",
+    "--blur-sm": "8px", "--blur-md": "12px",
+    "--default-transition-duration": "0.15s",
+    "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+    "--default-font-family": "var(--font-sans)"
+  },
+
+  "implementationNotes": [
+    "Set `html { font-size: 10px }` FIRST. Every value in this file assumes it. If you keep 16px, multiply every rem by 1.6.",
+    "The colour system is two neutrals (#5d5146 ink, #fef9ed canvas) + one accent (#f9f665). Everything else is an alpha ramp of those two neutrals. That is what makes it read as expensive — there is no third hue doing work.",
+    "Theme inversion is per-section (`data-theme=\"dark\"` on the <section>), not per-page. There is no prefers-color-scheme handling at all.",
+    "Hairlines are a single token `--border: .1rem solid var(--color-border)` applied through arbitrary properties like `[border:var(--border)]`. That keeps 1px rules consistent and themeable in one place.",
+    "Headings only ever ship at weight 400 in a display serif; scale, tight negative tracking (down to -0.04em) and the italic cut carry all hierarchy. No bold headings anywhere.",
+    "The `label` class (+0.02em tracking, 12–14px) is the only widened style and is reserved for chips/pills/tertiary-button text.",
+    "Section rhythm comes from three tokens (section-padding-s/m/l) that step 3.2/4.8/6.4rem → 4.8/8/11.2rem at 768px, plus per-block-type overrides. Build the same: one block wrapper that sets --block-pt/--block-pad-bottom per type.",
+    "Grid gutter SHRINKS from 2rem to 1.2rem at md while page margins grow from 2rem to 4.8rem at lg — content gets denser while the page gets more air."
+  ]
+}
