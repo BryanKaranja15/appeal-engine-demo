@@ -1,0 +1,92 @@
+[
+  {
+    "_key": "e90f143e497a",
+    "_type": "highlight",
+    "media": {
+      "image": null,
+      "lottie": null,
+      "overlay": 0,
+      "ratio": null,
+      "type": "video",
+      "video": {
+        "autoplay": null,
+        "file": {
+          "asset": {
+            "mimeType": "video/mp4",
+            "url": "https://cdn.sanity.io/files/3yh0p5q3/production/f7832ca39641ea642bd3455b6817af799f445640.mp4"
+          }
+        },
+        "poster": null,
+        "videoType": "file",
+        "wistia": null
+      }
+    }
+  },
+  {
+    "_key": "61dc9d4bd0dd",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7d4165574ab1",
+        "_type": "span",
+        "marks": [],
+        "text": "Across the care "
+      },
+      {
+        "_key": "ec44f2038a45",
+        "_type": "span",
+        "marks": [
+          "em"
+        ],
+        "text": "journey"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7d4165574ab1",
+    "_type": "span",
+    "marks": [],
+    "text": "Across the care "
+  },
+  {
+    "_key": "ec44f2038a45",
+    "_type": "span",
+    "marks": [
+      "em"
+    ],
+    "text": "journey"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": false,
+    "theme": "dark"
+  },
+  {
+    "_key": "82bf2b0c93d9",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "9f16d9f4e783",
+        "_type": "span",
+        "marks": [],
+        "text": "Deeper context. \nFaster workflows. \nBetter decisions."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "9f16d9f4e783",
+    "_type": "span",
+    "marks": [],
+    "text": "Deeper context. \nFaster workflows. \nBetter decisions."
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  }
+]

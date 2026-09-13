@@ -1,0 +1,78 @@
+[
+  {
+    "_key": "8efdd0e6f682",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "f3892b4acd0a",
+        "_type": "span",
+        "marks": [],
+        "text": "Faster decisions. Stronger performance."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "f3892b4acd0a",
+    "_type": "span",
+    "marks": [],
+    "text": "Faster decisions. Stronger performance."
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "dark"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": false,
+    "theme": "light"
+  },
+  {
+    "_key": "f02620dc0cb5",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "5db6eb6c7e10",
+        "_type": "span",
+        "marks": [],
+        "text": "Review full referral documentation in minutes, apply hospice eligibility criteria automatically, and ensure every “yes” is clinically and financially sound."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "5db6eb6c7e10",
+    "_type": "span",
+    "marks": [],
+    "text": "Review full referral documentation in minutes, apply hospice eligibility criteria automatically, and ensure every “yes” is clinically and financially sound."
+  },
+  {
+    "_key": "e2aa223ed29d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "6b2c709c7d68",
+        "_type": "span",
+        "marks": [],
+        "text": "Make fast, defensible admission decisions"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "6b2c709c7d68",
+    "_type": "span",
+    "marks": [],
+    "text": "Make fast, defensible admission decisions"
+  }
+]

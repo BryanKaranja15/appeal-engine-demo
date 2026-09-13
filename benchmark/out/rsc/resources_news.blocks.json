@@ -1,0 +1,69 @@
+[
+  {
+    "_id": "f917bf7c-2af3-4ddd-ac69-b5776b48accf",
+    "_type": "newsPost",
+    "title": "Exacare ai Accelerates Momentum With Expanded Capabilities",
+    "uri": "/resources/news/exacare-ai-accelerates-momentum",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/3a4b39304da063c5c6be4cd9c627529bf125230b-2006x1120.webp",
+      "id": "image-3a4b39304da063c5c6be4cd9c627529bf125230b-2006x1120-webp",
+      "ratio": 0.5583250249252243,
+      "width": 2006,
+      "height": 1120,
+      "hotspot": "$undefined"
+    },
+    "categories": [
+      {
+        "color": "coral",
+        "name": "Company News",
+        "uri": "company-news"
+      }
+    ],
+    "postType": "news",
+    "date": "May 6, 2026",
+    "timeToRead": "7 min read",
+    "summary": "From acquisitions to AI innovation, exacare ai broadens its impact across post-acute and beyond."
+  },
+  {
+    "_id": "2ca86a1a-9bbd-498d-8081-07cb2f023a18",
+    "_type": "newsPost",
+    "title": "ExaCare Secures $30M in Series A Funding for AI Tools Streamlining Nursing Home Admissions",
+    "uri": "https://skillednursingnews.com/2025/10/exacare-secures-30m-in-series-a-funding-for-ai-tools-streamlining-nursing-home-admissions/",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/b96d0c6ec170f948b2d658d4ba56f994ece8fcb0-6000x4000.jpg",
+      "id": "image-b96d0c6ec170f948b2d658d4ba56f994ece8fcb0-6000x4000-jpg",
+      "ratio": 0.6666666666666666,
+      "width": 6000,
+      "height": 4000,
+      "hotspot": "$undefined"
+    },
+    "categories": [
+      {
+        "color": "coral",
+        "name": "Company News",
+        "uri": "company-news"
+      }
+    ],
+    "postType": "news",
+    "date": "October 16, 2025",
+    "summary": "Skilled Nursing News"
+  },
+  {
+    "_id": "f7b618f8-7632-4a5a-956d-406cfdcc1364",
+    "_type": "newsPost",
+    "title": "Exacare ai Raises $30M Series A to Reimagine Admissions and Launch a Powerful Suite of AI Agents for Skilled Nursing & Home Care",
+    "uri": "https://www.insightpartners.com/ideas/exacare-ai-raises-30m-series-a-to-reimagine-admissions-and-launch-a-powerful-suite-of-ai-agents-for-skilled-nursing-home-care/",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/3917cb8de3dd9636aba541a81ac0daceddb9580b-400x160.webp",
+      "id": "image-3917cb8de3dd9636aba541a81ac0daceddb9580b-400x160-webp",
+      "ratio": 0.4,
+      "width": 400,
+      "height": 160,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "news",
+    "date": "October 16, 2025",
+    "summary": "Insight Partners"
+  }
+]

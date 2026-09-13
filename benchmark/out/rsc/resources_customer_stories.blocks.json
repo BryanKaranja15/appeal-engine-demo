@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "16e3648b-1578-4fe9-8b22-2fd33b4e8479",
+    "_type": "customerStory",
+    "title": "How Exceptional Living Centers turned faster referral review into 32% more admissions",
+    "uri": "/resources/customer-stories/exceptional-living-centers",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/f21bae38c6e62b24594ebe5acd6f31232eceef08-3112x1736.png",
+      "id": "image-f21bae38c6e62b24594ebe5acd6f31232eceef08-3112x1736-png",
+      "ratio": 0.557840616966581,
+      "width": 3112,
+      "height": 1736,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "customer-stories",
+    "industry": "Skilled Nursing",
+    "date": "July 2, 2026"
+  },
+  {
+    "_id": "e5046343-f1fd-47c3-86bd-1e714367f777",
+    "_type": "customerStory",
+    "title": "How St. Croix County scaled a careful admissions process with AI-supported referral review",
+    "uri": "/resources/customer-stories/st-croix-county",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/12ee539f954679cdd182507472dff134d75fcf0c-3112x1736.png",
+      "id": "image-12ee539f954679cdd182507472dff134d75fcf0c-3112x1736-png",
+      "ratio": 0.557840616966581,
+      "width": 3112,
+      "height": 1736,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "customer-stories",
+    "industry": "Skilled Nursing",
+    "date": "June 11, 2026"
+  },
+  {
+    "_id": "6612152f-3389-4cbe-a148-dcb8f1b9474c",
+    "_type": "customerStory",
+    "title": "How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai",
+    "uri": "/resources/customer-stories/ignite-medical-resorts",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/74ec34e6b4891cd4779c631f722bf7d463c051a3-6158x4105.webp",
+      "id": "image-74ec34e6b4891cd4779c631f722bf7d463c051a3-6158x4105-webp",
+      "ratio": 0.6666125365378369,
+      "width": 6158,
+      "height": 4105,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "customer-stories",
+    "industry": "Skilled Nursing",
+    "date": "June 1, 2026"
+  },
+  {
+    "_id": "262b5a2b-9e49-4726-9650-c57083e800fa",
+    "_type": "customerStory",
+    "title": "How Pearl Healthcare increased census by 43% in their second quarter with exacare ai",
+    "uri": "/resources/customer-stories/pearl-healthcare",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/dcdbea3ce73d169f69dc3d5ad896e90509d6a11f-3112x1736.webp",
+      "id": "image-dcdbea3ce73d169f69dc3d5ad896e90509d6a11f-3112x1736-webp",
+      "ratio": 0.557840616966581,
+      "width": 3112,
+      "height": 1736,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "customer-stories",
+    "industry": "Skilled Nursing",
+    "date": "May 3, 2026"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "_key": "0e72aa97ee9d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "66c899ec2298",
+        "_type": "span",
+        "marks": [],
+        "text": "The SNF referral process generally has seven steps: referral receipt, initial intake and triage, clinical review, insurance and financial verification, bed availability and staffing check, the admission decision, and communication and transfer coordination. In practice, these steps overlap and vary depending on whether the organization uses a central intake model or facility-level intake."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "66c899ec2298",
+    "_type": "span",
+    "marks": [],
+    "text": "The SNF referral process generally has seven steps: referral receipt, initial intake and triage, clinical review, insurance and financial verification, bed availability and staffing check, the admission decision, and communication and transfer coordination. In practice, these steps overlap and vary depending on whether the organization uses a central intake model or facility-level intake."
+  },
+  {
+    "_key": "c5e1e607c242",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "dec60582ae1f",
+        "_type": "span",
+        "marks": [],
+        "text": "Many post-acute operators target a 15-minute response time on every referral, with the admissions team completing a first clinical review in under 20 minutes. Hospitals typically send referrals to multiple facilities simultaneously and place with whoever responds first, which means slower response times directly cost facilities placements they would otherwise have won."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "dec60582ae1f",
+    "_type": "span",
+    "marks": [],
+    "text": "Many post-acute operators target a 15-minute response time on every referral, with the admissions team completing a first clinical review in under 20 minutes. Hospitals typically send referrals to multiple facilities simultaneously and place with whoever responds first, which means slower response times directly cost facilities placements they would otherwise have won."
+  },
+  {
+    "_key": "7ea891ca01e0",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "a87391bc12a4",
+        "_type": "span",
+        "marks": [],
+        "text": "Central intake means a dedicated team reviews and screens every incoming referral against standardized criteria before routing it to the appropriate building. Facility-level intake means each building handles its own incoming referrals independently. Central intake gives leadership consistency and visibility across the portfolio, while facility-level intake gives buildings autonomy but tends to produce more variability in decision-making."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "a87391bc12a4",
+    "_type": "span",
+    "marks": [],
+    "text": "Central intake means a dedicated team reviews and screens every incoming referral against standardized criteria before routing it to the appropriate building. Facility-level intake means each building handles its own incoming referrals independently. Central intake gives leadership consistency and visibility across the portfolio, while facility-level intake gives buildings autonomy but tends to produce more variability in decision-making."
+  },
+  {
+    "_key": "fe61b8dd0ec9",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "a34b8f4a1277",
+        "_type": "span",
+        "marks": [],
+        "text": "A typical referral packet includes a hospital discharge summary, the patient's medical history and physician orders, current medication list, insurance information, recent labs, and therapy notes. Most of this information is pulled from the patient's electronic health records during their hospital stay. Packets often run 50 to 100+ pages, and critical clinical details (behavioral history, high-cost medications, wound care needs) can be buried deep in the documentation."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "a34b8f4a1277",
+    "_type": "span",
+    "marks": [],
+    "text": "A typical referral packet includes a hospital discharge summary, the patient's medical history and physician orders, current medication list, insurance information, recent labs, and therapy notes. Most of this information is pulled from the patient's electronic health records during their hospital stay. Packets often run 50 to 100+ pages, and critical clinical details (behavioral history, high-cost medications, wound care needs) can be buried deep in the documentation."
+  },
+  {
+    "_key": "1ebb7d80652f",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "40607782f2a3",
+        "_type": "span",
+        "marks": [],
+        "text": "Facilities decline referrals for a mix of clinical reasons (acuity beyond what the building can manage, equipment or service gaps, behavioral concerns), financial reasons (payer mix, authorization complexity), and operational reasons (no bed available, staffing not aligned to the patient's needs)."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "40607782f2a3",
+    "_type": "span",
+    "marks": [],
+    "text": "Facilities decline referrals for a mix of clinical reasons (acuity beyond what the building can manage, equipment or service gaps, behavioral concerns), financial reasons (payer mix, authorization complexity), and operational reasons (no bed available, staffing not aligned to the patient's needs)."
+  },
+  {
+    "_key": "3fcbfbfea885",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "fc33649a62a4",
+        "_type": "span",
+        "marks": [],
+        "text": ""
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "fc33649a62a4",
+    "_type": "span",
+    "marks": [],
+    "text": ""
+  },
+  {
+    "_key": "ba78f1afb813",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "bf6ad2a3fd55",
+        "_type": "span",
+        "marks": [],
+        "text": "Some declines are also \"soft\" declines, where missing or incomplete documentation makes the facility unable to make a confident decision in time. Declining a referral the facility can't safely manage isn't a lost opportunity; it's a clinical safeguard that supports better patient outcomes by routing the patient to a facility better equipped to care for them."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "bf6ad2a3fd55",
+    "_type": "span",
+    "marks": [],
+    "text": "Some declines are also \"soft\" declines, where missing or incomplete documentation makes the facility unable to make a confident decision in time. Declining a referral the facility can't safely manage isn't a lost opportunity; it's a clinical safeguard that supports better patient outcomes by routing the patient to a facility better equipped to care for them."
+  },
+  {
+    "_key": "91362ce92f4d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "5c0397084d56",
+        "_type": "span",
+        "marks": [],
+        "text": "The admissions or case management team verifies the patient's insurance coverage, confirms benefit eligibility, checks authorization requirements, and identifies the expected payer source (Medicare, Medicaid, managed care, or private). In most facilities, this work is still manual, done by logging into individual payer portals and calling insurance companies. Managed care pre-authorizations can take anywhere from hours to several days."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "5c0397084d56",
+    "_type": "span",
+    "marks": [],
+    "text": "The admissions or case management team verifies the patient's insurance coverage, confirms benefit eligibility, checks authorization requirements, and identifies the expected payer source (Medicare, Medicaid, managed care, or private). In most facilities, this work is still manual, done by logging into individual payer portals and calling insurance companies. Managed care pre-authorizations can take anywhere from hours to several days."
+  },
+  {
+    "_key": "b1f63694b904",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "df199ee46ab9",
+        "_type": "span",
+        "marks": [],
+        "text": "An admissions screener is a tool, sometimes a manual checklist, and increasingly an AI-powered system, that reviews a referral packet against a facility's clinical and financial criteria to support healthcare professionals in making the accept-or-decline decision. AI-powered admissions screeners read through the full packet, surface clinical flags and high-cost medications, and produce a one-page clinical summary so reviewers spend their time deciding rather than searching."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "df199ee46ab9",
+    "_type": "span",
+    "marks": [],
+    "text": "An admissions screener is a tool, sometimes a manual checklist, and increasingly an AI-powered system, that reviews a referral packet against a facility's clinical and financial criteria to support healthcare professionals in making the accept-or-decline decision. AI-powered admissions screeners read through the full packet, surface clinical flags and high-cost medications, and produce a one-page clinical summary so reviewers spend their time deciding rather than searching."
+  }
+]

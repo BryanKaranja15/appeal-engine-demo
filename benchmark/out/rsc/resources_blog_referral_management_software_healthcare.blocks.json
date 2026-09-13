@@ -1,0 +1,206 @@
+[
+  {
+    "_key": "03f637061041",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7e6c69ff91c8",
+        "_type": "span",
+        "marks": [],
+        "text": "Referral management software helps healthcare organizations receive, route, screen, and act on patient referrals. The term spans two very different use cases:"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7e6c69ff91c8",
+    "_type": "span",
+    "marks": [],
+    "text": "Referral management software helps healthcare organizations receive, route, screen, and act on patient referrals. The term spans two very different use cases:"
+  },
+  {
+    "_key": "89ebfb6f3c34",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "c334325df355",
+        "_type": "span",
+        "marks": [],
+        "text": "On the acute and ambulatory side, it tracks the referral process from primary care physicians to specialists and works to close the loop."
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "c334325df355",
+    "_type": "span",
+    "marks": [],
+    "text": "On the acute and ambulatory side, it tracks the referral process from primary care physicians to specialists and works to close the loop."
+  },
+  {
+    "_key": "f9732174b52d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "d26d38147601",
+        "_type": "span",
+        "marks": [],
+        "text": "On the post-acute side (skilled nursing, home health, hospice), it manages the entire inbound referral management process: consolidating referrals from hospital portals, applying clinical screening, and helping operators respond quickly enough to win the bed."
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "d26d38147601",
+    "_type": "span",
+    "marks": [],
+    "text": "On the post-acute side (skilled nursing, home health, hospice), it manages the entire inbound referral management process: consolidating referrals from hospital portals, applying clinical screening, and helping operators respond quickly enough to win the bed."
+  },
+  {
+    "_key": "6b2bcfeb27f5",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "4acc6939adf6",
+        "_type": "span",
+        "marks": [],
+        "text": "Most of the products marketed under this term solve the first problem; far fewer solve the second. This is where "
+      },
+      {
+        "_key": "88c6c1f72642",
+        "_type": "span",
+        "marks": [
+          "cc1f1cce1df0"
+        ],
+        "text": "exacare ai"
+      },
+      {
+        "_key": "bd60b5a1d10e",
+        "_type": "span",
+        "marks": [],
+        "text": " comes in."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "cc1f1cce1df0",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Home",
+          "slug": "/"
+        },
+        "linkType": "internal",
+        "targetBlank": null,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "4acc6939adf6",
+    "_type": "span",
+    "marks": [],
+    "text": "Most of the products marketed under this term solve the first problem; far fewer solve the second. This is where "
+  },
+  {
+    "_key": "88c6c1f72642",
+    "_type": "span",
+    "marks": [
+      "cc1f1cce1df0"
+    ],
+    "text": "exacare ai"
+  },
+  {
+    "_key": "bd60b5a1d10e",
+    "_type": "span",
+    "marks": [],
+    "text": " comes in."
+  },
+  {
+    "_key": "cc1f1cce1df0",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Home",
+      "slug": "/"
+    },
+    "linkType": "internal",
+    "targetBlank": null,
+    "title": null
+  },
+  {
+    "_type": "page",
+    "realTitle": "Home",
+    "slug": "/"
+  },
+  {
+    "_key": "07fd103212ed",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "d5f610cd0a32",
+        "_type": "span",
+        "marks": [],
+        "text": "Faster, more accurate screening means faster admissions, which means patients spend less time waiting in acute beds for post-acute placement. When patient information is consolidated and surfaced consistently, clinical reviewers also catch the details that matter sooner: medication risks, behavioral flags, and acuity mismatches that protect both the patient and the operator."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "d5f610cd0a32",
+    "_type": "span",
+    "marks": [],
+    "text": "Faster, more accurate screening means faster admissions, which means patients spend less time waiting in acute beds for post-acute placement. When patient information is consolidated and surfaced consistently, clinical reviewers also catch the details that matter sooner: medication risks, behavioral flags, and acuity mismatches that protect both the patient and the operator."
+  },
+  {
+    "_key": "de4f5ae910bb",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "4875276f8ee9",
+        "_type": "span",
+        "marks": [],
+        "text": "CRM tracks relationships and outreach: which referral sources you're working with, what conversations you've had, what marketing activity you've run. Referral management software handles the actual referral workflows: receiving, screening, and acting on clinical referrals as they come in. Some operators try to use a CRM for intake and hit a ceiling quickly: CRMs are not built for clinical screening, multi-portal aggregation, or response time management at volume."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "4875276f8ee9",
+    "_type": "span",
+    "marks": [],
+    "text": "CRM tracks relationships and outreach: which referral sources you're working with, what conversations you've had, what marketing activity you've run. Referral management software handles the actual referral workflows: receiving, screening, and acting on clinical referrals as they come in. Some operators try to use a CRM for intake and hit a ceiling quickly: CRMs are not built for clinical screening, multi-portal aggregation, or response time management at volume."
+  },
+  {
+    "_key": "2a45adaf16c5",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "d88f7c23a5f0",
+        "_type": "span",
+        "marks": [],
+        "text": "Pricing varies widely by facility count, feature scope, and care setting. Post-acute platforms typically price per facility or per organization, with implementation fees on top. The more useful question is what the absence of the right software is costing you: lost referrals, slow response times, inconsistent clinical decisions, and staff time spent toggling between portals. For a multi-facility operator, that math usually answers itself."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "d88f7c23a5f0",
+    "_type": "span",
+    "marks": [],
+    "text": "Pricing varies widely by facility count, feature scope, and care setting. Post-acute platforms typically price per facility or per organization, with implementation fees on top. The more useful question is what the absence of the right software is costing you: lost referrals, slow response times, inconsistent clinical decisions, and staff time spent toggling between portals. For a multi-facility operator, that math usually answers itself."
+  }
+]

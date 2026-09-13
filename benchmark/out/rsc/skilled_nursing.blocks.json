@@ -1,0 +1,33 @@
+[
+  {
+    "_key": "8efdd0e6f682",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "f3892b4acd0a",
+        "_type": "span",
+        "marks": [],
+        "text": "Faster decisions. Stronger performance."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "f3892b4acd0a",
+    "_type": "span",
+    "marks": [],
+    "text": "Faster decisions. Stronger performance."
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": true,
+    "theme": "dark"
+  }
+]

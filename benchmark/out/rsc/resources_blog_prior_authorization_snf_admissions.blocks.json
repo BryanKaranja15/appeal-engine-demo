@@ -1,0 +1,210 @@
+[
+  {
+    "_key": "80d47458b8a3",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "153e59b4b764",
+        "_type": "span",
+        "marks": [],
+        "text": "Traditional Medicare (Part A) does not require prior authorization for SNF stays. Coverage requires a qualifying inpatient hospital stay of at least three days (the 3-day rule) and physician certification of medical necessity for skilled care, but no upfront approval from CMS or a payer is needed before admission. The facility's own physician handles certification and recertification on a regulated cadence during the stay."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "153e59b4b764",
+    "_type": "span",
+    "marks": [],
+    "text": "Traditional Medicare (Part A) does not require prior authorization for SNF stays. Coverage requires a qualifying inpatient hospital stay of at least three days (the 3-day rule) and physician certification of medical necessity for skilled care, but no upfront approval from CMS or a payer is needed before admission. The facility's own physician handles certification and recertification on a regulated cadence during the stay."
+  },
+  {
+    "_key": "a45e28bca05e",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "6644f193f2b3",
+        "_type": "span",
+        "marks": [],
+        "text": "Yes. Medicare Advantage plans typically require prior authorization for SNF admissions. Each health plan sets its own clinical criteria, level-of-care rubric, and submission portal. Turnaround can range from hours to several days, depending on the plan and the completeness of the clinical documentation submitted. As MA enrollment has grown, prior authorization has become the dominant intake workflow for most SNFs."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "6644f193f2b3",
+    "_type": "span",
+    "marks": [],
+    "text": "Yes. Medicare Advantage plans typically require prior authorization for SNF admissions. Each health plan sets its own clinical criteria, level-of-care rubric, and submission portal. Turnaround can range from hours to several days, depending on the plan and the completeness of the clinical documentation submitted. As MA enrollment has grown, prior authorization has become the dominant intake workflow for most SNFs."
+  },
+  {
+    "_key": "388a9cd63a3f",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7db73bfc56b2",
+        "_type": "span",
+        "marks": [],
+        "text": "Turnaround depends on the payer and the case complexity. Medicare Advantage decisions typically come back within hours to a few business days. Commercial managed care runs on similar timing. Medicaid Managed Care is often the slowest, with decisions on complex cases sometimes stretching to two weeks or more. Incomplete clinical documentation or unclear level-of-care justification extends the timeline regardless of payer."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7db73bfc56b2",
+    "_type": "span",
+    "marks": [],
+    "text": "Turnaround depends on the payer and the case complexity. Medicare Advantage decisions typically come back within hours to a few business days. Commercial managed care runs on similar timing. Medicaid Managed Care is often the slowest, with decisions on complex cases sometimes stretching to two weeks or more. Incomplete clinical documentation or unclear level-of-care justification extends the timeline regardless of payer."
+  },
+  {
+    "_key": "0866dc68b98d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "9cb643aae91b",
+        "_type": "span",
+        "marks": [],
+        "text": "A prior authorization request typically includes the hospital discharge summary, physician orders, recent labs and imaging, the medication list, therapy notes, and any payer-specific authorization forms. The clinical documentation needs to provide up-to-date information supporting both medical necessity for skilled care and the requested level of care under the payer's specific criteria. Missing or incomplete documents are the most common cause of submission delays."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "9cb643aae91b",
+    "_type": "span",
+    "marks": [],
+    "text": "A prior authorization request typically includes the hospital discharge summary, physician orders, recent labs and imaging, the medication list, therapy notes, and any payer-specific authorization forms. The clinical documentation needs to provide up-to-date information supporting both medical necessity for skilled care and the requested level of care under the payer's specific criteria. Missing or incomplete documents are the most common cause of submission delays."
+  },
+  {
+    "_key": "6e4c81332f77",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "413aeb4457e4",
+        "_type": "span",
+        "marks": [],
+        "text": "Three appeal pathways are available: peer-to-peer review (a facility clinician discusses the case with the payer's medical reviewer), formal written appeal, and expedited appeal when delay would jeopardize patient health. Resolution can take days to weeks. During that window, the facility either holds the bed unbilled or admits the patient under financial risk while the appeal works through."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "413aeb4457e4",
+    "_type": "span",
+    "marks": [],
+    "text": "Three appeal pathways are available: peer-to-peer review (a facility clinician discusses the case with the payer's medical reviewer), formal written appeal, and expedited appeal when delay would jeopardize patient health. Resolution can take days to weeks. During that window, the facility either holds the bed unbilled or admits the patient under financial risk while the appeal works through."
+  },
+  {
+    "_key": "6e2d2136f36a",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "6de293fb3e5f",
+        "_type": "span",
+        "marks": [],
+        "text": "Level of care is determined by matching the patient's clinical picture against the responsible payer's specific rubric. Higher acuity (more complex wound care, IV therapy, multiple comorbidities, behavioral indicators) typically supports a higher level and a higher daily rate. The level requested at admission applies for the duration of the authorization, which is why getting it right at submission matters more than catching it later."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "6de293fb3e5f",
+    "_type": "span",
+    "marks": [],
+    "text": "Level of care is determined by matching the patient's clinical picture against the responsible payer's specific rubric. Higher acuity (more complex wound care, IV therapy, multiple comorbidities, behavioral indicators) typically supports a higher level and a higher daily rate. The level requested at admission applies for the duration of the authorization, which is why getting it right at submission matters more than catching it later."
+  },
+  {
+    "_key": "3248fb30bbc5",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "5c44f07a92ab",
+        "_type": "span",
+        "marks": [],
+        "text": "AI is increasingly used to handle the parts of prior authorization that are pattern-matching at volume: parsing payer contracts, extracting detailed information from referral packets, recommending the appropriate level of care under each payer's criteria, and assembling clinical justification with in-line citations. The clinical and operational decisions still belong to people. The document-handling and rubric-matching work that used to consume hours of clinical and admissions team time is increasingly automated."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "5c44f07a92ab",
+    "_type": "span",
+    "marks": [],
+    "text": "AI is increasingly used to handle the parts of prior authorization that are pattern-matching at volume: parsing payer contracts, extracting detailed information from referral packets, recommending the appropriate level of care under each payer's criteria, and assembling clinical justification with in-line citations. The clinical and operational decisions still belong to people. The document-handling and rubric-matching work that used to consume hours of clinical and admissions team time is increasingly automated."
+  },
+  {
+    "_key": "4d004fbc78e8",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "bf25d6b109bb",
+        "_type": "span",
+        "marks": [
+          "1c93a2936a55"
+        ],
+        "text": "exacare ai's Managed Care Agent (MCA)"
+      },
+      {
+        "_key": "241980eab9e8",
+        "_type": "span",
+        "marks": [],
+        "text": " handles prior authorization across managed Medicare and commercial payers. It ingests payer contracts (level-based and PDPM-based), extracts clinical detail from referral documents with in-line citations, recommends the highest defensible level under each payer's criteria, and auto-submits to supported portals (Availity, H&C/NaviHealth, WellMed). Authorizations are tracked centrally with requested vs. approved levels visible per patient, and authorization details push into PointClickCare. Internal data shows submission time drops from roughly an hour to a few minutes per case."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "1c93a2936a55",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Reimbursement",
+          "slug": "reimbursement"
+        },
+        "linkType": "internal",
+        "targetBlank": null,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "bf25d6b109bb",
+    "_type": "span",
+    "marks": [
+      "1c93a2936a55"
+    ],
+    "text": "exacare ai's Managed Care Agent (MCA)"
+  },
+  {
+    "_key": "241980eab9e8",
+    "_type": "span",
+    "marks": [],
+    "text": " handles prior authorization across managed Medicare and commercial payers. It ingests payer contracts (level-based and PDPM-based), extracts clinical detail from referral documents with in-line citations, recommends the highest defensible level under each payer's criteria, and auto-submits to supported portals (Availity, H&C/NaviHealth, WellMed). Authorizations are tracked centrally with requested vs. approved levels visible per patient, and authorization details push into PointClickCare. Internal data shows submission time drops from roughly an hour to a few minutes per case."
+  },
+  {
+    "_key": "1c93a2936a55",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Reimbursement",
+      "slug": "reimbursement"
+    },
+    "linkType": "internal",
+    "targetBlank": null,
+    "title": null
+  },
+  {
+    "_type": "page",
+    "realTitle": "Reimbursement",
+    "slug": "reimbursement"
+  }
+]

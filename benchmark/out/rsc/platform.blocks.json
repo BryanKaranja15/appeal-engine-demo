@@ -1,0 +1,84 @@
+[
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  },
+  {
+    "_key": "7febfeb47cc0",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "a96b8f34eb17",
+        "_type": "span",
+        "marks": [],
+        "text": "Across the care "
+      },
+      {
+        "_key": "81d829e37fe6",
+        "_type": "span",
+        "marks": [
+          "em"
+        ],
+        "text": "journey"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "a96b8f34eb17",
+    "_type": "span",
+    "marks": [],
+    "text": "Across the care "
+  },
+  {
+    "_key": "81d829e37fe6",
+    "_type": "span",
+    "marks": [
+      "em"
+    ],
+    "text": "journey"
+  },
+  {
+    "_key": "e96d3b381156",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7268b3b493cb",
+        "_type": "span",
+        "marks": [],
+        "text": "More than intelligence, we help you take "
+      },
+      {
+        "_key": "5675188286e1",
+        "_type": "span",
+        "marks": [
+          "em"
+        ],
+        "text": "action"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7268b3b493cb",
+    "_type": "span",
+    "marks": [],
+    "text": "More than intelligence, we help you take "
+  },
+  {
+    "_key": "5675188286e1",
+    "_type": "span",
+    "marks": [
+      "em"
+    ],
+    "text": "action"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "dark"
+  }
+]

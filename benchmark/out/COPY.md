@@ -1,0 +1,3191 @@
+# exacare.com — complete copy inventory
+
+Static `curl` capture of the server-rendered HTML (no browser, no screenshots).
+Every block on every crawled page, in document order. Within a block, items are
+listed in the order they appear in the markup. Mobile/desktop duplicate markup is
+collapsed to a single entry. Stat values are taken from the RSC payload (the HTML
+ships `0` because the numbers animate up on scroll).
+
+Captured: 2026-09-13T14:35:16.361Z — 40 pages.
+
+---
+
+## https://www.exacare.com/platform
+
+**Title:** Platform | exacare ai
+**Blocks (13):** Hero → Cta → Divider → FeatureStages → LogosTicker → ScrollStages → Testimonial → Divider → FeatureTabs → Divider → LogosGrid → Divider → CtaBackground
+
+### 1. Hero · theme=light
+
+- **h1:** Intelligent infrastructure for post-acute care
+- body: exacare ai connects referral sources, admissions workflows, and reimbursement systems so teams can review documentation, evaluate patients, and act quickly and confidently.
+- **CTA:** `Book a demo` → /contact
+
+### 2. Cta · theme=light
+
+- **h2:** Skilled nursing products
+- **card link:** `Admissions` → /admissions
+- text: Turn referrals into revenue
+- text: Apply facility-specific criteria automatically, verify insurance, and guide defensible admission decisions.
+- **card link:** `Reimbursement` → /reimbursement
+- text: Strengthen reimbursement from the start
+- text: Analyze managed care contracts, justify higher acuity levels, and identify reimbursement opportunities before claims are submitted.
+
+### 3. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 4. FeatureStages · theme=light
+
+- **h2:** More than intelligence, we help you take action
+- text: AI that does work for you
+- text: Drafts, submits, tracks, and alerts. AI agents support the steps your teams already take to keep workflows moving.
+- text: Trained on your organization
+- text: Standardized criteria, configurable policies, audit trails, and reporting built for multi-facility post-acute care operators.
+- text: Continuously learning & improving
+- text: Models learn from real workflows with 99% accuracy, improving responsiveness and performance over time.
+- text: Purpose-built for post-acute care
+- text: Our models read full clinical context with the accuracy and nuance post-acute care decisions demand, not just scanning for keywords.
+
+### 5. LogosTicker · theme=light
+
+- **h2:** The most connected platform in admissions
+
+### 6. ScrollStages · theme=dark
+
+- **h2:** How it works
+- text: Connect your systems
+- text: Integrate referral portals, EHRs like PCC or MatrixCare, and eFax into one operational hub.
+- text: Analyze referrals with AI
+- text: Context-aware AI reads full referral packets, flags clinical risks, and estimates reimbursement — all in minutes.
+- text: Review insights and respond
+- text: Teams review AI insights, collaborate internally, and respond to hospitals faster and with better information.
+- text: Track performance and manage census
+- text: Monitor census, assign beds, and track performance across facilities with real-time dashboards.
+- **eyebrow:** Step 1
+
+### 7. Testimonial · theme=light
+
+- **h2:** Moving care forward, together
+- text: Tim Fields, CEO at Ignite Medical Resorts
+- **quote:** “It was impactful for us with exacare ai to not only have a solutions provider that gave us a software, but something that was truly ingrained in our culture.”
+- **CTA:** `View customer stories` → /resources/customer-stories
+
+### 8. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 9. FeatureTabs · theme=light
+
+- **CTA:** `For Skilled Nursing` → —
+- **CTA:** `For Home Health` → —
+- **CTA:** `For Hospice` → —
+- **h2:** Across the care journey
+- text: For Skilled Nursing
+- text: Navigate PDPM and high-acuity admissions. Respond quickly without sacrificing clinical rigor or reimbursement performance across buildings.
+- **CTA:** `Learn more` → /skilled-nursing
+- text: For Home Health
+- text: Start every episode aligned. Clarify eligibility, documentation, and reimbursement before care begins.
+- **CTA:** `Learn more` → /home-health
+- text: For Hospice
+- text: Support end-of-life care with confidence. Coordinate smoother care transitions and ensure patients receive the right care at the right time.
+- **CTA:** `Learn more` → /hospice
+
+### 10. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 11. LogosGrid · theme=light
+
+- **h2:** Fully compliant, fully secure
+- text: HIPAA-compliant
+- text: Annual assessments, training, and BAAs
+- text: Encryption
+- text: Tenant isolation
+- text: Per-client data segregation
+- text: SOC 2 Type II
+- text: Insurance
+
+### 12. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 13. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ care teams
+- **h2:** Move care forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/
+
+**Title:** exacare ai
+**Blocks (8):** Hero → Headline → Cta → Stats → TestimonialsMediaCards → FeatureScroll → FeatureTabs → CtaBackground
+
+### 1. Hero · theme=light
+
+- **eyebrow:** Trusted by 2,000+ care teams
+- **h1:** The AI platform for post-acute care operations
+- body: exacare ai centralizes referrals, analyzes admissions packets, and handles reimbursement workflows so your teams can move faster with confidence.
+- **CTA:** `Book a demo` → /contact
+
+### 2. Headline · theme=light
+
+- **h2:** Our platform connects the systems post-acute care teams rely on and applies AI to help them make faster, more confident admissions and reimbursement decisions.
+- **CTA:** `Explore the platform` → /platform
+
+### 3. Cta · theme=light
+
+- **card link:** `Admissions` → /admissions
+- text: Turn referrals into revenue
+- text: Apply facility-specific criteria automatically, verify insurance, and guide defensible admission decisions.
+- **card link:** `Reimbursement` → /reimbursement
+- text: Strengthen reimbursement from the start
+- text: Analyze managed care contracts, justify higher acuity levels, and identify reimbursement opportunities before claims are submitted.
+
+### 4. Stats · theme=light
+
+- **stat:** 7 min — referral response time
+- **stat:** 15% — increase in admissions
+- **stat:** 40% — of managed care days in L2+
+- **stat:** $380K+ — per facility reimbursement increase
+
+### 5. TestimonialsMediaCards · theme=light
+
+- **h2:** Relief your teams can feel
+- **CTA:** `View customer stories` → /resources/customer-stories
+- text: Tim Fields, CEO at Ignite Medical Resorts
+- **quote:** “exacare ai transformed how our teams operate – centralizing admissions and case management to unlock ~$900K in annual savings.”
+- text: Gary Blake, President and CEO of Creative Solutions in Healthcare
+- **quote:** “When we remove the barriers and give time back to our teams, that time becomes what matters most: better care, stronger connections, and lives changed.”
+- text: Tanya Carlson, VP of Business Development at Pearl Healthcare
+- **quote:** “We saw a noticeable increase in census, which I directly correlate with exacare ai. We’re now able to say yes more often, and much more quickly.”
+
+### 6. FeatureScroll · theme=light
+
+- **h2:** Deeper context. Faster workflows. Better decisions.
+- **h3:** Context beyond keywords
+- text: exacare ai reads full referral packets in context, identifying clinical signals and risks that keyword-based tools miss.
+- **h3:** Deeper integrations
+- text: Connect with more referral platforms, hospital systems, and EHRs than any platform on the market.
+- **h3:** Intelligence that drives action
+- text: Advance towards full automation workflows. We automatically submit prior authorizations and concurrent reviews for managed care.
+- **h3:** Real-time dedicated support
+- text: Reach an in-house, on-shore, live member of our support team in less than five minutes.
+
+### 7. FeatureTabs · theme=dark
+
+- **CTA:** `For Skilled Nursing` → —
+- **CTA:** `For Home Health` → —
+- **CTA:** `For Hospice` → —
+- **h2:** Across the care journey
+- text: For Skilled Nursing
+- **h3:** Accelerate admissions with confidence
+- text: Manage referral volume, PDPM complexity, and facility-level performance with consistent, defensible decisions.
+- **CTA:** `Learn more` → /skilled-nursing
+- text: For Home Health
+- **h3:** Coordinate with clarity and speed
+- text: Coordinate distributed intake, eligibility, and admissions workflows with clarity and speed.
+- **CTA:** `Learn more` → /home-health
+- text: For Hospice
+- **h3:** Support better hospice admissions and transitions
+- text: Review referrals faster, identify eligibility upfront, and streamline workflows with AI built for end-of-life care.
+
+### 8. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ care teams
+- **h2:** Move care forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/reimbursement
+
+**Title:** Reimbursement | exacare ai
+**Blocks (9):** HeroFullwidth → Bento → Stats → ScrollStages → TestimonialsMediaCards → Divider → FeatureTabs → Divider → CtaBackground
+
+### 1. HeroFullwidth · theme=light
+
+- **h1:** Reimbursement clarity starts at admission
+- body: exacare ai automates managed care prior authorization and concurrent reviews by reviewing clinical documentation against your payer contracts and pre-approving carve-outs upfront, so teams can always secure the right reimbursement level.
+- **CTA:** `Book a demo` → /contact
+
+### 2. Bento · theme=light
+
+- **h2:** Support the right acuity. Secure the right reimbursement.
+- text: Streamlined authorization workflows
+- text: Automate and simplify insurance authorization workflows, enabling staff to refocus resources on patient care.
+- text: Clinically accurate classification
+- text: Improved acuity and high-cost medication capture ensures payer approvals reflect patient needs.
+- text: Enhanced care for better outcomes
+- text: More accurate reimbursement so you can grow therapy and nursing services to provide the care patients need.
+
+### 3. Stats · theme=light
+
+- **stat:** 8 min — prior authorization submission time
+- **stat:** 40%+ — of managed care days in L2+
+- **stat:** $380K+ — per facility reimbursement increase
+
+### 4. ScrollStages · theme=dark
+
+- **h2:** How it works
+- text: Extract clinical and insurance details
+- text: When a referral arrives, exacare ai pulls key clinical and coverage information directly from the documentation.
+- text: Estimate reimbursements early
+- text: AI analyzes PDPM drivers and predicts reimbursement, showing the clinical details behind the estimate.
+- text: Maximize what you're owed
+- text: Analyze managed care contracts, support higher acuity classifications, and verify coverage before admission.
+- text: Stay ahead of every concurrent review
+- text: Track every next review date, build clinical justifications for continued skilled care, and get the organized package to the payer, all in the same place the prior authorization was run.
+- **eyebrow:** Step 1
+
+### 5. TestimonialsMediaCards · theme=light
+
+- text: Austin Steele, Chief Strategy Officer at Journey
+- **quote:** “exacare ai has radically improved our managed care process… we can now be confident that higher acuity patients receive the high-quality care they deserve.”
+- text: Tim Fields, CEO at Ignite Medical Resorts
+- **quote:** “Our organization is very unique in that 60% of our business is managed care, so when we do managed care, we want to do it right.”
+
+### 6. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 7. FeatureTabs · theme=light
+
+- **CTA:** `For Skilled Nursing` → —
+- **h2:** Across the care journey
+- text: For Skilled Nursing
+- text: High referral volume, complex documentation, and tight response windows demand consistent, defensible decision-making across facilities.
+- **CTA:** `Learn more` → /contact
+
+### 8. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 9. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ reimbursement teams
+- **h2:** Move reimbursement forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/admissions
+
+**Title:** Admissions | exacare ai
+**Blocks (9):** HeroColumns → FeatureStages → Stats → ScrollStages → TestimonialsTextCards → Divider → FeatureTabs → Divider → CtaBackground
+
+### 1. HeroColumns · theme=light
+
+- **h1:** From referral to decision in minutes
+- body: exacare ai reviews every referral against your criteria, verifies insurance, and surfaces clinical and financial risk so your team makes the right call in minutes, not hours.
+- **CTA:** `Book a demo` → /contact
+
+### 2. FeatureStages · theme=light
+
+- **h2:** Faster admits. Fewer suprises.
+- text: Say yes, faster
+- text: Review full referral packets in minutes, not hours, and respond to hospitals and referral sources without delay.
+- text: Admit right-fit patients
+- text: Analyze documentation beyond keyword match, applying facility-specific criteria automatically to determine clinical and financial fit.
+- text: Identify risk early
+- text: Verify insurance and flag documentation gaps or high-acuity concerns before admission, reducing avoidable denials and surprises.
+- text: Grow your census
+- text: Improve admission conversion and protect reimbursement through consistent, defensible decisions.
+
+### 3. Stats · theme=light
+
+- **stat:** 7 min — referral response time
+- **stat:** 15% — increase in admissions
+- **stat:** 34 hrs — saved for care staff each week
+
+### 4. ScrollStages · theme=dark
+
+- **h2:** How it works
+- text: Centralize referrals
+- text: exacare ai pulls referrals from hospital portals, referral platforms, and eFax into one unified inbox.
+- text: Analyze referral packets in minutes
+- text: AI reviews full clinical documentation in minutes, applying your facility’s admissions criteria and surfacing key risks.
+- text: Verify insurance and safety checks
+- text: Confirm eligibility, SNF days remaining, and screening results before your team makes a decision.
+- text: Review and decide
+- text: See the AI analysis, collaborate with your team, and accept or decline the referral.
+- text: Push data to your EHR
+- text: Automatically populate your EHR with clinical and demographic details when a patient is admitted and assign a room directly from the real-time bed board.
+- **eyebrow:** Step 1
+
+### 5. TestimonialsTextCards · theme=light
+
+- **h3:** 2.6x increase in referral-to-admit win rate
+- **quote:** “I’m helping our Hinsdale building, and we’ll get 40, maybe 50 referrals a day. Having exacare ai just smooths our referral process out so much and makes it 20 times easier. I truly couldn’t be happier with the switch.”
+- text: Jessica Dikun, Regional Director of Admissions at Pearl Healthcare
+- **h3:** $900K in annual savings unlocked
+- **quote:** “What used to be highly manual, fragmented workflows are now streamlined and data-driven, allowing our teams across over 30 facilities to move faster, make more confident decisions, and capture opportunities we would have otherwise missed.”
+- text: Tim Fields, CEO at Ignite Medical Resorts
+- **CTA:** `View customer stories` → /resources/customer-stories
+
+### 6. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 7. FeatureTabs · theme=light
+
+- **CTA:** `For Skilled Nursing` → —
+- **CTA:** `For Home Health` → —
+- **CTA:** `For Hospice` → —
+- **h2:** Across the care journey
+- text: For Skilled Nursing
+- text: High referral volume, complex documentation, and tight response windows demand consistent, defensible decision-making across facilities.
+- **CTA:** `Learn more` → /skilled-nursing
+- text: For Home Health
+- text: Distributed teams and rapid intake cycles require centralized visibility, eligibility clarity, and coordinated next steps.
+- **CTA:** `Learn more` → /home-health
+- text: For Hospice
+- text: Hospice referrals require fast, compassionate coordination across providers, families, and care teams to ensure timely responses.
+- **CTA:** `Learn more` → /hospice
+
+### 8. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 9. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ admissions teams
+- **h2:** Move admissions forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/skilled-nursing-software
+
+**Title:** Skilled Nursing Software | exacare ai
+**Blocks (15):** ContactForm → Divider → Stats → ScrollStages → FeatureTimer → Divider → Bento → Divider → TestimonialsTextCards → Divider → Compare → Divider → FeatureTabs → Faq → CtaBackground
+
+### 1. ContactForm · theme=light
+
+- **h1:** The leading skilled nursing admissions software
+- text: exacare ai centralizes referrals, analyzes admissions packets, verifies insurance, and handles prior authorization so your teams can move faster with confidence.
+- • Trusted by 2,000+ skilled nursing facilities, with more than 27 million clinical documents reviewed by our AI
+- **quote:** “exacare ai transformed how our skilled nursing teams operate – using skilled nursing software allowed us to centralize admissions and case management to unlock ~$900K in annual savings.”
+- text: Tim Fields, CEO at Ignite Medical Resorts
+
+### 2. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 3. Stats · theme=light
+
+- **stat:** 7 min — referral response time across the top 10% of SNFs
+- **stat:** 3.4M — referrals processed since inception
+- **stat:** 15% — average increase in admissions
+- **stat:** $380K — per facility reimbursement increase
+
+### 4. ScrollStages · theme=dark
+
+- **h2:** How our admissions software works
+- text: Connect your systems
+- text: Integrate referral portals, EHRs like PCC or MatrixCare, and eFax into one skilled nursing admissions workflow.
+- text: Analyze referrals with AI
+- text: Context-aware AI reads full referral packets, flags clinical risks, and estimates reimbursement — all in minutes.
+- text: Review insights and respond
+- text: Teams review AI insights, collaborate internally, and respond to hospitals faster and with better information.
+- text: Track performance and manage census
+- text: Monitor census, assign beds, and track performance across facilities with real-time dashboards.
+- **eyebrow:** Step 1
+
+### 5. FeatureTimer · theme=light
+
+- **h2:** AI-powered skilled nursing facility software
+- **CTA:** `Admissions` → —
+- **CTA:** `Insurance verification` → —
+- **CTA:** `Prior authorization` → —
+- **CTA:** `Bed board` → —
+- **CTA:** `Data center` → —
+- **CTA:** `Pause automatic rotation` → —
+- text: Allow skilled nursing facilities to review referral packets in under 60 seconds as contextual AI recommends admit or decline decisions with transparent reasoning.
+
+### 6. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 7. Bento · theme=light
+
+- **h2:** How we're different from other skilled nursing software
+- text: Context beyond keywords
+- text: Purpose-built for skilled nursing facility admissions, exacare ai reads full referral packets in context, identifying clinical signals and risks that keyword-based tools miss.
+- text: Deeper skilled nursing integrations
+- text: Connect with more referral platforms, hospital systems, and EHRs than any skilled nursing admissions software on the market.
+- text: Prior authorization for SNFs
+- text: Automate prior authorizations and concurrent reviews for managed care admissions, saving skilled nursing teams time and reducing manual follow-up.
+- text: Real-time dedicated support
+- text: Reach an in-house, on-share, live member of our support team in less than five minutes.
+
+### 8. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 9. TestimonialsTextCards · theme=light
+
+- **h2:** Proven skilled nursing software, with real admissions growth
+- **h3:** 2.6x increase in referral-to-admit win rate
+- **quote:** “I’m helping our Hinsdale building, and we’ll get 40, maybe 50 referrals a day. Having exacare ai just smooths our referral process out so much and makes it 20 times easier. I truly couldn’t be happier with the switch.”
+- text: Jessica Dikun, Regional Director of Admissions at Pearl Healthcare
+- **h3:** $900K in annual savings unlocked
+- **quote:** “What used to be highly manual, fragmented workflows are now streamlined and data-driven, allowing our teams across over 30 facilities to move faster, make more confident decisions, and capture opportunities we would have otherwise missed.”
+- text: Tim Fields, CEO at Ignite Medical Resorts
+- **CTA:** `View customer stories` → /resources/customer-stories
+
+### 10. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 11. Compare · theme=light
+
+- **h2:** A better way to manage skilled nursing admissions
+- text: Before exacare ai
+- • Skilled nursing teams toggle between multiple referral portals with no central source of truth
+- • Communication is buried in email, texts, and portals
+- • Referral packets are reviewed under time pressure, key details missed
+- • PDPM considerations happen downstream, after key decisions are made
+- • Managed care authorizations take hours of staff time
+- • Decisions vary by skilled nursing staff members and facilities
+- text: After exacare ai
+- • All referrals are centralized in one place
+- • Skilled nursing teams communicate easily with tagging, threaded comments, and an integrated hospital chat
+- • Full packets are read and analyzed in under 60 seconds by skilled nursing AI software
+- • Financial risk and reimbursement potential surfaced upfront during skilled nursing facility admissions review
+- • Managed care authorization workflows are handled automatically
+- • Decisions are documented, communicated, and consistent across buildings
+- • Custom skilled nursing facility-level criteria are applied automatically
+- • Skilled nursing leadership gets insights to act more strategically
+- text: Skilled nursing teams toggle between multiple referral portals with no central source of truth
+- text: All referrals are centralized in one place
+- text: Communication is buried in email, texts, and portals
+- text: Skilled nursing teams communicate easily with tagging, threaded comments, and an integrated hospital chat
+- text: Referral packets are reviewed under time pressure, key details missed
+- text: Full packets are read and analyzed in under 60 seconds by skilled nursing AI software
+- text: PDPM considerations happen downstream, after key decisions are made
+- text: Financial risk and reimbursement potential surfaced upfront during skilled nursing facility admissions review
+- text: Managed care authorizations take hours of staff time
+- text: Managed care authorization workflows are handled automatically
+- text: Decisions vary by skilled nursing staff members and facilities
+- text: Decisions are documented, communicated, and consistent across buildings
+- text: Custom skilled nursing facility-level criteria are applied automatically
+- text: Skilled nursing leadership gets insights to act more strategically
+
+### 12. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 13. FeatureTabs · theme=dark
+
+- **CTA:** `For Admissions Teams` → —
+- **CTA:** `For DONs & Clinical Teams` → —
+- **CTA:** `For Operations Leaders` → —
+- **CTA:** `For Managed Care Teams` → —
+- **h2:** Skilled nursing software for your entire care team
+- text: For Admissions Teams
+- text: Move at the speed hospitals expect. Admissions teams can review full referral packets in minutes and respond quickly without sacrificing clinical or financial rigor.
+- text: For DONs & Clinical Teams
+- text: AI-generated patient summaries give you clinical visibility before admissions decisions are made.
+- text: For Operations Leaders
+- text: Portfolio-wide analytics, census management and executive reporting across all your skilled nursing buildings.
+- text: For Managed Care Teams
+- text: Prior authorization tracking, submissions and concurrent review across your entire skilled nursing facility.
+
+### 14. Faq · theme=light
+
+- **h2:** FAQs
+- **h3:** How does exacare ai speed up referral response time for skilled nursing facilities?
+- **h3:** Does exacare ai work for both single facilities and large skilled nursing groups?
+- **h3:** Can exacare ai work with our skilled nursing facility's EHR and referral sources?
+- **h3:** Is exacare ai secure and compliant for skilled nursing data?
+- **h3:** How long does it take to implement exacare ai?
+- **h3:** How much does exacare ai cost?
+
+### 15. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ skilled nursing teams
+- **h2:** See why we're the leading skilled nursing software
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/skilled-nursing
+
+**Title:** Skilled Nursing | exacare ai
+**Blocks (8):** HeroFramed → LogosTicker → FeatureScroll → FeatureTimer → Compare → Testimonial → Cta → CtaBackground
+
+### 1. HeroFramed · theme=light
+
+- **h1:** Smarter skilled nursing operations
+- body: Connect admissions, PDPM, and reimbursement in one AI-powered workflow so skilled nursing teams can move faster and more confidently.
+- **CTA:** `Book a demo` → /contact
+
+### 2. LogosTicker · theme=light
+
+_(no text — media-only block)_
+
+### 3. FeatureScroll · theme=light
+
+- **h2:** Faster decisions. Stronger performance.
+- **h3:** Move at the speed hospitals expect
+- text: Review full referral packets in minutes and respond quickly without sacrificing clinical or financial rigor.
+- **h3:** Standardize performance across buildings
+- text: Apply consistent PDPM and admissions criteria automatically.
+- **h3:** Reduce preventable denials
+- text: Verify eligibility, flag documentation gaps, and surface financial risk before admission.
+- **h3:** Give teams time back for care
+- text: Automate manual packet review and documentation checks so staff can focus on residents, not paperwork.
+
+### 4. FeatureTimer · theme=dark
+
+- **h2:** Core capabilities
+- **CTA:** `Admissions` → —
+- **CTA:** `Insurance verification` → —
+- **CTA:** `Prior authorization` → —
+- **CTA:** `Concurrent reviews` → —
+- **CTA:** `Bed board` → —
+- **CTA:** `Data center` → —
+- **CTA:** `eSign` → —
+- **CTA:** `Pause automatic rotation` → —
+- text: Review referral packets in under 60 seconds as contextual AI recommends admit or decline decisions with transparent reasoning.
+
+### 5. Compare · theme=light
+
+- **h2:** The difference exacare ai makes
+- text: Before exacare ai
+- • Teams toggle between multiple referral portals with no central source of truth
+- • Communication is buried in email, texts, and portals
+- • Referral packets are reviewed under time pressure, key details missed
+- • PDPM considerations happen downstream, after key decisions are made
+- • Managed care authorizations take hours of staff time
+- • Decisions vary by staff member and building
+- text: After exacare ai
+- • All referrals are centralized in one place
+- • Teams communicate easily with tagging, threaded comments, and an integrated hospital chat
+- • Full packets are read and analyzed in under 60 seconds
+- • Financial risk and reimbursement potential surfaced upfront during admissions review
+- • Managed care authorization workflows are handled automatically
+- • Decisions are documented, communicated, and consistent across buildings
+- • Custom facility-level criteria are applied automatically
+- • Leadership gets insights to act more strategically
+- text: Teams toggle between multiple referral portals with no central source of truth
+- text: All referrals are centralized in one place
+- text: Communication is buried in email, texts, and portals
+- text: Teams communicate easily with tagging, threaded comments, and an integrated hospital chat
+- text: Referral packets are reviewed under time pressure, key details missed
+- text: Full packets are read and analyzed in under 60 seconds
+- text: PDPM considerations happen downstream, after key decisions are made
+- text: Financial risk and reimbursement potential surfaced upfront during admissions review
+- text: Managed care authorizations take hours of staff time
+- text: Managed care authorization workflows are handled automatically
+- text: Decisions vary by staff member and building
+- text: Decisions are documented, communicated, and consistent across buildings
+- text: Custom facility-level criteria are applied automatically
+- text: Leadership gets insights to act more strategically
+- **stat:** 7 min — referral response time
+- **stat:** 15% — increase in admissions
+- **stat:** 34 hrs — saved for care staff each week
+
+### 6. Testimonial · theme=light
+
+- **h2:** Moving care forward, together
+- text: Tim Fields, CEO at Ignite Medical Resorts
+- **quote:** “exacare ai transformed how our teams operate – centralizing admissions and case management to unlock ~$900K in annual savings.”
+- **CTA:** `View customer stories` → /resources/customer-stories
+
+### 7. Cta · theme=light
+
+- **h2:** Products for skilled nursing
+- **card link:** `Admissions & Intake` → /admissions
+- text: Admissions
+- text: Make faster, defensible admission decisions
+- text: Review full referral documentation in minutes, apply facility-specific criteria automatically, and ensure every “yes” is clinically and financially sound.
+- **card link:** `Reimbursement` → /reimbursement
+- text: Strengthen reimbursement from the start
+- text: Validate clinical documentation against your payer contracts to support the highest appropriate reimbursement level, pre-approve carve-outs before the patient admits, and stay ahead of every concurrent review.
+
+### 8. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ skilled nursing teams
+- **h2:** Move skilled nursing forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/home-health
+
+**Title:** Home Health | exacare ai
+**Blocks (7):** HeroFramed → LogosTicker → FeatureScroll → FeatureTimer → Compare → TextImage → CtaBackground
+
+### 1. HeroFramed · theme=light
+
+- **h1:** Smarter home health operations
+- body: Connect intake, admissions, and eligibility in one AI-powered workflow so home health teams can move faster and more confidently.
+- **CTA:** `Book a demo` → /contact
+
+### 2. LogosTicker · theme=light
+
+_(no text — media-only block)_
+
+### 3. FeatureScroll · theme=light
+
+- **h2:** Faster decisions. Stronger performance.
+- **h3:** One place for every referral
+- text: exacare ai consolidates referrals from every source into a single intake view — so nothing slips through and no one is toggling between portals to stay current.
+- **h3:** Respond quickly with full context
+- text: Review referral documentation in minutes and clarify eligibility before committing resources.
+- **h3:** Smooth care transitions before they become problems
+- text: Identify transition opportunities early, including patients who may be approaching hospice eligibility, so care teams can act proactively instead of reactively.
+- **h3:** Improve consistency across branches
+- text: Standardize intake and eligibility workflows while maintaining the flexibility local teams need to work effectively.
+
+### 4. FeatureTimer · theme=dark
+
+- **h2:** Core capabilities
+- **CTA:** `Admissions` → —
+- **CTA:** `Geography & payer fit` → —
+- **CTA:** `EHR integration` → —
+- **CTA:** `Hospice eligibility flagging` → —
+- **CTA:** `Pause automatic rotation` → —
+- text: Review referral packets in one place, with contextual AI adapted for home health rules that flag eligibility factors.
+
+### 5. Compare · theme=light
+
+- **h2:** The difference exacare ai makes
+- text: Before exacare ai
+- • Teams coordinate intake across portals, emails and spreadsheets
+- • Eligibility questions surface late, after resources are committed
+- • Documentation gaps discovered at billing
+- • Visibility into performance varies by branch
+- • Care transition opportunities identified too late or missed entirely
+- text: After exacare ai
+- • All referrals in one place — one inbox, one workflow
+- • Full packets are reviewed instantly and eligibility is clarified up front, before the start of care
+- • Gaps flagged at intake, before they delay a claim
+- • Census and referral performance visible across branches
+- • Hospice eligibility flagged during intake and monitored throughout the episode
+- text: Teams coordinate intake across portals, emails and spreadsheets
+- text: All referrals in one place — one inbox, one workflow
+- text: Eligibility questions surface late, after resources are committed
+- text: Full packets are reviewed instantly and eligibility is clarified up front, before the start of care
+- text: Documentation gaps discovered at billing
+- text: Gaps flagged at intake, before they delay a claim
+- text: Visibility into performance varies by branch
+- text: Census and referral performance visible across branches
+- text: Care transition opportunities identified too late or missed entirely
+- text: Hospice eligibility flagged during intake and monitored throughout the episode
+- **stat:** 7 min — referral response time
+- **stat:** 15% — increase in admissions
+- **stat:** 34 hrs — saved for care staff each week
+
+### 6. TextImage · theme=dark
+
+- **eyebrow:** Products for home health
+- **h2:** Make fast, defensible admission decisions
+- body: Review full referral documentation in minutes, apply home health eligibility criteria automatically, and ensure every “yes” is clinically and financially sound.
+- **CTA:** `Explore Admissions` → /admissions
+
+### 7. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ home health teams
+- **h2:** Move home health forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/hospice
+
+**Title:** Hospice | exacare ai
+**Blocks (7):** HeroFramed → LogosTicker → FeatureScroll → FeatureTimer → Compare → TextImage → CtaBackground
+
+### 1. HeroFramed · theme=light
+
+- **h1:** Smarter hospice operations
+- body: Connect intake, admissions, and eligibility in one AI-powered workflow so hospice teams can move faster and more confidently.
+- **CTA:** `Book a demo` → /contact
+
+### 2. LogosTicker · theme=light
+
+_(no text — media-only block)_
+
+### 3. FeatureScroll · theme=light
+
+- **h2:** Faster decisions. Stronger performance.
+- **h3:** One place for every referral
+- text: exacare ai consolidates referrals from every source into a single intake view — so nothing slips through and no one is toggling between portals to stay current.
+- **h3:** Address eligibility upfront
+- text: Identify hospice eligibility earlier with AI analysis of referral documentation against CMS guidelines, so clinical teams can make faster, more confident decisions.
+- **h3:** Referral conversion insights
+- text: Understand why referrals do or don’t convert, with visibility into decline reasons, documentation gaps, and intake bottlenecks that impact admissions.
+
+### 4. FeatureTimer · theme=dark
+
+- **h2:** Core capabilities
+- **CTA:** `Centralized documentation` → —
+- **CTA:** `Eligibility check` → —
+- **CTA:** `Geography & payer fit` → —
+- **CTA:** `EHR integration` → —
+- **CTA:** `Pause automatic rotation` → —
+- text: Review referral packets in one place, with contextual AI adapted for hospice rules that flag eligibility factors.
+
+### 5. Compare · theme=light
+
+- **h2:** The difference exacare ai makes
+- text: Before exacare ai
+- • Teams coordinate intake across portals, emails and spreadsheets
+- • Eligibility questions surface late, after resources are committed
+- • Documentation gaps discovered at billing
+- • Visibility into performance varies by branch
+- • Referral pipelines break down silently
+- text: After exacare ai
+- • All referrals in one place — one inbox, one workflow
+- • Full packets are reviewed instantly and eligibility is clarified up front, before admission
+- • Gaps flagged at intake, before they delay a claim
+- • Census and referral performance visible across branches
+- • Proactive reporting on how you can get to care quicker
+- text: Teams coordinate intake across portals, emails and spreadsheets
+- text: All referrals in one place — one inbox, one workflow
+- text: Eligibility questions surface late, after resources are committed
+- text: Full packets are reviewed instantly and eligibility is clarified up front, before admission
+- text: Documentation gaps discovered at billing
+- text: Gaps flagged at intake, before they delay a claim
+- text: Visibility into performance varies by branch
+- text: Census and referral performance visible across branches
+- text: Referral pipelines break down silently
+- text: Proactive reporting on how you can get to care quicker
+- **stat:** 7 min — referral response time
+- **stat:** 15% — increase in admissions
+- **stat:** 34 hrs — saved for care staff each week
+
+### 6. TextImage · theme=dark
+
+- **eyebrow:** Products for hospice
+- **h2:** Make fast, defensible admission decisions
+- body: Review full referral documentation in minutes, apply hospice eligibility criteria automatically, and ensure every “yes” is clinically and financially sound.
+- **CTA:** `Explore Admissions` → /admissions
+
+### 7. CtaBackground · theme=light
+
+- **eyebrow:** Trusted by 2,000+ hospice teams
+- **h2:** Move hospice forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/about-us
+
+**Title:** About us | exacare ai
+**Blocks (8):** Hero → Divider → SideBySide → LogosTicker → Testimonial → List → Team → CtaBackground
+
+### 1. Hero · theme=light
+
+- **h1:** We help with the heavy lifting, so your teams can focus on care
+- body: Post-acute care teams are exceptional at what they do. We're here to make sure the infrastructure around them is too.
+
+### 2. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 3. SideBySide · theme=light
+
+- **h2:** Built for a problem we saw up close
+- body: Post-acute care was never built to work as a system. It was built for isolated tasks, stitched together with tools that don't share context or coordinate action.
+- body: As patients move between hospitals, skilled nursing, home health, and beyond, critical details get dropped, decisions get rushed, and work slips between the cracks. The issue was never commitment; it was coordination.
+- body: We built exacare ai to fix that, so care teams can do what they do best.
+
+### 4. LogosTicker · theme=light
+
+- **h2:** Backed by world class investors
+
+### 5. Testimonial · theme=light
+
+- text: Laird Russell, Co-Founder & CEO
+- **quote:** “Post-acute care teams deserve systems that work as hard as they do. Our goal is to help teams move faster, save time, and focus more on providing the best patient care possible.”
+
+### 6. List · theme=light
+
+- **h2:** Things we believe
+- • Operations should never be the bottleneck for care The infrastructure of post-acute care should be invisible, fast, accurate, and always working in the background.
+- • Post-acute care deserves world-class technology It's one of the most complex, under-resourced parts of the healthcare system. We're here to change that.
+- • The best systems are built with the people using them We work closely with care teams and operators to understand how work actually gets done. Then we keep improving based on what we learn.
+- • AI should be explainable, not a black box We show our work, surfacing the reasoning behind every recommendation so teams can act with confidence and defend every decision.
+
+### 7. Team · theme=dark
+
+- **h2:** Our Team
+- body: Laird Russell is the Co-Founder and CEO of exacare ai, where he is leading the transformation of post-acute care through AI. He has raised over $50 million, built a team from top technology companies, and scaled the platform to ~2,000 facilities nationwide. Previously, he worked at Bain & Company and Goldman Sachs before focusing on building healthcare products. His mission is driven by personal experience navigating the healthcare system as a long-term patient.
+- body: LinkedIn
+- text: Laird Russell
+- text: Co-Founder & CEO
+- **CTA:** `Show bio for Laird Russell` → —
+- body: Ben Willox is the Co-Founder and CTO of exacare ai, where he leads the development of AI systems transforming post-acute care. A former Bain & Company consultant, he was named to the Forbes 30 Under 30 list in 2025 for his work applying AI to healthcare. His approach focuses on building intelligent software that goes beyond workflows to actively support decision-making and patient outcomes.
+- text: Ben Willox
+- text: Co-Founder & CTO
+- **CTA:** `Show bio for Ben Willox` → —
+- **h2:** Advisory Board
+- body: Tim Fields is the CEO and Co-Founder of Ignite Medical Resorts, where he is transforming post-acute rehabilitation through a hospitality-driven care model focused on short-term rehab and recovery. With ~20 years in healthcare leadership, he has led Ignite’s expansion while emphasizing innovation, high-acuity care, and an elevated patient experience.
+- text: Tim Fields
+- text: CEO at Ignite Medical Resorts
+- **CTA:** `Show bio for Tim Fields` → —
+- body: Bernie McGuinness is the CEO of Journey and a veteran healthcare operator with ~30 years of experience. He previously served as CEO and Co-Founder of Majestic Care and also led healthcare consulting initiatives through his own agency. He focuses on clinical quality, workforce culture, and building high-performing care communities across the Midwest and Southeast.
+- text: Bernie McGuinness
+- text: CEO at Journey
+- **CTA:** `Show bio for Bernie McGuinness` → —
+- body: Chelsey Gheyara is Vice President of Growth & Experience at Majestic Care, where she leads enterprise growth strategy by bringing together clinical expertise, operational excellence, and innovation to advance the future of post-acute care. A nurse by training, Chelsey has built her career at the intersection of patient care, operations, and strategic growth. From launching new hospitals and healthcare services to leading multi-state growth, operational, and strategic initiatives, she is known for building high-performing organizations that improve access to care, strengthen operational performance, and deliver exceptional experiences for patients, families, referral partners, and care teams. Chelsey believes healthcare's greatest innovations should never lose sight of the people they serve. She is passionate about ensuring every patient has access to the care they need and believes artificial intelligence has the power to remove barriers, strengthen clinical decision-making, and empower care teams to deliver the right care at the right time.
+- text: Chelsey Gheyara
+- text: Vice President of Growth and Experience at Majestic Care
+- **CTA:** `Show bio for Chelsey Gheyara` → —
+- body: Ephram Ostreicher leads the integration of post-acute services across the care continuum, including home health, hospice, health tech, and diagnostic services, at NHCA. He has been involved in various CMS value-based care initiatives since 2015. Ephram received his MBA from Johns Hopkins University with a Graduate Certificate in Seniors Housing and Care.
+- text: Ephram Ostreicher
+- text: COO at NHCA
+- **CTA:** `Show bio for Ephram Ostreicher` → —
+- body: Auston Clanton is the Chief Operations Officer at Creative Solutions in Healthcare. He has held leadership roles across operations, acquisitions, and facility management while helping oversee the company’s rapid growth across Texas. His leadership focuses on operational excellence, quality outcomes, and innovative approaches to post-acute care.
+- text: Auston Clanton
+- text: COO at Creative Solutions
+- **CTA:** `Show bio for Auston Clanton` → —
+- body: Austin Steele is the Chief Strategy Officer at Journey, where he leads growth and operations. Previously an executive at Envive Healthcare and American Senior Communities, he is recognized for driving innovation in skilled nursing. Austin was named a 2024 Future Leader by Skilled Nursing News for advancing personalized, technology-enabled care.
+- text: Austin Steele
+- text: Chief Strategy Officer at Journey
+- **CTA:** `Show bio for Austin Steele` → —
+- body: Rick Hoffman is the Chief Information Officer at Alden Management Services, where he leads innovation across one of the nation’s largest post-acute care networks. With more than 25 years of experience spanning healthcare and enterprise software, his work focuses on deploying scalable, practical technology solutions that improve resident care.
+- text: Rick Hoffman
+- text: Chief Information Officer at Alden
+- **CTA:** `Show bio for Rick Hoffman` → —
+- body: Leila Jones is the Vice President of Government Affairs & Communications at Creative Solutions in Healthcare, where she leads communications, branding, and advocacy efforts across the organization. Her work focuses on strengthening relationships between healthcare providers, policymakers, and local communities across Texas.
+- text: Leila Jones
+- text: VP of Gov. Affairs & Comms. at Creative Solutions
+- **CTA:** `Show bio for Leila Jones` → —
+- body: Tina Futrell is a strategic sales and marketing executive with extensive experience leading organizational transformation and optimizing business processes across the healthcare continuum. Throughout her career, Tina has consistently driven revenue growth and enhanced profitability by leading cross-functional teams and executing disciplined, data-driven strategies. She has a particular passion for advancing clinical integration within the skilled nursing sector, working closely with clinical and operations leaders to improve care transitions, increase operational efficiency, and elevate key performance metrics. Her focus areas include PDPM optimization, QAPI outcomes, rehospitalization reduction, and overall quality ratings. Tina has also partnered extensively with Managed Care organizations and value-based payer groups, aligning clinical, operational, and financial goals to deliver sustainable performance improvement.
+- text: Tina Futrell
+- text: Chief Marketing Officer, Green Tree Healthcare
+- **CTA:** `Show bio for Tina Futrell` → —
+
+### 8. CtaBackground · theme=light
+
+- **h2:** Join us
+- text: If you want to solve meaningful problems, strengthen healthcare operations, and create tools that make a measurable difference, we’d love to meet you.
+- **CTA:** `See open roles` → /careers#open-roles
+
+---
+
+## https://www.exacare.com/resources/customer-stories
+
+**Title:** Customer Stories | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h1:** Customer Stories
+- **card link:** `How Creative Solutions in Healthcare consolidated 20 referral portals and surfac` → /resources/customer-stories/creative-solutions-in-healthcare
+- **h3:** How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume
+- **card link:** `How Ignite Medical Resorts saved $900,000 annually by centralizing admissions an` → /resources/customer-stories/ignite-medical-resorts
+- **h3:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- text: Skilled Nursing
+- **card link:** `How Pearl Healthcare increased census by 43% in their second quarter with exacar` → /resources/customer-stories/pearl-healthcare
+- **h3:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- **card link:** `How Exceptional Living Centers turned faster referral review into 32% more admis` → /resources/customer-stories/exceptional-living-centers
+- **h3:** How Exceptional Living Centers turned faster referral review into 32% more admissions
+- **h2:** All posts
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/customer-stories/creative-solutions-in-healthcare
+
+**Title:** How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume | exacare ai
+**Meta description:** By replacing a fragmented, 20-portal referral process with exacare ai, Creative Solutions in Healthcare cut hospital response times by 90%, now tracks 50%+ more referral volume than its old CRM ever saw, and took all 160 skilled nursing facilities live in just 48 hours.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Customer Stories/How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume
+- **h1:** How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume
+- **stat:** 50% — more referral volume tracked
+- **stat:** 90% — faster referral responses to hospitals
+- **stat:** 15K — referrals processed in the first two months
+- text: In this article
+- **CTA:** `Introduction` → #introduction
+- **CTA:** `The Customer` → #the-customer
+- **CTA:** `The Challenge: A Fast-Growing Operator on a Fragmented Process` → #the-challenge-a-fast-growing-operator-on-a-fragmented-process
+- **CTA:** `The Solution: One Platform for the Entire Admissions Process` → #the-solution-one-platform-for-the-entire-admissions-process
+- **CTA:** `The Implementation: Full Portfolio in Just Two Days` → #the-implementation-full-portfolio-in-just-two-days
+- **CTA:** `The Impact` → #the-impact
+- **CTA:** `What's Next` → #what-s-next
+- **CTA:** `Book a demo` → /contact
+- **h4:** By replacing a fragmented, 20-portal referral process with exacare ai, Creative Solutions in Healthcare cut hospital response times by 90%, now tracks 50%+ more referral volume than its old CRM ever saw, and took all 160 skilled nursing facilities live in just 48 hours.
+- **h2:** Introduction
+- **quote:** "Before exacare ai, everything was very fragmented, disjointed. We didn't have any insights. Since implementing exacare ai, it's been transformational." –Leila Jones, VP of Government Affairs & Communications
+- body: Creative Solutions in Healthcare is the largest skilled nursing operator in Texas. At the time it rolled out exacare ai in early 2026, the organization operated 160 skilled nursing facilities, 22 assisted living communities, and 182 entities in total, all in one state. Founded in 2000, the organization has built that portfolio from a single building.
+- body: At that scale, speed is hard to sustain with manual work. Before exacare ai, admissions ran across roughly 20 disconnected referral systems, manual CRM entry, and hospital packets that could run hundreds of pages, and any enterprise-level view had to be stitched together by hand in spreadsheets.
+- body: With exacare ai, Creative Solutions consolidated that entire process into one platform and brought the whole portfolio onto it in just two days, giving more than 3,000 users, from facility teams to corporate leadership, a shared workflow and a shared set of data for the first time.
+- **h4:** Key Results
+- • 90% faster referral responses to hospitals, down from the 24-to-48-hour turnaround the team reported before exacare ai
+- • 50% more referral volume tracked: the team now processes up to 8,000 referrals per month, compared with the roughly 4,000 to 5,000 per month they could previously track in their old CRM
+- • 15,000 referrals processed in the first two months, including 1,500 in the first 48 hours after go-live
+- • Acceptance rate grew from 52% to 60% of referrals between April and June 2026
+- • Clinical review of 200-to-300-page packets dropped to under 20 minutes
+- • 160 skilled nursing facilities and 3,000+ users live within 48 hours, eight weeks from contract signature
+- **h2:** The Customer
+- body: Creative Solutions in Healthcare is a Fort Worth, Texas-based operator of skilled nursing, assisted living, and independent living communities, exclusively in Texas. Founded in 2000 with one facility, the organization had grown to 160 skilled nursing facilities and 182 total entities by the time it implemented exacare ai in early 2026.
+- body: Growth through acquisition has been central to how Creative Solutions operates, and it shapes what the organization needs from its systems. Every new building brings its own referral sources, payer mix, and workflows, so the admission process has to absorb change constantly. The team uses exacare ai for that admission process end-to-end: receiving referrals from hospitals, reviewing clinical fit, verifying financial and payer information, and getting to a fast, confident yes or no.
+- body: The business office is a deliberate part of that process. For Ashley, who oversees billing and collections across all facilities, involving financial verification at the very start of the referral is a matter of risk mitigation: setting expectations early, confirming the right payer source, and flagging complex financial situations during admissions so the team can plan ahead.
+- **h4:** Customer Snapshot
+- • Customer Since: March 2026
+- • Size at implementation: 160 skilled nursing facilities, 22 assisted living communities, 182 entities, 3,000+ platform users
+- • Region: Texas
+- • Industry: Skilled Nursing, Assisted Living, Independent Living
+- • Products: Admissions Engine, Insurance Verification, eSign
+- **h4:** The Stakeholders
+- body: Leila Jones, VP of Government Affairs & Communications
+- body: Leila Jones has spent more than eight years at Creative Solutions, rising from Director of Social Media in 2018 to Vice President of Communications in 2020, and into her current role leading government affairs and communications in 2025. Her background in large-scale digital and brand projects, including leading a team that revitalized more than 100 individual facility websites in three months, made her a natural fit to drive the enterprise side of the exacare ai rollout: evaluating the platform, consolidating logins, onboarding 3,000 users on a compressed timeline, and turning the new referral data into insight leadership can act on.
+- body: Chuck Moody, Senior Vice President of Clinical Services
+- body: Chuck Moody has led clinical services at Creative Solutions for more than two decades, joining in 2003 when the organization was only a few years old, and has watched it grow into the largest skilled nursing operator in Texas. His teams, including Directors of Nursing and nursing administration, carry the clinical side of referral review: reading hospital documentation, judging clinical fit, and protecting the quality of every admission decision.
+- body: Ashley Bott, VP of Accounts Receivable
+- body: Ashley Bott oversees billing and collections for all Creative Solutions facilities. She rejoined the organization in late 2025 after more than a decade in revenue cycle leadership across Texas post-acute care, including roles directing revenue collections for 38 skilled nursing facilities at Cantex and revenue cycle operations for 58 communities at Regency Integrated Health Services. That background across Medicare, Medicaid, and managed care shapes her focus in the admission process: verifying payer sources early, identifying complicated financial situations before admission, and reducing downstream collection risk.
+- body: Sydni Wall, Referral Program Coordinator
+- body: Sydni Wall has coordinated the referral program at Creative Solutions since 2023 and was part of the exacare ai evaluation and implementation from the start. She sits closest to the day-to-day flow of referrals from hospitals into facilities, and led much of the training and end-user preparation that made a 48-hour, 160-facility go-live possible.
+- **h2:** The Challenge: A Fast-Growing Operator on a Fragmented Process
+- body: Creative Solutions had scale, experienced people, and a clear standard for responsiveness. What it did not have was a unified way to handle the referrals flowing in from hospitals across the state.
+- **quote:** "Our world before exacare ai was very chaotic. We were receiving referrals from about 20 different systems, and only two of those platforms gave us any reporting or true insight." –Sydni Wall
+- body: The workflow around each referral was manual and siloed. Staff logged into individual portals, pulled information out, sent it to the review team, and entered updates into a CRM by hand. A hospital could wait a day or two for a final answer.
+- body: For clinical teams, the harder problem was the sheer weight of documentation attached to each referral.
+- **quote:** "The challenge was just time. You'd get a referral with 200, 300 pages of hospital documentation and be expected to answer in 30 minutes. You can't read 300 pages in 30 minutes." –Chuck Moody
+- body: Speed was only part of the risk. Every referral decision also carried financial consequences that could follow the organization for months, and the fragmented process kept the business office too far from the moment those decisions were made.
+- **quote:** "In my role, this is the riskiest part, the very beginning of the patient's journey: setting expectations and making sure we have the right payer source from the start." –Ashley Bott
+- body: The frustration ran all the way up the organization.
+- **quote:** "At both the facility level and the enterprise level, we didn't have any information to act on." –Leila Jones
+- body: By the time the team started evaluating solutions, the verdict on the old process was unanimous.
+- **quote:** "Across the board, I don't think anyone really felt like we were winning admissions." –Leila Jones
+- **h2:** The Solution: One Platform for the Entire Admissions Process
+- body: When Creative Solutions set out to unify admissions, the team ran a thorough search, demoing nearly every option in the industry.
+- **quote:** "The very last demo that we did was with exacare ai, and they blew everyone out of the water. We had a checklist of things that we were looking for to solve the pain points we had identified, and exacare ai checked every single one of those boxes." –Leila Jones
+- body: The evaluation was deliberately broad inside the organization too, so the people who would live in the platform every day helped shape the decision.
+- **quote:** "We did about 12 demo calls with exacare ai. It started off with just a small group, and then we brought in our corporate leadership team, and then we brought in regionals." –Sydni Wall
+- body: Clinical buy-in came quickly. For Chuck, the value of AI-streamlined referral review was obvious the moment he saw it.
+- **quote:** "I was like, 'Hell yeah, that's the way to go.'" –Chuck Moody
+- body: For the business office, the appeal was moving financial verification to the front of the process, catching payer issues before admission instead of untangling them after.
+- **quote:** "My 'aha!' moment was seeing how it could help us identify our niche markets: patients with trickier payer sources or more complicated financial situations. They need the care and services, we just have to put the right resources behind them." –Ashley Bott
+- body: With buy-in from clinical, financial, and operational leadership, the decision was made. The question became how fast Creative Solutions could get 160 facilities onto the platform.
+- **h2:** The Implementation: Full Portfolio in Just Two Days
+- body: The project moved from contract signature to launch in eight weeks, and the go-live, all 160 facilities, happened in just 48 hours at the end.
+- body: That was possible because of an ambitious rollout plan. Creative Solutions chose not to run a pilot. Instead, the team held train-the-trainer sessions that reached more than 2,000 end users and turned everything on at once in late March 2026.
+- body: A go-live that fast could have left facilities stranded, but the support didn't stop at launch. The exacare ai team kept a regular cadence with Creative Solutions through the first six weeks, answering end-user questions and reviewing adoption with leadership, and the touchpoints continue today, from operational data check-ins to product feedback that feeds directly into the exacare ai roadmap.
+- **quote:** "We're a very agile company, and that's something we pride ourselves on. We can't believe that we have partners like exacare ai that are as agile as us." –Leila Jones
+- **h2:** The Impact
+- **h4:** Hospital response times are down 90%+
+- body: For hospital partners, the clearest change was how quickly Creative Solutions could deliver a decision.
+- **quote:** "Before exacare ai, we were averaging around 24 to 48 hours before we were giving the hospitals a final yes or no. Within the first two weeks of launching exacare ai, we noticed that timeframe drop quite drastically." –Sydni Wall
+- body: The data bears that out. Median time to accept has fallen every single week since go-live, at a steady volume of roughly 1,000 accepted referrals per week, and the improvement on the turnaround Sydni described now tops 90%.
+- **h4:** Referral volume tracked grew by more than 50%
+- body: The old CRM captured only what staff manually entered from the two reportable platforms, so leadership's picture of monthly referral volume was an estimate at best. On exacare ai, the team is processing up to 8,000 referrals per month across the portfolio, roughly 50% above even the high end of that estimate.
+- **quote:** "Before exacare ai, we were averaging about 4,000 to 5,000 referrals per month across our 160 locations. In our first 48 hours, we had already hit 1,500, so we knew immediately we were capturing a lot more referrals. Now we've been live for just under two months, and we've processed 15,000." –Leila Jones
+- body: For Ashley, the volume jump came with a discovery.
+- **quote:** "We were amazed at how many referrals were not being logged or monitored. That gave us a lot of insight into how we can support operations in the buildings, whether that's helping them feel more clinically capable, navigate complex payer situations, or answer reimbursement questions." –Ashley Bott
+- **h4:** Acceptance rate grew from 52% to 60%
+- body: As review got faster and more consistent, the share of referrals the team said yes to climbed eight percentage points between April and June 2026. Creative Solutions is not just seeing more referrals; it is accepting more of them, with the business office and clinical teams involved earlier in each decision.
+- **h4:** Clinical review of 300-page packets now takes minutes
+- body: For clinical teams, the change shows up on every big packet.
+- **quote:** "exacare ai highlights the parts we want to see, which has dropped review time to less than 15 or 20 minutes and saved our DONs and nursing administration hours of work. That's helped speed up our referral processing, and it's equaled out to additional census." –Chuck Moody
+- body: Teams have also found that exacare ai's suggestions consistently line up with their own judgment, which has built the confidence to respond quicker.
+- **h4:** Census and enterprise visibility are improving together
+- body: Alongside the speed gains, the organization now has something it never had before: a shared, real-time view of the referral pipeline across every building.
+- **quote:** "Obviously our census is improving. Definitely across the board we've seen an uptick. But the biggest win has been the visibility, seeing where we have opportunities in the process, or where we might need to dedicate more resources." –Ashley Bott
+- body: The team is only months into establishing its baseline, but a few early signals already have leadership's attention: steady referral volume that previously had to be pieced together manually across platforms, initial insights into decline reasons, and accept and win rates broken out by region, which show where operationally strong buildings can support others.
+- body: That combination, sharper decisions at corporate and an easier workflow in the buildings, is what has won over the whole organization.
+- **quote:** "Our leadership team is so excited about finally having data and insights we can make informed decisions with, and our facility teams are loving exacare ai because they have a workflow tool. It funnels everything together, creates efficiencies, and streamlines the entire process." –Leila Jones
+- **h2:** What's Next
+- body: Creative Solutions sees the current rollout as the beginning. The team is excited about the managed care add-on, discharge planning, and auto-decisioning, along with tighter two-way connections to their EHR and to the referral platforms hospitals already use.
+- body: That expansion is already underway. In June, Creative Solutions began piloting eSign, the digital signature feature built directly into exacare ai, moving admission paperwork into the same platform as the referral itself. Early feedback from the pilot buildings was immediate: business office teams found it far easier than their old document workflow, with families signing on a tablet at the front desk instead of working through printed packets. In early August, eSign rolled out across all of Creative Solutions' facilities..
+- body: For the business office, the next frontier is catching financially complex situations even earlier, from Medicaid eligibility to guardianship needs, so the right people are involved before a resident arrives rather than after.
+- **quote:** "We can see those situations ahead of time and already be working on them. From an AR perspective, it's going to reduce DSO, start the collection process much sooner, and let the business office manager be organically involved in financial verification." –Ashley Bott
+- body: Asked whether she would recommend exacare ai, Leila does not hesitate.
+- **quote:** "We are totally going to be a part of exacare ai for a long time. We are 100% bought in. I would recommend exacare ai to absolutely everyone. I already do, and I'll keep doing it." –Leila Jones
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/customer-stories
+- **card link:** `How Exceptional Living Centers turned faster referral review into 32% more admis` → /resources/customer-stories/exceptional-living-centers
+- **h3:** How Exceptional Living Centers turned faster referral review into 32% more admissions
+- text: Skilled Nursing
+- **card link:** `How Ignite Medical Resorts saved $900,000 annually by centralizing admissions an` → /resources/customer-stories/ignite-medical-resorts
+- **h3:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- **card link:** `How Pearl Healthcare increased census by 43% in their second quarter with exacar` → /resources/customer-stories/pearl-healthcare
+- **h3:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/customer-stories/exceptional-living-centers
+
+**Title:** How Exceptional Living Centers turned faster referral review into 32% more admissions | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Customer Stories/How Exceptional Living Centers turned faster referral review into 32% more admissions
+- **h1:** How Exceptional Living Centers turned faster referral review into 32% more admissions
+- **stat:** 26% — increase in accepted referrals
+- **stat:** 32% — increase in conversion rate
+- **stat:** 17% — increase in win rate
+- text: In this article
+- **CTA:** `Introduction` → #introduction
+- **CTA:** `Key Results` → #key-results
+- **CTA:** `The Customer` → #the-customer
+- **CTA:** `The Challenge: A Strong Intake Process With Too Much Manual Work` → #the-challenge-a-strong-intake-process-with-too-much-manual-work
+- **CTA:** `The Solution: A Faster, More Centralized Referral Review Process` → #the-solution-a-faster-more-centralized-referral-review-process
+- **CTA:** `The Implementation: Early Buy-In and Practical Team Adoption` → #the-implementation-early-buy-in-and-practical-team-adoption
+- **CTA:** `The Impact` → #the-impact
+- **CTA:** `What’s Next` → #what-s-next
+- **CTA:** `Book a demo` → /contact
+- **h2:** Introduction
+- **quote:** "Even when I've got quite a few referrals stacked up, I have the comfort of knowing exacare ai is working for me. I can have that laser focus on what I need to drill down on." –Jean Marcelli, Regional Care Coordinator
+- body: Exceptional Living Centers operates 10 skilled nursing facilities across Indiana, Ohio, and Tennessee. By the time the team started working with exacare ai, they had already done much of the hard operational work: moving more facilities into a centralized intake process, standardizing referral categories, and establishing disciplined reporting habits to track performance across the portfolio. The process worked, but it still left room to move faster.
+- body: A single referral could move through various referral portals, PointClickCare (PCC), email, Teams, eFax, and hospital systems before a decision was made. Intake leaders had to read through the full packet, extract relevant clinical details, verify insurance, complete sex offender checks, write a summary for the facility, update PCC, respond in the referral portal, and manually track what happened next. For straightforward referrals, the team had learned to move quickly. For longer, more complex packets, sometimes 300 or 400 pages, the work left real room for duplicate effort and missed details.
+- body: Exacare ai gave Exceptional Living Centers a more centralized way to manage that work. Instead of building the story from a blank packet, intake and facility teams could start from an organized referral summary, a clearer activity history, and better visibility into what needed attention, helping them move faster, review with more confidence, and turn more of the right referrals into admissions.
+- **h4:** Key Results
+- • 26% increase in accepted referrals
+- • 32% increase in conversion rate
+- • 17% increase in win rate
+- • 50% reduction in referral review time for familiar green referrals
+- • 40% referral growth after implementing exacare ai
+- • 31% growth in average daily census across the 10 centers
+- **h2:** The Customer
+- body: Exceptional Living Centers is a skilled nursing operator with facilities across Indiana, Ohio, and Tennessee. Its admissions process is built around a central intake team that helps coordinate referral review across most of the portfolio, while a few long-standing facilities continue to manage parts of the process locally.
+- body: That hybrid approach gives Exceptional Living Centers a practical balance: central intake can move quickly on referrals that are clearly a fit, while facility teams stay closely involved in clinical decisions that need local review. Green referrals can be accepted centrally, clear non-fits can be removed quickly, and more complex yellow referrals can be packaged for building-level review.
+- body: The organization is also highly data-driven. Before exacare ai, leaders had already invested in consistent referral tracking and reporting through PCC, using thoughtful manual workflows to understand referral volume, denial reasons, acceptance trends, and facility-level performance. That discipline made the team a strong fit for exacare ai: they were not looking to replace judgment or rebuild admissions from scratch. They were looking for a faster, more visible way to run the process they had already built.
+- **h4:** Customer Snapshot
+- • Customer SinceJune 2025
+- • Size10 skilled nursing facilities
+- • RegionIndiana, Ohio, and Tennessee
+- • IndustrySkilled Nursing
+- • ProductsAdmissions Engine, Data Center / Reporting, Bed Board
+- **h4:** The Stakeholders
+- body: Nicolle Meade, Senior Vice President of Business Development Nicolle Meade is a senior leader and key advocate for exacare ai at Exceptional Living Centers. She has been with the organization since 2019 and now serves as Senior Vice President of Business Development. During her time at ELC, she has also served as Vice President of Operations and Vice President of Strategic Initiatives. Her background spans business development, operations, facility administration, and clinical nutrition, giving her a practical view of what admissions teams need to move quickly while still making responsible decisions.
+- body: Kimberly McCombs, Central Intake Director Kimberly McCombs leads central intake at Exceptional Living Centers and is one of the team's primary exacare ai power users. She has been with the organization since 2022, after more than a decade at Trilogy Health Services in customer service, community relations, and referral development roles. Her background in admissions, marketing, referral relationships, and customer communication gives her a practical view into the day-to-day work exacare ai supports: reviewing referrals quickly, coordinating across teams, and keeping the admissions process moving.
+- body: Jean Marcelli, Regional Care Coordinator Jean Marcelli is a Regional Care Coordinator at Exceptional Living Centers and an active user of exacare ai in the referral review process. She joined the organization in 2023 after more than six years as a Nurse Link Manager at Diversicare. Her background gives her a strong operational lens on referral review, team coordination, and the clinical details that can affect whether a referral is a good fit.
+- **h2:** The Challenge: A Strong Intake Process With Too Much Manual Work
+- body: Starting in 2022, Exceptional Living Centers worked to centralize referral review across most of the organization, standardize referral categories, and capture the data leadership needed to understand performance across buildings.
+- body: That discipline gave the team a stronger process, and made the limits of the old workflow easier to see. Even with central intake in place, the process still involved a lot of moving parts. Kimberly described it as "a lot of ping-pong" across different sites, portals, documents, and people. The time added up.
+- **quote:** "By the time I finished reviewing the referral, documenting it, and responding back, it was probably 20–25 minutes of my time per referral." –Kimberly McCombs
+- body: For more complex referrals, the challenge was not just speed. It was the pressure of knowing one missed detail could change the decision.
+- **quote:** "There were times when we would get a 300- or 400-page referral faxed in. It took time to go through all of that information, and there was always that anxiety of, 'Am I going to miss something?'" –Jean Marcelli
+- body: Reporting added yet another layer to that burden. Kimberly had built a process for tracking referral outcomes in PCC, but turning that data into insight still meant downloading itemized reports, cleaning the data, and building pivot tables. Turnaround time was even harder to measure. PCC didn't give the team clean timestamps at every step, and weekend referrals or minor status updates could skew the numbers.
+- body: Exceptional Living Centers had the people, process, and discipline. What they needed was a way to reduce the clerical burden around each referral, so their teams could spend less time stitching information together and more time making fast, accurate admissions decisions.
+- **h2:** The Solution: A Faster, More Centralized Referral Review Process
+- body: Exceptional Living Centers chose exacare ai to make referral review faster, easier, and more consistent across its portfolio, while keeping experienced admissions and clinical teams at the center of every decision.
+- body: The team saw value across five areas, each building on the next. AI-generated summaries gave intake teams a structured starting point instead of a blank packet. That clearer starting point made it easier to centralize review, reducing time spent bouncing between portals, documents, and email. Faster, more organized review meant central intake could move quickly on clear green referrals, escalate yellow referrals to the right people, and help clinical leaders see a complete picture without manually working through hundreds of pages first. And with cleaner intake data flowing through the platform, the team could begin replacing manual reporting work with real dashboard visibility and scheduled reports.
+- body: The summary report was especially important for clinical buy-in. Nicolle knew exacare ai would only work if clinical leaders trusted what they were seeing. The platform needed to support the organization's review process, not shortcut it.
+- **quote:** "Our chief nursing officer said the summary report alone was a game changer. It gave the team a much better clinical picture than going through 300 pages manually." –Nicolle Meade
+- body: For Exceptional Living Centers, exacare ai fit the way the organization wanted to work. Admissions and clinical teams would stay in the loop on each decision, while AI helped organize information, reduce clerical work, and give experienced teams a faster, clearer starting point.
+- **h2:** The Implementation: Early Buy-In and Practical Team Adoption
+- body: Exceptional Living Centers started conversations early and worked to build buy-in across senior leadership, operations, and clinical teams.
+- body: The change had to be introduced carefully. Admissions decisions were shared across central intake and facility teams, and facility leaders needed to trust that exacare ai was organizing information consistently and applying referral statuses they could rely on. That meant bringing people along gradually.
+- body: Jean supported adoption through daily calls, giving users time to get comfortable with the platform instead of overwhelming them all at once.
+- **quote:** "Each day, I would show them something new in exacare ai. I didn't try to do it all at once, just little bits at a time. Even people who were resistant to change started to see the value." –Jean Marcelli
+- **h2:** The Impact
+- **h4:** Referral review time decreased by 50% for familiar green referrals
+- body: Before exacare ai, even a familiar, straightforward referral could take Kimberly 20–25 minutes to review, summarize, document, and respond to. With exacare ai, that same referral could be reviewed in under 10 minutes.
+- body: Exacare ai shortened the steps around each referral, helping the team move from review to response with less manual preparation.
+- **h4:** Accepted referrals increased 26%, conversion rate increased 32%, and win rate increased 17%
+- body: Comparing the team's first month on exacare ai with a recent 30-day period, accepted referrals increased from 391 to 494 (26%) and conversion rate increased from 146 to 192 (32%). Win rate also improved by 17%.
+- body: Together, those metrics show that Exceptional Living Centers was not just reviewing referrals faster. The team was identifying more of the right referrals, accepting more of them, and moving more opportunities through to admission.
+- **quote:** “We used to offer beds on about 40% of our non-denied referrals. Now we’re up to 65–70%. It’s been amazing.” –Nicolle Meade
+- **h4:** Average daily census grew 31% across the 10 centers
+- body: One of the clearest outcomes came as a surprise to the team. Rather than showing up primarily in admission volume, exacare ai's impact showed up in census. Buildings were filling more consistently, and some locations soon faced a new challenge: more qualified referrals than available beds.
+- body: That shift helped the team look at performance more completely. Admissions growth mattered, but it was not the whole story. As occupancy improved, Exceptional Living Centers also needed to understand where capacity was tightening, why referrals were being denied, and how bed availability was shaping future admissions opportunities.
+- **h4:** Referral volume grew 40%
+- body: Exceptional Living Centers also reported 40% referral growth after implementing exacare ai. Nicolle attributed that growth to stronger hospital relationships, more liaison capacity, and faster response times, with exacare ai helping the team respond more quickly and consistently in the referral channels hospitals already used.
+- **quote:** "We're responding so much faster in the CarePort portals. The hospital sees us now as a valuable partner." –Nicolle Meade
+- **h4:** Complex referrals became clearer, faster
+- body: One of the biggest qualitative improvements was confidence. For Jean, that was especially clear on busy days or when long referral packets came in. Instead of opening a large packet cold and trying to find every important detail manually, the team could start from a clearer, more organized view of the referral.
+- body: Exacare ai gave the team a clearer starting point for review. Admissions and clinical teams could spend less time searching through the packet and more time focusing on the barriers, risks, payer considerations, and facility-fit questions that needed attention.
+- **h4:** Reporting became easier and more actionable
+- body: Exceptional Living Centers was already serious about referral data before exacare ai. Kimberly had built a careful manual reporting process in PCC to track referral statuses, denial reasons, acceptance trends, and facility-level performance. But getting to those insights took work: itemized exports, data cleanup, and pivot tables.
+- body: With exacare ai, the team gained a more direct view into referral activity through the Data Center, scheduled reports, and clearer intake data across the portfolio. Better visibility helps Exceptional Living Centers spot bottlenecks earlier, manage facility performance more consistently, and make smarter decisions about clinical capabilities, specialty programs, and market strategy.
+- **h2:** What’s Next
+- body: For Exceptional Living Centers, the work isn't done; it's expanding. The team sees opportunities to deepen exacare ai's role across the admissions process, including managed care support, Bed Board visibility, specialty referral tracking, and post-acceptance engagement with residents and responsible parties.
+- **quote:** "As census and managed care volume continue to grow, we know we will need a more scalable way to manage authorization work." –Nicolle Meade
+- body: Exacare ai helped a strong foundation scale. With faster review, clearer information, and better visibility, Exceptional Living Centers is identifying more of the right referrals, moving them through to admission, and building toward what comes next.
+- **quote:** "Our team loves exacare ai. It has made their world a lot easier. They have embraced it." –Nicolle Meade
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/customer-stories
+- **card link:** `How Ignite Medical Resorts saved $900,000 annually by centralizing admissions an` → /resources/customer-stories/ignite-medical-resorts
+- **h3:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- text: Skilled Nursing
+- **card link:** `How Creative Solutions in Healthcare consolidated 20 referral portals and surfac` → /resources/customer-stories/creative-solutions-in-healthcare
+- **h3:** How Creative Solutions in Healthcare consolidated 20 referral portals and surfaced 50%+ more referral volume
+- **card link:** `How Pearl Healthcare increased census by 43% in their second quarter with exacar` → /resources/customer-stories/pearl-healthcare
+- **h3:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/customer-stories/st-croix-county
+
+**Title:** How St. Croix County scaled a careful admissions process with AI-supported referral review | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Customer Stories/How St. Croix County scaled a careful admissions process with AI-supported referral review
+- **h1:** How St. Croix County scaled a careful admissions process with AI-supported referral review
+- **stat:** 19% — higher referral-to-admit win rate
+- **stat:** 92% — reduction in average time to accept
+- **stat:** 26% — increase in census
+- text: In this article
+- **CTA:** `Introduction` → #introduction
+- **CTA:** `Key Results` → #key-results
+- **CTA:** `The Customer` → #the-customer
+- **CTA:** `The Challenge: Scaling a Careful Admissions Process Built Around Manual Review` → #the-challenge-scaling-a-careful-admissions-process-built-around-manual-review
+- **CTA:** `The Solution: A Faster, Shared Admissions Workflow with exacare ai` → #the-solution-a-faster-shared-admissions-workflow-with-exacare-ai
+- **CTA:** `The Implementation: A Practical Rollout Built Around the Existing Workflow` → #the-implementation-a-practical-rollout-built-around-the-existing-workflow
+- **CTA:** `The Impact` → #the-impact
+- **CTA:** `What’s Next` → #what-s-next
+- **CTA:** `Book a demo` → /contact
+- body: With exacare ai, St. Croix County Health Care Campus moved from a paper-heavy referral process to a faster, AI-supported admissions workflow. The team improved referral-to-admit win rate, reduced average time-to-accept, gained new visibility into referral volume, and gave staff more confidence when reviewing large clinical packets.
+- **h2:** Introduction
+- **quote:** “It’s like our lifeline.” –Krista Nygaard, Campus Director of Nursing
+- body: St. Croix County Health Care Campus had built a careful, experienced admissions process. The challenge was that the work was becoming harder to sustain as referral volume grew and hospital turnaround expectations increased.
+- body: Before exacare ai, referrals arrived by fax from hospitals across Wisconsin and Minnesota, often in packets of more than 100 pages. Krista Nygaard, Campus Director of Nursing, and Lisa Leahy, Director of Social Services, reviewed those packets manually, using handwritten notes, questions, and shorthand to flag clinical, medication, and operational details.
+- body: The process reflected the team’s experience and attention to detail. But it also depended on time the team did not always have. Referral review had to happen alongside resident care, meetings, care conferences, wound support, hospital communication, and other day-to-day responsibilities. Important details could be buried deep in a packet, and because referral activity was tracked manually, it was difficult to quantify just how much admissions work the team was managing.
+- body: With exacare ai, St. Croix County created a faster, AI-supported admissions workflow. Referrals are uploaded through Quick Upload, summarized, reviewed, flagged, and routed across the team. The result is faster review, clearer visibility into referral performance, and more time for staff to focus on residents, hospital communication, and making the right admissions decision.
+- **h4:** Key Results
+- • 19% higher referral-to-admit win rate
+- • 92% reduction in average time to accept
+- • 26% increase in census, moving from an estimated 30–35 residents before exacare ai to 44 at the time of the interview.
+- • New visibility into referral volume and outcomes: St. Croix County can now quantify long-term care referral activity instead of relying on paper stacks, handwritten notes, and manual tracking.
+- • More confidence in referral fit: AI-supported summaries and admission flags help the team catch important clinical, medication, and operational details that could previously be missed when reviewing 100+ page referral packets under time pressure.
+- **h2:** The Customer
+- body: St. Croix County Health Care Campus is part of St. Croix County, a county government entity in western Wisconsin near the Minnesota border.
+- body: The campus is located in New Richmond and includes long-term care, transitional care, assisted living, memory care, and a dementia crisis unit. The organization has deep roots in the community, with its original facility dating back to 1897.
+- body: Today, the campus includes:
+- • A 50-bed long-term care and transitional care building
+- • A 48-bed assisted living and memory care building
+- • A 10-bed locked dementia crisis unit that opened in early 2025
+- body: The team receives referrals from hospitals throughout Wisconsin and Minnesota. Most arrive through traditional fax and include clinical packets, physician orders, encounter documentation, medication information, and other materials needed for an admission decision.
+- **h4:** Customer Snapshot
+- • Customer SinceSeptember 2025
+- • SizeSingle campus with 108 beds across long-term care / TCU, assisted living / memory care, and dementia crisis care
+- • RegionWisconsin; receives referrals from Wisconsin and Minnesota
+- • IndustrySkilled Nursing, Long-Term Care, Assisted Living, Memory Care
+- • ProductsAdmissions Intelligence, PDPM Intelligence, Data Center
+- **h4:** The Stakeholders
+- body: Krista Nygaard, Campus Director of Nursing
+- body: Krista Nygaard is the Campus Director of Nursing and an internal champion for exacare ai. She is close to day-to-day referral review, admissions decisions, resident care, and staff workflows.
+- body: Lisa Leahy, Director of Social Services
+- body: Lisa Leahy is a key member of St. Croix County’s admissions workflow. With decades of experience at the campus, Lisa worked closely with Krista to review large faxed referral packets, flag open questions, and coordinate follow-up with hospitals.
+- **h2:** The Challenge: Scaling a Careful Admissions Process Built Around Manual Review
+- body: Before exacare ai, St. Croix County’s admissions team managed referral review through a highly hands-on process built around clinical experience, collaboration, and deep knowledge of the residents they could safely serve.
+- body: Referral packets arrived by fax from hospitals across Wisconsin and Minnesota, often running more than 100 pages. Krista and Lisa had developed a careful review system to work through those packets together. They highlighted important details, added notes and questions, and used a shared shorthand to flag items that needed follow-up, such as POA status, one-on-one needs, medications, and other clinical considerations.
+- body: That process helped the team make thoughtful admissions decisions in an environment where referral packets were long, information was scattered, and every decision carried clinical and operational implications.
+- body: But as referral volume increased, the process became harder to sustain at the speed hospitals expected. Admissions communication often had to happen within a narrow window, roughly between 8:00 a.m. and 3:30 p.m., before pharmacy coordination became harder and hospital discharge planners wrapped up for the day.
+- body: When review took too long, St. Croix County risked missing appropriate referrals simply because another placement decision had already been made.
+- **quote:** “We were getting so many referrals that sometimes, by the time we called back, the resident had already been placed somewhere else.” –Krista Nygaard
+- body: The pressure also made it harder to review every detail with the level of confidence the team wanted. In a 100-page packet, an important medication, clinical need, or financial consideration could be buried deep in the documentation.
+- **quote:** “With 100-page referral packets, it was hard to catch every detail as quickly as we needed to. That could mean missing an appropriate referral or moving forward without the full picture.” –Krista Nygaard
+- body: The challenge was not a lack of process or expertise. St. Croix County had both. The challenge was that a careful, paper-based workflow had become difficult to scale as referral volume, packet length, and hospital turnaround expectations increased.
+- **h2:** The Solution: A Faster, Shared Admissions Workflow with exacare ai
+- body: St. Croix County learned about exacare ai through a peer network for senior care providers. A finance team member heard about the platform in a meeting, brought it to administration, and the team began exploring whether AI could help with referral review.
+- body: From the first demo, Krista saw how directly the platform mapped to the work her team was already doing.
+- **quote:** “From the first demo, I thought, ‘Yes, this is exactly what we need.” –Krista Nygaard
+- body: The team adopted exacare ai using a process called Quick Upload. St. Croix County was not connected through PointClickCare, Epic, or another direct EHR integration, so the team started with a workflow that fit how referrals were already arriving.
+- body: Staff scan referral packets, upload them into exacare ai, and enter basic information such as first name, last name, date of birth, sex, and referral source. From there, the team can review AI-supported summaries, recommendation flags, clinical details, rule flags, medication information, PDPM analysis, notes, comments, tags, and activity history.
+- **quote:** “They scan it to my email, I drag it into Quick Upload, add the basic referral details, and it’s done.” –Krista Nygaard
+- body: The platform gives the team a stronger starting point, but it does not replace clinical judgment. St. Croix County configured admission rules to flag the criteria that matter most for their campus, such as payer requirements, smoking status, medication concerns, or care needs that may vary by setting. When a referral is flagged, the team can quickly see the reason, review the underlying details, and decide whether it is a true barrier or something they can work through.
+- **quote:** “Now, when something is flagged, I can quickly see why and decide whether it’s something we can work with.” –Krista Nygaard
+- body: The workflow also brought more people into the admissions process. Krista, the nurse manager, administrator, finance team, and admissions coordinator can all use the platform to review, comment, and act on referrals. For clinical leaders, the summaries and flags help identify risks faster. For admissions, the shared workflow helps everyone stay aligned. For finance, summary information helps support prior authorization decisions.
+- **h2:** The Implementation: A Practical Rollout Built Around the Existing Workflow
+- body: St. Croix County started with Quick Upload rather than a deeper EHR integration, which allowed the team to bring exacare ai into the admissions process without changing how referrals arrived.
+- body: The implementation focused on making the workflow easy to adopt: setting up users, configuring admission rules, training the team, and making sure staff knew how to move referral packets from scan to review.
+- body: The team went live in September 2025. Because the workflow aligned with what staff were already doing, adoption happened quickly. Referrals could still be scanned and routed the way they were before, but once uploaded into exacare ai, the team had a shared place to review summaries, flags, comments, and referral status.
+- **quote:** “It was super easy and user-friendly. You click through, find what you need, and the workflow makes sense.” –Krista Nygaard
+- body: One reason the rollout worked was that it did not require every team member to change in the same way at the same time. Staff who were comfortable working digitally could review and act directly in the platform, while team members who preferred paper could still rely on scanned referrals and printed summaries as they adjusted to the new process.
+- body: That flexibility helped St. Croix County introduce AI-supported referral review without making the transition feel disruptive for a team already managing a high volume of admissions work.
+- **quote:** “It was an easy transition because we saw the benefit immediately. You don’t have to wait to see if it’s working.” –Krista Nygaard
+- body: The result was a rollout that felt practical rather than disruptive. St. Croix County could start using exacare ai right away, prove value quickly, and continue refining the workflow as the team became more comfortable with the platform.
+- **h2:** The Impact
+- **h4:** 19% higher referral-to-admit win rate
+- body: Before exacare ai, the St. Croix County had a 70% referral-to-admit win rate. By April 2026, that monthly win rate had increased to 83%. That represents a 19% relative increase.
+- body: For St. Croix County, the improvement reflects more than faster referral review. It shows the team was able to identify appropriate residents, respond with more confidence, and move more accepted referrals through to admission.
+- **h4:** 92% reduction in average time to accept
+- body: St. Croix County also reduced average time to accept inside exacare ai. By May 2026, average time to accept had decreased 92%.
+- body: This metric reflects the time between a referral entering exacare ai and being marked accepted in the platform. It is separate from Krista’s experience of day-to-day referral decision-making, but both point to the same operational shift: the team could move from referral intake to action much faster.
+- **h4:** 26% increase in census
+- body: One of the most visible outcomes for St. Croix County was census. Krista estimated that long-term care census had previously averaged around 30 to 35. By April 2026, census was 44.
+- body: Using the most conservative end of that estimated prior range, that represents at least a 26% increase.
+- body: Krista connected that improvement to faster response times and fewer missed opportunities. Before exacare ai, the team sometimes lost appropriate referrals because another placement decision had already been made by the time they could complete review and follow up.
+- body: With exacare ai, St. Croix County could review referrals sooner, communicate with hospitals faster, and keep more appropriate residents moving through the admissions process.
+- **h4:** New visibility into referral volume and outcomes
+- body: Before exacare ai, St. Croix County had a clear sense that referral volume was high, but it was difficult to quantify. Referral activity lived across fax packets, handwritten notes, staff memory, and manual tracking.
+- **quote:** “We knew we were busy with referrals, but we couldn’t put a number on it.” –Krista Nygaard
+- body: With exacare ai reporting, that changed.
+- body: That visibility gave the team a clearer view of referral activity, acceptance, movement, and workload. It also helped support the need for a dedicated admissions coordinator, who started March 2026.
+- body: The reporting gave the team data they simply did not have before.
+- **h4:** More confidence in referral fit
+- body: exacare ai also helped the team review referral fit with more confidence. Instead of searching through a 100-page packet from scratch, staff could start with AI-supported summaries, recommendation flags, rule flags, medication information, and other key details surfaced for review.
+- body: That mattered because St. Croix County still relies on clinical judgment. The team reviews every referral carefully, but now they can see why something was flagged and decide whether it is a true barrier or something they can work through.
+- **quote:** “We still look at every referral. But now, when something is flagged, I can quickly see why and decide whether it’s something we can work with.” –Krista Nygaard
+- body: The impact showed up beyond the admissions team. Contracted therapy partners began noticing a difference in the residents coming in.
+- **quote:** “Our therapists started asking if we were doing something different, because we were getting really strong rehab candidates.” –Krista Nygaard
+- body: For Krista, that feedback reinforced the value of a more informed review process. The goal was not simply to move faster. It was to move faster while making better-fit admissions decisions.
+- **h4:** Staff got time back for higher-value work
+- body: The impact was also personal for the team. Before exacare ai, referral review had to be worked in around resident care, meetings, care conferences, wound support, hospital communication, and other clinical responsibilities.
+- body: After implementation, Krista described the time returned to her and Lisa as one of the biggest changes.
+- **quote:** “The amount of time exacare ai has given back to us is amazing.” –Krista Nygaard
+- body: Admissions review is not just an administrative task. That time back impacts residents, families, hospital partners, clinical teams, finance, and the broader campus.
+- **quote:** “We’re caring for people. We should not have to rush through that.” –Krista Nygaard
+- **h2:** What’s Next
+- body: St. Croix County sees exacare ai as part of a broader shift toward faster, more connected admissions workflows.
+- body: The team is interested in new capabilities that could extend the same efficiency gains beyond referral review, including eSign for admissions paperwork. For Krista, digitizing more of the admissions process is a natural next step, especially as the new admissions coordinator takes on more of the day-to-day workflow.
+- body: St. Croix County is also interested in future home health and hospice-related opportunities. Krista mentioned Lakeview Hospice and Home Health, and Adoray, as important partners, and sees potential for more connected workflows across the care partners involved in a resident’s transition.
+- body: For Krista, the reason to recommend exacare ai is simple: it gives teams time back, supports better decisions, and helps facilities stay focused on residents.
+- **quote:** “Don’t wait to get exacare ai. You will not regret it.” –Krista Nygaard
+- body: For St. Croix County, the future is not just faster referral review. It is an admissions process that gives staff more time to think, more confidence in each decision, and more room to focus on the people behind every packet. With the right information in front of them sooner, the team can help hospitals move faster, support families with more clarity, and get residents to the care setting that is right for them.
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/customer-stories
+- **card link:** `How Ignite Medical Resorts saved $900,000 annually by centralizing admissions an` → /resources/customer-stories/ignite-medical-resorts
+- **h3:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- text: Skilled Nursing
+- **card link:** `How Exceptional Living Centers turned faster referral review into 32% more admis` → /resources/customer-stories/exceptional-living-centers
+- **h3:** How Exceptional Living Centers turned faster referral review into 32% more admissions
+- **card link:** `How Pearl Healthcare increased census by 43% in their second quarter with exacar` → /resources/customer-stories/pearl-healthcare
+- **h3:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/customer-stories/ignite-medical-resorts
+
+**Title:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Customer Stories/How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- **h1:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- **stat:** $900K — in annual savings
+- **stat:** 80% — reduction in referral response time
+- **stat:** 52% — reduction in managed care processing time
+- text: In this article
+- **CTA:** `Introduction` → #introduction
+- **CTA:** `The Customer` → #the-customer
+- **CTA:** `The Challenge: Scaling a High-Volume Model Across Markets` → #the-challenge-scaling-a-high-volume-model-across-markets
+- **CTA:** `The Implementation: Five Buildings to Full Rollout in Two Weeks` → #the-implementation-five-buildings-to-full-rollout-in-two-weeks
+- **CTA:** `The Impact` → #the-impact
+- **CTA:** `What's Next` → #what-s-next
+- **CTA:** `Book a demo` → /contact
+- **h4:** By centralizing admissions and managed care with exacare ai, Ignite reduced referral response time by 80%, cut managed care processing time by 52%, and generated $900,000 in annual savings across more than 30 facilities.
+- **h2:** Introduction
+- **quote:** “By centralizing our admissions and case management departments, we were able to realize approximately $900,000 in annual savings.” –Tim Fields, CEO and Co-Founder
+- body: Ignite Medical Resorts runs one of the highest-volume short-term rehabilitation models in skilled nursing. Most of Ignite’s buildings complete more than 100 admissions per month, and the organization expects to care for more than 22,000 admissions this year.
+- body: The team had already built a strong admissions and managed care operation before exacare ai. Ignite knew its markets, had deep hospital relationships, and held itself to a clear standard: respond quickly, be easy to work with, and give referral partners accurate answers.
+- body: But as Ignite expanded across states, referral volume increased, and managed care became a larger share of the business, the work became harder to manage through building-by-building processes and disconnected systems. The workflows that helped Ignite grow were starting to create too much manual coordination for the scale of the business.
+- body: With exacare ai, Ignite centralized admissions and managed care into one shared workflow. The result was faster referral decisions, cleaner authorization submissions, real-time portfolio visibility, and approximately $900,000 in annual savings.
+- **h4:** Key Results
+- • $900,000 in annual savings through centralized admissions and case management with exacare ai
+- • 80% reduction in referral response time, from a 30-minute benchmark to 6 minutes
+- • 52% reduction in managed care processing time, from referral receipt to submission
+- **h2:** The Customer
+- body: Ignite Medical Resorts is a post-hospital rehabilitation company built around short-term skilled nursing and rehabilitation. Its model combines advanced clinical care with a hospitality-driven experience: private rooms, chef-prepared food, concierge service, robotics, virtual reality, and modern therapy environments.
+- body: As Tim describes it, Ignite’s model is built to “raise the bar and extinguish the stereotype of typical skilled nursing facilities.”
+- body: Ignite operates 32 facilities across Illinois, Indiana, Kansas, Missouri, Oklahoma, and Texas, with expansion into North Carolina underway.
+- body: The company is also unique in how much of its business is managed care. It makes up roughly 60% of Ignite’s volume, “probably more than anybody in the country,” as Tim describes it. That payor mix makes speed, accuracy, and authorization workflows central to how the business runs.
+- **h4:** Customer Snapshot
+- • Customer SinceApril 2025
+- • Size32 facilities, 2,500+ operating beds
+- • RegionIL, IN, KS, MO, OK, TX; expanding into NC
+- • IndustrySkilled Nursing, Short-Term Rehabilitation
+- • ProductsAdmissions Screener, Insurance Verification, Sex Offender Checker, PDPM, Managed Care Agent
+- **h4:** The Stakeholders
+- body: Tim Fields, CEO and Co-Founder
+- body: Tim Fields has spent more than two decades building and leading post-acute care organizations. Before co-founding Ignite in 2018, he held senior leadership roles across skilled nursing and post-acute networks, including Symphony Post Acute Network and Lexington Health Care. At Ignite, Tim brings both the facility-level perspective of a skilled nursing operator and the strategic perspective of someone scaling a short-term rehab model across multiple states.
+- body: Nicole Jablonski, Chief Development Officer
+- body: Nicole Jablonski has spent more than 20 years in healthcare development, marketing, admissions, and post-acute growth strategy. Before joining Ignite in 2019, she held business development and marketing leadership roles across Symphony Post Acute Network, NuCare Services, and other organizations. At Ignite, Nicole oversees marketing and admissions across the portfolio, which puts her close to referral volume, hospital responsiveness, admissions workflows, and the data leaders need to manage performance across markets.
+- body: Justin Meara, Senior Vice President, Managed Care
+- body: Justin Meara leads managed care operations at Ignite, including the prior authorization workflows that support a heavily managed care business. With roughly 60% of Ignite’s volume tied to managed care, Justin’s team plays a critical role in moving patients from referral to admission. His team works across referral packets, benefits information, payor requirements, and clinical documentation to submit authorizations quickly and accurately.
+- **h2:** The Challenge: Scaling a High-Volume Model Across Markets
+- body: Ignite’s admissions model was already fast by industry standards. The team had set a clear expectation for hospital partners: every referral should receive a response in 30 minutes or less.
+- body: That said, as they expanded across markets, the operational load increased. Many buildings were managing more than 100 admissions per month, with referral volume often much higher. Teams were working across 6+ referral systems, each with separate logins and workflows. Admissions teams reviewed clinical packets, coordinated with hospitals, communicated across stakeholders, and tracked performance through building-specific processes.
+- body: The work was getting done because Ignite had experienced people who knew how to move quickly. But too much of that speed depended on manual coordination.
+- body: Nicole described the breaking point simply:
+- **quote:** “We knew we needed a solution when our teams were getting bogged down due to constant back and forth communication, and having to use different platforms to complete the process of conversion from referral to admission.” –Nicole Jablonski
+- body: The benefits seen immediately included:
+- body: 1. One intake workflow across referral platforms: exacare ai could connect Ignite’s referral platforms into a single workflow, so admissions teams no longer had to move between separate systems to understand what was in the queue or what action was needed next.
+- body: 2. Faster clinical review: Instead of reading every packet from scratch, teams could use exacare ai to surface the key clinical and operational details needed to make a decision. This would help Ignite respond to hospitals faster and more consistently.
+- body: 3. A clearer path from referral to authorization: For managed care, exacare ai could help Justin’s team move from manual benefit verification and authorization prep to a faster process for reviewing packets, preparing submissions, and getting authorizations out the door.
+- body: 4. Portfolio-level reporting: Nicole relied heavily on Excel spreadsheets completed by admissions directors. With exacare ai, Ignite could see referral data by hospital, physician, payor source, win rate, loss rate, denial rate, and denial reason. That visibility would help the team identify trends across the portfolio and make better decisions about programming, clinical capabilities, and market performance.
+- **h2:** The Implementation: Five Buildings to Full Rollout in Two Weeks
+- body: Ignite started with a five-building pilot. Nicole’s team wanted to validate the workflow, confirm users could adopt it quickly, and make sure the platform supported the way Ignite actually worked.
+- **quote:** “Seeing the first five buildings up and running in exacare ai in just a couple of days gave us the confidence to accelerate a broader rollout in just two weeks.” –Nicole Jablonski
+- body: Tim’s requirement for implementation was simple: patient flow could not be disrupted. With approximately 22,000 admissions expected that year, the rollout had to improve the process without slowing down the people responsible for getting patients admitted.
+- body: Once admissions was live, managed care was the obvious next step. The case management team already knew the platform, had seen the admissions workflow working, and could apply the same operating model to prior authorization.
+- **quote:** “Because our admissions team was already working in exacare ai, it made the case management team’s integration a lot easier.” –Justin Meara
+- body: Within a few short weeks, 32 buildings were rolled out on managed care in exacare ai.
+- **h2:** The Impact
+- **h4:** Referral response time decreased by 80%, from 30 minutes to 6 minutes
+- body: Before exacare ai, Ignite’s internal standard was to respond to hospital referrals in 30 minutes or less. After implementation, Nicole’s team saw that number drop significantly.
+- **quote:** “At Ignite, we’ve always prided ourselves on speed. We wanted to always be the fastest and the easiest to work with, and we would set an expectation that all of our referrals were being responded to in 30 minutes or less. Once we implemented exacare ai, we saw that number go down to 6 minutes.” –Nicole Jablonski
+- body: Admissions could provide a clear yes or no faster, helping hospitals move patients to the right post-acute setting with less back and forth.
+- **h4:** Managed care processing time dropped 52%, from 22 minutes to 10 minutes
+- body: Once the managed care workflow went live in exacare ai, Justin’s team cut the time required to move a referral from receipt to prior authorization submission nearly in half.
+- **quote:** “We noticed positive operational change right away. We used to take about 22 minutes to process a referral on average, from receiving to submission. That went down to roughly 10 minutes immediately.” –Justin Meara
+- body: For Justin, the value was not only speed. The managed care team was able to move faster while improving accuracy around the level of care requested upfront, supporting faster authorization times and more efficient billing. In some cases, full authorizations have come back from health plans in as few as 10 minutes.
+- **h4:** Centralization created $900,000 in annual savings
+- body: exacare ai also gave Ignite the infrastructure to redesign how admissions and case management work across the organization.
+- body: Historically, Ignite followed a more traditional building-based model, with admissions resources aligned to individual facilities. As the platform created more visibility, faster referral review, and a shared intake workflow, Ignite moved toward a centralized intake and referral management model, supported by centralized case management for managed care.
+- body: The savings came from restructuring the operating model around centralized teams and more efficient workflows, not from simply cutting capacity. Instead of duplicating the same manual work facility by facility, Ignite could align the right people around a shared queue, consistent processes, and better data across the portfolio.
+- **quote:** “By centralizing our admissions and case management departments, we were able to realize approximately $900,000 in annual savings.” –Tim Fields
+- **h4:** Reporting moved from spreadsheets to real-time operating visibility
+- body: Before exacare ai, Ignite relied on manual tracking and Excel spreadsheets completed by admissions directors. Now Nicole can see referral data across the portfolio: hospital referrals, physician patterns, payor source, win rate, loss rate, denial rate, and denial reasons.
+- body: That visibility transformed referral data into actionable operational decisions. If denial reasons point to a clinical gap at a specific building, the team can evaluate whether programming or clinical capabilities need to change. Instead of waiting for patterns to surface manually, Ignite can see what is happening across the portfolio and act faster.
+- **h2:** What's Next
+- body: Ignite now sees exacare ai as a partner in broader operational transformation.
+- body: Nicole is interested in expanding the partnership into medication management and medication pricing. Justin sees opportunities around reauthorizations and continued stay reviews. Tim’s longer-term vision is broader: the admission packet becomes the starting point for every department.
+- body: Today, a single referral packet can be hundreds of pages and involve admissions, therapy, clinical, physicians, nurse practitioners, and the business office. Tim sees an opportunity for AI to read that packet once and route the right information to the right department at the right time.
+- **quote:** “Everything starts with this admission packet. It impacts therapy, clinical, physicians and nurse practitioners, and our business office. So many things we envision doing come from having this admission packet. We see opportunity for AI to intelligently route information to the right department at the right time.” –Tim Fields
+- body: For Ignite, the future is not just faster admissions. It is removing manual work from the handoffs that surround every patient so each department has the information it needs sooner, and teams can spend more time on care.
+- **quote:** “I would recommend exacare ai because I believe they understand day to day operational realities, and are building technology around those needs. The technology and the innovation they’re bringing is quick, it’s fast, it’s efficient, and it makes our team members better.” –Tim Fields
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/customer-stories
+- **card link:** `How Pearl Healthcare increased census by 43% in their second quarter with exacar` → /resources/customer-stories/pearl-healthcare
+- **h3:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- text: Skilled Nursing
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/customer-stories/pearl-healthcare
+
+**Title:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Customer Stories/How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- **h1:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- **stat:** 43% — increase in census
+- **stat:** 76% — of referrals have a first review in < 20 minutes
+- **stat:** 2.6x — increase in referral-to-admit win rate
+- text: In this article
+- **CTA:** `The Customer: Pearl Healthcare` → #the-customer-pearl-healthcare
+- **CTA:** `The Stakeholders` → #the-stakeholders
+- **CTA:** `The Challenge: System Unreliability and Lack of Visibility` → #the-challenge-system-unreliability-and-lack-of-visibility
+- **CTA:** `The Solution: A Centralized and Reliable Operating System` → #the-solution-a-centralized-and-reliable-operating-system
+- **CTA:** `The Implementation` → #the-implementation
+- **CTA:** `The Impact: Operational Consistency and Census Growth` → #the-impact-operational-consistency-and-census-growth
+- **CTA:** `What’s Next: Continued Growth and Reporting Improvements` → #what-s-next-continued-growth-and-reporting-improvements
+- **CTA:** `Book a demo` → /contact
+- **h3:** Pearl replaced their existing admissions software with exacare ai as the operating system for intake across their 14 Chicago-area facilities.
+- body: Exacare ai centralized referral activity across four disconnected referral platforms, gave regional leadership real-time visibility across every building, and helped admissions teams respond faster and more consistently to every patient. The result was a system that “makes [admissions] 20x easier” and a team that “truly couldn’t be happier with the switch”.
+- **h3:** Key Results
+- • 43% increase in census in their second quarter with exacare ai, attributed by leadership to improved efficiency with exacare’s Admissions Screener.
+- • 76% of referrals have a first review in < 20 minutes, up from 62% before exacare ai (representing a +23% improvement).
+- • 2.6x increase in referral-to-admit win rate, compared to the first two months using exacare ai.
+- **quote:** “Right now, I'm helping our Hinsdale building, and we'll get 40, maybe 50 referrals a day. Having exacare ai just smooths our referral process out so much and makes it 20 times easier. I truly couldn't be happier with the switch.” Jessica Dikun, Regional Director of Admissions
+- **h2:** The Customer: Pearl Healthcare
+- body: Pearl operates 14 post-acute care facilities across the Chicago area, providing skilled nursing, post-acute care, long-term care, and memory care services. The organization runs a decentralized intake model where each facility has its own admissions director, supported by a separate regional case management team that handles insurance verifications and authorizations. This structure gives facility-level teams autonomy to make admission decisions while regional leadership maintains oversight. With 80+ users and their busiest facility handling 40-50 referrals per day, Pearl needed a system that supported local decision-making for admissions directors, without sacrificing regional visibility for leadership.
+- **h4:** Customer Snapshot
+- • Customer SinceApril 2025
+- • Size14 skilled nursing facilities
+- • RegionIllinois
+- • IndustrySkilled Nursing, Memory Care, Long-term Care
+- • ProductsAdmissions Screener, Insurance Verification, PDPM, Bed Board
+- **quote:** “With exacare ai our internal teams have a remarkable tool to manage referrals from start to finish. The improved process gives me the flexibility to focus more on market development, engage in higher-level C-suite conversations, and spend more time in the field myself.” Tanya Carlson, VP of Business Development
+- **h2:** The Stakeholders
+- body: Tanya Carlson, Vice President of Business Development
+- body: Tanya leads business development for Pearl and serves as the primary exacare ai contact. She has implemented CRMs at other organizations, including Salesforce and Enquire, and brings high expectations to every system evaluation.
+- body: Jessica Dikun, Regional Director of Admissions
+- body: Jess oversees admissions across Pearl. Before moving into the regional role, she was an admissions director and spent time as a hospital social worker, giving her direct knowledge of what discharge planners look for in a referral partner.
+- **h2:** The Challenge: System Unreliability and Lack of Visibility
+- body: Pearl's previous CRM created re-ocurring operational disruptions for the team, from unexpected system crashes to broken referral platform integrations to data accuracy and reporting issues. Referral communication was also buried in emails across 14 facilities, consuming leadership’s time and energy, as opposed to being centralized in one system. For someone with Tanya's experience, it became clear that a change was needed. This is a common situation that many larger operators find themselves in: the existing tools and software they’re using have not been able to keep pace with the growing complexities and pace of their operations.
+- **h4:** Pearl’s intake reality with thousands of referrals each month looked like:
+- • No centralized source of truth: Referrals arrived through four platforms, each requiring separate logins. Despite having a centralized admissions software, it became quite unreliable, forcing staff to toggle between portals and email inboxes to track a single patient.
+- • Regional visibility relied on manual outreach: Jess didn’t have a consistent, repeatable method for getting information on facility-level operations (e.g., how many referrals are pending, why are they pending, was the hospital liaison included, etc.).
+- • Inconsistent data reporting: Reporting was limited, and while it was easy to understand, the accuracy was consistently questioned, which made operational decision-making hard for Tanya and Jess.
+- • A challenging-to-use CRM: With re-occurring system outages and unstable platform integrations, which are critical in the referral process, the team had difficulty keeping pace with their growing referral volume and operational needs.
+- • Leadership time diverted towards system management: Tanya and Jess were spending an increasing amount of time managing systems and fielding questions from staff about said systems, instead of spending time on market development and facility oversight.
+- body: Pearl needed a system that was able to deliver a consistent and reliable service, a central place for referral intake, and improve visibility across their growing portfolio.
+- **h2:** The Solution: A Centralized and Reliable Operating System
+- body: Tanya, Jess, and Elie Grinblatt (Chief Operating Officer) evaluated several alternatives quickly. The team had concerns about buy-in across 14 buildings and admissions directors, some of whom weren't comfortable with having to learn new systems. They also knew, from prior system rollouts, that what's promised in a sales process often doesn't match with reality.
+- body: Exacare ai’s transparency, product capabilities, and responsiveness during the process were the distinguishing factors for the Pearl team.
+- **quote:** “Exacare ai almost seemed too good to be true at first. We’d ask for something, and within 48 hours, it was delivered. With many CRM solutions, there’s often a bait-and-switch feeling—but with exacare, that hasn’t been the case. The honeymoon phase is still going strong.” Tanya Carlson, VP of Business Development
+- **h4:** With exacare ai, the Pearl team was able to:
+- • Centralize referral intake from all platforms into one system, ending the portal-switching and saving staff time on every referral review.
+- • Get activity tracking in one place with Tanya and Jess having visibility into each referral, their status, and the team’s comments or notes.
+- • Improve clinical screening with rigorous rule configuration during onboarding, alongside the exacare ai Implementation Team.
+- **quote:** “The admissions directors are very happy now in their positions. And that means the world, just knowing that it's a better work-life balance for them now.” Tanya Carlson, VP of Business Development
+- **h2:** The Implementation
+- **quote:** “Katie, our exacare ai implementation lead, was absolutely incredible — patient, dedicated, and always willing to meet with us. The training was excellent, and the difference between our previous vendor’s support and exacare’s is truly night and day.” Tanya Carlson, VP of Business Development
+- body: Pearl ran both systems in parallel for a week before their previous vendor off-boarded them unexpectedly, forcing a full rollout of exacare ai ahead of schedule. The first two weeks of implementation could have been challenging for the Pearl team given the expedited timeline, with training sessions for staff and rule configuration decisions condensed into a shorter window, while managing their regular day-to-day responsibilities. However, with the support of exacare ai's Implementation Team, Tanya and Jess felt an immediate difference in their vendor relationship, compared to before. Exacare ai ran multiple sessions, answered every question, and were consistently available.
+- **quote:** “For me, it was simple: no more complaints from the team. No news is good news. When the frantic calls and texts stopped, I thought, this is heaven-sent.” Tanya Carlson, VP of Business Development
+- **h2:** The Impact: Operational Consistency and Census Growth
+- • 43% increase in census in their second quarter with exacare ai, attributed by leadership to improved efficiency with exacare’s Admission Screener.
+- **quote:** “We saw a noticeable increase in census, which I directly correlate with excare ai. There were no significant marketing changes on our end—no new admissions leaders or external liaisons—so the impact came from improved efficiency. We’re now able to say yes more often, and much more quickly.” Tanya Carlson, VP of Business Development
+- **h2:** What’s Next: Continued Growth and Reporting Improvements
+- body: Pearl has begun to shape the direction of exacare ai’s product development. The team’s feedback has driven improvements in reporting capabilities, bed board functionality, and influenced the product roadmap as a trusted partner.
+- **quote:** “Jess and I almost feel like part of the development team. We’ll say, ‘This is great, but we’d love to see X, Y, and Z,’ and the excare ai team turns those requests around quickly. That responsiveness has been incredible.” Tanya Carlson, VP of Business Development
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/customer-stories
+- **card link:** `How Ignite Medical Resorts saved $900,000 annually by centralizing admissions an` → /resources/customer-stories/ignite-medical-resorts
+- **h3:** How Ignite Medical Resorts saved $900,000 annually by centralizing admissions and managed care with exacare ai
+- text: Skilled Nursing
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/summit-2027
+
+**Title:** Summit 2027 | exacare ai
+**Blocks (9):** HeroSummit → TestimonialsQuoteCards → FoundersNote → Stats → CardsGradient → IconCards → SummitDetails → AgendaCards → SummitPricing
+
+### 1. HeroSummit · theme=light
+
+- body: The real agentic standard
+- body: March 2-5, 2027 ‎‎ |‎ ‎‎ The Ritz-Carlton, Naples
+- **CTA:** `Save your spot` → #pricing
+
+### 2. TestimonialsQuoteCards · theme=light
+
+- body: “The Summit is incredible. You're in a room full of industry people you actually want to learn from. We’re unbelievably excited about the new products in exacare ai and the partnership we're building.”
+- text: Leila JonesVP of Government Affairs & CommunicationsCreative Solutions in Healthcare
+- body: “It's the people. The people make the Summit the event it is. These are real operators who are investing in their companies and partnering with a best-in-class vendor.”
+- text: Bernie McGuinnessPresident & CEOJourney Skilled Nursing
+- body: “Being able to meet people in person is definitely my favorite part of the Summit. You feel that you're on a team together with other industry leaders who are here for the same reasons you are.”
+- text: Chelsey GheyaraVP of Growth and ExperienceMajestic Care
+- body: “The vibe at the Summit is top notch. It's nice to be at a conference that's actually about learning, without getting hounded by vendors the whole time.”
+- text: Ben CohenCEOAugust Healthcare
+- body: “The Summit is all about collaboration and community. It's so exciting to meet people I've been talking to face to face. And the content is fantastic as well.”
+- text: Kristi TavarezDirector Business DevelopmentSweetwater Care
+
+### 3. FoundersNote · theme=light
+
+- **h2:** Why we built the Summit
+- **h3:** A note from the exacare ai founders
+- body: Two years ago, every vendor in skilled nursing started making the same promise: AI would transform your operations, workflows would run themselves and everything would be agentic.
+- body: The promise is true. Software used to record your work. Now it can do the work: reviewing referrals, flagging what needs attention, and moving tasks forward. But when every company uses the same words, they stop meaning anything. You’re left to sort out which claims are real while managing census, staffing, and referrals under pressures most software companies have never seen up close.
+- body: That’s why we built this Summit around the real agentic standard. We’ll show you what agentic actually means in a skilled nursing operation through live demos, real workflows, and results from the operators achieving them today. The people taking the stage will be your peers, because last year’s attendees told us the best sessions were operators talking to operators.
+- body: And we mean the standard part too. It’s a bar for the whole industry to hold vendors to, including us. We hope you’ll come see for yourself.
+- text: Laird Russell
+- text: Ben Willox
+
+### 4. Stats · theme=light
+
+- **stat:** 9.8+ — 2026 attendee rating
+- **stat:** 300+ — Skilled nursing leaders
+- **stat:** 150+ — Operators represented
+- **stat:** 4 — Days of content and conversations
+
+### 5. CardsGradient · theme=light
+
+- **h2:** Why you should be there
+- body: Every conference in skilled nursing has added an AI session. This is the only one where AI is the agenda.
+- **h3:** Product you haven't seen yet
+- body: You’ll see what's shipping next from exacare ai, live on stage, before anyone else does.
+- **h3:** Conversations you can't have anywhere else
+- body: This isn't a trade show. It's operators comparing notes with peers who face the same census pressure, the same staffing math, and the same referral windows.
+- **h3:** Learn from the people building AI, and the people running it
+- body: Keynotes from AI and technology experts, alongside operators already running AI-enabled operations and talking openly about what worked and what didn't.
+- **h3:** A room of your peers, by design
+- body: Attendance is capped and registration is approved, not automatic, because we know the value of this event is who's in the room. Every seat goes to a skilled nursing leader with a real stake in these conversations.
+
+### 6. IconCards · theme=light
+
+- **h2:** Who attends
+- body: Different roles need different rooms. Dedicated tracks mean programming built for your seat.
+- **h3:** C-suite executives
+- body: CEOs, COOs, and CFOs, and more, weighing AI as an operating model decision, not another software purchase. Dedicated tracks put you in rooms with peers that have seen impacts firsthand.
+- **h3:** VPs of admissions and reimbursement
+- body: The leaders who own the numbers this technology moves. Breakouts go deep on referral performance, census, and revenue workflows.
+- **h3:** Regional and Director-level leaders
+- body: The people closest to the day-to-day. Sessions built around real workflows, training, and what adoption looks like across buildings.
+
+### 7. SummitDetails · theme=light
+
+- **h2:** The details
+- **h3:** Venue
+- body: The Ritz-Carlton, Naples. Four days of sessions, activities, and everything the Gulf-front resort comes with: the beach, the pools, the spa, and more.
+- **h3:** Dates
+- body: March 2-5, 2027
+- **h3:** Where you'll stay
+- body: A room block is reserved at the resort at a preferred rate for registered attendees. Booking details arrive with your registration approval.
+- **h3:** The weather
+- body: Naples in early March: sunny, mid-70s, and exactly why the Summit isn't in a conference center in the Midwest.
+
+### 8. AgendaCards · theme=light
+
+- **h2:** Agenda at a glance
+- **h3:** March 2
+- • ‎ ‎• ‎ Arrivals
+- • ‎ ‎• ‎ Curated activities
+- • ‎ ‎• ‎ Welcome party
+- text: Day 1
+- **h3:** March 3
+- • ‎ ‎• ‎ Opening keynotes
+- • ‎ ‎• ‎ Exclusive product releases
+- • ‎ ‎• ‎ Breakout sessions
+- • ‎ ‎• ‎ Evening activities
+- text: Day 2
+- **h3:** March 4
+- • ‎ ‎• ‎ Keynotes
+- • ‎ ‎• ‎ Conversations in the sun
+- • ‎ ‎• ‎ Evening reception
+- text: Day 3
+- **h3:** March 5
+- • ‎ ‎• ‎ Farewell lunch
+- • ‎ ‎• ‎ Departures
+- text: Day 4
+
+### 9. SummitPricing · theme=light
+
+- **h2:** Save your spot for the exacare ai Summit
+- body: Rates for all types of operators.
+- **CTA:** `Standard` → —
+- **CTA:** `Non-profit` → —
+- **h3:** Super Early Bird
+- body: $649
+- body: Available untilOctober 31st, 2026
+- **CTA:** `Register` → —
+- **h3:** Early Bird
+- body: $749
+- body: Available untilDecember 31st, 2026
+- text: Coming soon
+- **h3:** Standard
+- body: $949
+- body: Until sold out
+- **h3:** Frequently asked questions
+- **h3:** Who should register?
+- **h3:** What does registration include?
+- **h3:** What is the cancellation and refund policy?
+- **h3:** How does registration approval work?
+- **h3:** What is the dress code?
+- **h3:** When will the full agenda be available?
+- **h3:** How do I get to The Ritz-Carlton, Naples?
+- **h3:** Do I need to be a customer?
+- **h3:** Who will be speaking?
+
+---
+
+## https://www.exacare.com/contact
+
+**Title:** Contact | exacare ai
+**Blocks (3):** ContactForm → Divider → IconBlocks
+
+### 1. ContactForm · theme=light
+
+- **h1:** See exacare ai in action
+- • 7 min referral response time
+- • 15% increase in admissions
+- • 40%+ of managed care days in L2+
+- • $380K+ per facility reimbursement increase
+- text: Trusted by 2,000+ care teams
+- **quote:** “exacare ai transformed how our teams operate – centralizing admissions and case management to unlock ~$900K in annual savings.”
+- text: Tim Fields, CEO at Ignite Medical Resorts
+
+### 2. Divider · theme=light
+
+_(no text — media-only block)_
+
+### 3. IconBlocks · theme=light
+
+- body: sales@exacare.com
+- body: (305) 363-3800
+- body: 500 7th Ave Office #14B113 New York, NY 10018, United States
+
+---
+
+## https://www.exacare.com/careers
+
+**Title:** Careers | exacare ai
+**Blocks (9):** HeroFullwidth → CardsGrid → FeatureTabs → Testimonial → ItemsGrid → Cta → CtaBackground → Jobs → Divider
+
+### 1. HeroFullwidth · theme=light
+
+- **h1:** Build with us
+- body: We're building the infrastructure that keeps post-acute care moving. If you want to work on hard problems that matter — where your work is visible, your growth is real, and the team around you is exceptional — we'd love to meet you.
+
+### 2. CardsGrid · theme=dark
+
+- **h2:** What we stand for
+- text: Only the best belong here
+- text: We are unapologetic about talent. This should be the best team you've ever been on. Protecting that standard is how we honor each other's time, ambition, and craft.
+- text: Raise the bar on ownership
+- text: We grow because people here go beyond the minimum. We invest extra effort, care, and ownership into what we build.
+- text: The world is moving fast. We move faster.
+- text: This is a race. We work hard, we move early, and we stay ahead of problems and competitors.
+- text: Radical candor, zero politics
+- text: We say what's true, early, and keep communication direct and clean so the team can move.
+- text: We work even harder to keep our partners than we did to earn them initially
+- text: The work does not stop when a customer first onboards. It deepens over time. We partner with operators, listening and learning about real problems. We earn trust through consistent delivery.
+- text: We keep the patient downstream of every decision
+- text: At the end of the day, this is about the patient. We get there by deeply respecting and reflecting on our purpose: to develop software that aids teams in delivering better care.
+- text: Bring good vibes and win together
+- text: We win as a team. We bring energy, support each other, and make this somewhere people are excited to show up.
+
+### 3. FeatureTabs · theme=light
+
+- **CTA:** `Company-wide offsites` → —
+- **CTA:** `Town halls & events` → —
+- **CTA:** `Office life` → —
+- **h2:** Life at exacare ai
+- text: Company-wide offsites
+- text: We get the full team together for offsites that are genuinely fun — past trips include Punta Cana and a summer retreat with mini hackathons, beach olympics, and catamaran boat days.
+- text: Town halls & events
+- text: Bi-weekly town halls and regular in-person gatherings keep everyone aligned and connected — whether you're in Toronto, New York, or remote across the U.S.
+- text: Office life
+- text: From board game nights and pizza parties to snack hauls and impromptu team moments — there's always something going on in the offices.
+
+### 4. Testimonial · theme=light
+
+- text: Laird Russell, Co-Founder & CEO
+- **quote:** “We are building a team who could be working anywhere, and are choosing to work on post-acute care instead. Not because it is easier, but because it is harder. Not because it is more visible, but because it is more important.”
+
+### 5. ItemsGrid · theme=light
+
+- **h2:** What you'll get here
+- text: The best team you've ever worked with
+- text: We hire for excellence and hold the bar high. The people around you will push you, support you, and make you better at your craft.
+- text: Work that's visible and consequential
+- text: This is a company where your output matters and your impact is traceable. You'll see what you build in the hands of real teams solving real problems in healthcare.
+- text: Ownership from day one
+- text: Growth at exacare ai is earned, not scheduled. If you consistently deliver high-impact work, you'll gain more responsibility, faster opportunities, and compensation that reflects your contribution.
+- text: A place worth showing up to
+- text: Whether you're in Toronto, New York, or remote, we invest in making exacare ai somewhere people are genuinely excited to be; not just a place to log hours.
+
+### 6. Cta · theme=light
+
+- **h2:** Where we work
+- text: exacare ai is a partially-distributed team with hubs in Toronto, New York City, and Vancouver. Our Sales team is remote across the U.S.
+- text: Toronto
+- text: BizOps, Product, Finance, Growth, and HR
+- text: New York City
+- text: Engineering and Product
+- text: Vancouver
+- text: Engineering
+- text: Remote
+- text: Engineering and Sales
+
+### 7. CtaBackground · theme=light
+
+- **h2:** Join us
+- text: If you want to solve meaningful problems, strengthen healthcare operations, and create tools that make a measurable difference, we’d love to meet you.
+- **CTA:** `See open roles` → /careers#open-roles
+
+### 8. Jobs · theme=dark
+
+_(no text — media-only block)_
+
+### 9. Divider · theme=dark
+
+_(no text — media-only block)_
+
+---
+
+## https://www.exacare.com/resources/insights
+
+**Title:** Insights | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h1:** Insights
+- **card link:** `The 2026 Time-To-Accept Benchmark Report for Skilled Nursing Learn more` → /resources/insights/time-to-accept-benchmark-report
+- **h2:** The 2026 Time-To-Accept Benchmark Report for Skilled Nursing
+- text: Learn more
+- **h2:** Blog posts
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/blog
+
+**Title:** Blog | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h1:** Insights
+- **card link:** `Product Rebuilding the System Behind Post-Acute Care May 6, 2026 11 min read` → /resources/blog/rebuilding-the-system-behind-post-acute-care
+- • Product
+- **h3:** Rebuilding the System Behind Post-Acute Care
+- text: May 6, 2026
+- text: 11 min read
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- **card link:** `What Is Central Intake in Post-Acute Care? A Complete Guide for Operators April` → /resources/blog/what-is-central-intake
+- **h3:** What Is Central Intake in Post-Acute Care? A Complete Guide for Operators
+- text: 20 min read
+- **h2:** All Articles
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/events
+
+**Title:** Events | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h2:** Events
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/news
+
+**Title:** News | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **card link:** `April 15, 2026 4 min read Exacare ai Acquires CoreCare Pre-Admit Unifying techno` → /resources/news/exacare-ai-acquires-corecare-pre-admit
+- text: April 15, 2026
+- **eyebrow:** 4 min read
+- **h2:** Exacare ai Acquires CoreCare Pre-Admit
+- text: Unifying technology to improve care transitions and operational efficiency for more customers
+- **card link:** `Exacare ai Accelerates Momentum With Expanded Capabilities From acquisitions to` → /resources/news/exacare-ai-accelerates-momentum
+- **h3:** Exacare ai Accelerates Momentum With Expanded Capabilities
+- text: From acquisitions to AI innovation, exacare ai broadens its impact across post-acute and beyond.
+- text: May 6, 2026
+- **h2:** All Press / News
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/summit-2026-video-hub
+
+**Title:** Summit 2026 Video Hub | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h2:** Welcome
+- body: Fill in your email to access Summit 2026 Video Hub
+
+---
+
+## https://www.exacare.com/resources/press-releases
+
+**Title:** exacare ai
+**Meta description:** The AI platform for post-acute care operations
+**Blocks (1):** Page
+
+### 1. Page
+
+_(no text — media-only block)_
+
+---
+
+## https://www.exacare.com/resources/blog/introducing-concurrent-reviews
+
+**Title:** Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent | exacare ai
+**Meta description:** Concurrent Reviews helps skilled nursing facilities track review dates, auto-build continued-stay justifications, and submit to payers, all within exacare ai.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent
+- **h1:** Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent
+- text: Elliot Hall
+- text: August 13, 2026
+- text: 10 min read
+- text: In this article
+- **CTA:** `TL;DR:` → #tl-dr
+- **CTA:** `The authorization came through. The clock is already running.` → #the-authorization-came-through-the-clock-is-already-running
+- **CTA:** `How it works` → #how-it-works
+- **CTA:** `Where it lives` → #where-it-lives
+- **CTA:** `What customers are saying` → #what-customers-are-saying
+- **CTA:** `What's coming` → #what-s-coming
+- **CTA:** `How to get started` → #how-to-get-started
+- **CTA:** `Related reading` → #related-reading
+- **CTA:** `Book a demo` → /contact
+- **h2:** TL;DR:
+- body: Concurrent Reviews tracks every next review date, builds an editable clinical justification for continued skilled care from data already in your EHR, flags when level of care or medications should change, and gets the organized package to the payer by portal or eFax, all in the same place the prior authorization was run.
+- **h2:** The authorization came through. The clock is already running.
+- body: A managed care patient admits, the prior authorization comes back approved, and for a moment the hard part feels done.
+- body: Then the first review date lands on the calendar.
+- body: Coverage has to be re-justified every few days for the entire length of the stay, and every review is a chance for something to slip.
+- body: For many facilities, that work still lives in a spreadsheet, or a standing report that's already stale by the time anyone opens it. Deadlines get tracked in one person's inbox and memory. And payers don't make it easy: some want updates before the weekend, others on Monday. Some want them a day ahead of the next review date, others that morning only. Reviews slip through easily.
+- body: Tracking is only the beginning. Every review also needs a written clinical justification, and the evidence is split across systems: clinical documentation in one EHR, therapy notes in another. Each one gets written from scratch, sentence by sentence, under time pressure.
+- body: That's why we built Concurrent Reviews, now available as standard within the Managed Care Agent (MCA). When we launched MCA, it automated the front door: the prior authorization that gets a patient admitted. Concurrent Reviews carries it through the stay, keeping coverage intact, at the reimbursement level that matches the patient's acuity.
+- **quote:** "I love that I can filter all of my buildings and see what's not submitted and what's in review, so I know exactly what I'm waiting on. And the week ahead is all right there." – Tina Therrien, Regional Case Manager, National Health Care Associates
+- **h2:** How it works
+- **h4:** One live view of every active authorization
+- body: The Concurrent Reviews table replaces standing authorization reports and spreadsheets with one list that's always current. Each row shows the patient, facility, payer, submission method, authorization status, and next review date, so the state of every active authorization is visible without running anything.
+- body: The list is built to be worked, not just read. Statuses update as reviews move from not submitted through in review, the list can be searched and filtered, and filter views can be saved, so a regional team and a single building can each see exactly the slice they own.
+- **h4:** Next review dates, tracked automatically
+- body: A live view is only as good as the dates inside it. Concurrent Reviews captures each next review date from the payer's approval, keeps it in sync, and flags it as the deadline approaches, so nothing depends on someone remembering to check.
+- body: This is where cadence differences stop being a liability. A payer expecting an update in 3 days and a payer expecting one in 5 or more sit in the same list, each on its own clock, tracked centrally instead of per person.
+- **h4:** A justification, drafted and waiting
+- body: Building a clinical justification takes time, 30–60 minutes per patient when done manually, and most of it goes to assembling documentation rather than understanding where the patient actually stands. Concurrent Reviews drafts it ahead of time: a roughly two-page, organized, editable justification for continued skilled care, built automatically from the clinical evidence already in your EHRs. By the time the team logs in on the morning of a review, the draft is waiting. If new documentation comes in, the draft can be regenerated on demand.
+- body: National Health Care Associates (NHCA), one of the first to go live, is the early proof. In their first week live, the team generated 100 patient clinical reports. They're now generating over 100 a day, most of them drafted automatically ahead of the review.
+- **h4:** Written the way payers actually evaluate
+- body: The clinical rationale is the hardest part of a concurrent review. Under time pressure, clinicians default to describing patient deficits, how sick the patient is, what they can't do. It's a natural instinct, but it's not what payers are looking for: they want to see the skilled services being delivered and the path back to the patient's prior level of function.
+- body: Concurrent Reviews builds every justification around that framing from the start, so the case reads the way the reviewer on the other end will evaluate it, and the clinician's job becomes refining a draft instead of constructing one from scratch.
+- **h4:** Flags for level changes and medication carve-outs
+- body: A patient's acuity on day one isn't their acuity on day ten. Conditions change, therapy plans change, medications get added, and if the authorization doesn't keep pace, the facility delivers more care than it's being paid for.
+- body: Concurrent Reviews watches for those moments. It flags when a patient's acuity supports a higher level of care, when contracted therapy minutes aren't being delivered, and when a newly added medication needs a carve-out, so those conversations with the payer happen during the stay, while there's still time to act on them.
+- body: The goal is simple: reimbursement that matches the care actually being delivered, not just the level set at admission.
+- **h4:** Gather the packet, then submit
+- body: A justification is only part of what the payer needs. The rest is the supporting evidence: the clinical documentation that backs up every claim the justification makes.
+- body: Concurrent Reviews assembles that package automatically, pulling the relevant clinical evidence together and identifying what's missing. If a piece of the record lives somewhere else, a document from an outside provider, a note that hasn't synced, it can be uploaded manually to complete the packet.
+- body: When the packet is ready, it goes to the payer without leaving exacare ai: through supported payer portals, with submission status tracked along the way, or via eFax for payers that don't operate a portal. Either way, no printing, no separate fax machine, no logging into a portal to re-key what's already in the system.
+- **h4:** A clinician reviews everything before it goes anywhere
+- body: Two questions come up with any AI in a payer-facing workflow: does this replace the managed care team, and does it send things without anyone looking?
+- body: No, and no. Concurrent Reviews is built around the opposite assumption, that a clinician reviews payer-facing content before it's submitted. Every summary is editable. The evidence behind each draft is curated, and quality guards run on the generated output. Nothing moves to a payer until someone on the team decides it should.
+- body: The AI does the assembling. The clinicians do the judging.
+- **h2:** Where it lives
+- body: Managed care now has its own home in exacare ai: an Authorizations section in the left-hand navigation, with Prior Authorizations and Concurrent Reviews side by side.
+- body: For teams already running prior authorizations through exacare ai, Concurrent Reviews picks up exactly where that workflow leaves off. And for teams whose prior authorizations are initiated by the hospital, Concurrent Reviews works just the same: once the approval exists, the review cycle can be tracked and managed there.
+- **h2:** What customers are saying
+- body: Before launch, the team at NHCA named the clinical rationale as their biggest pain point. Here's how they describe it now:
+- **quote:** "The rationale for medical necessity is one of the most impactful parts of a concurrent review, and it's time consuming to find the right verbiage. Our clinicians use Concurrent Reviews as a starting point and framework that we personalize for every patient's needs and the care provided. It has been a game changer." – Chris Stefan, Regional Case Manager, National Health Care Associates
+- body: In their first 3 weeks on Concurrent Reviews, NHCA has generated 750 clinical justifications across 42 facilities and 450 patients.
+- **h2:** What's coming
+- body: Concurrent Reviews covers continued-stay authorizations, but the authorization lifecycle doesn't end there. The same infrastructure is built to carry the workflows that follow: Notices of Medicare Non-Coverage and appeals, ACO and IPA updates, and Additional Document Requests (ADRs). Those are the use cases we're focused on building out this quarter.
+- body: The data foundation is expanding too, with deeper EHR connectivity bringing full therapy context into every case.
+- **h2:** How to get started
+- body: If you're an existing Managed Care Agent customer, your Operations lead can walk you through what Concurrent Reviews could look like for your team.
+- body: If you're not yet running managed care through exacare ai and want to see how the Managed Care Agent handles the full authorization lifecycle, from prior authorization through the last concurrent review, contact our sales team to learn more.
+- body: With Concurrent Reviews, keeping patients authorized becomes one more workflow your team can stop running manually, without giving up review of a single word that goes to a payer.
+- **h2:** Related reading
+- body: Want to see how operators are using exacare ai across admissions and managed care? Explore how Ignite Medical Resorts centralized admissions and managed care with exacare ai, or read how Exceptional Living Centers drove 32% more admissions and 26% more accepted referrals.
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Elliot Hall, VP, Product
+- body: Elliot Hall is a product and operations leader currently serving as VP of Product at exacare ai. He previously served as Chief of Staff, where he worked across business operations, product, and customer success. Before joining exacare, Elliot was a Consultant at Bain & Company, advising clients across private equity, banking, insurance, mining, NGOs, and other sectors. Elliot holds an MBA from Northwestern University’s Kellogg School of Management, where he majored in Entrepreneurship and Finance, and an Honours Bachelor of Commerce from Queen's University. His background combines strategy consulting, startup leadership, product development, and company-building in high-growth environments.
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- text: 20 min read
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/what-is-central-intake
+
+**Title:** What Is Central Intake in Post-Acute Care? A Complete Guide for Operators | exacare ai
+**Meta description:** Central intake is a type of post-acute care operating model. Learn how central intake works, if it's right for you, and how technology is changing it.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/What Is Central Intake in Post-Acute Care? A Complete Guide for Operators
+- **h1:** What Is Central Intake in Post-Acute Care? A Complete Guide for Operators
+- text: Sarah Scott
+- text: April 2, 2026
+- text: 20 min read
+- text: In this article
+- **CTA:** `TL;DR` → #tl-dr
+- **CTA:** `Why most admissions strategies start in the wrong place` → #why-most-admissions-strategies-start-in-the-wrong-place
+- **CTA:** `How central intake works: the operating model` → #how-central-intake-works-the-operating-model
+- **CTA:** `Is central intake right for you?` → #is-central-intake-right-for-you
+- **CTA:** `What central intake looks like without technology (and where it breaks)` → #what-central-intake-looks-like-without-technology-and-where-it-breaks
+- **CTA:** `How technology and AI is changing central intake` → #how-technology-and-ai-is-changing-central-intake
+- **CTA:** `What to look for in a central intake platform` → #what-to-look-for-in-a-central-intake-platform
+- **CTA:** `Book a demo` → /contact
+- **h2:** TL;DR
+- • Central intake is an operating model where a dedicated team screens all incoming patient referrals across a multi-facility organization through a consistent process, applying each building's specific clinical and financial criteria. It replaces the decentralized approach where each building handles referrals independently.
+- • Most operators who centralize intake still run manual processes (spreadsheets, email, phone calls), which creates an information bottleneck, duplicate reviews at the facility level, and no structured data for tracking referral outcomes across the portfolio.
+- • AI-powered central intake solves the manual problem by reading full referral packets in minutes, automating compliance and insurance checks, and generating the structured data that turns intake from a cost center into a strategic function. Pearl Healthcare saw a 43% census increase after adopting this model.
+- body: Quick definition: central intake in post-acute care. Central intake is the practice of managing all incoming patient referrals, regardless of source, through a single platform and consistent process that screens, triages, and tracks each referral, giving leadership visibility across the entire organization. Instead of every building running its own intake independently, one team manages the process, and one system serves as the source of truth.
+- body: If you run admissions across multiple skilled nursing facilities, you already know the version of this story that plays out every day: A referral comes in through one portal. Another comes through fax. A third goes directly to a building because the hospital liaison has the admissions director's cell number. By the time your leadership team realizes that building turned down a patient you should have accepted, the referral is gone.
+- body: Central intake is the operating model designed to fix this. It's not a new concept. But for most multi-facility operators, the gap between having a central intake team and having a central intake system is where the problems live. And that gap is where a lot of census growth gets lost.
+- **h2:** Why most admissions strategies start in the wrong place
+- body: The default model we see in post-acute care is decentralized intake: each facility handles its own referrals, each admissions director applies their own judgment, and leadership pieces together what's happening across buildings through phone calls, emails, and spreadsheets someone assembles at the end of the month.
+- body: For a single-facility operator, this decentralized intake process is labor-intensive but may work well. But for a 10- or 20-building organization, it creates a set of problems that compound:
+- • Inconsistent decision-making: One admissions director is conservative; another is more aggressive on clinical acuity. A referral that's a strong fit for one building might not work for another based on their specific capabilities and staffing. That's expected. The problem is when those decisions are happening in silos, and nobody at the portfolio level has visibility into the patterns: which criteria are being applied, what's being declined, and whether referrals that one building turned down could have been a fit elsewhere.
+- • No centralized visibility: If 15% or 20% of your referral volume is going directly to individual buildings (bypassing any central function) you don't know what you don't know. You can't track conversion rates, you can't identify why referrals are being declined, and you can't spot the building that's leaving admits on the table because their response time is two hours slower than the rest of the portfolio.
+- • Speed: This is the one that costs real money. In a competitive market, the facility that responds first to a referral has a meaningful advantage. When intake is decentralized, admissions directors get pulled into other responsibilities: family meetings, care conferences, census calls. A referral sits for an hour. Then two. Meanwhile, the SNF down the road already said yes. With median daily SNF rates north of $300 per bed, every day a bed sits empty waiting on a slow intake decision is revenue that doesn't come back.
+- • The fragmented systems problem: Referrals arrive through multiple channels; e-referral portals from health systems like Epic CareLink, Ensocare, WellSky CarePort, plus fax, email, and sometimes direct phone calls. In a decentralized model, each building might be monitoring a different subset of these sources. Referrals get missed. duplicates get created. Nobody has a complete picture.
+- body: These are the patterns we hear on nearly every call with multi-facility operators. Sure, the specifics vary: Maybe it's a building that's been quietly declining referrals nobody knew about, or a response time problem that only surfaces when a hospital liaison stops sending you patients. But the underlying dynamic is the same: the team is stretched, the systems are fragmented, and census growth is getting left on the table.
+- **h2:** How central intake works: the operating model
+- body: Central intake isn't a piece of software. It's an operating model: a way of organizing referral intake so your organization receives, evaluates, and tracks patient referrals through a consistent process. Here's how it works in practice:
+- • Single point of referral entry: All referrals, regardless of source, funnel into one team. Whether the referral comes through a hospital portal, arrives by fax, or gets sent via email, it lands in the same place. The referral is still for a specific building; central intake doesn't redirect it. But instead of that building screening the referral independently, the central team processes it through a consistent workflow before it reaches the facility. No more referrals going directly to buildings without anyone at the organizational level knowing.
+- • Standardized screening: The central intake team applies a consistent set of clinical and financial criteria to every referral. They're checking diagnoses against facility capabilities, verifying insurance eligibility, running sex offender checks, reviewing medication lists, and flagging clinical risks, using a consistent process for every referral, while applying each building's specific admission criteria.
+- • Clinical and operational review: Based on clinical fit, bed availability, payer verification, and any facility-specific considerations (staffing levels, specialty capabilities), the central team validates whether the referral is appropriate for the intended building. The facility receives a pre-screened referral with clinical context already attached, not a raw packet that they have to start reviewing from scratch.
+- • Communication and coordination: The central intake team manages communication with the referral source (typically a hospital discharge planner or case manager) and coordinates with the receiving facility. This is a two-way street: the building needs to be able to flag concerns, ask questions, and communicate back to central intake without the process breaking down into side conversations over email and text.
+- • Tracking and data capture: Every referral, every decision, every outcome is logged. This creates the dataset that makes central intake strategic, not just operational. You can see referral volume by source, conversion rates by building, decline reasons across the portfolio, response times, and payer mix trends over time.
+- body: It's worth noting that central intake isn't one-size-fits-all: Some organizations run a fully centralized model where the central team makes the admissions decision. Others, like Pearl Healthcare (a 14-facility operator in the Chicago area), run a decentralized model with regional oversight. Each building has its own admissions director, but a regional team handles insurance verifications and authorizations, and leadership has visibility across all buildings through a centralized system. The right structure really depends on your organization's size, geography, and how much autonomy your facility-level teams need.
+- **h2:** Is central intake right for you?
+- body: Not every organization needs central intake. A single-facility operator with one admissions director who knows every hospital liaison by name probably doesn't.
+- body: But there are clear signals that the decentralized model has hit its ceiling:
+- • You're operating 5+ facilities: This is roughly the threshold where inconsistency and lack of visibility start costing real money. The more buildings you have, the more acute the problem becomes.
+- • You're growing: If you're adding facilities through acquisition or new builds, centralizing intake before or during expansion prevents the chaos that comes from bolting on buildings without a shared operational infrastructure. The organizations that wait until they have 20 buildings to centralize intake wish they'd done it at 10.
+- • Referrals are bypassing your central team: Even if you have a central intake function, if a significant percentage of referrals are still going directly to individual buildings (whether that’s through relationships, direct portal access, or just habit), you're operating a partially centralized model that gives you some of the overhead without the full benefit.
+- • You're expanding into new care settings: Operators adding home health or hospice alongside their SNF portfolio face an even stronger case for central intake. Referral types, clinical criteria, and payer dynamics differ across care settings. A central intake system that can screen and manage referrals across service lines prevents the referral management complexity from multiplying with every new service you add.
+- • Speed is a competitive problem: At the facility level, it's easy for admissions directors to get pulled into other responsibilities. Central intake teams are dedicated to referral response. That's their job. If you're losing referrals because your response time can't keep up with competitors, that's a structural problem, not a staffing problem. Central intake is the structural fix.
+- **h2:** What central intake looks like without technology (and where it breaks)
+- body: Here's the thing most operators discover after they centralize: having the team isn't enough. The manual process that each building was running individually doesn't become dramatically more efficient just because you've moved it under one roof. Centralizing the people isn’t the same as centralizingthe process.
+- body: Indeed many organizations already have a “central intake team” but not a central intake system. The team exists, but the tools fail their mandate: email for communication, phone calls to check bed availability, spreadsheets for tracking referrals, and a CRM that may or may not be keeping up with the volume.
+- body: The information bottleneck is the core issue. A single referral packet can be 100 pages or more. Manually reviewing it (checking diagnoses, cross-referencing clinical criteria, verifying insurance, running sex offender checks, assessing medication lists) takes even the most skilled intake coordinator 40 minutes or more. Multiply that by 30 or 40 referrals a day across a large portfolio, and the math breaks. And, even if you could afford them, throwing more people at the problem pulls clinical talent away from patient care without fixing the gaps in the underpinning systems.
+- body: Then there's the handoff problem. When central intake screens a referral and sends it to a building, what does the building actually receive? In most manual setups, it's an email: "Clinically green, financially green, sex offender clear." The facility gets that email, sees the summary, and (because they don't trust a two-line email with a clinical decision) starts the exact same manual review of the full packet all over again. The system gets used to this “second set of eyes” approach instead of recognizing this duplication of efforts undermines the whole premise of centralization.
+- body: And finally, there’s the data problem (arguably the most impactful transformation you’ll see with AI): Without a system generating structured data, there's simply no reliable way to track why referrals are being declined, how long responses are taking, what your conversion rate looks like by building, or how your payer mix is shifting across the portfolio. Leadership is reconstructing last quarter from memory in their business reviews, and decisions end up based on incomplete information rather than actual referral data.
+- body: The experience of one 50-facility operator illustrates this clearly. Before adopting ExaCare AI’s intake platform, they had a central intake team, but the process was still manual. Their VP of Growth described it as "the wild west." Referrals arrived through multiple portals, some went directly to individual buildings, and up to 20% of total referral volume had no centralized visibility. Each review took 40+ minutes. When central intake passed a patient to a facility, the building re-reviewed the entire packet from scratch.
+- body: The team existed. The system didn't. And the result was the worst of both worlds: The overhead of a central intake function without the consistency, speed, or data that central intake is supposed to deliver.
+- **h2:** How technology and AI is changing central intake
+- body: Let’s shift the conversation then from “what is central intake?" to "what does modern central intake actually look like?" The short version: AI in post-acute care is the consolidating layer that makes central intake work at scale, solving the information bottleneck, the handoff problem, and the data gap simultaneously.
+- body: Here’s how AI takes the concept of central intake and makes it actually function:
+- **h3:** 1. AI-powered referral screening
+- body: AI reads the full referral packet (100+ pages of clinical documentation, insurance information, medication lists, and care history) and extracts the information that matters. It then applies your facility-specific admission criteria (clinical rules, payer requirements, compliance checks) and produces a structured summary with a recommendation. What used to take 40+ minutes of manual review is compressed to minutes.
+- body: This isn't a black box making admissions decisions. The intake coordinator still reviews the summary, applies judgment on edge cases, and makes the final call. But instead of spending their time reading dense PDFs, they're spending their time on the decisions that actually require human expertise.
+- **h3:** 2. Automated compliance and verification
+- body: Insurance eligibility checks, sex offender verification, and clinical flag identification (behavioral risks, high-cost medications, equipment needs) happen automatically as part of the intake workflow. These checks were always required; they were just done manually, inconsistently, and under time pressure. Automating them doesn't replace clinical judgment; it ensures the baseline never gets missed.
+- **h3:** 3. Consolidated referral management
+- body: All referral sources (hospital portals, fax, email, direct sends) are consolidated into one system with a single worklist. No more portal-hopping, no more referrals going to buildings without central visibility. Every referral, from every source, lands in one place.
+- **h3:** 4. Portfolio analytics
+- body: Every referral generates structured data: decline reasons, response times, conversion rates, payer mix, and referral source performance. Real-time dashboards replace the quarterly spreadsheet scramble. Leadership can see which buildings are underperforming, where referrals are stalling, and how payer mix is shifting. Not after the fact, but as it's happening.
+- **h3:** 5. Bed management and capacity
+- body: Connecting admissions intelligence with live census data means the central team isn't calling buildings to ask about bed availability. They can see real-time occupancy across the portfolio, giving intake coordinators and leadership the context they need to validate referrals against actual capacity and staffing levels.
+- **h3:** 6. After-hours referral capture
+- body: Hospital referrals don't stop at 5 PM. For organizations without 24/7 intake coverage, referrals that arrive overnight or on weekends sit untouched until Monday morning. And by then, a competitor has already responded. AI-powered intake systems can capture, screen, and triage referrals around the clock, so when your team starts their day, the overnight and weekend referrals are already organized, pre-screened, and ready for a decision, not sitting untouched in a queue.
+- **h3:** Making it real: Pearl Healthcare
+- body: The results from organizations that have made this transition are concrete. Pearl Healthcare runs a decentralized structure; 14 facilities in the Chicago area, each with its own admissions director, supported by regional oversight. After switching to ExaCare AI, Pearl saw a 43% increase in census in their second quarter, a 2.6x increase in their referral-to-admit win rate, and 76% of referrals now have a first review in under 20 minutes (up from 62% before). Their VP of Business Development attributed the census spike directly to operational efficiency: no marketing changes, no new staff. Just being more efficient to say yes, and say yes quickly. What Pearl's leadership noticed most, though, was the time they got back. The VP of Business Development stopped getting frantic calls about system crashes. She got time for market development, C-suite meetings, and getting out in the field. Instead of continuously working to keep the system going, the system finally started working for them.
+- **h2:** What to look for in a central intake platform
+- body: Having helped operators at different stages of this transition, these are the difference-makers I'd prioritize, the things that separate a system that actually gets adopted from one that becomes another shelfware CRM your team resents:
+- text: Built for post-acute, not repurposed from acute care:
+- **CTA:** `ExaCare AI` → /
+- • Integration depth: The platform needs to connect to the referral sources your facilities actually receive from: e-referral portals (Epic, Ensocare, WellSky, etc.), fax, and hospital systems. If your intake team has to manually download referrals from one system and upload them into another, you've lost the speed advantage before you've started. Integration needs also vary by operator type; SNFs on PointClickCare have different requirements than home health agencies on Homecare Homebase or multi-site operators running WellSky or MatrixCare. Mismatched integration can add weeks to implementation and delay ROI. ExaCare AI integrates with major e-referral platforms and consolidates all referral sources into a single worklist.
+- • Customizable clinical rules: Every organization has different admission criteria, and they often vary by facility, service line, and even census conditions. The platform needs to reflect how your organization actually makes decisions, not force you into a generic template. ExaCare AI allows operators to configure facility-specific rules that the AI applies during screening, so Building 7's criteria can differ from Building 12's while the central team still has portfolio-wide visibility.
+- text: Seamless communication between central intake and buildings:
+- • Implementation and support model: Central intake is a change management challenge, not just a software deployment. Admissions teams have limited bandwidth, and if the implementation is a two-hour Zoom and a PDF manual, the system will struggle to gain adoption, especially across 14 or 20 buildings. ExaCare AI's implementation team runs hands-on onboarding, including rule configuration, staff training, and parallel testing. Pearl Healthcare's VP of Business Development compared the experience to their previous vendor's support as "night and day."
+- • Reporting and analytics from day one: If you can't track referral volume, conversion rates, decline reasons, response times, and payer mix by facility from the start, you're consolidating the chaos, not fixing it. ExaCare AI provides portfolio-level dashboards that show exactly where referrals are stalling, which buildings are underperforming, and how operational metrics are trending. This data that turns intake from a cost center into a strategic function.
+- body: For multi-facility post-acute operators, central intake is quickly moving from a competitive advantage to an operational baseline. The gap between organizations that have a consolidated, AI-powered intake system and those still running on manual processes, fragmented portals, and email-based workflows will widen quickly. In many markets, speed to respond on referrals is no longer a competitive differentiator; it's table stakes. The operators still running on manual processes and fragmented portals will find that gap increasingly difficult to close.
+- body: ExaCare AI helps post-acute operators consolidate intake, respond faster, gain portfolio-level visibility, and drive better outcomes across their referral operations. Book a demo to see how it works.
+- **h2:** FAQs
+- **h3:** What is central intake in post-acute care?
+- **h3:** How does central intake differ from decentralized admissions?
+- **h3:** What size organization benefits most from central intake?
+- **h3:** How does AI improve the central intake process?
+- **h3:** What is the role of a central intake coordinator in a skilled nursing facility?
+- **h3:** How long does it take to implement a central intake system?
+- **h3:** Can central intake work for organizations that span SNF and home health?
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Sarah Scott
+- body: Sarah Scott brings a strong background in long-term care business development and clinical reimbursement. She applies a strategic, data-informed approach to strengthening provider relationships and navigating complex payer environments. With deep expertise in reimbursement, she focuses on aligning clinical outcomes with financial performance.
+- body: Sarah holds a Bachelor of Science in Healthcare Management Systems as well as an MBA and integrates business strategy with operational insight to drive growth, enhance care transitions, and support sustainable success across post-acute care settings.
+- body: Linkedin
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: 16 min read
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/steps-in-the-snf-referral-process
+
+**Title:** Steps in the SNF Referral Process: What Actually Happens (and Where It Breaks Down) | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Steps in the SNF Referral Process: What Actually Happens (and Where It Breaks Down)
+- **h1:** Steps in the SNF Referral Process: What Actually Happens (and Where It Breaks Down)
+- text: Sarah Scott
+- text: July 27, 2026
+- text: 10 mins read
+- text: In this article
+- **CTA:** `The 7 steps in the SNF referral process` → #the-7-steps-in-the-snf-referral-process
+- **CTA:** `Where the process breaks down (and what it actually costs)` → #where-the-process-breaks-down-and-what-it-actually-costs
+- **CTA:** `Book a demo` → /contact
+- **h3:** TL;DR
+- • The SNF referral process has seven steps: referral receipt, intake and triage, clinical review, insurance and financial verification, bed and staffing check, the admission decision, and communication and transfer coordination. On paper, they're sequential. In practice, they overlap, stall, and break in ways that cost facilities referrals they should be converting.
+- text: Clinical review is the bottleneck.
+- **CTA:** `exacare ai` → /
+- text: Higher-converting facilities aren't getting better referrals
+- body: The steps in the SNF referral process aren't a mystery. If you've worked intake in a skilled nursing facility, you can recite them in your sleep. A referral comes in. Somebody triages it. Somebody reads the chart. Somebody checks insurance. Somebody confirms the bed. Somebody calls the hospital back with an answer. That's the process on paper.
+- body: What's harder to talk about is what happens between those steps:
+- • Clinical reviews that run past 40 minutes
+- • Referrals that sit in a portal for hours before anyone opens them
+- • Accept-or-decline decisions that vary depending on who's on shift
+- • Hospitals that stop sending after a few slow responses
+- body: What follows are the seven steps from the operator's view, but we name where each step actually breaks, because that's where the referrals you should be converting are getting lost.
+- **h2:** The 7 steps in the SNF referral process
+- body: Before going deep on each one, here's the full sequence:
+- • Referral receipt: the referral arrives from a hospital, physician, or other source.
+- • Initial intake and triage: the referral is logged, checked for completeness, and prioritized.
+- • Clinical review: a clinical team member assesses whether the facility can safely care for the patient.
+- • Insurance and financial verification: the team confirms coverage, benefits, and authorization requirements.
+- • Bed availability and staffing check: the facility confirms it has the right bed and the right coverage.
+- • The admission decision: the facility accepts, declines, or asks for more information.
+- • Communication and transfer coordination: the decision is communicated back, and the transfer is scheduled.
+- body: On paper, these are sequential. In practice, they overlap, get skipped, or stall depending on staffing, volume, and how the facility manages intake. They also look very different depending on whether the organization runs a central intake model or facility-level intake. With that map in hand, here's what each step actually looks like.
+- **h3:** 1. Referral receipt
+- body: This is where the process starts and where fragmentation begins.
+- body: Referrals come from a wide range of healthcare providers: hospital discharge planners and case managers, physician offices, health systems, other post-acute facilities, and referral networks like WellSky CarePort, Aidin, and naviHealth (now part of Optum). Most SNFs receive referrals across three to five platforms at minimum, plus fax, plus phone, plus email. There is no single inbox.
+- body: A typical referral packet includes a hospital discharge summary, physician orders, current medication list, insurance information, recent labs, and therapy notes. The exact contents vary by source, by hospital, and sometimes by who hit "send."
+- **h4:** Where it breaks
+- body: Referrals arrive in different formats across different channels, and if nobody is monitoring all sources in real time, they sit. Every hour of delay is a competitive disadvantage, because hospitals send to multiple facilities simultaneously and place with whoever responds first. The team that's checking five portals manually throughout the day is structurally slower than the team that has every referral landing in one place. For a deeper look at that consolidation problem, see our piece on AI-powered referral packet ingestion.
+- **h3:** 2. Initial intake and triage
+- body: This is the first human decision point, and it's where speed either compounds or costs you.
+- body: The intake coordinator logs the referral, confirms it's complete enough to review, assigns urgency, and routes it to the right clinical reviewer. Urgency matters: emergency discharges, urgent placements, and routine referrals need different response cadences. Most facilities don't formalize that distinction, which means everything gets treated with the same baseline urgency until someone decides otherwise.
+- body: Completeness is the other piece. Are the medical records there? Is the insurance information attached? If something is missing, it should be flagged immediately and chased down, not discovered 25 minutes into a clinical review.
+- body: There's no standardized triage criteria in most buildings. Intake is whoever picks up the phone or notices the portal first. Incomplete referrals don't get flagged until someone is deep into clinical review and realizes the discharge summary is missing or the medication list is from two admissions ago. Many of the operators we've talked with target a 15-minute response time on every referral, but very few are hitting it consistently.
+- **h3:** 3. Clinical review
+- body: This is the most time-intensive and highest-stakes step in the entire process. It's also the step where the difference between fast facilities and slow facilities is most visible.
+- body: A clinical team member, typically the DON, ADON, or a designated clinical reviewer, reads through the referral packet to assess whether the facility can safely and appropriately care for the patient. They're evaluating diagnoses, current medications, behavioral history, therapy needs, wound care requirements, and any clinical red flags. The question they're trying to answer is straightforward: can we manage this patient's acuity with the staffing, equipment, and services we have right now?
+- body: The trouble is the documentation:
+- • Referral packets routinely run 50 to 100+ pages
+- • The critical clinical details are buried across discharge summaries, progress notes, medication administration records, and therapy evaluations
+- • Behavioral history in particular tends to be hidden or softened. A patient described as having "no behaviors" in the hospital chart may have been on a sitter, in soft restraints, or receiving PRN antipsychotics throughout the stay
+- • High-cost medications can sit on page 73 of a med list and never get flagged until pharmacy raises it after admission.
+- body: In many facilities, this step alone runs well past 30 minutes per referral, and operators we've talked with routinely describe reviews that stretch to 45 minutes or more when the packet is dense. The clinical reviewer is often a DON who is also managing the floor. The review is entirely manual. And because the assessment is filtered through individual judgment, two reviewers looking at the same chart can reach different conclusions about clinical fit.
+- body: This is the step where the operators getting ahead are doing something different. Pearl Healthcare, a 15-facility operator in the Chicago area, now reviews 76% of referrals in under 20 minutes using exacare ai's Admissions Screener, up from 62% before. A 50-facility post-acute operator we've worked with cut average referral review time by 45%, moving from 40+ minutes per referral to 89% of referrals reviewed in under 22 minutes.
+- body: In both cases, the change wasn't about making clinical reviewers work faster. It was about putting the relevant clinical flags, medication risks, and behavioral history in front of them on page one, so they spent their time deciding instead of searching.
+- body: This compression matters because the clinical review bottleneck is what slows the rest of the process. Move it from 45 minutes to under 20, and everything downstream moves with it. (We go deeper on that conversion math in how to increase admissions in a nursing home.)
+- **h3:** 4. Insurance and financial verification
+- body: This step typically runs in parallel with clinical review, but it's where the longest delays usually live.
+- body: The admissions or case management team verifies the patient's insurance coverage, checks authorization requirements, confirms benefit eligibility, and identifies the expected payer: Medicare, Medicaid, managed care, private.
+- body: Payer mix matters operationally because it directly affects whether the admission is financially sustainable for the facility. Managed care, in particular, introduces both delay and complexity, because authorization workflows vary by plan and timelines are unpredictable.
+- body: Insurance verification is still manual in most facilities. Staff are logging into payer portals one at a time, calling insurance companies, and waiting on hold. Authorization timelines vary wildly by payer. Managed care pre-auth can take hours to days, and the referral source is not waiting around for an answer.
+- body: Verification work that happens after the clinical decision adds time that the facility doesn't have. Verification work that happens before the clinical decision burns staff hours on referrals that the facility may not even take.
+- **h3:** 5. Bed availability and staffing check
+- body: This is the operational reality check. Even a clinically appropriate, financially viable referral can't convert if the bed or the staffing aren't there.
+- body: The team confirms bed availability (right unit, right room type), checks current staffing levels against the patient's acuity, and confirms that therapy and rehabilitation services can be scheduled within the expected admission window.
+- body: Bed availability is often tracked informally, on a whiteboard, in a spreadsheet, or by walking down the hall to ask the charge nurse. In multi-facility organizations, there's no real-time visibility across buildings. A referral can get declined at one facility while another facility in the same organization has an open bed and the right staffing for that exact patient. The decline isn't wrong at the building level. It's just expensive at the portfolio level.
+- **h3:** 6. The admission decision
+- body: This is the step everything else has been building to. Based on the clinical review, the insurance verification, and the bed and staffing check, the facility accepts, declines, or asks for additional information. In some organizations, that decision is made at the facility level by the admissions director or DON. In others, it's made or validated by a central intake team.
+- body: A decline isn't always permanent. Facilities often decline for fixable reasons (missing documentation, unverified insurance, a clinical flag that turns out to be a documentation error) without communicating that clearly to the referral source. A "no" that should have been a "not yet" gets coded as a lost referral.
+- body: It's also worth noting: Different buildings within the same operator legitimately have different admission criteria, because they have different capabilities. A building with dialysis can take patients a building without dialysis can't. A building with a vent unit, a memory care wing, or a behavioral health program will accept clinical profiles that other buildings in the same portfolio won't. That's not inconsistency. That's capability matching, and it's correct.
+- body: The real consistency problem shows up when two buildings with the same capabilities reach different decisions on similar patient profiles, because the decision is filtered through individual reviewer judgment instead of standardized screening criteria. One DON weighs behavioral flags more conservatively than another. One reviewer is sensitive to medication complexity, another to wound care. The decision becomes feelings-based rather than criteria-based, and leadership has no visibility into why.
+- body: There's no audit trail on decline reasons, no aggregate data to identify patterns ("we're declining 20% of referrals for a clinical reason we could actually manage with a small staffing change"), and no way for leadership to use that data strategically: adding service lines, adjusting payer strategy, coaching reviewers, revisiting admissions policies.
+- body: The 50-facility operator we mentioned earlier discovered that roughly 20% of their referrals were bypassing central intake entirely before they consolidated everything into a single platform. Their Director of Central Intake described what changed afterward as taking everyone's "feelings about a referral" out of the equation and turning the decision into a consistent matrix across buildings.
+- body: For more on the central intake operating model and how it differs from facility-level intake, read “What Is Central Intake in Post-Acute Care?”
+- **h3:** 7. Communication and transfer coordination
+- body: The referral process doesn't end at the decision. The last step is closing the loop.
+- body: The facility communicates the decision back to the referral source (hospital discharge planner, case manager, referring physician).
+- • If the answer is yes, the team coordinates the transfer: confirms admission date and time, arranges transportation, prepares the room, notifies nursing and therapy teams, and gathers any remaining admission paperwork.
+- • If the answer is no, the facility ideally communicates the reason clearly enough that the hospital knows whether to come back with a different patient or never to send to that building again.
+- body: Communication back to the referral source is slow or inconsistent. Hospitals are calling to find out where their referral stands. If the facility takes too long to respond, the hospital simply moves to the next option on the list, and the bed goes elsewhere. Speed of communication ends up being almost as important as the decision itself, because hospitals remember which facilities respond and which ones don't.
+- **h2:** Where the process breaks down (and what it actually costs)
+- body: Reading through the seven steps, the breakdowns can look like isolated problems. A slow portal here. A long clinical review there. A manual insurance check. An informal bed tracker. The reality is they don't show up in isolation. They compound.
+- body: A referral that sits in a portal for two hours, then takes 45 minutes to clinically review, then waits another hour for insurance verification, then needs a bed availability check that requires three phone calls, isn't a fast process with one slow step. It's a slow process at every step. By the time the facility responds, the hospital has already placed the patient elsewhere. The referral wasn't lost at any single moment. It was lost cumulatively.
+- body: The cost of that compounding is real, and it's measurable. Every referral lost to slow response time is a bed-day not filled. For a Medicare A patient, that's significant daily revenue. Across a month, across a portfolio, across a year, the revenue impact is material. And it's recurring, because the hospitals that stop sending you patients don't usually start again on their own.
+- body: The operators converting at higher rates aren't getting better referrals. They're running a faster, more consistent process on the same referrals everyone else is receiving. Pearl Healthcare attributed a 43% census increase in their second quarter (using exacare ai) to improved process efficiency, not to new referral sources or marketing changes. Their VP of Business Development was direct about it: the change was operational.
+- body: The steps in the SNF referral process aren't complicated. What's complicated is running them fast enough, consistently enough, and across enough volume to convert the referrals you're already receiving. Most facilities know what to do at each step. The gap is in how fast and how consistently they do it.
+- body: exacare ai helps SNFs consolidate referrals into a single workflow and compress clinical review time across the intake process. Learn more about how it works.
+- **h2:** FAQs
+- **h3:** What are the steps in the SNF referral process?
+- **h3:** How long should it take a skilled nursing facility to respond to a referral?
+- **h3:** What is the difference between central intake and facility-level intake for SNF referrals?
+- **h3:** What information is included in a skilled nursing facility referral packet?
+- **h3:** Why do skilled nursing facilities decline referrals?
+- **h3:** How does insurance verification work during the SNF admissions process?
+- **h3:** What is an admissions screener in skilled nursing?
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Sarah Scott
+- body: Sarah Scott brings a strong background in long-term care business development and clinical reimbursement. She applies a strategic, data-informed approach to strengthening provider relationships and navigating complex payer environments. With deep expertise in reimbursement, she focuses on aligning clinical outcomes with financial performance.
+- body: Sarah holds a Bachelor of Science in Healthcare Management Systems as well as an MBA and integrates business strategy with operational insight to drive growth, enhance care transitions, and support sustainable success across post-acute care settings.
+- body: Linkedin
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- text: 20 min read
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/referral-management-software-healthcare
+
+**Title:** Referral Management Software for Healthcare: What Post-Acute Operators Actually Need | exacare ai
+**Meta description:** How post-acute operators manage referrals across portals, screen faster, and grow census with the right software.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Referral Management Software for Healthcare: What Post-Acute Operators Actually Need
+- **h1:** Referral Management Software for Healthcare: What Post-Acute Operators Actually Need
+- text: Sarah Scott
+- text: July 24, 2026
+- text: 10 mins read
+- text: In this article
+- **CTA:** `What referral management software actually does` → #what-referral-management-software-actually-does
+- **CTA:** `Why post-acute referral management is a different problem` → #why-post-acute-referral-management-is-a-different-problem
+- **CTA:** `What to look for when you're evaluating referral management software` → #what-to-look-for-when-you-re-evaluating-referral-management-software
+- **CTA:** `How exacare ai approaches referral management for post-acute care` → #how-exacare-ai-approaches-referral-management-for-post-acute-care
+- **CTA:** `Book a demo` → /contact
+- **h3:** TL;DR
+- • Most referral management software is built for the acute and ambulatory referral loop (a primary care physician refers to a specialist, the software tracks the order and closes the loop). Post-acute operators face a different problem entirely: consolidating inbound referrals from multiple hospital portals, screening them clinically at speed, and responding before the bed goes to the facility down the road.
+- • The right evaluation criteria for post-acute referral management are portal consolidation, clinical screening depth, response time visibility, multi-facility reporting, and managed care capability. Most platforms marketed as "referral management software" don't address any of these.
+- **CTA:** `Exacare ai` → /
+- body: Most software marketed as "referral management" is built for one workflow: a primary care physician refers a patient to a specialist, the software tracks the order, and the loop eventually closes. Phreesia, Luma Health, Dock Health, and HealthViewX all live in that world. It's a real problem worth solving. But it's not the problem post-acute operators have.
+- body: A skilled nursing operator managing inbound referrals from four hospital portals and an eFax inbox needs something fundamentally different, and very little of the public information online walks through what to look for. That's what this piece is for.
+- **h2:** What referral management software actually does
+- body: Referral management software helps healthcare organizations receive, route, screen, and act on patient referrals. That definition is broad on purpose, because the term covers two very different operational realities depending on where you sit in the care continuum:
+- **h3:** 1. Acute and ambulatory referral management
+- body: A primary care physician refers a patient to a specialist. Software tracks the referral order, confirms scheduling, sends reminders, and closes the loop. The core problem being solved is referral leakage: patients dropping out of the system between the order and the appointment. This is what Phreesia, Luma Health, Dock Health, HealthViewX, and most of the well-known platforms in this category are built for.
+- **h3:** 2. Post-acute referral management
+- body: Hospital discharge planners send referrals through portals (WellSky, EpicCare Link, Aidin, ABOUT Ensocare, CarePort, and others), through fax, and sometimes through email. The receiving operator (a skilled nursing facility, home health agency, or hospice) needs to pull all of those referrals into one place, screen them clinically against facility-specific criteria, verify insurance, and respond faster than the facility down the road. The core problem is fragmentation, speed, and clinical risk at volume.
+- body: Most of the software on the market was designed for the first scenario. We'll focus on the second, because that's where the operational complexity is highest, the stakes are most concrete, and the tooling gap is widest. It's also the space exacare ai was built for, which is why we have a point of view on it worth sharing.
+- **h2:** Why post-acute referral management is a different problem
+- body: Before evaluating any software, it helps to be precise about what the work actually looks like in a post-acute building today.
+- body: A typical mid-sized skilled nursing operator manages four to ten inbound referral portals at the same time and:
+- • Operators don't get to choose which portals they use: The portals are assigned by the hospitals and health systems sending the referrals, which means a single facility might be logging into WellSky for one health system, Aidin for another, EpicCare Link for a third, and watching an eFax inbox for the rest.
+- • There is no single platform that aggregates all of them, and switching costs for the upstream hospital are essentially zero, so the fragmentation isn't going away on its own.
+- • Inside each portal, the screening process is manual and high-stakes: A referral packet routinely runs 50 to 100+ pages. A clinical reviewer has to scroll through the medical record, check clinical flags, run sex offender database checks, look at medication history (and the cost of those medications), verify insurance, and compare everything against the facility's specific admissions criteria. In most buildings, the best case is 40 minutes from the referral landing to a decision going back out. The realistic case is longer.
+- • Speed is the competitive differentiator in this market: Most hospitals give the bed to the first facility that can give a confident yes. The top-performing operators we work with have explicit response time targets in the 10 to 15 minute range, and they treat anything slower as lost revenue. If your team can't see how long a referral has been sitting in queue, you are losing beds you could have filled.
+- • There is a huge visibility problem: For any operator running more than a handful of buildings, regional and executive leadership needs a cross-facility view: how many referrals are pending, why they're pending, which facilities are deciding quickly, and where capacity is open. Without that, leadership is reduced to calling buildings one by one and asking. Most operators we talk to are doing exactly that.
+- body: Broken down step by step, the post-acute intake workflow looks like this, and so does the realistic line between what software should be handling and what still requires a human in the loop:
+- text: Intake step What good software should handle What still requires human judgment Receive referral from portal, fax, or email Fully automated ingestion from every source None Extract patient information into structured fields Fully automated, including documents and patient history None Verify insurance and benefits Fully automated Occasional spot-check on edge cases Apply facility-specific clinical screening rules Generates a recommendation with supporting evidence Clinical reviewer verifies and signs off Make the final accept-or-decline decision Surfaces the recommendation; doesn't decide Clinical reviewer makes the call Assign the patient to a specific facility (for multi-site operators) Surfaces capacity and specialty fit Admissions manager makes the call based on census, specialty, and geography Communicate the decision back to the referral source Fully automated with secure messaging None Push patient data into the EHR for admission Fully automated push to the facility EHR None
+- body: The pattern is clear: most of the steps in the intake workflow can and should be automated. The places where human judgment still matters are concentrated in two decisions, the clinical accept/decline call and the facility assignment for multi-site operators. Any vendor whose automation stops short of this standard is leaving work on your team's plate that doesn't need to be there.
+- body: This is the operational reality the software needs to solve, and it's the reality exacare ai was built around from day one. The evaluation criteria below come directly from these problems.
+- **h2:** What to look for when you're evaluating referral management software
+- body: The criteria below come directly from the operational reality above. They're ordered roughly by how often they're the deal-breaker in evaluations we've seen: portal coverage tends to be the first thing that disqualifies a vendor, and implementation quality tends to be the last thing operators wish they'd weighted more heavily.
+- **h3:** Portal consolidation
+- body: The first question isn't "does it integrate with our EHR?" It's "does it pull referrals from every source we receive into one place, so my team stops toggling between portals?"
+- body: Ask the vendor for a list of every portal they connect to. If your top three referral sources aren't on it, the tool will not solve your core problem, no matter how good the rest of it is. Be especially careful with vendors whose "consolidation" only works inside their own referral network. If the platform can't ingest referrals from the portals your hospitals actually use, it isn't solving the fragmentation problem; it's just adding another inbox to the ones your team is already checking.
+- **h3:** Clinical screening depth
+- body: Can the software apply your facility-specific admissions criteria to incoming referrals automatically?
+- body: Generic AI summaries are not the same thing as configurable clinical screening. The bar to set is whether the system flags:
+- • Diagnosis exclusions
+- • Acuity thresholds
+- • Insurance requirements
+- • Sex offender hits
+- • Medication cost outliers based on rules your team defines
+- body: And then surfaces a recommendation with supporting evidence the clinical reviewer can verify. The goal is that your clinical team reviews a recommendation, not a raw stack of patient documents.
+- **h3:** EHR integration depth (the two-system problem)
+- body: A common failure pattern in this category is the two-system problem: operators end up maintaining one system for referral review and a second for the clinical record, with staff manually re-entering information between them.
+- body: Ask specifically what data the referral management platform pushes into your EHR, in what format, and whether it requires manual intervention. If the answer is vague, you are buying yourself a second system, not solving for the one you have.
+- **h3:** Response time visibility
+- body: If your team can't see how long a referral has been sitting, you can't manage to a response time target.
+- body: Look for real-time tracking of referral status, time-to-first-review, time-to-final-decision, and alerting when referrals age past your threshold. This should exist at the individual facility level and at the portfolio level.
+- **h3:** Multi-facility and portfolio visibility
+- body: This is where most operators feel the pain inflect somewhere between 5 and 15 facilities. Below that, a regional director can keep tabs on every building with a phone call or two. Above it, that approach quietly stops working: by the time you've finished checking in on facility 12, the referrals at facility 1 have moved on.
+- body: Software needs to give regional and executive leadership a true cross-portfolio view of which facilities are reviewing quickly, which are letting referrals sit, and where capacity is open. This is the difference between facility-level software and an operating system for intake. If the only reporting available is at the building level, you are still going to be calling facilities one by one.
+- **h3:** Managed care capability
+- body: Managed Medicare is growing as a share of post-acute admissions, and authorization complexity is growing with it. If the software doesn't help you navigate pre-authorization, reimbursement estimation, or payer-specific requirements, you will be bolting on another tool inside of a year.
+- body: Ask whether managed care workflows are part of the product or a separate add-on, and ask whether the vendor can quantify the time savings they're delivering on prior auth.
+- **h3:** Implementation and support reality
+- body: Post-acute teams have been burned by vendors who sold well and supported badly. Ask about dedicated implementation, training timelines, and what happens when something breaks. Talk to operator references who have been live for at least 90 days, not just ones who finished onboarding last week.
+- **h2:** How exacare ai approaches referral management for post-acute care
+- body: exacare ai is built specifically for the post-acute corridor described above. The platform consolidates referral data from every portal, fax, and email into a single system, so admissions teams stop toggling between hospital portals and start working from one queue. Live integrations include WellSky, EpicCare Link, Aidin, CarePort, ABOUT Ensocare, and others.
+- body: Inside that consolidated view, the Admissions Screener applies facility-specific clinical rules to every referral automatically. Diagnosis exclusions, acuity thresholds, insurance requirements, sex offender checks, and medication cost flags are all configurable during onboarding, so the clinical team reviews a recommendation with supporting evidence rather than a raw 50-page packet. A dedicated ML engineering team is behind the models, with backgrounds from Amazon, Tesla, and Google.
+- body: Response time tracking is built into the platform at both the facility and portfolio level, so leadership can see exactly how long referrals have been sitting and where the bottlenecks are. In our 2026 Time-To-Accept Benchmark Report, built on more than 250,000 referrals, the fastest 10% of facilities reached a decision in 11 minutes or less and the top quartile in 17, against an industry median of 30.
+- **h3:** Success stories
+- **CTA:** `Pearl Healthcare` → /resources/customer-stories/pearl-healthcare
+- • A 50-facility Midwestern post-acute operator reduced average referral review time by 45%, increased monthly referral volume by 60%, and doubled intake capacity for their central team.
+- body: The post-acute referral management category is young and moving fast. Two years ago, most of the platforms operators are now evaluating either didn't exist or looked very different. The bar is rising quickly, which is good news for operators: the gap between "doing this with a spreadsheet" and "doing this with the right system" is wider every quarter.
+- body: If you're evaluating referral management software for your facilities, exacare ai works with skilled nursing operators across the country. You can see a demo or talk to our team.
+- **h2:** FAQs
+- **h3:** What is referral management software in healthcare?
+- **h3:** How does referral management software improve patient outcomes?
+- **h3:** What is the difference between a CRM and referral management software?
+- **h3:** How much does referral management software cost?
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Sarah Scott
+- body: Sarah Scott brings a strong background in long-term care business development and clinical reimbursement. She applies a strategic, data-informed approach to strengthening provider relationships and navigating complex payer environments. With deep expertise in reimbursement, she focuses on aligning clinical outcomes with financial performance.
+- body: Sarah holds a Bachelor of Science in Healthcare Management Systems as well as an MBA and integrates business strategy with operational insight to drive growth, enhance care transitions, and support sustainable success across post-acute care settings.
+- body: Linkedin
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- text: 20 min read
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/what-software-do-snfs-use
+
+**Title:** What Software Do Skilled Nursing Facilities Use? A Practical Guide | exacare ai
+**Meta description:** Most SNFs run on 6–10 disconnected systems daily. We break down the real software landscape inside skilled nursing: what's working, what's breaking, and where the industry is headed.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/What Software Do Skilled Nursing Facilities Use? A Practical Guide
+- **h1:** What Software Do Skilled Nursing Facilities Use? A Practical Guide
+- text: Dee Mackintosh
+- text: July 7, 2026
+- text: 20 min read
+- text: In this article
+- **CTA:** `TL;DR` → #tl-dr
+- **CTA:** `The five core systems: what every SNF runs on` → #the-five-core-systems-what-every-snf-runs-on
+- **CTA:** `The gap between the systems: the operational layer` → #the-gap-between-the-systems-the-operational-layer
+- **CTA:** `How AI is filling the operational gap` → #how-ai-is-filling-the-operational-gap
+- **CTA:** `What changes when you close the operational gap` → #what-changes-when-you-close-the-operational-gap
+- **CTA:** `How to figure out where your stack actually needs work` → #how-to-figure-out-where-your-stack-actually-needs-work
+- **CTA:** `Book a demo` → /contact
+- **h2:** TL;DR
+- • Most SNFs operate on five core software categories. EHR (dominated by PointClickCare), pharmacy systems, billing/RCM, staffing and scheduling, and referral portals (most operators manage 3-7+ simultaneously).
+- • The biggest technology gap in skilled nursing is the operational layer between these systems: admissions and referral management, census and bed management, managed care authorization, and cross-building communication. Most facilities still run these workflows manually.
+- **CTA:** `exacare ai` → /skilled-nursing
+- body: Most skilled nursing facilities run on somewhere between six and ten different software systems on any given day. The EHR handles clinical documentation. A separate system manages pharmacy. Another handles billing. Staffing has its own platform. And then there are the referral portals (four, five, sometimes ten of them), each requiring its own login, each feeding information that someone on the admissions team has to manually pull together before they can make a decision on a patient.
+- body: If you work in a SNF, none of this is news. But if you're trying to understand the full picture of how technology actually operates inside skilled nursing, whether you're evaluating new tools, onboarding into a leadership role, or trying to figure out why your team spends so much time toggling between systems, it helps to see the landscape laid out clearly.
+- **h2:** The five core systems: what every SNF runs on
+- body: These are the foundational platforms. Nearly every skilled nursing facility in the country operates on some combination of the following.
+- **h3:** 1. Electronic health records (EHR)
+- body: The EHR is the backbone of the building. Clinical charting, MDS assessments, care plans, medication management, physician orders, and patient progress tracking: it all lives here. Most facilities spend the majority of their software time inside the EHR, and for good reason. It's where patient care is documented, where healthcare professionals spend most of their day, and where compliance is maintained. It is a SNF’s system of record.
+- body: The dominant EHRs include:
+- • PointClickCare dominates the SNF market, running in roughly 85% of facilities
+- • MatrixCare holds a meaningful share, particularly among operators with mixed portfolios or senior living communities
+- • Netsmart (myUnity) serves a smaller segment, often in organizations that span home health or behavioral health alongside skilled nursing
+- • WellSky and Brightree are more common on the home health and hospice side
+- body: Switching EHRs is one of the most disruptive things an operator can do. Most organizations choose one and build everything around it.
+- **h3:** 2. Pharmacy systems
+- body: Pharmacy platforms handle medication ordering, eMAR integration, and formulary management. They're tightly coupled with the EHR. In most facilities, the pharmacy system and the EHR need seamless data exchange for medication reconciliation and administration records to work properly.
+- body: Common platforms include:
+- • PharMerica
+- • Omnicare
+- • Drug pricing databases like First Databank (FDB), which feed cost data into clinical and financial workflows
+- • QuickMAR handles medication administration records at some facilities
+- body: The pharmacy layer doesn't get much attention in technology conversations, but when it breaks, or when pricing data is inaccurate, the downstream effects on admissions decisions and reimbursement can be significant.
+- **h3:** 3. Billing and revenue cycle management
+- body: Claims submission, accounts receivable, Medicare and Medicaid billing, and collections: the back-office systems that maintain a facility's financial health.
+- • In many SNFs, billing is handled through modules built into the EHR. PointClickCare and MatrixCare both offer revenue cycle tools as part of their platforms.
+- • Some operators use standalone RCM platforms like Waystar, particularly when they need more sophisticated claims management or eligibility verification across multiple payers.
+- **h3:** 4. Staffing and scheduling
+- body: Shift scheduling, PBJ (Payroll-Based Journal) reporting, overtime tracking, and labor cost management. Platforms like Smartlinx and OnShift (now part of ShiftKey) are built specifically for the long-term care workforce.
+- body: This layer has a direct impact on CMS staffing ratings and regulatory compliance, which is why it's typically a standalone system rather than a feature inside the EHR.
+- **h3:** 5. Referral and e-referral portals
+- body: This is where fragmentation becomes most visible.
+- body: Skilled nursing facilities receive patient referrals through electronic portals operated by hospitals, health systems, and care coordination platforms. The critical thing to understand is that operators don't choose most of these portals. They're assigned them by the hospitals and health systems that send referrals.
+- • If a hospital runs Epic, the SNF logs into Epic CareLink
+- • If the discharge planner uses WellSky CarePort, the SNF logs into CarePort
+- • If a different hospital in the same market uses Aidin or Ensocare, that's another login
+- body: The result is that most multi-facility operators are managing three to seven referral portals simultaneously. In dense hospital markets, that number can climb to ten or more. WellSky (including CarePort and Extended Care) touches virtually every SNF operator.
+- body: Epic CareLink is ubiquitous in markets with major health systems. Aidin, Ensocare, and various regional portals round out the landscape. And eFax (paper fax converted to digital) remains a persistent channel, particularly for rural facilities and VA referrals.
+- body: Each of these portals operates independently: none of them share a unified queue. The intake team's job is to monitor all of them, pull the relevant clinical and insurance information from each referral, and make a decision, often under significant time pressure, because the first facility to respond frequently wins the patient.
+- **h2:** The gap between the systems: the operational layer
+- body: The systems above cover clinical documentation, pharmacy, billing, staffing, and referral receipt. That's a lot of ground. But there's an entire category of operational work inside a SNF that doesn't have dedicated software in most buildings, and it's arguably where the most time, revenue, and competitive advantage is lost.
+- **h3:** Admissions and referral management
+- body: This is the biggest gap. Once a referral arrives through one of those portals, someone has to read the full packet (often 50 to 100 pages of clinical documentation), check the patient's insurance, verify that the facility can handle the clinical needs, cross-reference against available beds, and communicate the decision back.
+- body: In a large percentage of facilities, this entire process runs on manual review, phone calls, and institutional knowledge. The dominant "technology" for intake at most SNFs is still a combination of spreadsheets, email, and the PCC CRM, which most operators describe as limited.
+- **h3:** Census and bed management
+- body: Real-time bed availability is surprisingly hard to come by in skilled nursing. Many facilities track beds on a whiteboard, a shared spreadsheet, or a daily printed census report. For multi-facility operators trying to route patients to the right building, the lack of real-time capacity data creates delays and mismatches.
+- **h3:** Managed care authorization
+- body: Prior authorization for managed care patients, particularly Medicare Advantage, is one of the most time-intensive workflows in an SNF. It involves interpreting payer contracts, pulling the right clinical documentation, submitting to payer portals (Availity, naviHealth (now Optum), Carelon, and a growing list of others), and tracking re-authorization deadlines.
+- body: Most operators manage four to eight separate payer portals for this process alone, and the work is almost entirely manual. At some organizations, a single person spends 30 minutes or more per referral on insurance verification before a clinical decision is even made.
+- **h3:** Data and reporting
+- body: Most operators rely on their EHR's native reports for operational visibility, and most describe those reports as limited and difficult to customize. The analytics layer functionally doesn't exist as a commercial category for most SNF operators. Some build custom dashboards in Power BI. Some export data to Excel. Some have no systematic way to track referral conversion rates, decline reasons, response times, or payer mix across facilities.
+- **h3:** Communication across buildings
+- body: For organizations with multiple facilities, the coordination between a central intake function and individual buildings often lives in email threads, group texts, or phone calls. Information gets lost. Context gets dropped. The speed advantage that central intake is supposed to create gets eroded by the tools, or lack of tools, that sit between the decision-makers.
+- **h2:** How AI is filling the operational gap
+- body: The gap described above has existed for years. What's changed is that a new generation of purpose-built tools is emerging to fill it, and AI is accelerating the shift.
+- **h3:** Where AI has the most impact
+- body: AI is entering the SNF tech stack not through clinical documentation, where EHRs are already deeply embedded, but through the operational workflows that were historically too unstructured for traditional software to handle:
+- • Referral packet review
+- • Insurance verification
+- • Clinical screening against facility-specific rules
+- • Managed care pre-authorization
+- body: These are the workflows where AI has the most immediate, measurable impact, because they involve reading large volumes of unstructured documents and applying complex, facility-specific logic under time pressure.
+- **h3:** The right kind of consolidation
+- body: Operators don't want ten more logins. But they also don't want a single platform that tries to do everything and does most of it poorly. That frustration is increasingly common as EHR vendors push add-on modules into territory they weren't designed for, selling "platform consolidation" that only works when the platform can actually do the thing well.
+- body: The reality is that most operators are fine using multiple tools, as long as each one is excellent
+- body: at its specific job and integrates cleanly with the rest of the stack. Specialized reimbursement tools, care coordination platforms, and pharmacy analytics all have a place when they do their one thing better than the EHR can.
+- body: What's working is purpose-built tools for specific operational layers that integrate deeply with the EHR and referral portals the facility already uses. The goal isn't to replace PointClickCare. It's to fill the gap between the referral portals and the EHR, the operational layer where admissions decisions, reimbursement optimization, and census management actually happen.
+- **h3:** Why this is a competitive differentiator
+- body: For multi-facility operators, especially, closing this gap changes outcomes. The organizations that can respond to referrals in minutes rather than hours, route patients to the right building based on real-time bed availability, and secure appropriate reimbursement levels from managed care payers on the first authorization. Those organizations win patients that their slower competitors are losing.
+- body: exacare ai was built specifically for this layer. The platform consolidates referral sources into a single queue, applies AI to read and screen referral packets against each facility's clinical and financial criteria, automates insurance verification, and provides portfolio-level visibility into admissions operations across every building.
+- body: exacare ai integrates with both PointClickCare and MatrixCare, connects to more referral platforms than any other tool in the space, and includes a Managed Care Agent that handles pre-authorization submission and level-of-care optimization. It's not a replacement for the EHR. It's the operational layer that sits in front of it. It is the system of action for teams, as opposed to the system of record.
+- **h2:** What changes when you close the operational gap
+- body: The argument so far has been structural: the operational layer is missing from most SNF tech stacks, and the industry is starting to fill it. But structure only matters if it produces results. Here's what actually changes when facilities move from manual operational workflows to a unified system.
+- **h3:** Speed: referral-to-decision in 11 minutes or less
+- body: Exacare ai's 2026 Time-To-Accept Benchmark Report, built on 256,719 referrals across 981 facilities, shows the top 10% of facilities holding a median time-to-accept of 11 minutes, including clinical screening, insurance verification, and risk flagging. The industry median is 30 minutes, and the fastest facilities are accepting in roughly 7.
+- body: Compare that to the 45 or more minutes teams historically spent just reviewing a referral packet, and the competitive impact becomes clear: in most markets, the first facility to respond with a confident answer wins the patient. In the benchmark data, each one-minute improvement in response time is worth roughly a 1% higher win rate, or about $125,000 a year for a 100-bed facility.
+- **h3:** Census: 43% increase in one operator's second quarter
+- body: Pearl Healthcare, a 14-facility skilled nursing operator in Illinois, saw a 43% increase in census in their second quarter using exacare ai. Leadership attributed the growth directly to operational efficiency gains, not marketing changes. Their referral-to-admit win rate increased 2.6x, and 76% of referrals had a first review in under 20 minutes, up from 62% before implementation.
+- **h3:** Reimbursement: $140K annualized recovery on a single payer contract
+- body: Managed care under-authorization is one of the most expensive problems in skilled nursing, and one of the least visible. One multi-facility operator using exacare ai's Managed Care Agent saw their share of Level 2+ authorized patients increase from 6% to 17% after implementation, with Level 2+ authorized days rising from 11% to 40%.
+- body: The financial impact on a single payer contract was approximately $140K annualized, and for the first time, the organization was securing Level 3 and Level 4 authorizations it had never previously obtained. The care impact matters as much as the financial one: higher authorization levels mean the facility is reimbursed to provide more physical therapy, occupational therapy, and nursing hours. The care those higher-acuity patients actually need.
+- body: See how Pearl Healthcare increased census by 43% across 14 facilities → Read the case study
+- **h2:** How to figure out where your stack actually needs work
+- body: The sections above map the landscape. This one helps you figure out where to focus.
+- **h3:** Identify the category first
+- body: Not every operator reading this has the same problem. The skilled nursing software landscape is broad, and the right investment depends on where your biggest operational bottleneck actually sits.
+- text: Your biggest challenge What you're evaluating Where to start Clinical documentation | Charting | MDS compliance EHR platforms PointClickCare, MatrixCare, Netsmart (covered above) Shift coverage | Overtime | PBJ reporting Staffing and scheduling Smartlinx, OnShift/ShiftKey Referral response time | Admissions decisions | Insurance verification | Portal fragmentation | Cross-building visibility | Managed care authorization | Census management and reporting Operational layer/intake technology exacare ai
+- **h3:** If you're evaluating the operational layer, here's what matters
+- body: For operators evaluating that operational layer, here's what to look for:
+- • Real integration, not just claimed integration: Every vendor says they integrate with your EHR. The question is whether that integration is real-time, bidirectional, and actually reduces the number of places your team has to enter data. If your staff still has to copy information from the new tool into PointClickCare manually, you haven't solved the two-system problem. You've added a third system.
+- • Built for post-acute care, not adapted from another setting: The referral workflows, payer dynamics, clinical screening criteria, and regulatory requirements in skilled nursing are specific. General healthcare tools adapted for SNFs consistently miss the nuances, from PDPM estimation to managed care contract interpretation to facility-specific admission rules that vary building by building.
+- • Consolidation of your referral sources: If your team is already toggling between six portals, the last thing they need is portal number seven. The tool should pull referrals from all of your sources (WellSky, Epic CareLink, Aidin, Ensocare, eFax, and others) into a single queue with a single workflow.
+- • Facility-specific clinical and financial criteria, applied automatically: Every building has different deal-breakers, different payer mixes, different bed configurations, different clinical capabilities. The tool needs to flex to those differences, not force you into a generic template that requires your team to manually adjust for every referral.
+- • Portfolio-level visibility: For multi-facility operators, the ability to see response times, conversion rates, census trends, decline reasons, and payer mix across the entire organization, in real time, is the difference between managing operations and guessing at them.
+- • Implementation reality: In post-acute care, the gap between what's promised during the sales process and what's delivered after the contract is signed can be wide. Ask about training timelines. Ask for references from operators your size. Ask what happens when something breaks at 7 AM on a Monday.
+- body: The SNF tech stack isn't fragmented because the individual tools are bad. PointClickCare does what it was designed to do. WellSky's referral portals work as intended. The pharmacy systems, billing platforms, and staffing tools each serve their function.
+- body: The fragmentation exists because nobody built the connective layer between them. The operational layer where admissions decisions, referral management, insurance verification, and census coordination actually happen.
+- body: For years, that work was done manually, and it was good enough. It's not good enough anymore. Response times matter more. Managed care complexity has increased. Referral volumes are rising. And the operators who've filled that gap are seeing measurable differences in speed, census, revenue, and operational excellence across their teams.
+- body: If you're evaluating your operational stack, exacare ai works with SNF operators across the country to close this gap. See it in action here →
+- **h2:** FAQs
+- **h3:** What EHR systems do most skilled nursing facilities use?
+- **h3:** How many software systems does the average SNF use daily?
+- **h3:** What software do SNFs use for admissions and referral management?
+- **h3:** What is the difference between an EHR and admissions software in skilled nursing?
+- **h3:** Do skilled nursing facilities use AI software?
+- **h3:** What referral portals do skilled nursing facilities use?
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Dee Mackintosh, Sr. Solutions Consultant
+- body: Dee Mackintosh is a healthcare professional and Sr. Solutions Consultant at exacare ai, bringing a strong blend of frontline clinical experience, program leadership, and patient-centred innovation. Prior to joining exacare ai, Dee led the ACHD Transition Program at University Health Network, where she helped design and launch a transition education program for young adults with congenital heart disease moving from pediatric to adult cardiac care. Dee’s nursing background spans diverse healthcare settings across Canada, including travel nursing, perinatal-surgical care, high-acuity environments, and support for children and youth with physical disabilities. Known for her communication skills, adaptability, and empathy, Dee brings clinical credibility and a practical understanding of healthcare workflows to the team. She is passionate about improving care delivery and supporting organizations in creating better experiences for both patients and providers.
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/post-acute-software-2026
+
+**Title:** Post-Acute Care Software in 2026: What's Changed, What Matters, and How to Evaluate Your Stack | exacare ai
+**Meta description:** Post-acute care software has evolved beyond the EHR. Here's how the category breaks down in 2026,  from clinical documentation to AI-powered intake, and what operators should prioritize.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Post-Acute Care Software in 2026: What's Changed, What Matters, and How to Evaluate Your Stack
+- **h1:** Post-Acute Care Software in 2026: What's Changed, What Matters, and How to Evaluate Your Stack
+- text: Elliot Hall
+- text: July 2, 2026
+- text: 20 min read
+- text: In this article
+- **CTA:** `TL;DR` → #tl-dr
+- **CTA:** `The five layers of post-acute care software` → #the-five-layers-of-post-acute-care-software
+- **CTA:** `Layer 2: Analytics, compliance, and business intelligence` → #layer-2-analytics-compliance-and-business-intelligence
+- **CTA:** `What's changed: how AI is reshaping the intake layer fastest` → #what-s-changed-how-ai-is-reshaping-the-intake-layer-fastest
+- **CTA:** `How the major platforms approach post-acute care software` → #how-the-major-platforms-approach-post-acute-care-software
+- **CTA:** `exacare ai: deep dive` → #exacare-ai-deep-dive
+- **CTA:** `What to look for when evaluating post-acute care software` → #what-to-look-for-when-evaluating-post-acute-care-software
+- **CTA:** `Book a demo` → /contact
+- **h1:** TL;DR
+- body: Post-acute care software is no longer just your EHR. The modern stack has five layers: clinical documentation, referral networks, AI-powered intake, managed care intelligence, and analytics. Most operators have Layer 1 and pieces of Layer 3. The rest is missing, manual, or just now emerging.
+- body: The intake and managed care layers (Layers 4 and 5) are where the highest-leverage operational gains are happening. AI-powered referral ingestion is reducing review times by 37+ minutes per referral and increasing admissions by 15% or more. Managed care automation is closing a reimbursement gap that costs operators $60-120 per patient per day.
+- body: exacare ai is purpose-built for the layers the EHR doesn't reach. It spans intake (Layer 4), managed care intelligence (Layer 5), and portfolio analytics (Layer 2) in a single platform, serving 2,000+ facilities with 3M+ referrals reviewed.
+- body: For years, “post-acute care software” meant one thing: your EHR.
+- body: PointClickCare, MatrixCare, HCHB. These platforms became the backbone of clinical documentation, billing, and compliance for SNFs, home health, and hospice. And they still are. The EHR remains foundational.
+- body: But the category has expanded significantly, particularly over the last two years, as AI and purpose-built tools have emerged to address specific operational problems the EHR was never designed to solve.
+- body: Today, “post-acute care software” is better understood as a stack: clinical documentation and compliance at the base, analytics and business intelligence in the middle, referral networks connecting acute and post-acute providers, AI-powered intake and admissions tools at the front of the workflow, and managed care intelligence closing the reimbursement loop. And exacare ai is a big part of that shift.
+- body: The result is a five-layer technology stack, where each layer serves a distinct operational function. Understanding these layers matters because it changes what you should be evaluating, and where you should be investing.
+- **h2:** The five layers of post-acute care software
+- body: Here's how we talk about the post-acute care software stack internally at exacare ai. It's a framework we developed from hundreds of operator conversations, and it holds up: five layers, each serving a distinct function, each with a different level of maturity in the market.
+- body: Most operators have Layer 1 covered and pieces of Layer 3 in place. Everything else is either missing, manual, or just now emerging.
+- **h3:** Layer 1: Clinical documentation and EHR
+- body: This is the foundation. Electronic health records for SNFs, home health services, hospice, and senior living. Core functions include clinical charting, care plans, MDS/OASIS assessments, medication management, billing, revenue cycle management, and compliance documentation.
+- body: It’s the layer most people mean when they say “post-acute care software.” The major platforms are:
+- • PointClickCare (dominant in SNF, running at roughly 85% of operators and a seven-time consecutive Best in KLAS winner for Skilled Nursing Facilities: Long-Term Care)
+- • HomeCare Homebase
+- • MatrixCare (Best in KLAS for Home Health and Hospice across multiple categories)
+- • WellSky (dominant in Home Health and Hospice, and the market leader in care coordination through its CarePort network of 2,000+ hospitals and 130,000+ post-acute providers)
+- • Brightree
+- body: These are deeply embedded systems, and their market positions are well-documented (KLAS Research publishes annual rankings based on direct provider feedback). Switching EHRs is a massive operational lift. So, most operators choose one and build everything else around it.
+- **h2:** Layer 2: Analytics, compliance, and business intelligence
+- body: This is the first layer most operators are missing. In theory, Layer 2 is where platforms sit on top of or alongside the EHR to provide operational visibility: MDS scrubbing, Five-Star planning, PDPM optimization, PBJ reporting, census analytics, financial benchmarking, quality improvement tracking, and quality measures reporting.
+- body: In practice, the tools that serve this function (Simple, SNF Metrics, Real Time Medical Systems) didn’t come up once across 75 recent sales conversations with SNF operators. The actual Layer 2 for most organizations is Excel spreadsheets, PCC native reports, and manual data exports.
+- body: This gap matters. Without a real analytics layer, operators struggle to:
+- • Track referral conversion rates
+- • Identify why referrals are being declined
+- • Measure response times across facilities
+- • Understand payer mix trends
+- body: They’re running multi-facility operations on gut feel and morning census printouts.
+- body: We hear this constantly. Operators describe PCC reporting as frustrating and limited. One VP of Operations told us that customizing reports to understand what's actually happening across their buildings has been a significant lift. Another admissions leader put it more bluntly: she just wants bar graphs and pie charts.
+- body: exacare ai extends into Layer 2 through its portfolio analytics (referral volume, conversion rates, win/loss, decline reasons, payer mix, and response times across every facility). For many operators, exacare ai is the first time they’ve had this visibility at all.
+- **h3:** Layer 3: Care coordination and referral networks
+- body: These platforms connect acute and post-acute providers, manage transitions, and facilitate referral routing. Core functions include discharge planning, referral matching, care transition management, patient tracking across settings, and readmission prevention.
+- body: The major players here are:
+- • WellSky — CarePort Referral Intake; CarePort; Referral Management / ExtendedCare
+- • Epic CareLink
+- • Bamboo Health (PatientPing)
+- • Aidin/AIDA Healthcare
+- • Ensocare
+- • Repisodic
+- body: WellSky's product family now touches virtually every SNF operator, consolidating referral activity from multiple sources (phone, fax, electronic systems) into a single location for intake processing. In markets with major health systems, Epic CareLink has become a de facto requirement, with operators commonly managing two to five separate Epic instances from different hospital systems.
+- body: The important distinction: these platforms route referrals *to* post-acute providers. They don’t help the provider decide on that referral once it arrives. That’s the next layer.
+- body: One other reality worth noting: fax isn’t dead. eFax, RightFax, and RingCentral eFax still appear across 15 to 20% of operators as active referral channels, particularly for rural facilities and VA referrals. Any intake platform that doesn’t accommodate fax as an input channel is ignoring a real portion of referral volume.
+- **h3:** Layer 4: Intake, admissions, and AI-powered referral intelligence
+- body: This is the newest and fastest-moving layer. Purpose-built platforms that help post-acute providers process, evaluate, and act on incoming referrals. This is where exacare ai lives. More on what that looks like in practice below.
+- body: Until very recently, this layer didn’t exist as a commercial category. Most operators ran intake on manual processes: admissions directors reading 50 to 100-page referral packets page by page, toggling between referral portals, calling to verify insurance, emailing summaries to facilities.
+- body: The real “incumbent” in Layer 4 isn’t a software vendor. It’s Excel, phone calls, and manual workflows. Across 75 recent conversations with SNF operators, 40+ organizations had no intake tool whatsoever before evaluating exacare ai. One operator tried to build his own intake solution with ChatGPT, then evaluated custom developers, before finding exacare ai. That's how new this category is.
+- body: Where software did exist, it was limited:
+- • PointClickCare’s CRM and Referral Advisor functioned as the de facto Layer 4 for 25+ organizations, but none described it as adequate
+- • Census Pro, the primary standalone incumbent, is consistently described as non-AI and rules-based, and is being actively displaced
+- • Careflow appears at a handful of organizations, with most in the process of replacing it
+- **h3:** Layer 5: Managed care and reimbursement intelligence
+- body: And lastly, the layer with the richest pain and the least software serving it.
+- body: What Layer 5 covers: pre-authorization submission, level-of-care optimization, re-authorization tracking, insurance eligibility verification, high-cost medication flagging, and concurrent review management.
+- body: Managed care has become a significant operational burden for SNFs. For operators with meaningful managed care census, prior authorization alone means juggling four to eight separate payer portals simultaneously, including:
+- • Availity
+- • NaviHealth/Home & Community
+- • Carelon
+- • EviCore
+- body: One 40-facility operator reported 4,660 prior authorizations in 2025, handled by two dedicated full-time employees, entirely through manual processes.
+- **quote:** “I’m looking for a front-end platform that integrates with sub-platforms, providing a unified dashboard for managed care payers, authorization processes, and concurrent review submissions. Such a platform could be a game-changer.” Vice President of Clinical Services, senior care provider with 40 facilities
+- body: The financial stakes are real. One operator lost $60K in a single year from missed three-day hospital qualification stays. Another faces a $120-per-day gap between Level 1 and Level 2 reimbursement on every under-leveled patient, a gap that compounds across hundreds of admissions.
+- body: exacare ai’s Managed Care Agent sits in this layer. It uses AI to ingest payer contracts, analyze clinical documentation, and justify the highest appropriate reimbursement level, then auto-submits to payer portals. More on this in the deep dive below.
+- **h2:** What's changed: how AI is reshaping the intake layer fastest
+- body: The intake workflow (Layer 4) has been the most under-engineered part of post-acute operations. Clinical documentation has had EHRs for decades. Billing has had revenue cycle tools. But the moment a referral lands (the highest-stakes, most time-pressured decision in the building) has been powered by PDFs, email, and manual review until very recently.
+- body: AI doesn’t just make intake faster. It makes it smarter. The real transformation is across multiple dimensions.
+- • Summary quality: AI reads the full 50 to 300-page referral packet and produces a structured clinical summary with source-linked citations a clinician can audit. This replaces the “skim and hope” approach that manual review forces when teams are under time pressure. The quality of the intake decision goes up because the information feeding it is more complete.
+- • Insurance verification and reimbursement accuracy: AI automates payer eligibility checks and, increasingly, pre-authorization workflows. It identifies the right reimbursement level before the patient is admitted. This catches financial risk early (a patient whose insurance won’t cover the level of care needed) and captures revenue that manual processes leave on the table. We've heard admissions leaders describe spending 45 minutes or longer on a referral, only to discover at the end that the payer wouldn't be accepted. That's time and capacity lost with no return.
+- • Clinical screening against facility-specific rules: AI applies each building’s unique admission criteria consistently across every referral, flagging clinical risks, medication concerns, and care needs that a manual reviewer might miss under volume pressure. The consistency matters as much as the speed.
+- • Analytics and reporting from day one: When every referral flows through an AI-powered system, you get portfolio-level data immediately: referral volume, conversion rates, decline reasons, response times, payer mix, and referral source performance. For many operators, this is the first time they’ve had real visibility into their intake funnel.
+- • Patient acuity leveling and managed care intelligence: AI can analyze clinical documentation against payer contracts to identify the appropriate care level and justify it with evidence. This turns reimbursement from a reactive claims process into a proactive financial strategy. The gap between Level 1 and Level 2 reimbursement can be $120 per day per patient, and across hundreds of admissions, under-leveling adds up fast.
+- body: The intake and reimbursement layers are moving faster than other parts of the stack because the conditions are right: the problems are well-defined, the ROI is multidimensional (faster response, better decisions, stronger reimbursement, and portfolio visibility), and the workflows are high-volume. These are exactly the conditions where AI delivers the most value.
+- body: But here's what we learned building exacare ai: you can't solve intake in isolation. An admissions decision isn't just 'can we care for this patient?' It's 'can we care for this patient profitably, at the right reimbursement level, with visibility into how this admission fits our portfolio?' That's an intake question, a managed care question, and an analytics question, all at once.
+- body: The layers we described above are real and distinct, but the best intake decision draws on all three. That's why exacare ai spans Layers 2, 4, and 5. Not because we set out to build a multi-layer platform, but because the intake problem demanded it.
+- **h2:** How the major platforms approach post-acute care software
+- body: The table below maps the landscape across all five layers. It’s not exhaustive, but it covers the platforms that show up most frequently in real operator conversations.
+- text: Layer Platform What it does Strength Consideration 1: EHR PointClickCare Dominant cloud-based EHR for SNFs. Clinical, financial, and operational documentation ~85% market share in SNF; deep ecosystem Intake and analytics capabilities are limited; operators consistently describe reporting as frustrating MatrixCare SNF, senior living, and home health EHR. Part of ResMed Breadth across care settings Smaller market share; fewer third-party integrations than PCC Netsmart myUnity Unified EHR spanning home health, hospice, SNF, senior living, behavioral health Broadest care setting coverage in a single platform Breadth can mean complexity for specific workflow problems WellSky Dominant in home health and hospice. Owns CarePort for referral management Largest connected referral network; strong in home-based care EHR is home health/hospice-focused; CarePort is network-side, not provider-side intake 2: Analytics ✨ exacare ai Portfolio-level referral analytics: volume, conversion, decline reasons, payer mix, response times First real analytics layer many operators have had Focused on intake/admissions data; not a full BI platform PCC native + Excel The de facto analytics layer for most SNF operators Already available; no additional cost Limited, frustrating, not designed for portfolio-level decisions 3: Referral WellSky CarePort Connects hospitals to post-acute providers. Referral routing, discharge planning, patient tracking Largest acute-to-post-acute referral network Routes referrals to providers Epic CareLink Hospital-side discharge planning within the Epic ecosystem Required in markets with major health systems Not bi-directional with any post-acute intake tool Aidin Independent referral management platform connecting hospitals and post-acute providers. Tracks referrals, manages patient choice lists, and streamlines care transitions Open-market referral model with merit-based provider badges; strong hospital network including AdventHealth and UCLA Health Hospital/acute-side focused; routes referrals to post-acute providers AIDA Healthcare Independent care coordination platform with native Epic Toolbox integration and PointClickCare integration. Manages referrals within the Epic interface; post-acute providers respond via AIDA Responder at no cost Deep Epic integration; reduces LOS 8–12% Hospital-side tool; post-acute providers respond through it Bamboo Health (PatientPing) Care event notification and patient tracking across settings Broad ADT notification network Notification-focused 4: AI Intake ✨ exacare ai AI-native admissions platform. Also spans Layers 2 and 5 (see deep dive) Purpose-built for intake decision making + reimbursement across facilities and EHRs Strongest in SNF; expanding into home health 4: AI Intake Census Pro Rules-based referral screening tool. Primary standalone incumbent Established market presence Non-AI, keyword-based; being actively displaced 4: AI Intake PCC Referral Advisor Referral screening within the PointClickCare EHR Built into the dominant EHR Universally described as inadequate by operators using it 4: AI Intake Careflow Admissions and referral management platform Existing customer base Declining; actively being replaced at most orgs using it 5: Managed Care ✨ exacare ai MCA AI-powered pre-auth, level-of-care optimization, contract ingestion. Auto-submits to payer portals Automates full pre-auth workflow; reduces prep from ~1 hr to minutes Re-auth and concurrent review on the roadmap Managed Care Master Managed care and prior authorization management platform for post-acute providers Established incumbent in managed care workflow management Manual-process oriented; lacks AI-driven level-of-care optimization and auto-submission capabilities
+- **h2:** exacare ai: deep dive
+- body: exacare ai is the platform that most directly illustrates the “layers are blurring” thesis. It spans intake (Layer 4), portfolio analytics (Layer 2), and managed care intelligence (Layer 5) in a single platform.
+- body: We purposely built exacare ai this way because operators kept telling us the same thing: the intake decision, the reimbursement decision, and the visibility problem are all connected. Solving one without the others just moves the bottleneck. Here's what that looks like in practice:
+- • AI-native, not bolted on: Referral packet ingestion is the core product, not a feature added to an EHR or care coordination platform. The entire platform was designed around the admissions decision.
+- text: Intake and admissions (Layer 4):
+- • The clinical reasoning is contextual, not keyword-based: exacare ai reads referral packages the way a seasoned clinician would, inferring conditions from medications (flagging depression when Lexapro is listed, even if depression isn’t in the diagnosis), identifying care needs from combinations of data points, and surfacing risks that a keyword scanner would miss.
+- • Broadest integration ecosystem: exacare ai connects to more referral platforms than any competitor, with bidirectional capabilities on platforms like WellSky. It supports both PointClickCare and MatrixCare EHR integrations. Most competitors support only one or neither.
+- • Adjacent capabilities: Insurance verification, sex offender verification, and a bed board for real-time capacity management across the portfolio.
+- • Managed care intelligence (Layer 5): The Managed Care Agent uses AI to ingest payer contracts, analyze clinical documentation, and justify the highest appropriate reimbursement level for managed care patients, then auto-submits to payer portals like Availity, NaviHealth, and WellMed. This reduces pre-authorization prep time from roughly one hour to minutes, and captures revenue that manual processes consistently leave on the table.
+- • Portfolio analytics (Layer 2): Real-time data on referral volume, conversion rates, win/loss, decline reasons, payer mix, and response times across every facility. For operators who’ve been running on PCC native reports and Excel, this is often the first real analytics layer they’ve ever had.
+- • Enterprise-grade support: Average three-minute human response time from a dedicated, in-house, onshore support team. The engineering team is ex-Amazon, ex-Tesla, ex-Google, fully in-house and North America-based.
+- • Scale: 2,000+ facilities. 3M+ referrals reviewed. 13M+ documents processed.
+- **h3:** How Pearl Healthcare increased census by 43% in their second quarter with exacare ai
+- body: Pearl Healthcare operates 14 post-acute care facilities across the Chicago area. Before exacare ai, referrals arrived through four disconnected platforms, each requiring separate logins. Their previous admissions software created recurring system outages and data accuracy issues. Leadership was spending more time managing systems than on market development.
+- body: After implementing exacare ai:
+- • 43% increase in census in their second quarter, attributed by leadership to improved efficiency with exacare ai’s Admissions Screener
+- • 76% of referrals now receive a first review in under 20 minutes, up from 62% (a 23% improvement)
+- • 2.6x increase in referral-to-admit win rate compared to the first two months on exacare ai
+- **quote:** “We definitely did see a spike in census, and I did also correlate that with exacare ai. We didn’t really have any marketing changes in terms of new admission directors or new external liaisons. So I do think it was exacare ai and us just being more efficient. More efficient to say yes and say yes quickly." Tanya Carlson, VP of Business Development, Pearl Healthcare
+- **h2:** What to look for when evaluating post-acute care software
+- body: Start with the problem, not the category. Are you solving a documentation problem? A compliance problem? An intake speed problem? A visibility problem? A reimbursement problem? The answer determines which layer of the stack you need to invest in first. Buying a more powerful EHR won’t fix an intake bottleneck. And buying an intake tool won’t fix a compliance gap.
+- body: Once you know which layer you’re investing in, here’s what to evaluate:
+- text: What to evaluate What to ask Why it matters Clinical rule customization Can you configure admission criteria per facility, in real time, without engineering support? Every building has different capabilities and patient populations. One-size-fits-all rules lead to bad admits or missed referrals. Referral source coverage Does the platform connect to the portals your referral sources actually use? Is the integration bidirectional? The average SNF operator manages 3-7 simultaneous portals. Partial coverage means your team is still toggling. EHR integration depth How does data flow into your EHR? Bidirectional API, manual export, or CSV upload? A platform that produces a great clinical summary but requires re-entry into PCC or MatrixCare hasn't saved time. It's moved the manual work. For multi-EHR operators, ask whether the platform supports interoperability standards like SMART on FHIR. AI sophistication Does the AI reason about clinical context, or does it match keywords? Ask to see how it handles ambiguous data. The difference between "flagging a patient as suicidal because the word appears in a note that says 'non-suicidal'" and correctly interpreting it is the difference between keyword matching and clinical reasoning. Summary quality and auditability Can staff trace each flag and finding back to the source document? If clinicians can't audit the AI's work, they'll re-review the full packet anyway, and you've gained nothing. Implementation and support What's the timeline from kickoff to go-live? What does "support" actually mean? Six months to implement doesn't work for operators under pressure now. A ticket queue with a 24-hour SLA is not the same as a three-minute average response time. Analytics from day one Can you track referral volume, conversion, decline reasons, and payer mix across your portfolio from week one? For operators running on spreadsheets, the analytics layer can be as transformative as the intake automation itself. Growth trajectory fit Does the tool work across EHR environments? Does it scale with volume? The best choice for a 5-building group is often not the best choice for a 50-building group. Choose for where you're going.
+- body: We built exacare ai for operators who are done stitching their intake, reimbursement, and analytics workflows together with manual processes. If that sounds familiar, we should talk.
+- body: Book a demo.
+- **h2:** FAQs
+- **h3:** What is post-acute care software?
+- **h3:** What types of software do post-acute care facilities need?
+- **h3:** How is AI being used in post-acute care software?
+- **h3:** What is the difference between an EHR and an admissions platform in post-acute care?
+- **h3:** Can AI-powered intake software integrate with existing EHR systems like PointClickCare or MatrixCare?
+- **h3:** What should multi-facility operators prioritize when evaluating post-acute care software?
+- **h3:** How long does it take to implement AI-powered admissions software?
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Elliot Hall, VP, Product
+- body: Elliot Hall is a product and operations leader currently serving as VP of Product at exacare ai. He previously served as Chief of Staff, where he worked across business operations, product, and customer success. Before joining exacare, Elliot was a Consultant at Bain & Company, advising clients across private equity, banking, insurance, mining, NGOs, and other sectors. Elliot holds an MBA from Northwestern University’s Kellogg School of Management, where he majored in Entrepreneurship and Finance, and an Honours Bachelor of Commerce from Queen's University. His background combines strategy consulting, startup leadership, product development, and company-building in high-growth environments.
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/prior-authorization-snf-admissions
+
+**Title:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement | exacare ai
+**Meta description:** Prior authorization for SNF stays slows admissions and shrinks reimbursement. Here's how operators handle it in 2026.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- **h1:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: Sarah Scott
+- text: June 17, 2026
+- text: 20 min read
+- text: In this article
+- **CTA:** `TL;DR` → #tl-dr
+- **CTA:** `What is prior authorization for SNF stays?` → #what-is-prior-authorization-for-snf-stays
+- **CTA:** `Prior authorization across payer types` → #prior-authorization-across-payer-types
+- **CTA:** `The prior authorization workflow inside a SNF` → #the-prior-authorization-workflow-inside-a-snf
+- **CTA:** `The four breakdown points` → #the-four-breakdown-points
+- **CTA:** `The level-of-care optimization gap` → #the-level-of-care-optimization-gap
+- **CTA:** `What happens when prior authorization is denied?` → #what-happens-when-prior-authorization-is-denied
+- **CTA:** `How is AI changing prior authorization for SNFs?` → #how-is-ai-changing-prior-authorization-for-snfs
+- **CTA:** `How does exacare ai handle prior authorization?` → #how-does-exacare-ai-handle-prior-authorization
+- **CTA:** `Book a demo` → /contact
+- **h2:** TL;DR
+- • Prior authorization is a payer's required approval before a SNF can admit a patient. Traditional Medicare doesn't require it, but Medicare Advantage and Medicaid Managed Care do, making prior auth the default intake workflow now that MA enrollment has reached roughly half of all Medicare beneficiaries.
+- • Prior authorization decides both whether a patient gets through the door and how much the facility gets paid for the stay. The level of care approved at intake sets the daily rate for the duration of the authorization.
+- text: AI now handles the contract interpretation, clinical document extraction, and submission packaging
+- **CTA:** `exacare ai` → https://www.exacare.com/
+- body: Most admissions teams treat prior authorization as a paperwork bottleneck. That framing understates what's actually at stake. In managed care admissions, prior authorization decides two things at once:
+- • Whether a patient gets through the door, because hospitals route to whichever facility can confirm a path to admission first
+- • How much the facility gets paid for that stay, because the level of care approved at intake sets the daily rate for every day that follows
+- body: The mechanics have shifted. Traditional Medicare doesn't require prior authorization for SNF stays. Medicare Advantage does, and MA now covers roughly half of all Medicare beneficiaries, per KFF enrollment data. What used to be an edge case has become the default workflow for most SNF intake teams.
+- **h2:** What is prior authorization for SNF stays?
+- body: Prior authorization is a payer's required approval before an SNF can admit a patient under that patient's coverage, or before specific services provided within an active stay can be billed. The submission typically includes:
+- • Clinical documentation supporting medical necessity
+- • The requested level of care
+- • An expected length of stay
+- • The payer's specific forms or clinical criteria
+- body: Two distinctions worth drawing early, because they get blurred in practice:
+- • Prior authorization is not insurance verification: Verification confirms that coverage exists and what benefits apply. Authorization approves the specific stay or service under that coverage. Verification typically happens first; authorization runs in parallel with or just after the admission decision.
+- • Prior authorization is not the same as Medicare's certification and recertification process: Under traditional Medicare, the SNF's own physician certifies that skilled care is needed at admission and on a scheduled cadence afterward. That's an internal compliance step, not a payer approval.
+- body: Whether prior authorization applies, and what it requires, depends on which payer is responsible for the stay. That's where the workflow gets fragmented.
+- body: For the broader admissions pipeline this fits inside, see our guide to the steps in the SNF referral process.
+- **h2:** Prior authorization across payer types
+- body: The fragmentation is structural. A single SNF often holds many active managed care contracts at once, each with its own clinical criteria, submission portal, level definitions, and concurrent review requirements. The table below summarizes how prior authorization typically applies across the major payer categories.
+- text: Payer type Prior auth required? Typical turnaround Common submission paths Traditional Medicare (Part A) No N/A N/A Medicare Advantage Yes Hours to several days Availity, NaviHealth/H&C ("One Home"), individual payer portals Medicaid (Fee-for-Service) Varies by state State-dependent State portals Medicaid Managed Care Yes Days to weeks Plan-specific portals, Availity Commercial Managed Care Yes Hours to days Availity, payer portals
+- body: A few patterns are worth commenting on:
+- • Medicare Advantage is the volume driver. As MA enrollment has grown, prior authorization has shifted from a small fraction of intake work to the dominant case type for many facilities. Each MA plan sets its own clinical criteria, often using proprietary level-of-care rubrics that don't map cleanly across plans.
+- • Medicaid Managed Care plans are commonly cited by operators as the slowest payers to respond, with authorization windows that can stretch to two weeks or more on complex cases.
+- • Traditional Medicare looks deceptively simple in this view. There's no prior authorization for the SNF stay itself, but eligibility hinges on a qualifying inpatient hospital stay (the 3-day rule) and physician certification of medical necessity for skilled care. Post-payment review and ongoing recertification still apply.
+- **h2:** The prior authorization workflow inside a SNF
+- body: In most facilities, the prior authorization process runs through a small handful of people across admissions, MDS, and the business office. The work breaks into six stages.
+- • Clinical documentation review: Match the referral packet against the responsible payer's criteria for skilled care.
+- • Level-of-care determination: Decide which level the patient's clinical picture supports under that payer's specific rubric.
+- • Submission packaging: Assemble the clinical justification, supporting documents, and the payer's required forms.
+- • Submission: Send through the payer's portal, clearinghouse, or fax.
+- • Status monitoring: Track open authorizations and follow up on anything stalled.
+- • Authorization decision: Receive the approval, partial approval, or denial, and route the result into intake and billing.
+- **h2:** The four breakdown points
+- body: Four breakdown points recur across operators:
+- • Clinical documentation arrives incomplete and weakens the clinical case
+- • The wrong level gets requested, often the safe-and-fast level rather than the clinically supported one
+- • Submission lags behind the admission decision because intake is overloaded with the next referral
+- • Open authorizations get tracked in spreadsheets or shared inboxes, which means status updates and denials surface late.
+- body: The competitive dynamic compounds all of this. Hospitals send referrals to multiple facilities at once, and the fastest credible response usually wins the patient. When prior authorization is part of the speed equation, the facility that can package and submit within the same window as clinical screening has a meaningful advantage.
+- **h2:** The level-of-care optimization gap
+- body: Underleveling is the cost most operators don't see, because it's invisible at the moment of decision.
+- body: Most managed care contracts reimburse different daily rates for different levels of care. The labels vary (Level 1, 2, 3, sometimes 4; some plans use rehab- or skilled-tier nomenclature instead), but the structure is consistent: higher acuity supports a higher level, which supports a higher daily rate.
+- body: The operational reality is that intake teams are time-constrained. Each managed care contract has its own rubric, often dozens of pages, defining which clinical findings justify which level. Reviewing the patient's clinical picture against that rubric and packaging a case for the highest defensible level takes time the team often doesn't have. The path of least resistance is to request the level that's most likely to clear quickly, not the level the clinical picture actually supports.
+- body: Underleveling compounds. A patient admitted at Level 1 instead of Level 2 generates lower revenue every day of the stay, not just on day one. Across a portfolio with hundreds of admissions a month, the gap is meaningful. It is also rarely visible on a denial report, because nothing was denied. The facility simply didn't ask for what the clinical case supported.
+- body: Stronger clinical justification looks like in-line citations from referral documents tied to the payer's specific criteria, anticipatory packaging of common pushback points, and consistent framing of acuity indicators across submissions. Internal data from exacare ai's Managed Care Agent deployments puts the operational impact of closing this gap at roughly $380K in monthly revenue uplift per facility.
+- body: Ignite Medical Resorts shows how this gap can be addressed operationally. Managed care represents roughly 60% of Ignite’s patient volume, making level-of-care accuracy a central revenue and workflow concern rather than a back-office detail. With exacare ai, Ignite centralized managed care across 32 facilities and gave case management teams a more consistent way to review referral packets, verify benefits, prepare prior authorization submissions, and support the requested level of care with the right clinical evidence upfront. Just as importantly, that added rigor did not slow the team down: managed care processing time dropped 52%, from 22 minutes to roughly 10 minutes from referral receipt to submission. For Ignite, exacare ai helped turn level-of-care review from a manual, time-constrained judgment call into a faster, more standardized workflow for requesting the highest defensible level of care.
+- **h2:** What happens when prior authorization is denied?
+- body: Denials and partial approvals are routine, particularly with Medicare Advantage and Medicaid Managed Care plans.
+- body: The appeal pathways are standard; the timing is what matters operationally.
+- • Peer-to-peer review: A facility clinician (typically the medical director or DON) discusses the case directly with the payer's medical reviewer. Often the fastest path to overturning a denial when the clinical case is strong.
+- • Formal appeal: A written appeal with additional documentation and clinical justification. Submission and decision windows vary by payer and state, but typically run several days to several weeks.
+- • Expedited appeal: Available when delay would jeopardize the care patients receive. Medicare Advantage plans are required to respond to expedited determinations within tight windows (typically 72 hours for urgent cases) under federal regulations. Tighter documentation requirements apply and expedited status is not always granted.
+- body: The financial position during an appeal is uncomfortable. Either the facility holds the bed unbilled while waiting for resolution, or the patient is admitted in-house under financial risk. Auth lag of two weeks or more is not unusual on complex Medicaid Managed Care cases.
+- body: The regulatory backdrop is shifting. CMS-0057-F, the Interoperability and Prior Authorization Final Rule, introduces standardized prior authorization timing requirements for Medicare Advantage, Medicaid, and certain other plans, with provisions phased in starting in 2026.
+- body: The practical impact for SNFs will land over the next several years as payer systems and processes adjust. CMS's own pre-claim review initiatives operate separately from this plan-level workflow and apply to specific services like home health and DME.
+- **h2:** How is AI changing prior authorization for SNFs?
+- body: The case for AI in prior authorization comes down to where the manual work concentrates: contract interpretation, clinical document extraction, and packaging. Each of those is pattern-matching at volume. Each is also where time pressure produces the underleveling and submission lag described above.
+- body: The category context matters. Legacy auth tools (Managed Care Master is the most established) handle tracking and submission but offer no AI-driven contract interpretation or clinical reasoning. Newer entrants are taking different approaches: adding prior auth products to their existing platform, improving the backend reimbursement side, or focusing on PDPM-driven optimization.
+- body: exacare ai's Managed Care Agent is positioned to lead this category as an AI-native pre-auth submission and level-of-care optimization tool.
+- body: AI-native here means more than a feature added to an existing product. It means contracts and clinical documents both get parsed by the same system, level recommendations come with traceable in-line citations rather than black-box scores, and the workflow integrates with the same admissions infrastructure that handles screening and referral routing.
+- body: What's changing is what AI removes: the manual contract-interpretation and clinical-packaging work that creates both the underleveling gap and the submission lag. The clinical and operational decisions still belong to people. The hours of document-handling and rubric-matching that used to sit in front of those decisions don't.
+- **h2:** How does exacare ai handle prior authorization?
+- body: exacare ai's Managed Care Agent (MCA) launched in January 2026, purpose-built for SNF prior authorization across managed Medicare and commercial payers. The capabilities below describe what's live today.
+- • Contract ingestion and interpretation: Level-based and PDPM-based payer contracts get parsed once and applied consistently across submissions.
+- • Clinical document extraction: Relevant clinical detail gets pulled from the referral packet with in-line citations back to source documents.
+- • Level-of-care recommendation: The system recommends the highest defensible level under the payer's criteria, with the supporting clinical evidence attached.
+- • Auto-submission: Submissions route directly to supported payer portals: Availity, H&C/NaviHealth, and WellMed.
+- • Consolidated authorization tracking: All open authorizations sit in one view with status, requested vs. approved levels, and history per patient.
+- • PointClickCare integration: Authorization details push into PCC alongside the rest of the admission record.
+- body: In the last 14 days alone, there have been 1,741 prior authorizations submitted. What the exacare ai team has learned from this data: prior-auth prep time drops from approximately one hour to approximately five minutes. The clinical justification carries in-line citations rather than free-form prose, which strengthens the case at submission and shortens peer-to-peer review when challenged.
+- body: Ignite Medical Resorts offers an early example of the operational lift. Across 32 facilities, the team reduced managed care processing time by 52%, moving from 22 minutes to roughly 10 minutes from referral receipt to prior authorization submission. For an operator where managed care accounts for about 60% of patient volume, that speed matters, especially when paired with more accurate level-of-care requests upfront.
+- body: Exacare ai’s Managed Care Agent is now also expanding into concurrent review, bringing re-authorization workflows, upcoming review tracking, updated clinical justification, and payer follow-up into the same system teams use for pre-auth submission. Expanded payer coverage, DME and medication carve-out support, and hospital-initiated pre-auth pickup are also coming soon.
+- body: To see how exacare ai's Managed Care Agent handles prior authorization end-to-end, request a demo.
+- **h2:** FAQs
+- **h3:** Does Medicare require prior authorization for skilled nursing facility stays?
+- **h3:** Does Medicare Advantage require prior authorization for SNF admissions?
+- **h3:** How long does prior authorization for an SNF take?
+- **h3:** What documents are required for SNF prior authorization?
+- **h3:** What happens if prior authorization for an SNF stay is denied?
+- **h3:** How are SNF prior authorization levels determined?
+- **h3:** How is AI being used in prior authorization for SNFs?
+- **h3:** How does exacare ai's Managed Care Agent handle prior authorization?
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Sarah Scott
+- body: Sarah Scott brings a strong background in long-term care business development and clinical reimbursement. She applies a strategic, data-informed approach to strengthening provider relationships and navigating complex payer environments. With deep expertise in reimbursement, she focuses on aligning clinical outcomes with financial performance.
+- body: Sarah holds a Bachelor of Science in Healthcare Management Systems as well as an MBA and integrates business strategy with operational insight to drive growth, enhance care transitions, and support sustainable success across post-acute care settings.
+- body: Linkedin
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- **card link:** `Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Man` → /resources/blog/introducing-concurrent-reviews
+- **h3:** Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent
+- text: August 13, 2026
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/introducing-esign-digital-signatures
+
+**Title:** Introducing eSign: Digital Signatures Built Into exacare ai | exacare ai
+**Meta description:** eSign helps skilled nursing facilities send, sign, track, and store admission documents directly within exacare ai.
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Introducing eSign: Digital Signatures Built Into exacare ai
+- **h1:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: Elliot Hall
+- text: June 22, 2026
+- text: 10 min read
+- text: In this article
+- **CTA:** `From referral to signed document, without leaving exacare ai` → #from-referral-to-signed-document-without-leaving-exacare-ai
+- **CTA:** `TL;DR` → #tl-dr
+- **CTA:** `How it works` → #how-it-works
+- **CTA:** `What customers are saying` → #what-customers-are-saying
+- **CTA:** `How to get started with eSign` → #how-to-get-started-with-esign
+- **CTA:** `Related reading` → #related-reading
+- **CTA:** `Book a demo` → /contact
+- **h2:** From referral to signed document, without leaving exacare ai
+- body: A resident may be ready for admission, but the documents still have to catch up. For many skilled nursing facilities, that last step still means gathering the right forms, filling in resident and facility details, sending documents to the right family member or representative, tracking signatures, and making sure completed paperwork ends up in the right place.
+- body: For many teams, that process still involves printing, scanning, emailing, uploading, and switching between systems, adding delays at the exact moment admissions teams are trying to keep care moving forward.
+- body: That’s why we created eSign, a new digital signature feature built directly into exacare ai. With eSign, facilities can prepare, send, sign, track, and store admission documents in one place, helping teams reduce paperwork delays and keep the admission process moving.
+- **h2:** TL;DR
+- body: eSign helps facilities auto-populate admission documents, collect signatures in person or by email, track every request, and upload completed paperwork to PCC or MatrixCare, so admissions teams can spend less time chasing signatures and more time moving care forward.
+- **h2:** How it works
+- body: Admission packets are rarely one-size-fits-all. A single admissions agreement may need signatures from a resident, a facility representative, a responsible party, a power of attorney, or another representative. Some documents need full signatures. Others may only require initials, checkboxes, dates, or sender-completed fields.
+- body: eSign was designed around that reality, and built directly into the exacare ai workflow teams already use to manage referrals and admissions. That means facilities can add digital signatures without buying, implementing, and managing another separate tool.
+- **h4:** Create reusable templates
+- body: Templates can support up to four signer roles per document, making it easier to manage admission packets that require multiple signers. Admins can create reusable templates for common admission agreements, intake forms, consent forms, supplemental agreements, and other documents.
+- body: During setup, teams can define who needs to sign, place fields on the document, and choose which information should be filled automatically from exacare ai.
+- body: Templates can include several types of fields, depending on what the document requires:
+- • Signature and initials fields for residents, representatives, facility staff, or other signers
+- • Text fields, checkboxes, radio buttons and date fields for signer-completed information
+- • Auto-populated fields for details already available in exacare ai, such as resident, facility, insurance, or source information
+- • Sender fields for information the operator needs to review or complete before sending
+- body: Once a template is published, it can be used across the organization for future admissions. Teams do not have to rebuild the same agreement or consent form every time a new resident is ready to admit.
+- **h4:** Auto-populate fields from the referral
+- body: When a new signing request is created, eSign can pull in information already available from the referral, including resident details, facility information, insurance information, and other key fields. Operators can review the document, update sender fields as needed, and finalize the request before sending it out.
+- body: Because eSign uses information already in exacare ai, teams can go from referral to signature without re-entering details, jumping between systems, or tracking requests somewhere else.
+- **h4:** Collect signatures remotely or in person
+- body: Not every signing situation looks the same. Sometimes a resident or family member is available in person during admission. Other times, a responsible party needs to review and sign remotely.
+- body: With eSign, operators can send a secure signing link by email or open the signing experience on their own device for in-person signing. Each signer completes only the fields assigned to them, whether that means adding a signature, initials, date, checkbox, or other required information.
+- body: That flexibility helps teams collect signatures in the way that fits the moment, without creating a separate process for remote and on-site signers.
+- **h4:** Track every request in one place
+- body: Sending a request is only the first step. Admissions teams also need to know where each document stands.
+- body: Has the resident signed? Is a representative still pending? Does the facility signature still need to be completed? Has the finished document been uploaded to the EHR?
+- body: The eSign grid gives teams a centralized view of signing activity across the organization. Teams can see request status, signer progress, document type, facility, and recent activity. They can also filter requests, expand rows to see individual signer status, send reminders, cancel requests, download completed documents, or push paperwork to the EHR.
+- body: For multi-signer documents, teams can see progress at a glance; for example, whether two out of three signers have completed their portion. That visibility helps admissions teams manage open requests without relying on spreadsheets, inbox searches, or manual follow-up notes.
+- **h4:** Keep a complete audit trail
+- body: Once a document is signed, teams need a clear record of what happened and when.
+- body: Every completed eSign document includes a full audit trail. Actions such as creation, sending, signing, and completion are recorded with timestamps. Signature events capture signer details, email, IP address, and completion time.
+- body: That audit trail is appended to the completed PDF, giving facilities a clear record of the document’s history from request creation through final signature.
+- body: For operators, that means fewer open questions about who completed each step, and when.
+- **h4:** Upload completed documents to PCC or MatrixCare
+- body: The process doesn’t end once a signature is complete. Signed documents still need to be stored, referenced, and uploaded to the appropriate system of record.
+- body: With eSign, completed paperwork can be uploaded to PCC or MatrixCare, helping reduce duplicate work and keeping admission documents connected to the resident record. Teams can easily push documents, and when the referral is already connected to the EHR, completed documents can be routed to the configured destination.
+- body: The result is a cleaner path from referral, to signature, to completed document in the EHR.
+- **h2:** What customers are saying
+- body: Customer feedback has focused on exactly what eSign is meant to improve: fewer clicks, less context-switching, and a signing experience that feels easy for admissions teams to use.
+- body: As one customer shared about the eSign experience:
+- **quote:** “The app and workflow the exacare ai team designed is incredibly streamlined and user-friendly, which is exactly what we value: fewer clicks. Exacare is truly solving all our problems, and it’s exciting to see!” – Referral Programs Specialist at Creative Solutions in Healthcare
+- body: That feedback gets at the core of eSign: fewer clicks, fewer handoffs, and a clearer path from admission documents to signed paperwork in the EHR.
+- **h2:** How to get started with eSign
+- body: If you’re an existing exacare ai customer, your Operations lead can walk you through how you can get started with eSign.
+- body: Because each organization’s admission documents are different, onboarding includes support to configure the templates and workflows your team needs.
+- body: If you’re not yet a customer and want to learn how exacare ai can help your admissions team manage more of the referral-to-admission process in one place, contact our sales team.
+- body: With eSign, digital signatures become one more part of the admissions process your team can manage directly within exacare ai, helping teams move faster, reduce manual follow-up, and keep care moving forward.
+- **h2:** Related reading
+- body: Want to see how SNF teams are using exacare ai to reduce manual admissions work? Read how St. Croix County turned stacks of referral paperwork into a faster, AI-supported admissions workflow, and why digitizing more of the admissions process, including eSign, is a natural next step.
+- body: You can also explore how Ignite Medical Resorts centralized admissions and managed care with exacare ai, or how Pearl Healthcare improved admissions efficiency and census performance.
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Elliot Hall, VP, Product
+- body: Elliot Hall is a product and operations leader currently serving as VP of Product at exacare ai. He previously served as Chief of Staff, where he worked across business operations, product, and customer success. Before joining exacare, Elliot was a Consultant at Bain & Company, advising clients across private equity, banking, insurance, mining, NGOs, and other sectors. Elliot holds an MBA from Northwestern University’s Kellogg School of Management, where he majored in Entrepreneurship and Finance, and an Honours Bachelor of Commerce from Queen's University. His background combines strategy consulting, startup leadership, product development, and company-building in high-growth environments.
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- text: 20 min read
+- **card link:** `Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Man` → /resources/blog/introducing-concurrent-reviews
+- **h3:** Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent
+- text: August 13, 2026
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/rebuilding-the-system-behind-post-acute-care
+
+**Title:** Rebuilding the System Behind Post-Acute Care | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/Rebuilding the System Behind Post-Acute Care
+- **h1:** Rebuilding the System Behind Post-Acute Care
+- text: Laird Russell
+- text: May 6, 2026
+- text: 11 min read
+- text: In this article
+- **CTA:** `The Problem We’ve Been Accepting` → #the-problem-we-ve-been-accepting
+- **CTA:** `Where the System Breaks Down` → #where-the-system-breaks-down
+- **CTA:** `When It Became Personal` → #when-it-became-personal
+- **CTA:** `Why Software Has Fallen Short and What Has Changed` → #why-software-has-fallen-short-and-what-has-changed
+- **CTA:** `Building the Infrastructure to Keep Care Moving Forward` → #building-the-infrastructure-to-keep-care-moving-forward
+- **CTA:** `What the Future Should Look Like` → #what-the-future-should-look-like
+- **CTA:** `What We Are Building` → #what-we-are-building
+- **CTA:** `Book a demo` → /contact
+- **h2:** The Problem We’ve Been Accepting
+- body: Post-acute care plays a critical role in the healthcare journey, yet it remains one of the least coordinated parts of the system. Patients often move between hospitals, skilled nursing facilities, home health providers, and other care settings during periods when continuity and clarity matter most. Each transition depends on information being accurate, complete, and accessible. It also depends on teams being aligned in how they interpret and act on that information. In theory, the system should support that level of coordination. In reality, it rarely does.
+- body: Post-acute care has operated across a fragmented landscape of disconnected tools and manual processes. As patients move through the system, information is often delayed, incomplete, or lost altogether. Decisions are made under time pressure without full context, and critical work can slip between systems that were never designed to communicate with one another. Over time, these breakdowns accumulate, resulting in slower care, increased operational strain, and outcomes that fall short of what both patients and providers expect.
+- body: What makes this especially challenging is that these issues are not isolated. They are not the result of a single broken workflow or a single missing tool. They are the product of a system that was never built to function as a cohesive unit. For years, organizations have adapted around these limitations, but adaptation has its limits. At a certain point, the underlying structure itself needs to change.
+- **h2:** Where the System Breaks Down
+- body: When you look more closely at how post-acute care functions on a daily basis, the gaps become more tangible. Most organizations rely on multiple systems that serve specific purposes but do not integrate effectively with one another. As a result, teams are required to navigate between platforms, manually pulling together the information they need to make decisions and carry out their work. This introduces friction at every stage of the process.
+- body: Admissions teams, for example, often spend a significant amount of time tracking down incomplete or inconsistent information before they can make a decision. Clinicians may not have full visibility into a patient’s history as they move between settings, which can impact both the speed and quality of care. Administrative staff frequently find themselves reconciling data across systems, repeating work that has already been done elsewhere.
+- body: These inefficiencies are not just operational inconveniences. They create real instability in how care is delivered. Decisions are made with partial information, transitions become points of risk, and teams are forced to compensate for gaps that should not exist in the first place. Over time, this leads to increased workload, higher levels of stress, and a growing sense that the system is working against the people who depend on it most.
+- **h2:** When It Became Personal
+- body: For me, this problem became real long before I started working on it professionally.
+- body: About eight years ago, I experienced a traumatic brain injury that resulted in nearly four years of navigating the healthcare system as a patient. That period gave me a perspective that is difficult to gain from the outside. I saw firsthand how much care and effort goes into delivering healthcare, and how deeply committed the people within the system are to improving outcomes. Over those four years, I saw countless doctors and medical staff, and nearly every visit began with the same intake questions. Reconstructing the full picture each time, including what had happened, what had been tried, and what needed to carry forward, was exhausting yet necessary to avoid missing critical details and to give myself the best chance at appropriate care. At one point, I underwent an intensive two-month course of repeated injections and medications that, in hindsight, should never have been initiated if earlier details about my symptoms had been properly understood and carried forward.
+- body: It was clear that the issue was not a lack of effort or expertise. It was a lack of infrastructure to support that effort in a consistent and reliable way.
+- body: When I eventually recovered, I felt a strong sense that the system could be better, and that it needed to be better. Not by asking more from the people working within it, but by building intelligent, connected tools and infrastructure that actually support them in doing their jobs.
+- body: At the same time, it became clear that some of the most important parts of healthcare are also the most underserved from a technology perspective. A lot of top technical talent has gravitated toward more visible, faster-moving spaces. Meanwhile, some of the most operationally complex parts of healthcare, like post-acute care, have been left with systems that haven’t meaningfully evolved.
+- body: That gap matters because these are the environments where better infrastructure can have the most direct impact on both care teams and patient outcomes.
+- **h2:** Why Software Has Fallen Short and What Has Changed
+- body: Healthcare has not ignored these challenges. Over the years, significant investment has gone into building software to support post-acute care. However, much of that software was developed in a different context, with different priorities. Legacy systems were primarily designed around compliance, billing, and documentation. While those functions are essential, they do not address the dynamic and operational nature of care delivery.
+- body: As a result, many systems act as repositories of information rather than enablers of action. They require users to search for and interpret data, rather than helping them move work forward. More recent tools have improved visibility, but often stop short of changing execution. They provide insights into what is happening, but they do not fundamentally alter how decisions are made or how workflows are coordinated.
+- body: The core issue is that there has been a persistent gap between information and action. Teams may have more data than ever before, but that data does not always translate into better or faster decisions. In many cases, it simply adds another layer of complexity.
+- body: What has changed in recent years is the capability of the technology itself. Advances in AI make it possible to build systems that go beyond storing and displaying information. These systems can organize data, surface relevant context, and support decision-making in real time. They can operate alongside teams, rather than sitting outside of their workflows.
+- body: But it is also important to be clear about what that actually means in practice.
+- body: Not all AI is created equal. Building something that is truly useful in a complex environment like healthcare is not as simple as applying a generic model to a set of documents and calling it intelligent. Those approaches can produce outputs, but they often fall short when it comes to reliability, context, and real-world usability.
+- body: In post-acute care, the bar is much higher. Decisions have real consequences, workflows are deeply interconnected, and the margin for error is small. Delivering meaningful results requires more than access to modern models. It requires deep context about how care is delivered, thoughtful system design, and a level of engineering that goes well beyond surface-level implementations.
+- body: That is what separates systems that generate noise from systems that actually create value.
+- body: In practice, this means building AI that is tightly integrated into workflows, understands the nuances of the environment it operates in, and can be trusted by the people using it. It also means assembling teams that can handle that level of complexity. This is not something that can be solved by layering AI on top of existing systems or by making incremental upgrades to legacy platforms.
+- body: The opportunity is real, but so is the difficulty. And in healthcare, getting it right is the only option.
+- **h2:** Building the Infrastructure to Keep Care Moving Forward
+- body: At exacare ai, we initially focused on admissions within skilled nursing facilities. Admissions represents a critical entry point into post-acute care, where speed and coordination have an immediate impact on outcomes. However, it quickly became clear that improving admissions alone would not address the broader challenges we were seeing experienced by operators and patients.
+- body: The underlying issue extended across the entire care journey.
+- body: That realization led us to shift our focus from solving individual workflows to building a more comprehensive foundation. Today, we are focused on developing intelligent infrastructure for post-acute care. This means creating an AI-native platform that connects data, workflows, teams, and decisions across care settings.
+- body: We are moving beyond visibility and toward action. Instead of requiring teams to manually coordinate across systems, the platform helps bring together the information they need and supports them in acting on it. This reduces administrative burden, improves coordination, and allows teams to focus more directly on patient care.
+- body: When this approach works, the impact is both measurable and meaningful. Decisions can be made more quickly, workflows become more streamlined, and teams spend less time managing systems and more time delivering care. Perhaps most importantly, it creates an environment where teams feel more confident in their ability to operate effectively.
+- body: A clear example of this is in admissions. Traditionally, teams have to review incoming referrals manually, gather information from multiple sources, and make a decision under time pressure. With the right infrastructure in place, that process can be orchestrated automatically. The system can evaluate the referral against a complex set of clinical, operational, and financial criteria, and in many cases, make the decision for the team.
+- body: This is what it means to move from a system of record to a system of action. Instead of simply presenting information, the system helps execute the work. It takes something that is fragmented and time-sensitive, and turns it into a coordinated, intelligent process.
+- body: At its core, the objective is simple. It is to help teams keep care moving forward.
+- **h2:** What the Future Should Look Like
+- body: The future of post-acute care should be coordinated, continuous, and responsive to the needs of both patients and providers. Information should move seamlessly with the patient, and decisions should be made with full context and clarity. In such a system, transitions between care settings would no longer be points of failure. Instead, they would become moments of continuity, supported by shared data and aligned workflows. Teams would operate with a common understanding of each patient’s situation, reducing redundant work and minimizing the risk of error.
+- body: Achieving this future requires more than incremental improvements. It requires a shift in how we think about the role of software in healthcare. Rather than serving as a passive layer, software needs to become an active part of the system, enabling coordination, supporting decision-making, and continuously improving based on the data it processes.
+- body: It also requires bringing top-tier technical talent directly into these environments.
+- body: At exacare ai, this has been a very deliberate choice. We are building a team who could be working (or, have worked) at companies like Amazon, Google, or OpenAI, and are choosing to work on post-acute care instead. Not because it is easier, but because it is harder. Not because it is more visible, but because it is more important.
+- body: This is not a space where you can apply generic solutions and expect meaningful results. The complexity of post-acute care demands a level of engineering, context, and execution that goes well beyond surface-level AI or incremental product improvements. It requires people who are comfortable working inside messy, real-world systems and turning that complexity into something usable and reliable.
+- body: That is the bar we are setting.
+- body: Because ultimately, the future of healthcare will not be defined by access to technology alone. It will be defined by the quality of the people building it, and their willingness to take on problems that are difficult, nuanced, and deeply consequential.
+- body: Ultimately, this is about building a system that learns and evolves over time. Each patient interaction contributes to a better understanding of what works, and that knowledge can be applied to improve outcomes for the next patient. It is a vision of post-acute care that is more connected, more efficient, and more capable of delivering the level of care that patients deserve.
+- body: That is the direction we are working toward. And it is a problem worth solving.
+- **h2:** What We Are Building
+- body: The challenges across post-acute care are not abstract. They show up in very specific, operational ways across the care journey, and that is where we are focused.
+- body: We are building intelligent infrastructure for post-acute care that operates directly inside the workflows providers rely on. That means going deep into the parts of the system where coordination is hardest and where the consequences of getting it wrong are the highest.
+- body: One of the clearest examples is the connection between skilled nursing facilities and home health. A patient is leaving a structured care environment and moving into a more independent setting, often with ongoing clinical needs. In theory, that transition should be seamless. In practice, it is anything but. It needs a system that carries context across settings and structures information in a usable way.
+- body: The same is true for managed care and prior authorization. For providers, authorization is not just an administrative task. It determines whether a patient can be admitted, how quickly that happens, and how care is ultimately delivered. Today, this process is still largely manual, with teams navigating complex and constantly changing payor requirements under time pressure.
+- body: What we are building is a system that can orchestrate these workflows end to end. It brings together clinical context, operational constraints, and payor logic, and uses that to support or automate decision-making.
+- body: This is where a system of action becomes real. Instead of simply presenting information, the system can evaluate a referral, apply a complex rule set, and in many cases make the decision for the team. It turns fragmented, time-sensitive work into a coordinated and reliable process.
+- body: That is the focus. Not just connecting systems, but connecting decisions across the care journey. Because ultimately, the goal is to give providers the clarity and support they need to keep care moving forward.
+- body: That is the work we are committed to at exacare ai.
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Laird Russell, CEO
+- body: Laird Russell is the Co-Founder and CEO of exacare ai, a leading AI platform transforming post-acute care operations across the United States. Under his leadership, exacare ai has raised over $36 million from top-tier investors and serves more than 2,000 facilities and agencies.
+- body: Laird’s path into healthcare was deeply personal. A career-ending head injury in his youth led to years spent navigating the healthcare system as a patient, shaping his perspective on both its challenges and its potential for transformation. That experience continues to drive his mission to fundamentally improve how care is delivered and managed.
+- body: Prior to founding exacare ai, Laird spent several years focused on building and refining healthcare products, following earlier experience at Bain & Company and at Goldman Sachs in healthcare investment banking.
+- body: At exacare ai, Laird is focused on reimagining post-acute care through AI, delivering not incremental improvements, but a complete rewrite of how operators and care teams work.
+- body: Linkedin
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Kn` → /resources/blog/ai-in-post-acute-care
+- **h3:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: April 2, 2026
+- text: 16 min read
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- text: 20 min read
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/blog/ai-in-post-acute-care
+
+**Title:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Blog/AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- **h1:** AI in Post-Acute Care: What’s Working, What’s Not, and What Operators Need to Know
+- text: Sarah Scott
+- text: April 2, 2026
+- text: 16 min read
+- text: In this article
+- **CTA:** `TL;DR` → #tl-dr
+- **CTA:** `Why post-acute care is different (and why most AI conversations miss the point)` → #why-post-acute-care-is-different-and-why-most-ai-conversations-miss-the-point
+- **CTA:** `Where AI is delivering measurable results in post-acute care today` → #where-ai-is-delivering-measurable-results-in-post-acute-care-today
+- **CTA:** `Where AI in post-acute care is headed, and what to watch for` → #where-ai-in-post-acute-care-is-headed-and-what-to-watch-for
+- **CTA:** `How to evaluate AI for your post-acute organization` → #how-to-evaluate-ai-for-your-post-acute-organization
+- **CTA:** `The operators who move first will define the standard` → #the-operators-who-move-first-will-define-the-standard
+- **CTA:** `Book a demo` → /contact
+- **h2:** TL;DR
+- • AI in post-acute care is solving operational problems first (referral intake, insurance verification, and portfolio-level reporting), not clinical ones. The facilities that screen and respond to referrals fastest win the most admits, and AI compresses what was a 40+ minute manual review into minutes.
+- • The results are already measurable. One four-facility operator reported an estimated $800K in additional billable revenue within 60 days. A 50-facility operator saw a 45% reduction in review time and 2x intake capacity without adding headcount. Pearl Healthcare, a 14-facility operator, saw a 43% census increase in their second quarter after switching to AI-powered intake.
+- • The biggest unlock for multi-facility operators isn't speed, it's centralization and structured data. AI-powered intake captures referral volume, decline reasons, response times, conversion rates, and payer mix across every building, turning intake from a reactive function into a strategic one.
+- body: If you work in post-acute care, you've heard the pitch: AI is going to transform healthcare. And if you've been in this industry long enough, you've probably developed a healthy immunity to the latest technology that's going to save the day.
+- body: Indeed, most of the AI conversation in healthcare is devoted to acute care. AI in post-acute care barely registers. And when it does, the coverage tends to be vague: AI will "personalize treatment" and "optimize resource allocation." That's dramatically unhelpful for someone running admissions across 12 skilled nursing facilities with a team that's already stretched thin.
+- body: Meanwhile, the pressure your team actually feels every day looks nothing like the headlines:
+- • Staffing shortages aren't theoretical; they're the reason your intake coordinator is reviewing 40 referrals a day while toggling between four different portals
+- • Margins are tight enough that one admissions mistake can wipe out a month of gains
+- • The systems that are supposed to hold everything together (referral portals, EHRs, fax machines, email threads) don't talk to each other
+- body: These are the real problems AI needs to solve in post-acute care.
+- **h2:** Why post-acute care is different (and why most AI conversations miss the point)
+- body: Post-acute care is fundamentally an operational coordination problem. The challenge is how do you move a patient from a hospital referral to the right facility, with the right clinical fit, the right insurance coverage, and the right documentation, quickly enough to win the referral and accurately enough to protect your organization and deliver improved patient outcomes?
+- body: At most facilities, that process still looks like this:
+- • A referral comes in through one of several portals (or by fax, or by email)
+- • An intake team member opens a clinical packet (often 100 pages or more) and starts the manual review
+- • They check diagnoses against facility capabilities, looking for clinical red flags, verifying insurance eligibility, running sex offender checks, cross-referencing medication lists, and assessing whether the facility can actually serve this patient.
+- body: On a good day, that takes roughly 40 minutes. On a busy day, it takes longer, or it doesn't happen at all, and the referral goes to a competitor. But that timeline is the single biggest driver of census growth or census loss. Put directly: the facility that says yes fastest, wins.
+- body: And here’s where the challenge balloons: multiply that process across 10, 20, or 50+ facilities. Then add:
+- • The fact that referrals might be going directly to individual buildings instead of through a central intake team
+- • Inconsistent human analysis; one admissions director applies different criteria than another
+- • The reality that when central intake approves a patient and sends the information to a facility, the facility often re-reviews the entire packet from scratch because no clinical summary was passed along
+- body: This is the actual problem that AI needs to fix first: the core, unglamorous, high-volume work of getting the right patients into the right facilities without burning out your team or losing revenue to slower decisions.
+- **h2:** Where AI is delivering measurable results in post-acute care today
+- body: The good news: AI tools (including ExaCare AI) already solve specific, high-value problems in post-acute operations. One four-facility operator reported an estimated $800K in additional billable revenue within 60 days of implementation. Here are three areas where the results are real:
+- **h3:** 1. Referral intake, admissions screening, and centralized referral management
+- body: AI-powered admissions screening uses natural language processing to ingest the full referral packet, reading and extracting the financial information, clinical data and patient history that matters, and applying facility-specific admission rules through a purpose-built AI model to produce a structured summary. What used to take a skilled intake coordinator 40+ minutes of manual review can be compressed to minutes.
+- body: But speed is only part of the story: the bigger unlock, especially for multi-facility operators, is consistency and centralization.
+- text: Without AI With ExaCare AI Intake team manually reviews 100+ page referral packets, taking 40+ minutes per referral AI reads the full packet in minutes, extracts clinical and financial details, and applies your facility's admission rules Referrals arrive through multiple portals, fax, and email. Some bypass central intake entirely All referrals land in one system regardless of source, giving central intake full visibility Each facility may apply different criteria to the same type of referral Every referral is evaluated against that building's specific admission rules, applied consistently and systematically every time When central intake approves a patient, the facility re-reviews the packet from scratch Facilities receive a structured clinical summary with the recommendation, eliminating duplicate work
+- body: Consider what happened at a 50-facility post-acute operator. Before adopting ExaCare AI’s AI-powered intake, their referral process was, in their VP of Growth's words, "the wild west." Referrals arrived through multiple portals and sometimes went directly to individual buildings, bypassing central intake entirely. Up to 20% of referral volume had no centralized visibility. Each review took 40+ minutes, and when central intake passed a patient to a facility, the building would start the same manual review process over again from scratch.
+- body: After implementing ExaCare AI’s AI-powered admissions system as the operating system for centralized intake, this organization saw:
+- • 45% reduction in average referral review time, with 89% of referrals reviewed in under 22 minutes
+- • 60% increase in monthly referral volume, not because more referrals existed, but because centralizing all referrals into one system meant they were finally capturing and tracking the full universe
+- • 2x intake capacity for their central team, without adding headcount
+- body: The Director of Central Intake put it simply: the system took subjective feelings out of the referral decision and turned it into a consistent matrix. Every referral, across all 50 buildings, evaluated against the proper criteria, at the same standard.
+- **h3:** 2. Insurance verification, reimbursement accuracy, and acuity leveling
+- body: At the most basic level, AI automates insurance verification:
+- • Checking coverage
+- • Confirming co-pay days
+- • Determining SNF eligibility before a patient is admitted
+- body: The manual alternative (phone calls to insurers, toggling between payer portals, relying on intake staff or healthcare professionals to catch financial red flags buried in dense documentation) is the kind of work that generates expensive mistakes when your team is handling 30 verifications a day and the phone hold times alone eat half the morning.
+- body: Insurance verification is the floor. The even bigger financial opportunity is in what happens next: pre-authorization and acuity leveling. Here's the problem that solves: when a skilled nursing facility admits a patient under a Managed Medicare or commercial insurance plan, the facility needs to secure authorization at the right reimbursement level. In practice, the process of interpreting payer contracts, pulling the right clinical documentation, and justifying the appropriate level is manual, time-consuming, and often results in facilities getting authorized at a lower level than the patient's acuity warrants.
+- body: That's money left on the table with every admit.
+- body: AI is now being applied to this workflow directly: ingesting payer contracts and referral documents, analyzing the clinical documentation to determine the appropriate level of care, and generating authorization requests with in-line clinical citations to support the recommended level.
+- text: Without AI With ExaCare AI Staff call insurers, toggle between payer portals, and manually verify eligibility, often under time pressure with 30+ verifications a day Coverage, co-pay days, and SNF eligibility are checked automatically before admission Pre-auth prep requires an hour of pulling clinical documentation, interpreting payer contracts, and assembling justification, per patient AI ingests contracts and referral documents, determines appropriate acuity level, and generates authorization requests with in-line clinical citations Facilities frequently get authorized at lower reimbursement levels than the patient's acuity warrants Early deployments show higher reimbursement on 40% of managed care days vs. 11% baseline, an estimated $385K per facility annually MDS coordinators and case managers spend hours on paperwork instead of patient care Pre-auth prep drops from ~1 hour to minutes, freeing clinical staff for direct care
+- body: The time savings compound the financial impact. Pre-authorization prep that previously took clinical staff an hour per patient can be reduced to minutes, freeing MDS coordinators and case managers to focus on direct patient care rather than document assembly and contract interpretation.
+- body: For operators navigating increasingly complex payer mixes (especially those with growing Medicare Advantage populations), automated verification and acuity leveling isn't a nice-to-have, it's a revenue protection function.
+- **h3:** 3. Data, AI, and portfolio-level intelligence
+- body: I've watched operators sit in quarterly reviews trying to explain why census dipped, armed with nothing but gut feel and a spreadsheet someone pulled together with data from numerous platforms. When your referral data is structured and centralized, those conversations change completely. You can see exactly where referrals are stalling, which buildings are leaving admits on the table, and whether your payer mix is shifting under your feet.
+- body: This matters because the questions that drive growth in a multi-facility organization aren't about individual referrals. There are questions like:
+- • Why are we declining referrals at Building 7 at twice the rate of Building 12? Is it a clinical capability gap, a staffing issue, or an overly conservative admissions director?
+- • Which hospitals are sending us the most referrals, and what's our win rate from each source?
+- • Is our payer mix shifting? Are we seeing more Managed Medicare and less traditional Medicare, and what does that mean for revenue?
+- • Where are we slow to respond, and is that costing us admits?
+- body: These are strategic questions. Without structured data, answering them requires manual audits, spreadsheet exercises, and guesswork. With AI-powered intake generating structured data on every referral, the answers are available in real time.
+- text: Without AI With ExaCare AI No record of why referrals were declined, how long response took, or what payer mix looks like across buildings Every referral generates structured data: decline reasons, response times, conversion rates, payer mix, and source performance Leadership relies on gut feel and manually assembled spreadsheets for quarterly reviews Real-time dashboards show exactly where referrals are stalling, which buildings are underperforming, and how payer mix is shifting No way to compare performance across facilities on the same metrics Portfolio-wide visibility lets you benchmark Building 7 against Building 12 on the same criteria Intake is a reactive function: Process referrals as fast as you can Intake becomes a strategic function: referral data informs capacity planning, service line expansion, and hospital relationship management
+- body: This is the shift from reactive intake ("process referrals as fast as you can") to strategic intake: Using referral data to inform capacity planning, service line expansion, payer strategy, and hospital relationship management.
+- **h3:** Making it real: Pearl Healthcare
+- body: Pearl Healthcare, a 14-facility operator in the Chicago area and ExaCare AI customer since April 2025, runs a decentralized model. Each building has its own admissions director, with regional oversight from leadership. Their previous CRM was unreliable. System outages, broken referral platform integrations, and reporting accuracy that leadership couldn't trust. Referral communication was buried in emails across 14 buildings, and regional directors had no consistent way to see what was happening at the facility level. After switching to an AI-powered intake system, Pearl saw a 43% increase in census in their second quarter, which leadership attributed directly to operational efficiency gains (not marketing changes or new staff). Their referral-to-admit win rate increased 2.6x, and 76% of referrals now have a first review in under 20 minutes, up from 62% before. What Pearl's VP of Business Development noticed most wasn't the speed, though. It was that her admissions directors were happier. She got time back for strategic work, like market development, C-suite meetings, and getting out in the field. The system freed leadership from “managing the system”.
+- **h2:** Where AI in post-acute care is headed, and what to watch for
+- body: The results in intake, financial screening, and portfolio reporting are already there for the taking. What we’re pushing towards now is next level: AI that doesn't just support the admissions decision, but extends across the full patient workflow.
+- **h3:** AI workflows that extend beyond the intake decision
+- body: The most common ask from operators right now is, "You're already reading the referral packet. Can you do more with it?" The answer is increasingly yes. The next step for ExaCare AI is AI that takes the clinical and financial information it extracts at intake and routes it to downstream teams automatically.
+- body: The result: the data your intake team already captured at admission starts doing work downstream instead of sitting in one system while the rest of the building starts from scratch.
+- **h3:** Real-time bed management and capacity planning
+- body: Connecting admissions intelligence with live census data is the next operational unlock. The question isn't just "should we accept this patient?" It's "where should we place them, given current occupancy, staffing levels, and clinical capabilities across the portfolio?"
+- body: Bed board functionality that links directly to the admissions system is beginning to reach the market, giving operators real-time visibility into placement decisions they've historically managed with spreadsheets and phone calls.
+- **h3:** Home health intake
+- body: The home health market faces the same fundamental referral management challenges as skilled nursing: manual review, fragmented portals, speed-to-respond pressure, with the added complexity of EHR integration hurdles.
+- body: Homecare Homebase (HCHB) dominates the home health EHR landscape the way PointClickCare dominates in skilled nursing. Like most deeply embedded EHR systems, HCHB integrations require careful coordination, which has meant AI adoption in home health has moved more slowly than in skilled nursing.
+- body: But the demand is clear: healthcare providers who can respond to referrals in minutes rather than hours win more patients. AI-powered intake is expanding into home health, and as integration coverage broadens, the impact should mirror what we're already seeing in skilled nursing.
+- **h3:** Predictive operational analytics
+- body: Operators who centralize their referral data now are quietly building something most of their competitors don't have: a real picture of what's coming next.
+- body: Not just what happened last quarter, but where census gaps are likely to open, which payer trends are accelerating, and which facilities are going to need support before the numbers show up in a monthly report. That capability isn't widely available yet. But the operators who have structured data flowing through their intake today will be the first ones to use it.
+- **h2:** How to evaluate AI for your post-acute organization
+- body: You probably don't need convincing that AI is becoming table stakes for intake. The harder question is how to pick the right tool when every vendor's demo looks impressive and you've seen enough CRM rollouts go sideways to know that what you're shown in a sales cycle isn't always what you get on the other side. Here's what to look for:
+- • Start with your highest-volume bottleneck, not the most impressive demo: For most multi-facility SNFs, the answer is referral intake. That's where the time savings are largest, the revenue impact is most direct, and the proof points are strongest. Resist the temptation to evaluate AI based on the most futuristic feature. Evaluate it based on what solves your most expensive problem today.
+- • Demand integration depth, not just feature breadth: AI that doesn't connect to your existing referral portals, your EHR, and your team's communication workflows creates another silo. Ask specifically, Which e-referral platforms do you integrate with? Which EHR systems? How do referrals get into the system… automatically, or does my team need to download and upload PDFs? If the answer is manual, the speed advantage disappears. Native EHR integration (whether that's PointClickCare for SNFs or Homecare Homebase for home health agencies) is what determines whether you're live in two weeks or stuck in a custom API project for three months.
+- • Look for real outcomes from real customers: Ask for case studies with numbers like time saved per referral, impact on referral volume, census changes, and revenue impact. Better yet, ask to talk directly to current customers. Any vendor confident in their outcomes should be willing to connect you with operators who are already live.
+- • Evaluate the implementation model, not just the software: Post-acute care teams have limited bandwidth for system changes. I've seen great software die on the vine because the implementation was a two-hour Zoom and a PDF. Your admissions team doesn't have time to figure out a new system while processing 40 referrals a day. Ask how the vendor handles the first two weeks. That's when you'll know whether this is a partnership or a handoff.
+- body: Think about the data from day one: Most operators buy AI for the speed. But its value goes beyond productivity gains. When referrals and patient data live in email threads and PDFs that get reviewed once and filed, there's no record of why you declined, how long you took to respond, or what your payer mix actually looks like across buildings. That data simply wasn't captured. AI-powered intake creates it as a byproduct of doing the work. Six months in, that's what really changes how you run the business.
+- **h2:** The operators who move first will define the standard
+- body: The operators who've already adopted AI for intake aren't wondering if it works anymore. They're posting census numbers their competitors can't explain. They're responding to referrals in minutes while the facility down the road is still toggling between portals. Their leadership teams are making decisions with real data instead of reconstructing last quarter from memory.
+- body: Now, the operators who moved first are compounding their advantage every day: faster response times, stronger hospital relationships, better data, and teams that aren't burning out.
+- body: Post-acute care has waited a long time for technology that actually fits how the work gets done. It's here now, and the organizations adopting this infrastructure today are the ones who'll be setting the standard everyone else has to meet.
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- text: Written by Sarah Scott
+- body: Sarah Scott brings a strong background in long-term care business development and clinical reimbursement. She applies a strategic, data-informed approach to strengthening provider relationships and navigating complex payer environments. With deep expertise in reimbursement, she focuses on aligning clinical outcomes with financial performance.
+- body: Sarah holds a Bachelor of Science in Healthcare Management Systems as well as an MBA and integrates business strategy with operational insight to drive growth, enhance care transitions, and support sustainable success across post-acute care settings.
+- body: Linkedin
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/blog
+- **card link:** `Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals` → /resources/blog/prior-authorization-snf-admissions
+- **h3:** Prior Authorization for SNF Admissions: An Operator's Guide to Faster Approvals and Higher Reimbursement
+- text: June 17, 2026
+- text: 20 min read
+- **card link:** `Introducing eSign: Digital Signatures Built Into exacare ai June 22, 2026 10 min` → /resources/blog/introducing-esign-digital-signatures
+- **h3:** Introducing eSign: Digital Signatures Built Into exacare ai
+- text: June 22, 2026
+- text: 10 min read
+- **card link:** `Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Man` → /resources/blog/introducing-concurrent-reviews
+- **h3:** Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent
+- text: August 13, 2026
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+
+---
+
+## https://www.exacare.com/resources/insights/time-to-accept-benchmark-report
+
+**Title:** The 2026 Time-To-Accept Benchmark Report for Skilled Nursing | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/Insights/The 2026 Time-To-Accept Benchmark Report for Skilled Nursing
+- **h1:** The 2026 Time-To-Accept Benchmark Report for Skilled Nursing
+- text: June 17, 2026
+- **h2:** The new speed of skilled nursing admissions
+- body: Most skilled nursing operators know referral speed matters. Far fewer know where they actually stand.
+- body: The 2026 Time-to-Accept Benchmark Report for Skilled Nursing analyzes 256,719 referrals across 981 facilities to show what “fast” means in today’s admissions market. The report breaks down time-to-accept performance by percentile, shows how response time correlates with win rate, and shows the revenue impact of faster referral decisions.
+- body: Inside the report, you’ll find:
+- • Where facilities stand today across time-to-accept performance tiers
+- • How response time connects to win rate, census growth, and revenue
+- • How the benchmark is changing as referral response times get faster
+- • What top-performing operators do differently to build speed into the admissions workflow
+- body: Use these insights to understand where your organization stands today, and where faster, more consistent referral decisions could create the greatest impact.
+
+---
+
+## https://www.exacare.com/resources/news/exacare-ai-acquires-corecare-pre-admit
+
+**Title:** Exacare ai Acquires CoreCare Pre-Admit | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/News/ExaCare AI Acquires CoreCare Pre-Admit
+- **h1:** ExaCare AI Acquires CoreCare Pre-Admit
+- body: Unifying technology to improve care transitions and operational efficiency for more customers
+- text: April 15, 2026
+- text: 4 min read
+- body: NEW YORK — April 15th, 2026 — Exacare ai, the leading AI platform for post-acute care operations, today announced an agreement to welcome CoreCare Pre-Admit into the exacare ai ecosystem, further advancing its position as the leading platform for AI-powered admissions and reimbursement workflows.
+- body: This partnership allows CoreCare to focus on its core AI-powered revenue integrity platform while solidifying exacare ai as the best-in-class platform for AI-powered admissions and reimbursement workflows. Both organizations are unified by a core belief: that SNF operators deserve better than manual workflows and fragmented data.
+- body: “We have long admired CoreCare’s dedication to the post-acute community, and are honored to be welcoming CoreCare Pre-Admit into our ecosystem. We are committed to providing the AI-driven tooling this community deserves” said Laird Russell, CEO of exacare ai.
+- body: Exacare ai enables skilled nursing facilities to make decisions faster and with greater confidence the moment a referral arrives. The platform ingests unstructured packets, verifies insurance coverage, surfaces clinical deal breakers, highlights risk and readiness signals, standardizes criteria across teams and shifts, and streamlines communication to reduce back and forth. Trusted by 2,000+ facilities, exacare ai helps providers deliver safe, confident placements with less administrative burden and a faster path from referral to admission.
+- body: By welcoming the CoreCare Pre-Admit community, exacare ai provides these facilities with the advanced automation required to navigate this landscape. Both parties are committed to providing a seamless transition with limited operational downtime, maintaining patient care and customer experience as the main priorities throughout the transition.
+- body: “This was a deliberate move to ensure our Pre-Admit customers are well served,” said Dennis Antonelos, CEO of CoreCare. “We’re focused on our core AI-powered revenue integrity platform and executing a clean transition.”
+- body: About exacare ai
+- body: Exacare ai is the leading AI platform for post-acute care operations. The exacare ai platform, which helps providers operate more efficiently and maximize reimbursement, is used across North America to streamline referrals, analyze admissions packets, and manage reimbursement workflows. Exacare's AI-powered capabilities accelerate decision-making, helping care teams respond faster, reduce administrative burden, improve accuracy, and capture more revenue. Exacare ai is a private company with more than 2,000 facilities and agencies as customers, including Ignite Medical Resorts, Pearl Healthcare, and Prestige Care. Learn more at www.exacare.com.
+- body: About CoreCare
+- body: CoreCare is an AI platform for Proactive Revenue Integrity that helps post-acute long-term care operators collect every dollar they earn. The platform unifies eligibility monitoring, census integrity, and state form management into a single system that identifies and resolves issues before they become revenue risks. By combining shared visibility, AI-driven guidance, and automation, CoreCare enables business office, billing, and reimbursement teams to operate with speed, accuracy, and consistency. Trusted by more than 1,200 facilities and many of the nation’s largest operators, CoreCare transforms revenue cycle management from reactive and manual to predictable and scalable. Learn more at www.corecare.ai.
+- body: Contact
+- body: For press inquiries, contact press@exacare.com
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/news
+- **card link:** `Company News Exacare ai Accelerates Momentum With Expanded Capabilities May 6, 2` → /resources/news/exacare-ai-accelerates-momentum
+- • Company News
+- **h3:** Exacare ai Accelerates Momentum With Expanded Capabilities
+- text: May 6, 2026
+- text: 7 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/news/exacare-ai-accelerates-momentum
+
+**Title:** Exacare ai Accelerates Momentum With Expanded Capabilities | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **eyebrow:** Resources/News/Exacare ai Accelerates Momentum With Expanded Capabilities
+- **h1:** Exacare ai Accelerates Momentum With Expanded Capabilities
+- text: May 6, 2026
+- text: 7 min read
+- text: In this article
+- **CTA:** `Expanding Across Care Settings` → #expanding-across-care-settings
+- **CTA:** `Expanding Platform Capabilities` → #expanding-platform-capabilities
+- **CTA:** `Strategic Expansion and Leadership Growth` → #strategic-expansion-and-leadership-growth
+- **CTA:** `Driving Measurable Impact with Leading Operators` → #driving-measurable-impact-with-leading-operators
+- **CTA:** `Investing in Innovation and Industry Leadership` → #investing-in-innovation-and-industry-leadership
+- **CTA:** `Looking Ahead` → #looking-ahead
+- body: NEW YORK — May 6, 2026 — Exacare ai, the leading AI platform for post-acute care operations, today announced a series of milestones underscoring its rapid growth and expanding role across the post-acute care ecosystem. From a strategic acquisition and product innovation to a refreshed brand, the upcoming exacare ai Summit, and recognition from Forbes, the company continues to deepen its commitment to helping teams move care forward by serving more providers across more settings with increasingly intelligent automation.
+- body: Following its Series A funding announcement in late 2025, exacare ai has accelerated adoption in skilled nursing, expanded into new care settings like long-term acute care hospitals, home health, and hospice, and delivered measurable operational and financial outcomes for providers across the United States.
+- body: Significant achievements for exacare ai and its growing community include:
+- • 2,000+ facilities and agencies powered by exacare ai
+- • 3 million patient referrals processed through the platform
+- • 225 million pages of clinical documentation, spanning 23 million documents, analyzed by exacare ai
+- **quote:** “We’re building the platform this industry has been waiting for. From admissions to reimbursement, our focus is clear: help operators save time, operate smarter, and keep care moving forward.” Laird Russell, CEO of exacare ai
+- body: These milestones reflect growing demand for AI-driven solutions that reduce administrative burden while improving speed, accuracy, and financial outcomes.
+- **h2:** Expanding Across Care Settings
+- body: Exacare ai continues to broaden its reach across the post-acute healthcare ecosystem, supporting providers across a growing range of care settings:
+- • Skilled nursing, with adoption across more than 2,000 facilities
+- • Home health and hospice, including leading organizations like Majestic Care
+- • Specialty care settings with high-complexity environments
+- **h2:** Expanding Platform Capabilities
+- body: In parallel, exacare ai is rapidly expanding its platform capabilities to support more workflows across the care continuum:
+- • Managed care workflows, with growing traction among payors and partners like Ignite Medical Resorts and National Health Care Associates
+- • Auto-decisioning, enabling faster, more intelligent admissions decisions at scale
+- • Digital intake and e-signature capabilities, reducing friction, accelerating throughput, and reducing spend on other 3rd party solutions
+- body: These new capabilities are being developed in close partnership with customers, reflecting exacare ai’s commitment to building solutions that address real-world operational challenges.
+- body: “We’ve heard loud and clear from our customers that they’ve been dealing with a proliferation of disconnected, legacy tools,” continued Russell. “Our approach is simple: listen closely, move quickly, and build solutions that solve real operational challenges. That’s the kind of partnership this industry needs.”
+- **h2:** Strategic Expansion and Leadership Growth
+- body: Continuing its momentum, exacare ai acquired CoreCare Pre-Admit, strengthening its position as the leading platform for AI-powered admissions and reimbursement workflows. This addition expands exacare ai’s ability to support providers at the earliest stage of the patient journey, enabling faster, more consistent, and more confident decision-making.
+- body: In parallel, exacare ai continues to expand its advisory board, welcoming industry leaders such as Rick Hoffman, CIO of The Alden Network. As the platform grows across care settings and workflows, exacare ai is deepening its collaboration with experienced operators to help guide product development and ensure new capabilities are grounded in real-world needs.
+- body: Exacare’s leadership team is also gaining industry recognition, including Co-Founder and CTO Ben Willox being named to the prestigious Forbes 30 Under 30 list.
+- **h2:** Driving Measurable Impact with Leading Operators
+- body: Exacare ai’s partnerships with leading providers demonstrate its ability to deliver measurable impact at scale.
+- body: The company’s recent rollout with Creative Solutions in Healthcare highlights its ability to deploy quickly across large, complex organizations. The platform is now live across all 160 of Creative Solutions’ skilled nursing facilities, with expansion underway to 180 locations, marking one of the most significant enterprise rollouts of AI-powered pre-admission technology in post-acute care.
+- body: The impact has been immediate: in the first days following launch, exacare ai processed more than 1,500 referrals, helping teams respond faster, improve coordination with hospital partners, and accelerate patient access to care. After an extensive evaluation process, Creative Solutions selected exacare ai as a trusted partner to modernize pre-admission, setting a new standard for workflows that are faster, more integrated, and more patient-centered.
+- body: Additionally, Ignite Medical Resorts realized significant operational and financial benefits, reporting more than $900,000 in annual savings as a result of implementing exacare ai, alongside meaningful improvements in efficiency and decision-making.
+- body: “Speed, accuracy, and efficiency are essential to winning in a short-term rehabilitation model where admissions are our lifeblood, and exacare ai has fundamentally transformed how we approach both admissions and managed care” said Tim Fields, CEO at Ignite Medical Resorts. “What were once highly manual, fragmented workflows are now streamlined, AI-driven processes that enable our teams to move faster, make more informed decisions, and capture opportunities we would have otherwise missed across our 30+ facilities in seven states.”
+- **quote:** “We’ve seen measurable impact, including reducing referral response times from 30 minutes to just 5 minutes and cutting managed care authorization times from 23 minutes to 11 minutes. Exacare ai has proven to be more than a vendor. They're a true strategic partner.” Tim Fields, CEO of Ignite Medical Resorts
+- **h2:** Investing in Innovation and Industry Leadership
+- body: As part of its continued innovation efforts, exacare ai will host its upcoming exacare ai summit, bringing together leaders across skilled nursing to explore the future of AI and automation, decision intelligence, and operational efficiency.
+- body: Furthermore, exacare ai’s newly refreshed brand reflects its expansion beyond skilled nursing into a broader post-acute care operations platform. The company is now helping more teams in more settings move care forward, breaking down silos, accelerating decisions, and enabling more seamless, connected care delivery.
+- body: This evolution reflects exacare ai’s ambition to build a world-class, category-defining platform for post-acute care; where innovation is not only delivered through the product, but expressed across every part of the brand.
+- **h2:** Looking Ahead
+- body: With a growing customer base, expanding product capabilities, and continued investment in innovation, exacare ai is poised to further extend its reach across post-acute care.
+- body: “We’ve accomplished a lot, but we’re just getting started,” added Russell. “Our mission is to serve more teams, across more settings, with the tools they need to deliver better care.”
+- **h4:** About exacare ai
+- body: Exacare ai is the leading AI platform for post-acute care operations. The exacare ai platform, which helps providers operate more efficiently and maximize reimbursement, is used across the United States to streamline referrals, analyze admissions packets, and manage reimbursement workflows. Exacare's AI-powered capabilities accelerate decision-making, helping care teams respond faster, reduce administrative burden, improve accuracy, and capture more revenue. exacare ai is a private company with more than 2,000 facilities and agencies as customers, including Ignite Medical Resorts, Pearl Healthcare, and Prestige Care. Learn more at www.exacare.com.
+- body: Share
+- **CTA:** `Share on LinkedIn` → —
+- **h2:** Learn more
+- **CTA:** `View all` → /resources/news
+- **card link:** `Exacare ai Acquires CoreCare Pre-Admit April 15, 2026 4 min read` → /resources/news/exacare-ai-acquires-corecare-pre-admit
+- **h3:** Exacare ai Acquires CoreCare Pre-Admit
+- text: April 15, 2026
+- text: 4 min read
+- text: Trusted by 2,000+ care teams
+- **h2:** Move your team forward
+- **CTA:** `Book a demo` → /contact
+
+---
+
+## https://www.exacare.com/resources/summit-2026-video-hub/payer-perspectives
+
+**Title:** Payer Perspectives | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h2:** Welcome
+- body: Fill in your email to access Summit 2026 Video Hub
+
+---
+
+## https://www.exacare.com/resources/summit-2026-video-hub/customer-panel-why-im-here
+
+**Title:** Customer Panel: "Why I’m Here" | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h2:** Welcome
+- body: Fill in your email to access Summit 2026 Video Hub
+
+---
+
+## https://www.exacare.com/resources/summit-2026-video-hub/ceo-opening-keynote
+
+**Title:** CEO Opening Keynote | exacare ai
+**Blocks (1):** Page
+
+### 1. Page
+
+- **h2:** Welcome
+- body: Fill in your email to access Summit 2026 Video Hub
+
+---

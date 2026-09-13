@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "f8e81b96-f24f-4959-afa6-198ad0a40992",
+    "_type": "event",
+    "title": "The Race to Yes: Turning Data Into a Census Advantage for Skilled Nursing",
+    "uri": "https://mltc-resources.mcknights.com/free/w_defa11348/",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/59c7c9ca3d8163a43c5f25937c16cae706038ef8-1200x638.png",
+      "id": "image-59c7c9ca3d8163a43c5f25937c16cae706038ef8-1200x638-png",
+      "ratio": 0.5316666666666666,
+      "width": 1200,
+      "height": 638,
+      "hotspot": "$undefined"
+    },
+    "categories": [
+      {
+        "color": "orchid",
+        "name": "Live Webinar",
+        "uri": "live-webinar"
+      }
+    ],
+    "postType": "events",
+    "date": "August 6, 2026",
+    "location": "Virtual"
+  }
+]

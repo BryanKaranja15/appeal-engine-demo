@@ -1,0 +1,186 @@
+[
+  {
+    "_id": "3f92904d-46f3-414a-9e77-2e65cb87b362",
+    "_type": "blogPost",
+    "title": "Introducing Concurrent Reviews: Continued-Stay Authorizations Built Into the Managed Care Agent",
+    "uri": "/resources/blog/introducing-concurrent-reviews",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/fab34c4d4b27dae0647ab393c0808d7d05cf158f-3600x1884.png",
+      "id": "image-fab34c4d4b27dae0647ab393c0808d7d05cf158f-3600x1884-png",
+      "ratio": 0.5233333333333333,
+      "width": 3600,
+      "height": 1884,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "blog",
+    "date": "August 13, 2026",
+    "timeToRead": "10 min read",
+    "author": {
+      "title": "Elliot Hall",
+      "role": "VP, Product",
+      "image": {
+        "src": "https://cdn.sanity.io/images/3yh0p5q3/production/616ac17f4b96caddec04eec062053a63d6ce9a32-2731x2731.jpg",
+        "id": "image-616ac17f4b96caddec04eec062053a63d6ce9a32-2731x2731-jpg",
+        "ratio": 1,
+        "width": 2731,
+        "height": 2731,
+        "hotspot": "$undefined",
+        "alt": ""
+      }
+    }
+  },
+  {
+    "_id": "d318b439-e683-49b3-9346-19ee2e6b09e5",
+    "_type": "blogPost",
+    "title": "Steps in the SNF Referral Process: What Actually Happens (and Where It Breaks Down)",
+    "uri": "/resources/blog/steps-in-the-snf-referral-process",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/8f53c69d8098ae7c857c24953f6cfcbc2ac947c8-2119x1414.webp",
+      "id": "image-8f53c69d8098ae7c857c24953f6cfcbc2ac947c8-2119x1414-webp",
+      "ratio": 0.6672958942897593,
+      "width": 2119,
+      "height": 1414,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "blog",
+    "date": "July 27, 2026",
+    "timeToRead": "10 mins read",
+    "author": {
+      "title": "Sarah Scott",
+      "image": {
+        "src": "https://cdn.sanity.io/images/3yh0p5q3/production/7d07a82ea59d3470750a1995e509e1b3901786c2-2731x2731.jpg",
+        "id": "image-7d07a82ea59d3470750a1995e509e1b3901786c2-2731x2731-jpg",
+        "ratio": 1,
+        "width": 2731,
+        "height": 2731,
+        "hotspot": "$undefined",
+        "alt": "Sarah Scott"
+      }
+    }
+  },
+  {
+    "_id": "5b15f915-1fbf-4a20-ad62-6b3ff352f89e",
+    "_type": "blogPost",
+    "title": "Referral Management Software for Healthcare: What Post-Acute Operators Actually Need ",
+    "uri": "/resources/blog/referral-management-software-healthcare",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/52145cfb9a6c38def71ff040904da019321a5496-2121x1414.webp",
+      "id": "image-52145cfb9a6c38def71ff040904da019321a5496-2121x1414-webp",
+      "ratio": 0.6666666666666666,
+      "width": 2121,
+      "height": 1414,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "blog",
+    "date": "July 24, 2026",
+    "timeToRead": "10 mins read",
+    "author": {
+      "title": "Sarah Scott",
+      "image": {
+        "src": "https://cdn.sanity.io/images/3yh0p5q3/production/7d07a82ea59d3470750a1995e509e1b3901786c2-2731x2731.jpg",
+        "id": "image-7d07a82ea59d3470750a1995e509e1b3901786c2-2731x2731-jpg",
+        "ratio": 1,
+        "width": 2731,
+        "height": 2731,
+        "hotspot": "$undefined",
+        "alt": "Sarah Scott"
+      }
+    }
+  },
+  {
+    "_id": "543f794c-17e4-48cf-85e7-e166ad9eb24e",
+    "_type": "blogPost",
+    "title": "What Software Do Skilled Nursing Facilities Use? A Practical Guide",
+    "uri": "/resources/blog/what-software-do-snfs-use",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/b55436c2fe0ac21068370326c908b7f177e0d545-2119x1414.jpg",
+      "id": "image-b55436c2fe0ac21068370326c908b7f177e0d545-2119x1414-jpg",
+      "ratio": 0.6672958942897593,
+      "width": 2119,
+      "height": 1414,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "blog",
+    "date": "July 7, 2026",
+    "timeToRead": "20 min read",
+    "author": {
+      "title": "Dee Mackintosh",
+      "role": "Sr. Solutions Consultant",
+      "image": {
+        "src": "https://cdn.sanity.io/images/3yh0p5q3/production/b16057132f1255380f37e06c60cb14df3ff3d68e-2731x2731.jpg",
+        "id": "image-b16057132f1255380f37e06c60cb14df3ff3d68e-2731x2731-jpg",
+        "ratio": 1,
+        "width": 2731,
+        "height": 2731,
+        "hotspot": "$undefined",
+        "alt": ""
+      }
+    }
+  },
+  {
+    "_id": "4009ca3c-ac7d-4567-8eed-ebd3d2381b8c",
+    "_type": "blogPost",
+    "title": "Post-Acute Care Software in 2026: What's Changed, What Matters, and How to Evaluate Your Stack",
+    "uri": "/resources/blog/post-acute-software-2026",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/15d68895301b570332be384d3397a38f2effc42b-8192x5464.jpg",
+      "id": "image-15d68895301b570332be384d3397a38f2effc42b-8192x5464-jpg",
+      "ratio": 0.6669921875,
+      "width": 8192,
+      "height": 5464,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "blog",
+    "date": "July 2, 2026",
+    "timeToRead": "20 min read",
+    "author": {
+      "title": "Elliot Hall",
+      "role": "VP, Product",
+      "image": {
+        "src": "https://cdn.sanity.io/images/3yh0p5q3/production/616ac17f4b96caddec04eec062053a63d6ce9a32-2731x2731.jpg",
+        "id": "image-616ac17f4b96caddec04eec062053a63d6ce9a32-2731x2731-jpg",
+        "ratio": 1,
+        "width": 2731,
+        "height": 2731,
+        "hotspot": "$undefined",
+        "alt": ""
+      }
+    }
+  },
+  {
+    "_id": "2be0df12-58bb-4957-ba39-29f0786f77f9",
+    "_type": "blogPost",
+    "title": "Introducing eSign: Digital Signatures Built Into exacare ai",
+    "uri": "/resources/blog/introducing-esign-digital-signatures",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/a0b9bb2e2e9fc05c021775b26b2f8b0d1027bbba-1200x628.png",
+      "id": "image-a0b9bb2e2e9fc05c021775b26b2f8b0d1027bbba-1200x628-png",
+      "ratio": 0.5233333333333333,
+      "width": 1200,
+      "height": 628,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "blog",
+    "date": "June 22, 2026",
+    "timeToRead": "10 min read",
+    "author": {
+      "title": "Elliot Hall",
+      "role": "VP, Product",
+      "image": {
+        "src": "https://cdn.sanity.io/images/3yh0p5q3/production/616ac17f4b96caddec04eec062053a63d6ce9a32-2731x2731.jpg",
+        "id": "image-616ac17f4b96caddec04eec062053a63d6ce9a32-2731x2731-jpg",
+        "ratio": 1,
+        "width": 2731,
+        "height": 2731,
+        "hotspot": "$undefined",
+        "alt": ""
+      }
+    }
+  }
+]

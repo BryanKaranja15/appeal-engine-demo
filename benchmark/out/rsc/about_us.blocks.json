@@ -1,0 +1,686 @@
+[
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  },
+  {
+    "_key": "975d06552dde",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "eadb9afe99a5",
+        "_type": "span",
+        "marks": [],
+        "text": "Laird Russell is the Co-Founder and CEO of exacare ai, where he is leading the transformation of post-acute care through AI. He has raised over $50 million, built a team from top technology companies, and scaled the platform to ~2,000 facilities nationwide. Previously, he worked at Bain & Company and Goldman Sachs before focusing on building healthcare products. His mission is driven by personal experience navigating the healthcare system as a long-term patient."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "eadb9afe99a5",
+    "_type": "span",
+    "marks": [],
+    "text": "Laird Russell is the Co-Founder and CEO of exacare ai, where he is leading the transformation of post-acute care through AI. He has raised over $50 million, built a team from top technology companies, and scaled the platform to ~2,000 facilities nationwide. Previously, he worked at Bain & Company and Goldman Sachs before focusing on building healthcare products. His mission is driven by personal experience navigating the healthcare system as a long-term patient."
+  },
+  {
+    "_key": "f45c9f9a9b8c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "d162608a0016",
+        "_type": "span",
+        "marks": [
+          "95ad4b82ee51"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "95ad4b82ee51",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/laird-russell/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "d162608a0016",
+    "_type": "span",
+    "marks": [
+      "95ad4b82ee51"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "95ad4b82ee51",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/laird-russell/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "84325ac7862a",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "011a72f654a9",
+        "_type": "span",
+        "marks": [],
+        "text": "Ben Willox is the Co-Founder and CTO of exacare ai, where he leads the development of AI systems transforming post-acute care. A former Bain & Company consultant, he was named to the "
+      },
+      {
+        "_key": "04d6a4640ad4",
+        "_type": "span",
+        "marks": [
+          "em"
+        ],
+        "text": "Forbes 30 Under 30"
+      },
+      {
+        "_key": "72b5ff8b696d",
+        "_type": "span",
+        "marks": [],
+        "text": " list in 2025 for his work applying AI to healthcare. His approach focuses on building intelligent software that goes beyond workflows to actively support decision-making and patient outcomes."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "011a72f654a9",
+    "_type": "span",
+    "marks": [],
+    "text": "Ben Willox is the Co-Founder and CTO of exacare ai, where he leads the development of AI systems transforming post-acute care. A former Bain & Company consultant, he was named to the "
+  },
+  {
+    "_key": "04d6a4640ad4",
+    "_type": "span",
+    "marks": [
+      "em"
+    ],
+    "text": "Forbes 30 Under 30"
+  },
+  {
+    "_key": "72b5ff8b696d",
+    "_type": "span",
+    "marks": [],
+    "text": " list in 2025 for his work applying AI to healthcare. His approach focuses on building intelligent software that goes beyond workflows to actively support decision-making and patient outcomes."
+  },
+  {
+    "_key": "f45c9f9a9b8c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "d162608a0016",
+        "_type": "span",
+        "marks": [
+          "95ad4b82ee51"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "95ad4b82ee51",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/benjamin-willox/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "95ad4b82ee51",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/benjamin-willox/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "bf735f91574d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7fd7aeface7c",
+        "_type": "span",
+        "marks": [],
+        "text": "Tim Fields is the CEO and Co-Founder of Ignite Medical Resorts, where he is transforming post-acute rehabilitation through a hospitality-driven care model focused on short-term rehab and recovery. With ~20 years in healthcare leadership, he has led Ignite’s expansion while emphasizing innovation, high-acuity care, and an elevated patient experience."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7fd7aeface7c",
+    "_type": "span",
+    "marks": [],
+    "text": "Tim Fields is the CEO and Co-Founder of Ignite Medical Resorts, where he is transforming post-acute rehabilitation through a hospitality-driven care model focused on short-term rehab and recovery. With ~20 years in healthcare leadership, he has led Ignite’s expansion while emphasizing innovation, high-acuity care, and an elevated patient experience."
+  },
+  {
+    "_key": "351fc2605a56",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "36c7d9a5a69b",
+        "_type": "span",
+        "marks": [
+          "7951e8a94d64"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "7951e8a94d64",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/tim-fields-8b69748/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "36c7d9a5a69b",
+    "_type": "span",
+    "marks": [
+      "7951e8a94d64"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "7951e8a94d64",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/tim-fields-8b69748/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "08dc01e7f7c8",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "142f05210de0",
+        "_type": "span",
+        "marks": [],
+        "text": "Bernie McGuinness is the CEO of Journey and a veteran healthcare operator with ~30 years of experience. He previously served as CEO and Co-Founder of Majestic Care and also led healthcare consulting initiatives through his own agency. He focuses on clinical quality, workforce culture, and building high-performing care communities across the Midwest and Southeast."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "142f05210de0",
+    "_type": "span",
+    "marks": [],
+    "text": "Bernie McGuinness is the CEO of Journey and a veteran healthcare operator with ~30 years of experience. He previously served as CEO and Co-Founder of Majestic Care and also led healthcare consulting initiatives through his own agency. He focuses on clinical quality, workforce culture, and building high-performing care communities across the Midwest and Southeast."
+  },
+  {
+    "_key": "3b66bae94f02",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "3c0bb716a73a",
+        "_type": "span",
+        "marks": [
+          "1cc4ea17da15"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "1cc4ea17da15",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/bernie-mcguinness-33106111/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "3c0bb716a73a",
+    "_type": "span",
+    "marks": [
+      "1cc4ea17da15"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "1cc4ea17da15",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/bernie-mcguinness-33106111/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "1f8e4502ca7c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "cd4cc94ef1b7",
+        "_type": "span",
+        "marks": [],
+        "text": "$42"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "cd4cc94ef1b7",
+    "_type": "span",
+    "marks": [],
+    "text": "$42"
+  },
+  {
+    "_key": "1e83f07c9e0d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "9acad9d976a8",
+        "_type": "span",
+        "marks": [
+          "690bcc30e950"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "690bcc30e950",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/chelseydague/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "9acad9d976a8",
+    "_type": "span",
+    "marks": [
+      "690bcc30e950"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "690bcc30e950",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/chelseydague/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "d1f1c0f90027",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "3268b83d4c4b",
+        "_type": "span",
+        "marks": [],
+        "text": "Ephram Ostreicher leads the integration of post-acute services across the care continuum, including home health, hospice, health tech, and diagnostic services, at NHCA. He has been involved in various CMS value-based care initiatives since 2015. Ephram received his MBA from Johns Hopkins University with a Graduate Certificate in Seniors Housing and Care."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "3268b83d4c4b",
+    "_type": "span",
+    "marks": [],
+    "text": "Ephram Ostreicher leads the integration of post-acute services across the care continuum, including home health, hospice, health tech, and diagnostic services, at NHCA. He has been involved in various CMS value-based care initiatives since 2015. Ephram received his MBA from Johns Hopkins University with a Graduate Certificate in Seniors Housing and Care."
+  },
+  {
+    "_key": "f45c9f9a9b8c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "d162608a0016",
+        "_type": "span",
+        "marks": [
+          "95ad4b82ee51"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "95ad4b82ee51",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/ephram-ostreicher-3a2881b",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "95ad4b82ee51",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/ephram-ostreicher-3a2881b",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "84358c0d1b81",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "03e4677937d1",
+        "_type": "span",
+        "marks": [],
+        "text": "Auston Clanton is the Chief Operations Officer at Creative Solutions in Healthcare. He has held leadership roles across operations, acquisitions, and facility management while helping oversee the company’s rapid growth across Texas. His leadership focuses on operational excellence, quality outcomes, and innovative approaches to post-acute care."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "03e4677937d1",
+    "_type": "span",
+    "marks": [],
+    "text": "Auston Clanton is the Chief Operations Officer at Creative Solutions in Healthcare. He has held leadership roles across operations, acquisitions, and facility management while helping oversee the company’s rapid growth across Texas. His leadership focuses on operational excellence, quality outcomes, and innovative approaches to post-acute care."
+  },
+  {
+    "_key": "51ed510b1d7c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "8d64f854f162",
+        "_type": "span",
+        "marks": [],
+        "text": "Austin Steele is the Chief Strategy Officer at Journey, where he leads growth and operations. Previously an executive at Envive Healthcare and American Senior Communities, he is recognized for driving innovation in skilled nursing. Austin was named a 2024 Future Leader by Skilled Nursing News for advancing personalized, technology-enabled care."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "8d64f854f162",
+    "_type": "span",
+    "marks": [],
+    "text": "Austin Steele is the Chief Strategy Officer at Journey, where he leads growth and operations. Previously an executive at Envive Healthcare and American Senior Communities, he is recognized for driving innovation in skilled nursing. Austin was named a 2024 Future Leader by Skilled Nursing News for advancing personalized, technology-enabled care."
+  },
+  {
+    "_key": "f1588cc7923b",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "a1c4bb7170c5",
+        "_type": "span",
+        "marks": [
+          "2807385afc7d"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "2807385afc7d",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/austinmichaelsteele/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "a1c4bb7170c5",
+    "_type": "span",
+    "marks": [
+      "2807385afc7d"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "2807385afc7d",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/austinmichaelsteele/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "cbbabb5410cd",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "99007b792574",
+        "_type": "span",
+        "marks": [],
+        "text": "Rick Hoffman is the Chief Information Officer at Alden Management Services, where he leads innovation across one of the nation’s largest post-acute care networks. With more than 25 years of experience spanning healthcare and enterprise software, his work focuses on deploying scalable, practical technology solutions that improve resident care."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "99007b792574",
+    "_type": "span",
+    "marks": [],
+    "text": "Rick Hoffman is the Chief Information Officer at Alden Management Services, where he leads innovation across one of the nation’s largest post-acute care networks. With more than 25 years of experience spanning healthcare and enterprise software, his work focuses on deploying scalable, practical technology solutions that improve resident care."
+  },
+  {
+    "_key": "0828c9050cc0",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7bbaa15dc4e5",
+        "_type": "span",
+        "marks": [
+          "9c3a2d662833"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "9c3a2d662833",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/rickhoffman218/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "7bbaa15dc4e5",
+    "_type": "span",
+    "marks": [
+      "9c3a2d662833"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "9c3a2d662833",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/rickhoffman218/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "97e9e337d760",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "3ae935a259d7",
+        "_type": "span",
+        "marks": [],
+        "text": "Leila Jones is the Vice President of Government Affairs & Communications at Creative Solutions in Healthcare, where she leads communications, branding, and advocacy efforts across the organization. Her work focuses on strengthening relationships between healthcare providers, policymakers, and local communities across Texas."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "3ae935a259d7",
+    "_type": "span",
+    "marks": [],
+    "text": "Leila Jones is the Vice President of Government Affairs & Communications at Creative Solutions in Healthcare, where she leads communications, branding, and advocacy efforts across the organization. Her work focuses on strengthening relationships between healthcare providers, policymakers, and local communities across Texas."
+  },
+  {
+    "_key": "0828c9050cc0",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7bbaa15dc4e5",
+        "_type": "span",
+        "marks": [
+          "9c3a2d662833"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "9c3a2d662833",
+        "_type": "link",
+        "anchor": null,
+        "external": "https://www.linkedin.com/in/leila-jones/",
+        "linkType": "external",
+        "targetBlank": true,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "9c3a2d662833",
+    "_type": "link",
+    "anchor": null,
+    "external": "https://www.linkedin.com/in/leila-jones/",
+    "linkType": "external",
+    "targetBlank": true,
+    "title": null
+  },
+  {
+    "_key": "37be37cb6995",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "9dcd4e4c157d",
+        "_type": "span",
+        "marks": [],
+        "text": ""
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "9dcd4e4c157d",
+    "_type": "span",
+    "marks": [],
+    "text": ""
+  },
+  {
+    "_key": "f5a5c8d75cdc",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "10f5d75cd9cd",
+        "_type": "span",
+        "marks": [],
+        "text": "Tina Futrell is a strategic sales and marketing executive with extensive experience leading organizational transformation and optimizing business processes across the healthcare continuum. Throughout her career, Tina has consistently driven revenue growth and enhanced profitability by leading cross-functional teams and executing disciplined, data-driven strategies. She has a particular passion for advancing clinical integration within the skilled nursing sector, working closely with clinical and operations leaders to improve care transitions, increase operational efficiency, and elevate key performance metrics. Her focus areas include PDPM optimization, QAPI outcomes, rehospitalization reduction, and overall quality ratings. Tina has also partnered extensively with Managed Care organizations and value-based payer groups, aligning clinical, operational, and financial goals to deliver sustainable performance improvement."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "10f5d75cd9cd",
+    "_type": "span",
+    "marks": [],
+    "text": "Tina Futrell is a strategic sales and marketing executive with extensive experience leading organizational transformation and optimizing business processes across the healthcare continuum. Throughout her career, Tina has consistently driven revenue growth and enhanced profitability by leading cross-functional teams and executing disciplined, data-driven strategies. She has a particular passion for advancing clinical integration within the skilled nursing sector, working closely with clinical and operations leaders to improve care transitions, increase operational efficiency, and elevate key performance metrics. Her focus areas include PDPM optimization, QAPI outcomes, rehospitalization reduction, and overall quality ratings. Tina has also partnered extensively with Managed Care organizations and value-based payer groups, aligning clinical, operational, and financial goals to deliver sustainable performance improvement."
+  },
+  {
+    "_key": "9d45cb4a546e",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "b61439df7252",
+        "_type": "span",
+        "marks": [
+          "311b728adff6"
+        ],
+        "text": "LinkedIn"
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "311b728adff6",
+        "_type": "link",
+        "anchor": null,
+        "external": "http://linkedin.com/in/tinafutrell/",
+        "linkType": "external",
+        "targetBlank": false,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "b61439df7252",
+    "_type": "span",
+    "marks": [
+      "311b728adff6"
+    ],
+    "text": "LinkedIn"
+  },
+  {
+    "_key": "311b728adff6",
+    "_type": "link",
+    "anchor": null,
+    "external": "http://linkedin.com/in/tinafutrell/",
+    "linkType": "external",
+    "targetBlank": false,
+    "title": null
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "dark"
+  }
+]

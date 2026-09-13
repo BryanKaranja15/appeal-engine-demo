@@ -1,0 +1,74 @@
+[
+  {
+    "_key": "c3f91867bd5b",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "518ed517b1ca",
+        "_type": "span",
+        "marks": [],
+        "text": "Faster admits.\nFewer suprises."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "518ed517b1ca",
+    "_type": "span",
+    "marks": [],
+    "text": "Faster admits.\nFewer suprises."
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "dark"
+  },
+  {
+    "_key": "f6e117a6c123",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "6da88b060b9a",
+        "_type": "span",
+        "marks": [],
+        "text": "Across the care "
+      },
+      {
+        "_key": "3bb8269d8dcc",
+        "_type": "span",
+        "marks": [
+          "em"
+        ],
+        "text": "journey"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "6da88b060b9a",
+    "_type": "span",
+    "marks": [],
+    "text": "Across the care "
+  },
+  {
+    "_key": "3bb8269d8dcc",
+    "_type": "span",
+    "marks": [
+      "em"
+    ],
+    "text": "journey"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": false,
+    "theme": "light"
+  }
+]

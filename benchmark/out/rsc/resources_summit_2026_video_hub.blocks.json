@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "2bd3a4a1-99d6-4083-8e39-59001d963ee4",
+    "_type": "summit2026VideoHubPost",
+    "title": "Exacare ai Product Releases",
+    "uri": "/resources/summit-2026-video-hub/exacare-ai-product-releases",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/313ed3dd18db8d94a4b0db4e4e8aabe4624c698c-1920x1080.png",
+      "id": "image-313ed3dd18db8d94a4b0db4e4e8aabe4624c698c-1920x1080-png",
+      "ratio": 0.5625,
+      "width": 1920,
+      "height": 1080,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "summit-2026-video-hub",
+    "date": "June 2, 2026",
+    "timeToRead": "30 min watch"
+  },
+  {
+    "_id": "3c18c9f4-2546-46b9-b7ae-6e16df2ece78",
+    "_type": "summit2026VideoHubPost",
+    "title": "Turning Data Into an Advantage",
+    "uri": "/resources/summit-2026-video-hub/turning-data-into-an-advantage",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/49ce0d7977e56469ad4c77100e7a99c1910858f7-1920x1080.png",
+      "id": "image-49ce0d7977e56469ad4c77100e7a99c1910858f7-1920x1080-png",
+      "ratio": 0.5625,
+      "width": 1920,
+      "height": 1080,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "summit-2026-video-hub",
+    "date": "June 2, 2026",
+    "timeToRead": "25 min watch"
+  },
+  {
+    "_id": "3e6aec93-4755-4aee-910c-03646f241566",
+    "_type": "summit2026VideoHubPost",
+    "title": "Fireside Chat With Dr. Geeta Nayyar",
+    "uri": "/resources/summit-2026-video-hub/fireside-chat-with-dr-geeta",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/c55bf741d6c1f511c19464a0adac66206d467011-1920x1080.png",
+      "id": "image-c55bf741d6c1f511c19464a0adac66206d467011-1920x1080-png",
+      "ratio": 0.5625,
+      "width": 1920,
+      "height": 1080,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "summit-2026-video-hub",
+    "date": "June 2, 2026",
+    "timeToRead": "63 minute watch"
+  },
+  {
+    "_id": "471d4dc5-7772-4000-961d-b470ce6172f5",
+    "_type": "summit2026VideoHubPost",
+    "title": "How Leading SNFs Win Referrals",
+    "uri": "/resources/summit-2026-video-hub/how-leading-snfs-win-referrals",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/b2af24a25f4f427325f56c92341414fd5d521044-1920x1080.png",
+      "id": "image-b2af24a25f4f427325f56c92341414fd5d521044-1920x1080-png",
+      "ratio": 0.5625,
+      "width": 1920,
+      "height": 1080,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "summit-2026-video-hub",
+    "date": "June 2, 2026",
+    "timeToRead": "48 min watch"
+  },
+  {
+    "_id": "498b0499-8c21-4851-b979-9667401c944c",
+    "_type": "summit2026VideoHubPost",
+    "title": "Customer Panel: \"Why I’m Here\"",
+    "uri": "/resources/summit-2026-video-hub/customer-panel-why-im-here",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/0ce6ebd02682260516f5500ba0fcf8fac53e111d-1920x1080.png",
+      "id": "image-0ce6ebd02682260516f5500ba0fcf8fac53e111d-1920x1080-png",
+      "ratio": 0.5625,
+      "width": 1920,
+      "height": 1080,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "summit-2026-video-hub",
+    "date": "June 2, 2026",
+    "timeToRead": "37 min watch"
+  },
+  {
+    "_id": "4cae98ce-ce17-4571-a9ad-3f62fd262951",
+    "_type": "summit2026VideoHubPost",
+    "title": "Managed Care in Action",
+    "uri": "/resources/summit-2026-video-hub/managed-care-in-action",
+    "image": {
+      "src": "https://cdn.sanity.io/images/3yh0p5q3/production/1e1848eea9c492976da866ebc63ebeb619d3e9a5-1920x1080.png",
+      "id": "image-1e1848eea9c492976da866ebc63ebeb619d3e9a5-1920x1080-png",
+      "ratio": 0.5625,
+      "width": 1920,
+      "height": 1080,
+      "hotspot": "$undefined"
+    },
+    "categories": [],
+    "postType": "summit-2026-video-hub",
+    "date": "June 2, 2026",
+    "timeToRead": "41 min read"
+  }
+]

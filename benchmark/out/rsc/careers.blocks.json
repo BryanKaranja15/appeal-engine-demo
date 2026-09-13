@@ -1,0 +1,27 @@
+[
+  {
+    "_key": "3119819177d7",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "2c74342b9a47",
+        "_type": "span",
+        "marks": [],
+        "text": "Life at exacare ai"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "2c74342b9a47",
+    "_type": "span",
+    "marks": [],
+    "text": "Life at exacare ai"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "_key": "6c4b239da317",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "dec1be1b71f5",
+        "_type": "span",
+        "marks": [],
+        "text": "The three dominant EHRs in skilled nursing are PointClickCare, MatrixCare, and Netsmart (myUnity). PointClickCare is the dominant skilled nursing facility EHR, holding roughly 85% market share. MatrixCare is common among operators with mixed portfolios or senior living communities. Most SNFs choose one EHR and build their entire clinical and billing workflow around it."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "dec1be1b71f5",
+    "_type": "span",
+    "marks": [],
+    "text": "The three dominant EHRs in skilled nursing are PointClickCare, MatrixCare, and Netsmart (myUnity). PointClickCare is the dominant skilled nursing facility EHR, holding roughly 85% market share. MatrixCare is common among operators with mixed portfolios or senior living communities. Most SNFs choose one EHR and build their entire clinical and billing workflow around it."
+  },
+  {
+    "_key": "4ed217025b04",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "8e3f5b6b9736",
+        "_type": "span",
+        "marks": [],
+        "text": "Most skilled nursing facilities operate across six to ten different software platforms daily, including their EHR, pharmacy system, billing tools, staffing software, and multiple e-referral portals. These systems are rarely integrated with each other, which creates manual workarounds and data re-entry throughout the building."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "8e3f5b6b9736",
+    "_type": "span",
+    "marks": [],
+    "text": "Most skilled nursing facilities operate across six to ten different software platforms daily, including their EHR, pharmacy system, billing tools, staffing software, and multiple e-referral portals. These systems are rarely integrated with each other, which creates manual workarounds and data re-entry throughout the building."
+  },
+  {
+    "_key": "e1452703c242",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "822bb3322a93",
+        "_type": "span",
+        "marks": [],
+        "text": "Admissions and referral management are the least standardized parts of the SNF tech stack. Many facilities still manage referrals manually: reviewing packets by hand, checking insurance by phone, and tracking referrals in spreadsheets or email. A growing number of operators are adopting AI-powered admissions platforms like "
+      },
+      {
+        "_key": "bf946b71865c",
+        "_type": "span",
+        "marks": [
+          "30ec18e9506d"
+        ],
+        "text": "exacare ai"
+      },
+      {
+        "_key": "1a673d5d231e",
+        "_type": "span",
+        "marks": [],
+        "text": " that consolidate referral sources, automate clinical screening, and reduce response times from 45+ minutes to as little as 7 to 11 minutes."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "30ec18e9506d",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Home",
+          "slug": "/"
+        },
+        "linkType": "internal",
+        "targetBlank": null,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "822bb3322a93",
+    "_type": "span",
+    "marks": [],
+    "text": "Admissions and referral management are the least standardized parts of the SNF tech stack. Many facilities still manage referrals manually: reviewing packets by hand, checking insurance by phone, and tracking referrals in spreadsheets or email. A growing number of operators are adopting AI-powered admissions platforms like "
+  },
+  {
+    "_key": "bf946b71865c",
+    "_type": "span",
+    "marks": [
+      "30ec18e9506d"
+    ],
+    "text": "exacare ai"
+  },
+  {
+    "_key": "1a673d5d231e",
+    "_type": "span",
+    "marks": [],
+    "text": " that consolidate referral sources, automate clinical screening, and reduce response times from 45+ minutes to as little as 7 to 11 minutes."
+  },
+  {
+    "_key": "30ec18e9506d",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Home",
+      "slug": "/"
+    },
+    "linkType": "internal",
+    "targetBlank": null,
+    "title": null
+  },
+  {
+    "_type": "page",
+    "realTitle": "Home",
+    "slug": "/"
+  },
+  {
+    "_key": "c8f08aa0e9ab",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "4d950d1f5979",
+        "_type": "span",
+        "marks": [],
+        "text": "An EHR like PointClickCare or MatrixCare is the clinical documentation system. It manages care plans, MDS assessments, medication records, and billing. Admissions software focuses on what happens before a patient enters the building: screening referral packets, verifying insurance, flagging clinical and financial risks, and coordinating the decision to accept or decline. Most EHRs were not designed for the speed and complexity of the modern admissions workflow."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "4d950d1f5979",
+    "_type": "span",
+    "marks": [],
+    "text": "An EHR like PointClickCare or MatrixCare is the clinical documentation system. It manages care plans, MDS assessments, medication records, and billing. Admissions software focuses on what happens before a patient enters the building: screening referral packets, verifying insurance, flagging clinical and financial risks, and coordinating the decision to accept or decline. Most EHRs were not designed for the speed and complexity of the modern admissions workflow."
+  },
+  {
+    "_key": "9a8ca95e9f7c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "45dab826b614",
+        "_type": "span",
+        "marks": [],
+        "text": "AI adoption in skilled nursing is accelerating, primarily in operational workflows like admissions screening, managed care authorization, and referral management. AI tools can read referral packets, apply facility-specific clinical criteria, verify insurance, flag high-cost medications, and generate clinical summaries, compressing what used to take 40+ minutes of manual review into minutes. The most common use case today is AI-powered referral screening, where platforms analyze unstructured clinical documents and produce structured summaries for faster, more accurate admission decisions that improve clinical and operational outcomes."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "45dab826b614",
+    "_type": "span",
+    "marks": [],
+    "text": "AI adoption in skilled nursing is accelerating, primarily in operational workflows like admissions screening, managed care authorization, and referral management. AI tools can read referral packets, apply facility-specific clinical criteria, verify insurance, flag high-cost medications, and generate clinical summaries, compressing what used to take 40+ minutes of manual review into minutes. The most common use case today is AI-powered referral screening, where platforms analyze unstructured clinical documents and produce structured summaries for faster, more accurate admission decisions that improve clinical and operational outcomes."
+  },
+  {
+    "_key": "ebf1e9fa2c5d",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "2f043f263125",
+        "_type": "span",
+        "marks": [],
+        "text": "SNFs receive referrals through multiple electronic platforms, most commonly WellSky (including CarePort and Extended Care), Epic CareLink, Aidin, and Ensocare. Most multi-facility operators manage three to seven portals daily, and in dense hospital markets, that number can exceed ten. Operators don't choose most of these portals. They're assigned by the hospitals, health systems, and other healthcare providers that send referrals, which is a primary driver of fragmentation in the admissions workflow."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "2f043f263125",
+    "_type": "span",
+    "marks": [],
+    "text": "SNFs receive referrals through multiple electronic platforms, most commonly WellSky (including CarePort and Extended Care), Epic CareLink, Aidin, and Ensocare. Most multi-facility operators manage three to seven portals daily, and in dense hospital markets, that number can exceed ten. Operators don't choose most of these portals. They're assigned by the hospitals, health systems, and other healthcare providers that send referrals, which is a primary driver of fragmentation in the admissions workflow."
+  }
+]

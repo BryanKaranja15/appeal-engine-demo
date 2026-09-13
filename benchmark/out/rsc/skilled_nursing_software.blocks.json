@@ -1,0 +1,171 @@
+[
+  {
+    "_type": "hubspotForm",
+    "formId": "0bcfbb10-4b13-41e1-a03f-04262914fa60",
+    "portalId": "23747071",
+    "region": "na1"
+  },
+  {
+    "_key": "c8109274be51",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "fccdb36259c3",
+        "_type": "span",
+        "marks": [],
+        "text": "Skilled nursing software for your entire care team"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "fccdb36259c3",
+    "_type": "span",
+    "marks": [],
+    "text": "Skilled nursing software for your entire care team"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": true,
+    "theme": "dark"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": true,
+    "theme": "light"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  },
+  {
+    "_key": "d17a8af222df",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "76d7f305faf6",
+        "_type": "span",
+        "marks": [],
+        "text": "exacare ai removes the 60–90 minutes it takes to read a referral packet by hand. It reviews full referral documentation in minutes, applies your facility-specific admissions criteria, and surfaces clinical and financial risk so your team can make the right call faster. Hospitals typically place patients with the first one or two providers who respond, so speed wins the bed. Teams using exacare ai run 30% more screens and capture 15% more admits than without. The result is faster responses without sacrificing clinical rigor, reimbursement performance, or defensible decision-making."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "76d7f305faf6",
+    "_type": "span",
+    "marks": [],
+    "text": "exacare ai removes the 60–90 minutes it takes to read a referral packet by hand. It reviews full referral documentation in minutes, applies your facility-specific admissions criteria, and surfaces clinical and financial risk so your team can make the right call faster. Hospitals typically place patients with the first one or two providers who respond, so speed wins the bed. Teams using exacare ai run 30% more screens and capture 15% more admits than without. The result is faster responses without sacrificing clinical rigor, reimbursement performance, or defensible decision-making."
+  },
+  {
+    "_key": "c37d0a397b44",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "c5f0bd0e46b5",
+        "_type": "span",
+        "marks": [],
+        "text": "Yes. exacare ai supports single-facility operators through enterprise skilled nursing organizations running 150+ buildings. Single facilities get a faster, clearer way to review referrals, verify fit, and reduce manual work. Larger groups get consistent admissions criteria, PDPM considerations, reimbursement standards, and documentation practices across buildings and teams. Smaller operators get fast time-to-value and less manual review; large groups get consistent admission criteria and reimbursement standards applied the same way across every skilled nursing facility and shift. That helps operators standardize performance, reduce variation, and make referral decisions that are documented, communicated, and easier to defend."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "c5f0bd0e46b5",
+    "_type": "span",
+    "marks": [],
+    "text": "Yes. exacare ai supports single-facility operators through enterprise skilled nursing organizations running 150+ buildings. Single facilities get a faster, clearer way to review referrals, verify fit, and reduce manual work. Larger groups get consistent admissions criteria, PDPM considerations, reimbursement standards, and documentation practices across buildings and teams. Smaller operators get fast time-to-value and less manual review; large groups get consistent admission criteria and reimbursement standards applied the same way across every skilled nursing facility and shift. That helps operators standardize performance, reduce variation, and make referral decisions that are documented, communicated, and easier to defend."
+  },
+  {
+    "_key": "c106c8b438e3",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7c45ed6c6add",
+        "_type": "span",
+        "marks": [],
+        "text": "Yes. exacare ai integrates directly with major EHRs including PointClickCare and MatrixCare and pulls referrals from any hospital system, referral platform, or portal. It connects to the systems skilled nursing teams already rely on, centralizes referral activity, and helps admissions teams review, communicate, and act without jumping between disconnected tools. No rip-and-replace and no engineering lift on your side. Your team can keep working from familiar workflows while exacare ai reads the packet, flags key risks, verifies coverage details, and supports faster admit or decline decisions."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7c45ed6c6add",
+    "_type": "span",
+    "marks": [],
+    "text": "Yes. exacare ai integrates directly with major EHRs including PointClickCare and MatrixCare and pulls referrals from any hospital system, referral platform, or portal. It connects to the systems skilled nursing teams already rely on, centralizes referral activity, and helps admissions teams review, communicate, and act without jumping between disconnected tools. No rip-and-replace and no engineering lift on your side. Your team can keep working from familiar workflows while exacare ai reads the packet, flags key risks, verifies coverage details, and supports faster admit or decline decisions."
+  },
+  {
+    "_key": "5074c52afae6",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "27fc47524cd1",
+        "_type": "span",
+        "marks": [],
+        "text": "Yes. exacare ai handles SNF patient data under HIPAA with audit-ready, timestamped records for your skilled nursing teams. The platform is built for post-acute care workflows where protected health information, referral documentation, payer data, and reimbursement decisions need to be handled carefully. exacare ai keeps supported decisions structured and traceable, so teams can see what was reviewed, when it was reviewed, and what evidence informed the recommendation."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "27fc47524cd1",
+    "_type": "span",
+    "marks": [],
+    "text": "Yes. exacare ai handles SNF patient data under HIPAA with audit-ready, timestamped records for your skilled nursing teams. The platform is built for post-acute care workflows where protected health information, referral documentation, payer data, and reimbursement decisions need to be handled carefully. exacare ai keeps supported decisions structured and traceable, so teams can see what was reviewed, when it was reviewed, and what evidence informed the recommendation."
+  },
+  {
+    "_key": "3e44aa6a14ff",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "be3881bc2cb2",
+        "_type": "span",
+        "marks": [],
+        "text": "Most teams are live quickly because exacare ai pulls referrals from existing systems without engineering lift and has direct integrations with PointClickCare and MatrixCare. Implementation is designed around the workflows your admissions team already uses: referral sources, facility-specific criteria, insurance verification, EHR workflows, and go-live support. Onboarding includes hands-on support beyond standard business hours, and a partner team stays with you past go-live. That means your team can start moving from referral to decision faster without a rip-and-replace project or a heavy internal engineering lift."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "be3881bc2cb2",
+    "_type": "span",
+    "marks": [],
+    "text": "Most teams are live quickly because exacare ai pulls referrals from existing systems without engineering lift and has direct integrations with PointClickCare and MatrixCare. Implementation is designed around the workflows your admissions team already uses: referral sources, facility-specific criteria, insurance verification, EHR workflows, and go-live support. Onboarding includes hands-on support beyond standard business hours, and a partner team stays with you past go-live. That means your team can start moving from referral to decision faster without a rip-and-replace project or a heavy internal engineering lift."
+  },
+  {
+    "_key": "8e3f03c9d271",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "56cd97275433",
+        "_type": "span",
+        "marks": [],
+        "text": "Pricing depends on the number of facilities and which capabilities you use (admissions, insurance verification, reimbursement). Single-facility plans and multi-facility agreements are available. Book a demo for a quote scoped to your operation."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "56cd97275433",
+    "_type": "span",
+    "marks": [],
+    "text": "Pricing depends on the number of facilities and which capabilities you use (admissions, insurance verification, reimbursement). Single-facility plans and multi-facility agreements are available. Book a demo for a quote scoped to your operation."
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "texture": false,
+    "theme": "light"
+  }
+]

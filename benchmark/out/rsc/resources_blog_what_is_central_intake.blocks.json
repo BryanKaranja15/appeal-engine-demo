@@ -1,0 +1,387 @@
+[
+  {
+    "_key": "880f9edaaef0",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "3538a594f5f2",
+        "_type": "span",
+        "marks": [],
+        "text": "Central intake is the operating model where a dedicated team reviews, screens, and triages all incoming patient referrals across an organization's facilities from a single point, rather than having each building handle referrals independently. The central team applies consistent clinical and financial criteria, screens referrals against each building's specific criteria, and tracks every referral across the portfolio."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "3538a594f5f2",
+    "_type": "span",
+    "marks": [],
+    "text": "Central intake is the operating model where a dedicated team reviews, screens, and triages all incoming patient referrals across an organization's facilities from a single point, rather than having each building handle referrals independently. The central team applies consistent clinical and financial criteria, screens referrals against each building's specific criteria, and tracks every referral across the portfolio."
+  },
+  {
+    "_key": "63200c9254b2",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "371a15ee2622",
+        "_type": "span",
+        "marks": [],
+        "text": "In a decentralized model, each facility handles its own referrals independently: each admissions director receives, reviews, and decides on referrals for their building. Central intake consolidates this into one team that screens all referrals through a consistent process (applying each building's specific admission criteria) and manages the intake workflow across the portfolio. Some organizations run a hybrid model with decentralized admissions directors supported by centralized oversight and shared technology, which preserves facility-level autonomy while giving leadership portfolio-wide visibility."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "371a15ee2622",
+    "_type": "span",
+    "marks": [],
+    "text": "In a decentralized model, each facility handles its own referrals independently: each admissions director receives, reviews, and decides on referrals for their building. Central intake consolidates this into one team that screens all referrals through a consistent process (applying each building's specific admission criteria) and manages the intake workflow across the portfolio. Some organizations run a hybrid model with decentralized admissions directors supported by centralized oversight and shared technology, which preserves facility-level autonomy while giving leadership portfolio-wide visibility."
+  },
+  {
+    "_key": "069dc5c3be32",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "4150659e7ba5",
+        "_type": "span",
+        "marks": [],
+        "text": "Operators with roughly five or more facilities typically see the most benefit. That's the threshold where inconsistent decision-making, lack of portfolio visibility, and speed-to-respond challenges start to compound. The larger the organization, the more acute the problems that central intake solves. However, even smaller multi-facility operators pursuing growth benefit from building this infrastructure early."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "4150659e7ba5",
+    "_type": "span",
+    "marks": [],
+    "text": "Operators with roughly five or more facilities typically see the most benefit. That's the threshold where inconsistent decision-making, lack of portfolio visibility, and speed-to-respond challenges start to compound. The larger the organization, the more acute the problems that central intake solves. However, even smaller multi-facility operators pursuing growth benefit from building this infrastructure early."
+  },
+  {
+    "_key": "44367b6c2cd3",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "1427d31cc812",
+        "_type": "span",
+        "marks": [],
+        "text": "AI addresses the three biggest bottlenecks in central intake: the information bottleneck (reading 100+ page referral packets manually), the handoff problem (facilities re-reviewing packets because no structured summary exists), and the data gap (no structured tracking of referral decisions and outcomes)."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "1427d31cc812",
+    "_type": "span",
+    "marks": [],
+    "text": "AI addresses the three biggest bottlenecks in central intake: the information bottleneck (reading 100+ page referral packets manually), the handoff problem (facilities re-reviewing packets because no structured summary exists), and the data gap (no structured tracking of referral decisions and outcomes)."
+  },
+  {
+    "_key": "8c8d4cccf158",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "1075e4a59618",
+        "_type": "span",
+        "marks": [],
+        "text": "AI tools like"
+      },
+      {
+        "_key": "4058b45f7fab",
+        "_type": "span",
+        "marks": [
+          "33727b482d4e"
+        ],
+        "text": " exacare ai"
+      },
+      {
+        "_key": "48528f7a6db4",
+        "_type": "span",
+        "marks": [],
+        "text": " read the full referral packet, apply facility-specific admission criteria, produce a structured clinical summary, automate insurance verification and compliance checks, provide real-time visibility across the portfolio, and generate the structured data that makes intake a strategic function."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "33727b482d4e",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Home",
+          "slug": "/"
+        },
+        "linkType": "internal",
+        "targetBlank": false,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "1075e4a59618",
+    "_type": "span",
+    "marks": [],
+    "text": "AI tools like"
+  },
+  {
+    "_key": "4058b45f7fab",
+    "_type": "span",
+    "marks": [
+      "33727b482d4e"
+    ],
+    "text": " exacare ai"
+  },
+  {
+    "_key": "48528f7a6db4",
+    "_type": "span",
+    "marks": [],
+    "text": " read the full referral packet, apply facility-specific admission criteria, produce a structured clinical summary, automate insurance verification and compliance checks, provide real-time visibility across the portfolio, and generate the structured data that makes intake a strategic function."
+  },
+  {
+    "_key": "33727b482d4e",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Home",
+      "slug": "/"
+    },
+    "linkType": "internal",
+    "targetBlank": false,
+    "title": null
+  },
+  {
+    "_type": "page",
+    "realTitle": "Home",
+    "slug": "/"
+  },
+  {
+    "_key": "56103640534c",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "f640fb6f3c0e",
+        "_type": "span",
+        "marks": [],
+        "text": "A central intake coordinator receives incoming referrals, reviews clinical and financial information, screens against the relevant building's admission criteria, and manages the referral through to a decision. With "
+      },
+      {
+        "_key": "71fcd4053633",
+        "_type": "span",
+        "marks": [
+          "b26a7b50ea8f"
+        ],
+        "text": "AI-powered intake"
+      },
+      {
+        "_key": "7cf341011405",
+        "_type": "span",
+        "marks": [],
+        "text": ", the coordinator's role shifts from document reviewer to decision-maker: instead of spending 40 minutes reading a packet, they review an AI-generated summary and apply clinical judgment to the cases that need human expertise."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "b26a7b50ea8f",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Home",
+          "slug": "/"
+        },
+        "linkType": "internal",
+        "targetBlank": null,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "f640fb6f3c0e",
+    "_type": "span",
+    "marks": [],
+    "text": "A central intake coordinator receives incoming referrals, reviews clinical and financial information, screens against the relevant building's admission criteria, and manages the referral through to a decision. With "
+  },
+  {
+    "_key": "71fcd4053633",
+    "_type": "span",
+    "marks": [
+      "b26a7b50ea8f"
+    ],
+    "text": "AI-powered intake"
+  },
+  {
+    "_key": "7cf341011405",
+    "_type": "span",
+    "marks": [],
+    "text": ", the coordinator's role shifts from document reviewer to decision-maker: instead of spending 40 minutes reading a packet, they review an AI-generated summary and apply clinical judgment to the cases that need human expertise."
+  },
+  {
+    "_key": "b26a7b50ea8f",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Home",
+      "slug": "/"
+    },
+    "linkType": "internal",
+    "targetBlank": null,
+    "title": null
+  },
+  {
+    "_key": "0f8480faf3b1",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "04da312ede55",
+        "_type": "span",
+        "marks": [],
+        "text": "With purpose-built tools like "
+      },
+      {
+        "_key": "fd895fdf7300",
+        "_type": "span",
+        "marks": [
+          "1d65a4cce668"
+        ],
+        "text": "exacare ai"
+      },
+      {
+        "_key": "647acadacdd3",
+        "_type": "span",
+        "marks": [],
+        "text": ", organizations have gone from kickoff to organization-wide go-live in as little as 2-4 weeks. Most implementations include a pilot phase where the system runs alongside existing workflows so teams can validate accuracy before fully transitioning. The biggest variables are rule configuration (defining facility-specific admission criteria), staff training, and the number of buildings being onboarded simultaneously."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "1d65a4cce668",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Home",
+          "slug": "/"
+        },
+        "linkType": "internal",
+        "targetBlank": false,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "04da312ede55",
+    "_type": "span",
+    "marks": [],
+    "text": "With purpose-built tools like "
+  },
+  {
+    "_key": "fd895fdf7300",
+    "_type": "span",
+    "marks": [
+      "1d65a4cce668"
+    ],
+    "text": "exacare ai"
+  },
+  {
+    "_key": "647acadacdd3",
+    "_type": "span",
+    "marks": [],
+    "text": ", organizations have gone from kickoff to organization-wide go-live in as little as 2-4 weeks. Most implementations include a pilot phase where the system runs alongside existing workflows so teams can validate accuracy before fully transitioning. The biggest variables are rule configuration (defining facility-specific admission criteria), staff training, and the number of buildings being onboarded simultaneously."
+  },
+  {
+    "_key": "1d65a4cce668",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Home",
+      "slug": "/"
+    },
+    "linkType": "internal",
+    "targetBlank": false,
+    "title": null
+  },
+  {
+    "_key": "06e3392f040e",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "b1380dc09847",
+        "_type": "span",
+        "marks": [],
+        "text": "Yes, and the case for central intake becomes even stronger when an organization operates across care settings. Referral types, clinical criteria, and payer dynamics differ between SNF and home health. A "
+      },
+      {
+        "_key": "3d71922cd2b0",
+        "_type": "span",
+        "marks": [
+          "0912c508e33a"
+        ],
+        "text": "consolidated intake system"
+      },
+      {
+        "_key": "44859c9a3c70",
+        "_type": "span",
+        "marks": [],
+        "text": " that can screen and manage referrals across service lines prevents referral management complexity from multiplying with every care setting you add. AI-powered intake is expanding into home health, and as EHR integration coverage broadens (particularly with platforms like Homecare Homebase), the operational impact should mirror what's already established in skilled nursing."
+      }
+    ],
+    "markDefs": [
+      {
+        "_key": "0912c508e33a",
+        "_type": "link",
+        "anchor": null,
+        "internal": {
+          "_type": "page",
+          "realTitle": "Home",
+          "slug": "/"
+        },
+        "linkType": "internal",
+        "targetBlank": null,
+        "title": null
+      }
+    ],
+    "style": "normal"
+  },
+  {
+    "_key": "b1380dc09847",
+    "_type": "span",
+    "marks": [],
+    "text": "Yes, and the case for central intake becomes even stronger when an organization operates across care settings. Referral types, clinical criteria, and payer dynamics differ between SNF and home health. A "
+  },
+  {
+    "_key": "3d71922cd2b0",
+    "_type": "span",
+    "marks": [
+      "0912c508e33a"
+    ],
+    "text": "consolidated intake system"
+  },
+  {
+    "_key": "44859c9a3c70",
+    "_type": "span",
+    "marks": [],
+    "text": " that can screen and manage referrals across service lines prevents referral management complexity from multiplying with every care setting you add. AI-powered intake is expanding into home health, and as EHR integration coverage broadens (particularly with platforms like Homecare Homebase), the operational impact should mirror what's already established in skilled nursing."
+  },
+  {
+    "_key": "0912c508e33a",
+    "_type": "link",
+    "anchor": null,
+    "internal": {
+      "_type": "page",
+      "realTitle": "Home",
+      "slug": "/"
+    },
+    "linkType": "internal",
+    "targetBlank": null,
+    "title": null
+  }
+]

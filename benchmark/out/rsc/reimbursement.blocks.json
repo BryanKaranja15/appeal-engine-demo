@@ -1,0 +1,48 @@
+[
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "dark"
+  },
+  {
+    "_key": "73254a474d62",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "e12a1bedc525",
+        "_type": "span",
+        "marks": [],
+        "text": "Across the care "
+      },
+      {
+        "_key": "01bb0c631b53",
+        "_type": "span",
+        "marks": [
+          "em"
+        ],
+        "text": "journey"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "e12a1bedc525",
+    "_type": "span",
+    "marks": [],
+    "text": "Across the care "
+  },
+  {
+    "_key": "01bb0c631b53",
+    "_type": "span",
+    "marks": [
+      "em"
+    ],
+    "text": "journey"
+  },
+  {
+    "_type": "blockSettings",
+    "hidden": false,
+    "theme": "light"
+  }
+]

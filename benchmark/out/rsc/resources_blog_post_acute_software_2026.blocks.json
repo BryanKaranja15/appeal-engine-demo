@@ -1,0 +1,396 @@
+[
+  {
+    "_key": "9a5c39533fbf",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7c7587c485b5",
+        "_type": "span",
+        "marks": [],
+        "text": "Post-acute care software refers to the technology platforms that support healthcare providers in managing patients across post-acute care settings after they leave a hospital. This includes skilled nursing facilities (SNFs), home health agencies, hospice providers, and long-term care organizations. The category has expanded beyond traditional EHR systems to include analytics platforms, referral networks, AI-powered intake tools, and managed care intelligence solutions."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7c7587c485b5",
+    "_type": "span",
+    "marks": [],
+    "text": "Post-acute care software refers to the technology platforms that support healthcare providers in managing patients across post-acute care settings after they leave a hospital. This includes skilled nursing facilities (SNFs), home health agencies, hospice providers, and long-term care organizations. The category has expanded beyond traditional EHR systems to include analytics platforms, referral networks, AI-powered intake tools, and managed care intelligence solutions."
+  },
+  {
+    "_key": "7078655a00c1",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "288bd248d1f4",
+        "_type": "span",
+        "marks": [],
+        "text": "Most post-acute care operators need technology across five layers:"
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "288bd248d1f4",
+    "_type": "span",
+    "marks": [],
+    "text": "Most post-acute care operators need technology across five layers:"
+  },
+  {
+    "_key": "000cd81f40a2",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "540b9f7ec267",
+        "_type": "span",
+        "marks": [],
+        "text": "An EHR for clinical documentation and billing "
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "540b9f7ec267",
+    "_type": "span",
+    "marks": [],
+    "text": "An EHR for clinical documentation and billing "
+  },
+  {
+    "_key": "ceec3c1d006f",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "5a5d7e73d1e6",
+        "_type": "span",
+        "marks": [],
+        "text": "Analytics and business intelligence tools for operational visibility "
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "5a5d7e73d1e6",
+    "_type": "span",
+    "marks": [],
+    "text": "Analytics and business intelligence tools for operational visibility "
+  },
+  {
+    "_key": "24ed6bd82b3f",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "3a66fa2f2046",
+        "_type": "span",
+        "marks": [],
+        "text": "Referral network integrations to receive patients from hospitals"
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "3a66fa2f2046",
+    "_type": "span",
+    "marks": [],
+    "text": "Referral network integrations to receive patients from hospitals"
+  },
+  {
+    "_key": "687383b3379a",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "bd4920fb02e4",
+        "_type": "span",
+        "marks": [],
+        "text": "Intake and admissions tools to evaluate and act on referrals"
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "bd4920fb02e4",
+    "_type": "span",
+    "marks": [],
+    "text": "Intake and admissions tools to evaluate and act on referrals"
+  },
+  {
+    "_key": "6b113ec07566",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "7f2534f40a2a",
+        "_type": "span",
+        "marks": [],
+        "text": "Managed care intelligence for pre-authorization and reimbursement optimization "
+      }
+    ],
+    "level": 1,
+    "listItem": "number",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "7f2534f40a2a",
+    "_type": "span",
+    "marks": [],
+    "text": "Managed care intelligence for pre-authorization and reimbursement optimization "
+  },
+  {
+    "_key": "79bf4a5de8ca",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "9705c4a30620",
+        "_type": "span",
+        "marks": [],
+        "text": "The specific tools needed depend on the organization’s size, growth trajectory, and operational priorities."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "9705c4a30620",
+    "_type": "span",
+    "marks": [],
+    "text": "The specific tools needed depend on the organization’s size, growth trajectory, and operational priorities."
+  },
+  {
+    "_key": "a4678ccfc343",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "5f7ab19980de",
+        "_type": "span",
+        "marks": [],
+        "text": "AI is having the most immediate impact in the intake and admissions layer and the managed care layer."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "5f7ab19980de",
+    "_type": "span",
+    "marks": [],
+    "text": "AI is having the most immediate impact in the intake and admissions layer and the managed care layer."
+  },
+  {
+    "_key": "16f102a163b8",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "6356114040e2",
+        "_type": "span",
+        "marks": [],
+        "text": "In intake, AI reads and analyzes referral packets (often 50 to 300+ pages per patient), extracts clinical and financial data, applies facility-specific admission criteria, and generates structured summaries for admissions teams."
+      }
+    ],
+    "level": 1,
+    "listItem": "bullet",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "6356114040e2",
+    "_type": "span",
+    "marks": [],
+    "text": "In intake, AI reads and analyzes referral packets (often 50 to 300+ pages per patient), extracts clinical and financial data, applies facility-specific admission criteria, and generates structured summaries for admissions teams."
+  },
+  {
+    "_key": "49804e2e517e",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "99210b17e9d5",
+        "_type": "span",
+        "marks": [],
+        "text": "In managed care, AI analyzes clinical documentation against payer contracts to identify the appropriate reimbursement level and automate pre-authorization submissions."
+      }
+    ],
+    "level": 1,
+    "listItem": "bullet",
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "99210b17e9d5",
+    "_type": "span",
+    "marks": [],
+    "text": "In managed care, AI analyzes clinical documentation against payer contracts to identify the appropriate reimbursement level and automate pre-authorization submissions."
+  },
+  {
+    "_key": "4c9dfd84b73b",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "79a7a1e36dc3",
+        "_type": "span",
+        "marks": [],
+        "text": "Together, these capabilities represent a shift toward intelligent care management, reducing referral review times by 37+ minutes per referral and increasing admissions by 15% or more."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "79a7a1e36dc3",
+    "_type": "span",
+    "marks": [],
+    "text": "Together, these capabilities represent a shift toward intelligent care management, reducing referral review times by 37+ minutes per referral and increasing admissions by 15% or more."
+  },
+  {
+    "_key": "535aa28ba45b",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "13bb262f0b2f",
+        "_type": "span",
+        "marks": [],
+        "text": "An EHR (electronic health record) like PointClickCare or MatrixCare handles clinical documentation, care plans, patient progress tracking, billing, and compliance once a patient is admitted."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "13bb262f0b2f",
+    "_type": "span",
+    "marks": [],
+    "text": "An EHR (electronic health record) like PointClickCare or MatrixCare handles clinical documentation, care plans, patient progress tracking, billing, and compliance once a patient is admitted."
+  },
+  {
+    "_key": "92e8fd5776ed",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "aab13b8cef24",
+        "_type": "span",
+        "marks": [],
+        "text": "An admissions platform like exacare ai handles everything that happens before the admission decision: reading referral packets, screening clinical fit, verifying insurance, assessing reimbursement, and managing the referral-to-admit workflow."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "aab13b8cef24",
+    "_type": "span",
+    "marks": [],
+    "text": "An admissions platform like exacare ai handles everything that happens before the admission decision: reading referral packets, screening clinical fit, verifying insurance, assessing reimbursement, and managing the referral-to-admit workflow."
+  },
+  {
+    "_key": "b8f507051346",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "55947b45392d",
+        "_type": "span",
+        "marks": [],
+        "text": "The admissions platform sits between the referral source and the EHR along the healthcare continuum. It doesn't replace the EHR; it feeds it."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "55947b45392d",
+    "_type": "span",
+    "marks": [],
+    "text": "The admissions platform sits between the referral source and the EHR along the healthcare continuum. It doesn't replace the EHR; it feeds it."
+  },
+  {
+    "_key": "42f3ed14a5f4",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "73c7d73472ae",
+        "_type": "span",
+        "marks": [],
+        "text": "Yes, though integration depth varies by vendor. exacare ai integrates with both PointClickCare and MatrixCare, making it one of the few platforms that supports operators in multi-EHR environments. Integration depth is a critical evaluation criterion: look for platforms where data flows directly into the EHR, rather than requiring manual re-entry."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "73c7d73472ae",
+    "_type": "span",
+    "marks": [],
+    "text": "Yes, though integration depth varies by vendor. exacare ai integrates with both PointClickCare and MatrixCare, making it one of the few platforms that supports operators in multi-EHR environments. Integration depth is a critical evaluation criterion: look for platforms where data flows directly into the EHR, rather than requiring manual re-entry."
+  },
+  {
+    "_key": "3531564ca92e",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "f30f64527e2d",
+        "_type": "span",
+        "marks": [],
+        "text": "Multi-facility operators should prioritize portfolio-level visibility (can you see referral volume, conversion, and response times across every building?), EHR flexibility (does the tool work if you have buildings on different EHRs?), referral source coverage (does it connect to all the portals your facilities receive referrals from?), and clinical rule customization at the facility level. Growth-oriented operators acquiring new buildings should also evaluate how quickly a new facility can be onboarded."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "f30f64527e2d",
+    "_type": "span",
+    "marks": [],
+    "text": "Multi-facility operators should prioritize portfolio-level visibility (can you see referral volume, conversion, and response times across every building?), EHR flexibility (does the tool work if you have buildings on different EHRs?), referral source coverage (does it connect to all the portals your facilities receive referrals from?), and clinical rule customization at the facility level. Growth-oriented operators acquiring new buildings should also evaluate how quickly a new facility can be onboarded."
+  },
+  {
+    "_key": "7d20ae666bd9",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "3d752536b34b",
+        "_type": "span",
+        "marks": [],
+        "text": "Implementation timelines vary by vendor. exacare ai’s typical implementation is two to three weeks from kickoff to go-live, including permissions setup, clinical rule configuration, team training, and referral source integration."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "3d752536b34b",
+    "_type": "span",
+    "marks": [],
+    "text": "Implementation timelines vary by vendor. exacare ai’s typical implementation is two to three weeks from kickoff to go-live, including permissions setup, clinical rule configuration, team training, and referral source integration."
+  },
+  {
+    "_key": "50cd05579ae3",
+    "_type": "block",
+    "children": [
+      {
+        "_key": "5d390da54845",
+        "_type": "span",
+        "marks": [],
+        "text": "Managed care workflows (pre-authorization submission) follow a similar timeline. The key variable is rule configuration: operators with well-defined admission criteria and clinical screening processes will onboard faster than those building these frameworks for the first time."
+      }
+    ],
+    "markDefs": [],
+    "style": "normal"
+  },
+  {
+    "_key": "5d390da54845",
+    "_type": "span",
+    "marks": [],
+    "text": "Managed care workflows (pre-authorization submission) follow a similar timeline. The key variable is rule configuration: operators with well-defined admission criteria and clinical screening processes will onboard faster than those building these frameworks for the first time."
+  }
+]
