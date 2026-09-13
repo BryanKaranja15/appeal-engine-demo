@@ -131,6 +131,7 @@
     [/termination response/i, ['familyaor', null, 'The termination checklist screen is not in this demo yet — opening the family page, the piece that is']],
     [/Vera’s page/i, ['familyaor', 'vera']],
     [/Sent to Dr Okafor via/i, ['physicianlink', null, 'This is the page Dr Okafor receives by text']],
+    [/Sent to the therapy lead/i, ['clinicianping', null, 'This is the page the therapy lead receives by text']],
     [/Resident portal link|Resident portal artboard/i, ['residentportal', null, 'This is the page the resident receives by text']],
     [/new stay form/i, ['newstay']],
     [/review queue/i, ['queue', 'review']],
